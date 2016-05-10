@@ -1,0 +1,979 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPEEDOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1459 ]
+[d frameptr 6 ]
+"85 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/system_config/low_pin_count_usb_development_kit/pic16f1459/system.c
+[e E2642 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"95
+[e E2619 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"96
+[e E2611 . `uc
+BUTTON_NONE 0
+BUTTON_S1 1
+]
+"81 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_led_usb_status.c
+[e E2647 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"85
+[e E2744 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"50 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/main.c
+[e E2642 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"78
+[e E2749 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"102
+[e E2692 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"103
+[e E2758 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"133 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_device_audio_midi.c
+[e E2936 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"150
+[e E2639 . `uc
+BUTTON_NONE 0
+BUTTON_S1 1
+]
+"55 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/adc.c
+[e E30 . `uc
+ADC_CHANNEL_10 10
+]
+"158
+[e E33 . `uc
+ADC_CONFIGURATION_DEFAULT 0
+]
+"56 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/buttons.c
+[e E2611 . `uc
+BUTTON_NONE 0
+BUTTON_S1 1
+]
+"60 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/leds.c
+[e E2 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"136 C:\bin\microchip-mla/framework/usb/src/usb_device.c
+[e E2940 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"708
+[e E2691 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2017
+[e E2949 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"94 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/adc.c
+[v _ADC_Read10bit ADC_Read10bit `(ui  1 e 2 0 ]
+"55 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/buttons.c
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+"85
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+"59 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/leds.c
+[v _LED_On LED_On `(v  1 e 0 0 ]
+"100
+[v _LED_Off LED_Off `(v  1 e 0 0 ]
+"220
+[v _LED_Enable LED_Enable `(v  1 e 0 0 ]
+"298 C:\bin\microchip-mla/framework/usb/src/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+"489
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+"878
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+"995
+[v _USBTransferOnePacket USBTransferOnePacket `(*.4v  1 e 1 0 ]
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+"1771
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+"2129
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+"2302
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+"2369
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+"2469
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+"2541
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+"2595
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+"2689
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+"2757
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+"75 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_device_audio_midi.c
+[v _APP_DeviceAudioMIDIInitialize APP_DeviceAudioMIDIInitialize `(v  1 e 0 0 ]
+"104
+[v _APP_DeviceAudioMIDISOFHandler APP_DeviceAudioMIDISOFHandler `(v  1 e 0 0 ]
+"127
+[v _APP_DeviceAudioMIDITasks APP_DeviceAudioMIDITasks `(v  1 e 0 0 ]
+"75 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_led_usb_status.c
+[v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
+"48 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/main.c
+[v _main main `(v  1 e 0 0 ]
+"101
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+"84 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/system_config/low_pin_count_usb_development_kit/pic16f1459/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+"109
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+"136 C:\bin\microchip-mla/framework/usb/src/usb_device.c
+[v _USBDeviceState USBDeviceState `E2744  1 e 1 0 ]
+"137
+[v _USBActiveConfiguration USBActiveConfiguration `uc  1 e 1 0 ]
+"138
+[v _USBAlternateInterface USBAlternateInterface `[1]uc  1 e 1 0 ]
+[s S309 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"139
+[s S318 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S325 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S329 _BD_STAT 1 `uc 1 Val 1 0 `S309 1 . 1 0 `S318 1 . 1 0 `S325 1 . 1 0 ]
+[s S334 . 4 `S329 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S339 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S343 __BDT 4 `S334 1 . 4 0 `S339 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.4VES343  1 e 1 0 ]
+"140
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.4VES343  1 e 1 0 ]
+"141
+[v _pBDTEntryOut pBDTEntryOut `[2]*.4VES343  1 e 2 0 ]
+"142
+[v _pBDTEntryIn pBDTEntryIn `[2]*.4VES343  1 e 2 0 ]
+"143
+[v _shortPacketStatus shortPacketStatus `uc  1 e 1 0 ]
+"144
+[v _controlTransferState controlTransferState `uc  1 e 1 0 ]
+[u S712 . 2 `*.1uc 1 bRam 2 0 `*.1DCCuc 1 bRom 2 0 `*.1ui 1 wRam 2 0 `*.1DCCui 1 wRom 2 0 ]
+"145
+[s S717 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S722 . 1 `S717 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S725 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S728 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S725 1 byte 2 0 ]
+[s S732 . 5 `S712 1 pSrc 2 0 `S722 1 info 1 2 `S728 1 wCount 2 3 ]
+[v _inPipes inPipes `[1]S732  1 e 5 0 ]
+[u S736 . 2 `*.1uc 1 bRam 2 0 `*.1ui 1 wRam 2 0 ]
+"146
+[s S739 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S742 . 1 `S739 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S746 . 7 `S736 1 pDst 2 0 `S742 1 info 1 2 `S728 1 wCount 2 3 `*.37(v 1 pFunc 2 5 ]
+[v _outPipes outPipes `[1]S746  1 e 7 0 ]
+"147
+[v _pDst pDst `*.4uc  1 e 1 0 ]
+"148
+[v _RemoteWakeup RemoteWakeup `uc  1 e 1 0 ]
+[s S751 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"150
+[u S756 __USTAT 1 `S751 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `S756  1 e 1 0 ]
+"151
+[v _endpoint_number endpoint_number `uc  1 e 1 0 ]
+"152
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `uc  1 e 1 0 ]
+[s S759 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"153
+[u S762 . 1 `S759 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `[2]S762  1 e 2 0 ]
+"154
+[v _ep_data_out ep_data_out `[2]S762  1 e 2 0 ]
+"155
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `uc  1 e 1 0 ]
+"156
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEuc  1 e 1 0 ]
+"157
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEuc  1 e 1 0 ]
+"158
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEuc  1 e 1 0 ]
+"159
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
+"160
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
+"167
+[v _BDT BDT `VE[8]S343  1 e 32 @32 ]
+[s S765 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+"172
+[s S792 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S728 1 W_Value 2 2 `S728 1 W_Index 2 4 `S728 1 W_Length 2 6 ]
+[s S798 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S809 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S813 . 1 `uc 1 bmRequestType 1 0 `S809 1 . 1 0 ]
+[s S816 . 1 `S813 1 requestInfo 1 0 ]
+[s S818 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S826 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S835 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S844 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S853 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S862 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S873 . 8 `S765 1 . 8 0 `S792 1 . 8 0 `S798 1 . 8 0 `S816 1 . 1 0 `S818 1 . 8 0 `S826 1 . 8 0 `S835 1 . 8 0 `S844 1 . 8 0 `S853 1 . 8 0 `S862 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES873  1 e 8 @64 ]
+"173
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @72 ]
+"47 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_device_audio_midi.c
+[v _ReceivedDataBuffer ReceivedDataBuffer `[64]uc  1 s 64 ReceivedDataBuffer ]
+[s S256 . 4 `uc 1 CIN 1 0 :4:0 
+`uc 1 CN 1 0 :4:4 
+`uc 1 MIDI_0 1 1 `uc 1 MIDI_1 1 2 `uc 1 MIDI_2 1 3 ]
+"48
+[s S262 . 4 `uc 1 CodeIndexNumber 1 0 :4:0 
+`uc 1 CableNumber 1 0 :4:4 
+`uc 1 DATA_0 1 1 `uc 1 DATA_1 1 2 `uc 1 DATA_2 1 3 ]
+[u S268 . 4 `S256 1 . 4 0 `S262 1 . 4 0 ]
+[u S271 . 4 `ul 1 Val 4 0 `[4]uc 1 v 4 0 `S268 1 . 4 0 ]
+[v _midiData midiData `S271  1 s 4 midiData ]
+"55
+[v _USBTxHandle USBTxHandle `*.4v  1 s 1 USBTxHandle ]
+"56
+[v _USBRxHandle USBRxHandle `*.4v  1 s 1 USBRxHandle ]
+"58
+[v _pitch pitch `uc  1 s 1 pitch ]
+"59
+[v _sentNoteOff sentNoteOff `uc  1 s 1 sentNoteOff ]
+"61
+[v _msCounter msCounter `uc  1 s 1 msCounter ]
+[s S193 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"153 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/usb_descriptors.c
+[v _device_dsc device_dsc `DCCS193  1 e 18 0 ]
+"173
+[v _configDescriptor1 configDescriptor1 `DCC[101]uc  1 e 101 0 ]
+[s S208 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"297
+[v _sd000 sd000 `DCCS208  1 e 4 0 ]
+[s S212 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"302
+[v _sd001 sd001 `DCCS212  1 e 52 0 ]
+[s S216 . 26 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[12]ui 1 string 24 2 ]
+"309
+[v _sd002 sd002 `DCCS216  1 e 26 0 ]
+"314
+[v _USB_CD_Ptr USB_CD_Ptr `DCC[1]*.25DCCuc  1 e 2 0 ]
+"320
+[v _USB_SD_Ptr USB_SD_Ptr `DCC[3]*.25DCCuc  1 e 6 0 ]
+[s S564 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"429 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic16f1459.h
+[u S571 . 1 `S564 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES571  1 e 1 @12 ]
+[s S944 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ACTIF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"630
+[u S953 . 1 `S944 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES953  1 e 1 @18 ]
+[s S618 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1056
+[u S627 . 1 `S618 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES627  1 e 1 @142 ]
+[s S884 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ACTIE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IE 1 0 :1:5 
+`uc 1 C2IE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"1173
+[u S893 . 1 `S884 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES893  1 e 1 @146 ]
+[s S597 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1901
+[u S606 . 1 `S597 1 . 1 0 ]
+[v _LATCbits LATCbits `VES606  1 e 1 @270 ]
+"4897
+[v _UCON UCON `VEuc  1 e 1 @3726 ]
+[s S46 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"4913
+[u S54 . 1 `S46 1 . 1 0 ]
+[v _UCONbits UCONbits `VES54  1 e 1 @3726 ]
+"4947
+[v _USTAT USTAT `VEuc  1 e 1 @3727 ]
+"5006
+[v _UIR UIR `VEuc  1 e 1 @3728 ]
+[s S924 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"5022
+[u S932 . 1 `S924 1 . 1 0 ]
+[v _UIRbits UIRbits `VES932  1 e 1 @3728 ]
+"5061
+[v _UCFG UCFG `VEuc  1 e 1 @3729 ]
+"5114
+[v _UIE UIE `VEuc  1 e 1 @3730 ]
+[s S965 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"5130
+[u S973 . 1 `S965 1 . 1 0 ]
+[v _UIEbits UIEbits `VES973  1 e 1 @3730 ]
+"5169
+[v _UEIR UEIR `VEuc  1 e 1 @3731 ]
+"5317
+[v _UADDR UADDR `VEuc  1 e 1 @3734 ]
+"5372
+[v _UEIE UEIE `VEuc  1 e 1 @3735 ]
+"5422
+[v _UEP0 UEP0 `VEuc  1 e 1 @3736 ]
+[s S1096 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"5436
+[u S1102 . 1 `S1096 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES1102  1 e 1 @3736 ]
+"5465
+[v _UEP1 UEP1 `VEuc  1 e 1 @3737 ]
+"48 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"98
+} 0
+"489 C:\bin\microchip-mla/framework/usb/src/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+{
+"491
+[v USBDeviceTasks@i i `uc  1 a 1 14 ]
+"827
+} 0
+"2302
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+{
+"2346
+} 0
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+{
+"2285
+} 0
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+{
+"2227
+} 0
+"298
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+{
+"313
+[v USBDeviceInit@p p `*.39uc  1 a 2 0 ]
+[v USBDeviceInit@i_1275 i `uc  1 a 1 2 ]
+"300
+[v USBDeviceInit@i i `uc  1 a 1 3 ]
+"385
+} 0
+"2369
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+{
+"2398
+[v USBCtrlEPService@setup_cnt setup_cnt `uc  1 a 1 12 ]
+"2427
+} 0
+"2469
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+{
+"2518
+} 0
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+{
+"1748
+} 0
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+{
+"1518
+} 0
+"2689
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+{
+"2736
+} 0
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+{
+"1976
+[v USBStdSetCfgHandler@p p `*.39uc  1 a 2 10 ]
+[v USBStdSetCfgHandler@i_1606 i `uc  1 a 1 12 ]
+"1970
+[v USBStdSetCfgHandler@i i `uc  1 a 1 13 ]
+"2024
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+{
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+"15
+[v memset@p p `*.4uc  1 a 1 4 ]
+"8
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+[v memset@c c `i  1 p 2 0 ]
+[v memset@n n `ui  1 p 2 2 ]
+"18
+[v memset@p1 p1 `*.4v  1 a 1 5 ]
+"22
+} 0
+"2129 C:\bin\microchip-mla/framework/usb/src/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+{
+[s S309 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2161
+[s S318 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S325 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S329 _BD_STAT 1 `uc 1 Val 1 0 `S309 1 . 1 0 `S318 1 . 1 0 `S325 1 . 1 0 ]
+[s S334 . 4 `S329 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S339 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S343 __BDT 4 `S334 1 . 4 0 `S339 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.4S343  1 a 1 0 ]
+"2184
+} 0
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+{
+"2112
+} 0
+"2757
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+{
+"2764
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 5 ]
+[s S309 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2759
+[s S318 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S325 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S329 _BD_STAT 1 `uc 1 Val 1 0 `S309 1 . 1 0 `S318 1 . 1 0 `S325 1 . 1 0 ]
+[s S334 . 4 `S329 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S339 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S343 __BDT 4 `S334 1 . 4 0 `S339 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.4S343  1 a 1 8 ]
+[s S759 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2760
+[u S762 . 1 `S759 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S762  1 a 1 7 ]
+"2983
+} 0
+"101 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/main.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E2692  1 p 2 0 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.4v  1 p 1 2 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 3 ]
+"147
+} 0
+"75 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_led_usb_status.c
+[v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
+{
+"77
+[v APP_LEDUpdateUSBStatus@ledCount ledCount `ui  1 s 2 ledCount ]
+"124
+} 0
+"59 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/leds.c
+[v _LED_On LED_On `(v  1 e 0 0 ]
+{
+[v LED_On@led led `E2  1 a 1 wreg ]
+[v LED_On@led led `E2  1 a 1 wreg ]
+[v LED_On@led led `E2  1 a 1 0 ]
+"82
+} 0
+"100
+[v _LED_Off LED_Off `(v  1 e 0 0 ]
+{
+[v LED_Off@led led `E2  1 a 1 wreg ]
+[v LED_Off@led led `E2  1 a 1 wreg ]
+[v LED_Off@led led `E2  1 a 1 0 ]
+"123
+} 0
+"104 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_device_audio_midi.c
+[v _APP_DeviceAudioMIDISOFHandler APP_DeviceAudioMIDISOFHandler `(v  1 e 0 0 ]
+{
+"110
+} 0
+"75
+[v _APP_DeviceAudioMIDIInitialize APP_DeviceAudioMIDIInitialize `(v  1 e 0 0 ]
+{
+"90
+} 0
+"878 C:\bin\microchip-mla/framework/usb/src/usb_device.c
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"880
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 7 ]
+"878
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 4 ]
+"884
+[v USBEnableEndpoint@ep ep `uc  1 a 1 9 ]
+"902
+} 0
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S309 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1545
+[s S318 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S325 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S329 _BD_STAT 1 `uc 1 Val 1 0 `S309 1 . 1 0 `S318 1 . 1 0 `S325 1 . 1 0 ]
+[s S334 . 4 `S329 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S339 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S343 __BDT 4 `S334 1 . 4 0 `S339 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.4VES343  1 a 1 3 ]
+"1543
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1549
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 2 ]
+"1585
+} 0
+"2541
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+{
+"2570
+} 0
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+{
+"1854
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 5 ]
+"1855
+[v USBCtrlTrfRxService@i i `uc  1 a 1 4 ]
+"1947
+} 0
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+{
+"1459
+} 0
+"2595
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+{
+"2597
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 3 ]
+"2670
+} 0
+"1771
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+{
+"1773
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
+"1825
+} 0
+"84 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/system_config/low_pin_count_usb_development_kit/pic16f1459/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+{
+[v SYSTEM_Initialize@state state `E2642  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E2642  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E2642  1 a 1 1 ]
+"105
+} 0
+"220 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/leds.c
+[v _LED_Enable LED_Enable `(v  1 e 0 0 ]
+{
+[v LED_Enable@led led `E2  1 a 1 wreg ]
+[v LED_Enable@led led `E2  1 a 1 wreg ]
+[v LED_Enable@led led `E2  1 a 1 0 ]
+"243
+} 0
+"85 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/buttons.c
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+{
+[v BUTTON_Enable@button button `E2611  1 a 1 wreg ]
+[v BUTTON_Enable@button button `E2611  1 a 1 wreg ]
+[v BUTTON_Enable@button button `E2611  1 a 1 0 ]
+"95
+} 0
+"127 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/app_device_audio_midi.c
+[v _APP_DeviceAudioMIDITasks APP_DeviceAudioMIDITasks `(v  1 e 0 0 ]
+{
+"212
+} 0
+"995 C:\bin\microchip-mla/framework/usb/src/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.4v  1 e 1 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S309 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"997
+[s S318 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S325 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S329 _BD_STAT 1 `uc 1 Val 1 0 `S309 1 . 1 0 `S318 1 . 1 0 `S325 1 . 1 0 ]
+[s S334 . 4 `S329 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S339 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S343 __BDT 4 `S334 1 . 4 0 `S339 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.4VES343  1 a 1 7 ]
+"995
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1000
+[v USBTransferOnePacket@ep ep `uc  1 a 1 6 ]
+"1047
+} 0
+"55 C:\bin\microchip-mla/bsp/low_pin_count_usb_development_kit/pic16f1459/buttons.c
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+{
+[v BUTTON_IsPressed@button button `E2611  1 a 1 wreg ]
+[v BUTTON_IsPressed@button button `E2611  1 a 1 wreg ]
+[v BUTTON_IsPressed@button button `E2611  1 a 1 0 ]
+"67
+} 0
+"109 C:\bin\microchip-mla\apps\usb\device\audio_midi\firmware/src/system_config/low_pin_count_usb_development_kit/pic16f1459/system.c
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
+{
+"114
+} 0
