@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v1.20\dat\en_msgs.txt -cs \
   -h+dist/pic16f1459/production\MPLAB.X.production.sym \
   --cmf=dist/pic16f1459/production\MPLAB.X.production.cmf -z -Q16F1459 \
-  -oC:\DOCUME~1\Pervakov\LOCALS~1\Temp\s7ts.6 \
+  -oC:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.6 \
   -Mdist/pic16f1459/production/MPLAB.X.production.map -E1 -ver=XC8 \
   -ACONST=00h-0FFhx32 -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
   -AENTRY=00h-0FFhx32 -ASTRING=00h-0FFhx32 -ACOMMON=070h-07Fh \
@@ -30,7 +30,7 @@ Linker command line:
   -ppowerup=CODE -pfunctab=CODE -ACONFIG=08007h-08008h -pconfig=CONFIG \
   -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 -DCODE=2 \
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s7ts.obj \
+  C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj \
   dist/pic16f1459/production\MPLAB.X.production.obj 
 
 Object code version is 3.11
@@ -40,7 +40,7 @@ Machine type is 16F1459
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s7ts.obj
+C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
                 end_init                              B        B        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2    1000E       0
