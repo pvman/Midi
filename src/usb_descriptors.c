@@ -142,7 +142,7 @@ state according to the definition in the USB specification.
 #define __USB_DESCRIPTORS_C
 
 /** INCLUDES *******************************************************/
-#include <usb/usb.h>
+#include "../framework/usb/usb.h"
 
 /** CONSTANTS ******************************************************/
 #if defined(COMPILER_MPLAB_C18)

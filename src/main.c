@@ -26,8 +26,8 @@
 #include <app_device_audio_midi.h>
 #include <app_led_usb_status.h>
 
-#include <usb/usb_device.h>
-#include <usb/usb_device_midi.h>
+#include "../framework/usb/usb_device.h" 
+#include "../framework/usb/usb_device_midi.h"
 
 
 

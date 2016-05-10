@@ -6,7 +6,7 @@
 
 # Macros
 TOP=`pwd`
-CND_CONF=LPCUSBDK_16F1455
+CND_CONF=pic16f1459
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging

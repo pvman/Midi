@@ -17,8 +17,8 @@
     * It blinks slowly at a low on time (~5% on, 95% off) for all other states.
 *******************************************************************************/
 #include <stdint.h>
-#include <system.h>
-#include <usb/usb_device.h>
+#include "pic16f1459/system.h"
+#include "../framework/usb/usb_device.h" 
 
 void APP_LEDUpdateUSBStatus(void)
 {

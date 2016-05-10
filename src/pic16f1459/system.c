@@ -95,7 +95,8 @@ void SYSTEM_Initialize( SYSTEM_STATE state )
                 ACTCON = 0x90;  //Active clock tuning enabled for USB
             #endif
             LED_Enable(LED_USB_DEVICE_STATE);
-            BUTTON_Enable(BUTTON_DEVICE_CDC_BASIC_DEMO);
+        //   LED_Enable(LED_SIGNAL);pvv
+            BUTTON_Enable(BUTTON_DEVICE_AUDIO_MIDI);
             break;
             
         case SYSTEM_STATE_USB_SUSPEND: 

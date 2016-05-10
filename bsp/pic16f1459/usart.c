@@ -24,7 +24,7 @@
 #include <stdbool.h>
 #include <xc.h>
 #include <usb_config.h>
-#include "../framework/usb/usb_device_cdc.h"
+//#include "../framework/usb/usb_device_cdc.h"
 
 /******************************************************************************
  * Function:        void USART_Initialize(void)

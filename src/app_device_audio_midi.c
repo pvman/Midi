@@ -1,8 +1,8 @@
 #include <stdint.h>
 #include <stdbool.h>
-#include <system.h>
-#include <usb/usb.h>
-#include <usb/usb_device_midi.h>
+#include "pic16f1459/system.h"
+#include "../framework/usb/usb.h"
+#include "../framework/usb/usb_device_midi.h"
 
 bool scan_task(uint8_t *note, uint8_t *velocity);
 

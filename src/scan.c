@@ -6,6 +6,7 @@
 //
 #include <leds.h>
 #include <system.h>
+#include "pic16f1459/io_mapping.h"
 
 enum { N_KEYS = 32 };
 
