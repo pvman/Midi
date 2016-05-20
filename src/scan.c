@@ -8,7 +8,7 @@
 #include <system.h>
 #include "pic16f1459/io_mapping.h"
 
-enum { N_KEYS = 32 };
+enum { N_KEYS = 39 };
 
 static bool wait_timer = false;
 static uint8_t adc_levels[N_KEYS] = {0};
