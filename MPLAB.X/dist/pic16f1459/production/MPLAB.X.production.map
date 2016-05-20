@@ -1,19 +1,20 @@
-Microchip MPLAB XC8 Compiler V1.20 ()
+Microchip MPLAB XC8 Compiler V1.35 ()
 
 Linker command line:
 
--W-3 --edf=C:\Program Files\Microchip\xc8\v1.20\dat\en_msgs.txt -cs \
+-W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.35\dat\en_msgs.txt -cs \
   -h+dist/pic16f1459/production\MPLAB.X.production.sym \
   --cmf=dist/pic16f1459/production\MPLAB.X.production.cmf -z -Q16F1459 \
-  -oC:\DOCUME~1\Pervakov\LOCALS~1\Temp\s744.6 \
+  -oC:\Users\user\AppData\Local\Temp\s2ro.2 \
   -Mdist/pic16f1459/production/MPLAB.X.production.map -E1 -ver=XC8 \
-  -ACONST=00h-0FFhx32 -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
-  -AENTRY=00h-0FFhx32 -ASTRING=00h-0FFhx32 -ACOMMON=070h-07Fh \
-  -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh \
-  -ABANK3=01A0h-01EFh -ABANK4=0220h-026Fh -ABANK5=02A0h-02EFh \
-  -ABANK6=0320h-036Fh -ABANK7=03A0h-03EFh -ABANK8=0420h-046Fh \
-  -ABANK9=04A0h-04EFh -ABANK10=0520h-056Fh -ABANK11=05A0h-05EFh \
-  -ABANK12=0620h-064Fh -ABIGRAM=02000h-023EFh \
+  -ASTACK=0218Eh-023efh -pstack=STACK -ACODE=00h-07FFhx4 \
+  -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
+  -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
+  -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh -ABANK3=01A0h-01EFh \
+  -ABANK4=0220h-026Fh -ABANK5=02A0h-02EFh -ABANK6=0320h-036Fh \
+  -ABANK7=03A0h-03EFh -ABANK8=0420h-046Fh -ABANK9=04A0h-04EFh \
+  -ABANK10=0520h-056Fh -ABANK11=05A0h-05EFh -ABANK12=0620h-064Fh \
+  -ABIGRAM=02000h-023EFh \
   -ARAM=020h-06Fh,0A0h-0EFh,0120h-016Fh,01A0h-01EFh,0220h-026Fh,02A0h-02EFh,0320h-036Fh,03A0h-03EFh,0420h-046Fh,04A0h-04EFh,0520h-056Fh,05A0h-05EFh,0620h-064Fh \
   -AABS1=020h-07Fh,0A0h-0EFh,0120h-016Fh,01A0h-01EFh,0220h-026Fh,02A0h-02EFh,0320h-036Fh,03A0h-03EFh,0420h-046Fh,04A0h-04EFh,0520h-056Fh,05A0h-05EFh,0620h-064Fh \
   -ASFR0=00h-01Fh -ASFR1=080h-09Fh -ASFR2=0100h-011Fh -ASFR3=0180h-019Fh \
@@ -27,10 +28,10 @@ Linker command line:
   -ASFR25=0C80h-0CEFh -ASFR26=0D00h-0D6Fh -ASFR27=0D80h-0DEFh \
   -ASFR28=0E00h-0E6Fh -ASFR29=0E80h-0EEFh -ASFR30=0F00h-0F6Fh \
   -ASFR31=0F80h-0FEFh -preset_vec=00h,intentry=04h,init,end_init \
-  -ppowerup=CODE -pfunctab=CODE -ACONFIG=08007h-08008h -pconfig=CONFIG \
-  -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 -DCODE=2 \
-  -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s744.obj \
+  -ppowerup=CODE -pcinit=CODE -pfunctab=CODE -ACONFIG=08007h-08008h \
+  -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
+  -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
+  C:\Users\user\AppData\Local\Temp\s2ro.obj \
   dist/pic16f1459/production\MPLAB.X.production.obj 
 
 Object code version is 3.11
@@ -40,146 +41,148 @@ Machine type is 16F1459
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s744.obj
-                end_init                              B        B        2        8       0
+C:\Users\user\AppData\Local\Temp\s2ro.obj
+                end_init                              D        D        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2    1000E       0
 dist/pic16f1459/production\MPLAB.X.production.obj
-                intentry                              4        4        7        8       0
+                cinit                                 F        F       29        8       0
+                intentry                              4        4        9        8       0
+                text47                              950      950       15     12A0       0
+                text46                              C5B      C5B       50     18B6       0
+                text45                              8FB      8FB        3     11F6       0
+                text44                              8FE      8FE        5     11FC       0
+                text43                              909      909        7     1212       0
+                text42                              965      965       15     12CA       0
+                text41                              910      910        7     1220       0
+                text40                              A5B      A5B       1D     14B6       0
+                text39                              93E      93E       12     127C       0
+                text38                              928      928        B     1250       0
                 swtext5                             83A      83A        A     1000       0
-                text47                              980      980       19     1300       0
-                text46                              8F4      8F4        A     11E8       0
-                text45                              9E5      9E5       1C     13CA       0
-                text44                              5C4      5C4       AC      7FA       0
+                text37                              9BF      9BF       19     137E       0
                 swtext4                             830      830        A     1000       0
-                text43                              999      999       19     1332       0
-                swtext3                             826      826        A     1000       0
-                text42                              9B2      9B2       19     1364       0
-                text41                              BAD      BAD       4F     175A       0
-                text40                              8E6      8E6        7     11CC       0
-                text39                              B6E      B6E       3F     16DC       0
-                text38                              A5F      A5F       25     14BE       0
-                text37                              C4B      C4B       50     1896       0
-                text36                              AAC      AAC       2B     1558       0
-                text35                              B35      B35       39     166A       0
-                text34                              2E4      2E4       1C        8       0
-                text33                              950      950       18     12A0       0
-                text32                              968      968       18     12D0       0
-                text31                              A3B      A3B       24     1476       0
-                text30                              D48      D48       69     1A90       0
-                text29                              E20      E20       70     1C40       0
-                text28                              CF1      CF1       57     19E2       0
-                text27                              25E      25E       86        8       0
-                text26                              A01      A01       1D     1402       0
-                text25                              F7F      F7F       81     1EFE       0
-                text24                              F00      F00       7F     1E00       0
-                text23                              BFC      BFC       4F     17F8       0
-                text22                              157      157      107        8       0
-                swtext2                             800      800       1A     1000       0
-                text21                              C9B      C9B       56     1936       0
-                text20                              7B8      7B8       42      7FA       0
-                text19                              71B      71B       9D      7FA       0
-                text18                              AD7      AD7       2F     15AE       0
-                text17                              DB1      DB1       6F     1B62       0
-                text16                              E90      E90       70     1D20       0
-                text15                              3FD      3FD       EE      7FA       0
-                text14                              A1E      A1E       1D     143C       0
-                text13                              8FE      8FE        B     11FC       0
-                text12                              909      909        B     1212       0
-                text11                              9CB      9CB       1A     1396       0
-                text10                              8DC      8DC        5     11B8       0
-                text9                               914      914       13     1228       0
-                text8                               8ED      8ED        7     11DA       0
-                text7                               8E1      8E1        5     11C2       0
-                text6                               8D9      8D9        3     11B2       0
-                text5                               4EB      4EB       D9      7FA       0
-                text4                               B06      B06       2F     160C       0
-                swtext1                             81A      81A        C     1000       0
-                text3                               670      670       AB      7FA       0
-                text2                               927      927       13     124E       0
-                text1                                 D        D      14A        8       0
-                maintext                            93A      93A       16     1274       0
+                text36                              9D8      9D8       19     13B0       0
+                text35                              473      473       DF      708       0
+                text34                              B19      B19       30     1632       0
+                text33                              933      933        B     1266       0
+                swtext3                             81A      81A        C     1000       0
+                text32                              552      552       AD      708       0
+                text31                               38       38      14A        8       0
+                text30                              91E      91E        A     123C       0
+                swtext2                             826      826        A     1000       0
+                text29                              9F1      9F1       19     13E2       0
+                text28                              A3F      A3F       1C     147E       0
+                text27                              E23      E23       6F     1C46       0
+                text26                              D54      D54       67     1AA8       0
+                text25                              DBB      DBB       68     1B76       0
+                text24                              6A7      6A7       92      708       0
+                text23                              AEA      AEA       2F     15D4       0
+                text22                              B82      B82       3F     1704       0
+                text21                              A78      A78       23     14F0       0
+                text20                              ABF      ABF       2B     157E       0
+                text19                              917      917        7     122E       0
+                text18                              BC1      BC1       4D     1782       0
+                text17                              B49      B49       39     1692       0
+                text16                              182      182      106        8       0
+                text15                              F02      F02       7F     1E04       0
+                text14                              C0E      C0E       4D     181C       0
+                text13                              A0A      A0A       1A     1414       0
+                text12                              F81      F81       7F     1F02       0
+                swtext1                             800      800       1A     1000       0
+                text11                              CFF      CFF       55     19FE       0
+                text10                              CAB      CAB       54     1956       0
+                text9                               739      739       86      708       0
+                text8                               7BF      7BF       41      708       0
+                text7                               E92      E92       70     1D24       0
+                text6                               5FF      5FF       A8      708       0
+                text5                               9A7      9A7       18     134E       0
+                text4                               A9B      A9B       24     1536       0
+                text3                               990      990       17     1320       0
+                text2                               A24      A24       1B     1448       0
+                text1                               384      384       EF      708       0
+                maintext                            97A      97A       16     12F4       0
                 cstackBANK0                          50       50       1B       50       1
                 cstackCOMMON                         70       70        C       70       1
-                clrtext                             7FA      7FA        6      7FA       0
+                clrtext                             903      903        6     1206       0
                 bssBANK4                            220      220       4E      220       1
                 bssBANK3                            1A4      1A4       27      1A4       1
-                bssBANK2                            120      120       4A      120       1
+                bssBANK2                            120      120       4B      120       1
                 bssBANK1                             E0       E0       10       E0       1
                 bssBANK0                             6B       6B        5       50       1
                 bssCOMMON                            7C       7C        1       70       1
-                cinit                               A84      A84       28     1508       0
-                stringtext                          300      300       FD        6       0
+                stringtext                          288      288       FC      510       0
 
 TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                              D        D        2         0
+                cinit                                 F        F       29         0
+                intentry                              4        4        9         0
+                reset_vec                             0        0        2         0
+                text47                              950      950       15         0
+                text46                              C5B      C5B       50         0
+                text45                              8FB      8FB        3         0
+                text44                              8FE      8FE        5         0
+                text43                              909      909        7         0
+                text42                              965      965       15         0
+                text41                              910      910        7         0
+                text40                              A5B      A5B       1D         0
+                text39                              93E      93E       12         0
+                text38                              928      928        B         0
+                text37                              9BF      9BF       19         0
+                text36                              9D8      9D8       19         0
+                text35                              473      473       DF         0
+                text34                              B19      B19       30         0
+                text33                              933      933        B         0
+                text32                              552      552       AD         0
+                text31                               38       38      14A         0
+                text30                              91E      91E        A         0
+                text29                              9F1      9F1       19         0
+                text28                              A3F      A3F       1C         0
+                text27                              E23      E23       6F         0
+                text26                              D54      D54       67         0
+                text25                              DBB      DBB       68         0
+                text24                              6A7      6A7       92         0
+                text23                              AEA      AEA       2F         0
+                text22                              B82      B82       3F         0
+                text21                              A78      A78       23         0
+                text20                              ABF      ABF       2B         0
+                text19                              917      917        7         0
+                text18                              BC1      BC1       4D         0
+                text17                              B49      B49       39         0
+                text16                              182      182      106         0
+                text15                              F02      F02       7F         0
+                text14                              C0E      C0E       4D         0
+                text13                              A0A      A0A       1A         0
+                text12                              F81      F81       7F         0
+                text11                              CFF      CFF       55         0
+                text10                              CAB      CAB       54         0
+                text9                               739      739       86         0
+                text8                               7BF      7BF       41         0
+                text7                               E92      E92       70         0
+                text6                               5FF      5FF       A8         0
+                text5                               9A7      9A7       18         0
+                text4                               A9B      A9B       24         0
+                text3                               990      990       17         0
+                text2                               A24      A24       1B         0
+                text1                               384      384       EF         0
+                maintext                            97A      97A       16         0
+                clrtext                             903      903        6         0
+
+        CLASS   STRCODE        
+                stringtext                          288      288       FC         0
+
+        CLASS   STRING         
+
         CLASS   CONST          
                 swtext5                             83A      83A        A         0
                 swtext4                             830      830        A         0
-                swtext3                             826      826        A         0
-                swtext2                             800      800       1A         0
-                swtext1                             81A      81A        C         0
-
-        CLASS   CODE           
-                end_init                              B        B        2         0
-                intentry                              4        4        7         0
-                reset_vec                             0        0        2         0
-                text47                              980      980       19         0
-                text46                              8F4      8F4        A         0
-                text45                              9E5      9E5       1C         0
-                text44                              5C4      5C4       AC         0
-                text43                              999      999       19         0
-                text42                              9B2      9B2       19         0
-                text41                              BAD      BAD       4F         0
-                text40                              8E6      8E6        7         0
-                text39                              B6E      B6E       3F         0
-                text38                              A5F      A5F       25         0
-                text37                              C4B      C4B       50         0
-                text36                              AAC      AAC       2B         0
-                text35                              B35      B35       39         0
-                text34                              2E4      2E4       1C         0
-                text33                              950      950       18         0
-                text32                              968      968       18         0
-                text31                              A3B      A3B       24         0
-                text30                              D48      D48       69         0
-                text29                              E20      E20       70         0
-                text28                              CF1      CF1       57         0
-                text27                              25E      25E       86         0
-                text26                              A01      A01       1D         0
-                text25                              F7F      F7F       81         0
-                text24                              F00      F00       7F         0
-                text23                              BFC      BFC       4F         0
-                text22                              157      157      107         0
-                text21                              C9B      C9B       56         0
-                text20                              7B8      7B8       42         0
-                text19                              71B      71B       9D         0
-                text18                              AD7      AD7       2F         0
-                text17                              DB1      DB1       6F         0
-                text16                              E90      E90       70         0
-                text15                              3FD      3FD       EE         0
-                text14                              A1E      A1E       1D         0
-                text13                              8FE      8FE        B         0
-                text12                              909      909        B         0
-                text11                              9CB      9CB       1A         0
-                text10                              8DC      8DC        5         0
-                text9                               914      914       13         0
-                text8                               8ED      8ED        7         0
-                text7                               8E1      8E1        5         0
-                text6                               8D9      8D9        3         0
-                text5                               4EB      4EB       D9         0
-                text4                               B06      B06       2F         0
-                text3                               670      670       AB         0
-                text2                               927      927       13         0
-                text1                                 D        D      14A         0
-                maintext                            93A      93A       16         0
-                clrtext                             7FA      7FA        6         0
-                cinit                               A84      A84       28         0
-
-        CLASS   STRCODE        
-                stringtext                          300      300       FD         0
+                swtext3                             81A      81A        C         0
+                swtext2                             826      826        A         0
+                swtext1                             800      800       1A         0
 
         CLASS   ENTRY          
-
-        CLASS   STRING         
 
         CLASS   COMMON         
                 cstackCOMMON                         70       70        C         1
@@ -193,7 +196,7 @@ TOTAL           Name                               Link     Load   Length     Sp
                 bssBANK1                             E0       E0       10         1
 
         CLASS   BANK2          
-                bssBANK2                            120      120       4A         1
+                bssBANK2                            120      120       4B         1
 
         CLASS   BANK3          
                 bssBANK3                            1A4      1A4       27         1
@@ -341,55 +344,56 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
                 reset_vec                      000000  000002  000002         0       0  CODE        2
-                intentry                       000004  0002FC  000300         8       0  CODE        2
+                intentry                       000004  000284  000288         8       0  CODE        2
                 cstackBANK0                    000050  000020  000070        50       1  BANK0       1
                 cstackCOMMON                   000070  00000D  00007D        70       1  COMMON      1
                 bssBANK1                       0000E0  000010  0000F0        E0       1  BANK1       1
-                bssBANK2                       000120  00004A  00016A       120       1  BANK2       1
+                bssBANK2                       000120  00004B  00016B       120       1  BANK2       1
                 bssBANK3                       0001A4  000027  0001CB       1A4       1  BANK3       1
                 bssBANK4                       000220  00004E  00026E       220       1  BANK4       1
-                stringtext                     000300  0000FD  0003FD         6       0  STRCODE     2
-                text15                         0003FD  000403  000800       7FA       0  CODE        2
-                swtext2                        000800  000044  000844      1000       0  CONST       2
-                text6                          0008D9  000003  0008DC      11B2       0  CODE        2
-                text10                         0008DC  000005  0008E1      11B8       0  CODE        2
-                text7                          0008E1  000005  0008E6      11C2       0  CODE        2
-                text40                         0008E6  000007  0008ED      11CC       0  CODE        2
-                text8                          0008ED  000007  0008F4      11DA       0  CODE        2
-                text46                         0008F4  00000A  0008FE      11E8       0  CODE        2
-                text13                         0008FE  00000B  000909      11FC       0  CODE        2
-                text12                         000909  00000B  000914      1212       0  CODE        2
-                text9                          000914  000013  000927      1228       0  CODE        2
-                text2                          000927  000013  00093A      124E       0  CODE        2
-                maintext                       00093A  000016  000950      1274       0  CODE        2
-                text33                         000950  000018  000968      12A0       0  CODE        2
-                text32                         000968  000018  000980      12D0       0  CODE        2
-                text47                         000980  000019  000999      1300       0  CODE        2
-                text43                         000999  000019  0009B2      1332       0  CODE        2
-                text42                         0009B2  000019  0009CB      1364       0  CODE        2
-                text11                         0009CB  00001A  0009E5      1396       0  CODE        2
-                text45                         0009E5  00001C  000A01      13CA       0  CODE        2
-                text26                         000A01  00001D  000A1E      1402       0  CODE        2
-                text14                         000A1E  00001D  000A3B      143C       0  CODE        2
-                text31                         000A3B  000024  000A5F      1476       0  CODE        2
-                text38                         000A5F  000025  000A84      14BE       0  CODE        2
-                cinit                          000A84  000028  000AAC      1508       0  CODE        2
-                text36                         000AAC  00002B  000AD7      1558       0  CODE        2
-                text18                         000AD7  00002F  000B06      15AE       0  CODE        2
-                text4                          000B06  00002F  000B35      160C       0  CODE        2
-                text35                         000B35  000039  000B6E      166A       0  CODE        2
-                text39                         000B6E  00003F  000BAD      16DC       0  CODE        2
-                text41                         000BAD  00004F  000BFC      175A       0  CODE        2
-                text23                         000BFC  00004F  000C4B      17F8       0  CODE        2
-                text37                         000C4B  000050  000C9B      1896       0  CODE        2
-                text21                         000C9B  000056  000CF1      1936       0  CODE        2
-                text28                         000CF1  000057  000D48      19E2       0  CODE        2
-                text30                         000D48  000069  000DB1      1A90       0  CODE        2
-                text17                         000DB1  00006F  000E20      1B62       0  CODE        2
-                text29                         000E20  000070  000E90      1C40       0  CODE        2
-                text16                         000E90  000070  000F00      1D20       0  CODE        2
-                text24                         000F00  00007F  000F7F      1E00       0  CODE        2
-                text25                         000F7F  000081  001000      1EFE       0  CODE        2
+                stringtext                     000288  0000FC  000384       510       0  STRCODE     2
+                text1                          000384  00047C  000800       708       0  CODE        2
+                swtext1                        000800  000044  000844      1000       0  CONST       2
+                text45                         0008FB  000003  0008FE      11F6       0  CODE        2
+                text44                         0008FE  000005  000903      11FC       0  CODE        2
+                clrtext                        000903  000006  000909      1206       0  CODE        2
+                text43                         000909  000007  000910      1212       0  CODE        2
+                text41                         000910  000007  000917      1220       0  CODE        2
+                text19                         000917  000007  00091E      122E       0  CODE        2
+                text30                         00091E  00000A  000928      123C       0  CODE        2
+                text38                         000928  00000B  000933      1250       0  CODE        2
+                text33                         000933  00000B  00093E      1266       0  CODE        2
+                text39                         00093E  000012  000950      127C       0  CODE        2
+                text47                         000950  000015  000965      12A0       0  CODE        2
+                text42                         000965  000015  00097A      12CA       0  CODE        2
+                maintext                       00097A  000016  000990      12F4       0  CODE        2
+                text3                          000990  000017  0009A7      1320       0  CODE        2
+                text5                          0009A7  000018  0009BF      134E       0  CODE        2
+                text37                         0009BF  000019  0009D8      137E       0  CODE        2
+                text36                         0009D8  000019  0009F1      13B0       0  CODE        2
+                text29                         0009F1  000019  000A0A      13E2       0  CODE        2
+                text13                         000A0A  00001A  000A24      1414       0  CODE        2
+                text2                          000A24  00001B  000A3F      1448       0  CODE        2
+                text28                         000A3F  00001C  000A5B      147E       0  CODE        2
+                text40                         000A5B  00001D  000A78      14B6       0  CODE        2
+                text21                         000A78  000023  000A9B      14F0       0  CODE        2
+                text4                          000A9B  000024  000ABF      1536       0  CODE        2
+                text20                         000ABF  00002B  000AEA      157E       0  CODE        2
+                text23                         000AEA  00002F  000B19      15D4       0  CODE        2
+                text34                         000B19  000030  000B49      1632       0  CODE        2
+                text17                         000B49  000039  000B82      1692       0  CODE        2
+                text22                         000B82  00003F  000BC1      1704       0  CODE        2
+                text18                         000BC1  00004D  000C0E      1782       0  CODE        2
+                text14                         000C0E  00004D  000C5B      181C       0  CODE        2
+                text46                         000C5B  000050  000CAB      18B6       0  CODE        2
+                text10                         000CAB  000054  000CFF      1956       0  CODE        2
+                text11                         000CFF  000055  000D54      19FE       0  CODE        2
+                text26                         000D54  000067  000DBB      1AA8       0  CODE        2
+                text25                         000DBB  000068  000E23      1B76       0  CODE        2
+                text27                         000E23  00006F  000E92      1C46       0  CODE        2
+                text7                          000E92  000070  000F02      1D24       0  CODE        2
+                text15                         000F02  00007F  000F81      1E04       0  CODE        2
+                text12                         000F81  00007F  001000      1F02       0  CODE        2
                 config                         008007  000002  008009     1000E       0  CONFIG      2
 
 
@@ -399,7 +403,7 @@ UNUSED ADDRESS RANGES
         BANK10           00520-0056F              50           1
         BANK11           005A0-005EF              50           1
         BANK12           00620-0064F              30           1
-        BANK2            0016A-0016F               6           1
+        BANK2            0016B-0016F               5           1
         BANK3            001CB-001EF              25           1
         BANK4            0026E-0026F               2           1
         BANK5            002A0-002EF              50           1
@@ -409,17 +413,17 @@ UNUSED ADDRESS RANGES
         BANK9            004A0-004EF              50           1
         BIGRAM           02000-023EF             3F0           1
         CODE             00002-00003               2           2
-                         00844-008D8              95
+                         00844-008FA              B7
                          01000-01FFF             800
         COMMON           0007D-0007D               1           1
         CONST            00002-00003               2           2
-                         00844-008D8              95
+                         00844-008FA              B7
                          01000-01FFF             100
         ENTRY            00002-00003               2           2
-                         00844-008D8              95
+                         00844-008FA              B7
                          01000-01FFF             100
         IDLOC            08000-08003               4           2
-        RAM              0016A-0016F               6           1
+        RAM              0016B-0016F               5           1
                          001CB-001EF              25
                          0026E-0026F               2
                          002A0-002EF              50
@@ -462,27 +466,19 @@ UNUSED ADDRESS RANGES
         SFR7             00380-0039F              20           1
         SFR8             00400-0041F              20           1
         SFR9             00480-0049F              20           1
+        STACK            0218E-023EF             262           1
         STRCODE          00002-00003               2           2
-                         00844-008D8              95
+                         00844-008FA              B7
                          01000-01FFF            1000
         STRING           00002-00003               2           2
-                         00844-008D8              95
+                         00844-008FA              B7
                          01000-01FFF             100
 
                                   Symbol Table
 
-?_USBConfigureEndpoint                    cstackCOMMON 00071
-?_USBEnableEndpoint                       cstackCOMMON 00078
-?_USBTransferOnePacket                    cstackCOMMON 00071
-?_USER_USB_CALLBACK_EVENT_HANDLER         cstackBANK0  00055
-?_memset                                  cstackCOMMON 00071
-?_process_level                           cstackCOMMON 00072
-?_scan_task                               cstackBANK0  0005B
-?_set_clock_and_data                      cstackCOMMON 00071
-?_store_key_level                         cstackCOMMON 00077
 APP_DeviceAudioMIDITasks@scan_pitch       cstackBANK0  00069
 APP_DeviceAudioMIDITasks@velocity         cstackBANK0  0006A
-APP_LEDUpdateUSBStatus@ledCount           bssBANK1     000E0
+APP_LEDUpdateUSBStatus@ledCount           bssBANK1     000E5
 BUTTON_Enable@button                      cstackCOMMON 00071
 BUTTON_IsPressed@button                   cstackCOMMON 00071
 LED_Enable@led                            cstackCOMMON 00071
@@ -497,9 +493,9 @@ USBCtrlTrfInHandler@lastDTS               cstackCOMMON 00076
 USBCtrlTrfRxService@byteToRead            cstackCOMMON 00076
 USBCtrlTrfRxService@i                     cstackCOMMON 00075
 USBCtrlTrfTxService@byteToSend            cstackCOMMON 00073
-USBDeviceInit@i                           cstackCOMMON 00076
-USBDeviceInit@i_1702                      cstackCOMMON 00075
-USBDeviceInit@p                           cstackCOMMON 00073
+USBDeviceInit@i                           cstackCOMMON 00075
+USBDeviceInit@i_1715                      cstackCOMMON 00074
+USBDeviceInit@p                           cstackCOMMON 00072
 USBDeviceTasks@i                          cstackBANK0  00068
 USBEnableEndpoint@ep                      cstackBANK0  00052
 USBEnableEndpoint@options                 cstackCOMMON 00078
@@ -509,7 +505,7 @@ USBStdFeatureReqHandler@p                 cstackBANK0  0005F
 USBStdFeatureReqHandler@pUEP              cstackBANK0  0005C
 USBStdGetStatusHandler@p                  cstackCOMMON 00072
 USBStdSetCfgHandler@i                     cstackBANK0  0005D
-USBStdSetCfgHandler@i_2030                cstackBANK0  0005C
+USBStdSetCfgHandler@i_2046                cstackBANK0  0005C
 USBStdSetCfgHandler@p                     cstackBANK0  0005A
 USBTransferOnePacket@data                 cstackCOMMON 00072
 USBTransferOnePacket@dir                  cstackCOMMON 00071
@@ -517,6 +513,8 @@ USBTransferOnePacket@ep                   cstackCOMMON 00077
 USBTransferOnePacket@handle               cstackCOMMON 00078
 USBTransferOnePacket@len                  cstackCOMMON 00074
 USER_USB_CALLBACK_EVENT_HANDLER@event     cstackBANK0  00055
+USER_USB_CALLBACK_EVENT_HANDLER@pdata     cstackBANK0  00057
+USER_USB_CALLBACK_EVENT_HANDLER@size      cstackBANK0  00058
 _ACTCON                                   (abs)        0039B
 _ADCON0                                   (abs)        0009D
 _ADCON0bits                               (abs)        0009D
@@ -530,24 +528,24 @@ _ANSELA                                   (abs)        0018C
 _ANSELAbits                               (abs)        0018C
 _ANSELBbits                               (abs)        0018D
 _ANSELCbits                               (abs)        0018E
-_APP_DeviceAudioMIDIInitialize            text36       00AAC
-_APP_DeviceAudioMIDISOFHandler            text40       008E6
-_APP_DeviceAudioMIDITasks                 text1        0000D
-_APP_DeviceAudioMIDITasks$421             cstackBANK0  00063
-_APP_DeviceAudioMIDITasks$462             cstackBANK0  00065
-_APP_DeviceAudioMIDITasks$463             cstackBANK0  00067
-_APP_LEDUpdateUSBStatus                   text41       00BAD
+_APP_DeviceAudioMIDIInitialize            text20       00ABF
+_APP_DeviceAudioMIDISOFHandler            text19       00917
+_APP_DeviceAudioMIDITasks                 text31       00038
+_APP_DeviceAudioMIDITasks$423             cstackBANK0  00063
+_APP_DeviceAudioMIDITasks$464             cstackBANK0  00065
+_APP_DeviceAudioMIDITasks$465             cstackBANK0  00067
+_APP_LEDUpdateUSBStatus                   text18       00BC1
 _BAUDCON                                  (abs)        0019F
 _BDT                                      (abs)        00020
-_BUTTON_Enable                            text46       008F4
-_BUTTON_IsPressed                         text2        00927
-_BothEP0OutUOWNsSet                       bssBANK2     00159
+_BUTTON_Enable                            text30       0091E
+_BUTTON_IsPressed                         text47       00950
+_BothEP0OutUOWNsSet                       bssBANK2     0015A
 _CtrlTrfData                              (abs)        00048
 _INTCONbits                               (abs)        0000B
 _LATCbits                                 (abs)        0010E
-_LED_Enable                               text47       00980
-_LED_Off                                  text43       00999
-_LED_On                                   text42       009B2
+_LED_Enable                               text29       009F1
+_LED_Off                                  text37       009BF
+_LED_On                                   text36       009D8
 _OPTION_REGbits                           (abs)        00095
 _OSCCON                                   (abs)        00099
 _PIE1bits                                 (abs)        00091
@@ -558,8 +556,8 @@ _RCREG                                    (abs)        00199
 _RCSTA                                    (abs)        0019D
 _RCSTAbits                                (abs)        0019D
 _ReceivedDataBuffer                       (abs)        000A0
-_RemoteWakeup                             bssBANK2     0015A
-_SYSTEM_Initialize                        text45       009E5
+_RemoteWakeup                             bssBANK2     0015B
+_SYSTEM_Initialize                        text28       00A3F
 _SYS_InterruptHigh                        intentry     00004
 _SetupPkt                                 (abs)        00040
 _TMR0                                     (abs)        00015
@@ -581,46 +579,46 @@ _UIE                                      (abs)        00E92
 _UIEbits                                  (abs)        00E92
 _UIR                                      (abs)        00E90
 _UIRbits                                  (abs)        00E90
-_USB1msTickCount                          bssBANK2     0014D
+_USB1msTickCount                          bssBANK2     0014E
 _USBActiveConfiguration                   bssBANK1     000EE
 _USBAlternateInterface                    bssBANK1     000EF
-_USBBusIsSuspended                        bssBANK2     0015B
-_USBCheckStdRequest                       text21       00C9B
-_USBConfigureEndpoint                     text39       00B6E
-_USBCtrlEPAllowDataStage                  text28       00CF1
-_USBCtrlEPAllowStatusStage                text30       00D48
-_USBCtrlEPService                         text16       00E90
-_USBCtrlEPServiceComplete                 text27       0025E
-_USBCtrlTrfInHandler                      text17       00DB1
-_USBCtrlTrfOutHandler                     text18       00AD7
-_USBCtrlTrfRxService                      text19       0071B
-_USBCtrlTrfSetupHandler                   text20       007B8
-_USBCtrlTrfTxService                      text29       00E20
-_USBDeferINDataStagePackets               bssBANK2     0015C
-_USBDeferOUTDataStagePackets              bssBANK2     0015D
-_USBDeferStatusStagePacket                bssBANK1     000E2
-_USBDeviceInit                            text44       005C4
+_USBBusIsSuspended                        bssBANK2     0015C
+_USBCheckStdRequest                       text11       00CFF
+_USBConfigureEndpoint                     text22       00B82
+_USBCtrlEPAllowDataStage                  text10       00CAB
+_USBCtrlEPAllowStatusStage                text25       00DBB
+_USBCtrlEPService                         text7        00E92
+_USBCtrlEPServiceComplete                 text9        00739
+_USBCtrlTrfInHandler                      text26       00D54
+_USBCtrlTrfOutHandler                     text23       00AEA
+_USBCtrlTrfRxService                      text24       006A7
+_USBCtrlTrfSetupHandler                   text8        007BF
+_USBCtrlTrfTxService                      text27       00E23
+_USBDeferINDataStagePackets               bssBANK2     0015D
+_USBDeferOUTDataStagePackets              bssBANK2     0015E
+_USBDeferStatusStagePacket                bssBANK1     000E7
+_USBDeviceInit                            text6        005FF
 _USBDeviceState                           bssBANK0     0006D
-_USBDeviceTasks                           text15       003FD
-_USBEnableEndpoint                        text38       00A5F
-_USBIncrement1msInternalTimers            text32       00968
-_USBRxHandle                              bssBANK2     0015E
-_USBStallHandler                          text31       00A3B
-_USBStatusStageEnabledFlag1               bssBANK2     0015F
-_USBStatusStageEnabledFlag2               bssBANK2     00160
-_USBStatusStageTimeoutCounter             bssBANK2     00161
-_USBStdFeatureReqHandler                  text22       00157
-_USBStdGetDscHandler                      text24       00F00
-_USBStdGetStatusHandler                   text23       00BFC
-_USBStdSetCfgHandler                      text25       00F7F
-_USBSuspend                               text33       00950
-_USBTicksSinceSuspendEnd                  bssBANK2     00162
-_USBTransferOnePacket                     text37       00C4B
-_USBTxHandle                              bssBANK1     000E3
-_USBWakeFromSuspend                       text34       002E4
-_USB_CD_Ptr                               stringtext   0032E
-_USB_SD_Ptr                               stringtext   00328
-_USER_USB_CALLBACK_EVENT_HANDLER          text35       00B35
+_USBDeviceTasks                           text1        00384
+_USBEnableEndpoint                        text21       00A78
+_USBIncrement1msInternalTimers            text5        009A7
+_USBRxHandle                              bssBANK2     0015F
+_USBStallHandler                          text4        00A9B
+_USBStatusStageEnabledFlag1               bssBANK2     00160
+_USBStatusStageEnabledFlag2               bssBANK2     00161
+_USBStatusStageTimeoutCounter             bssBANK2     00162
+_USBStdFeatureReqHandler                  text16       00182
+_USBStdGetDscHandler                      text15       00F02
+_USBStdGetStatusHandler                   text14       00C0E
+_USBStdSetCfgHandler                      text12       00F81
+_USBSuspend                               text3        00990
+_USBTicksSinceSuspendEnd                  bssBANK2     00163
+_USBTransferOnePacket                     text46       00C5B
+_USBTxHandle                              bssBANK1     000E8
+_USBWakeFromSuspend                       text2        00A24
+_USB_CD_Ptr                               stringtext   002B5
+_USB_SD_Ptr                               stringtext   002AF
+_USER_USB_CALLBACK_EVENT_HANDLER          text17       00B49
 _USTAT                                    (abs)        00E8F
 _USTATcopy                                bssBANK0     0006F
 __CFG_BOREN$ON                            (abs)        00000
@@ -681,7 +679,7 @@ __HbssBANK2                               bssBANK2     00000
 __HbssBANK3                               bssBANK3     00000
 __HbssBANK4                               bssBANK4     00000
 __HbssCOMMON                              bssCOMMON    00000
-__Hcinit                                  cinit        00000
+__Hcinit                                  cinit        00038
 __Hclrtext                                clrtext      00000
 __Hcode                                   code         00000
 __Hcommon                                 common       00000
@@ -689,11 +687,11 @@ __Hconfig                                 config       08009
 __HcstackBANK0                            cstackBANK0  00000
 __HcstackCOMMON                           cstackCOMMON 00000
 __Heeprom_data                            eeprom_data  00000
-__Hend_init                               end_init     0000D
+__Hend_init                               end_init     0000F
 __Hfunctab                                functab      00000
 __Hidloc                                  idloc        00000
-__Hinit                                   init         0000B
-__Hintentry                               intentry     0000B
+__Hinit                                   init         0000D
+__Hintentry                               intentry     0000D
 __Hmaintext                               maintext     00000
 __Hpowerup                                powerup      00000
 __Hram                                    ram          00000
@@ -730,6 +728,11 @@ __Hsfr6                                   sfr6         00000
 __Hsfr7                                   sfr7         00000
 __Hsfr8                                   sfr8         00000
 __Hsfr9                                   sfr9         00000
+__Hspace_0                                (abs)        08009
+__Hspace_1                                (abs)        0026E
+__Hspace_2                                (abs)        00000
+__Hspace_3                                (abs)        00000
+__Hstack                                  stack        00000
 __Hstrings                                strings      00000
 __Hstringtext                             stringtext   00000
 __Htext                                   text         00000
@@ -773,7 +776,7 @@ __LbssBANK2                               bssBANK2     00000
 __LbssBANK3                               bssBANK3     00000
 __LbssBANK4                               bssBANK4     00000
 __LbssCOMMON                              bssCOMMON    00000
-__Lcinit                                  cinit        00000
+__Lcinit                                  cinit        0000F
 __Lclrtext                                clrtext      00000
 __Lcode                                   code         00000
 __Lcommon                                 common       00000
@@ -781,10 +784,10 @@ __Lconfig                                 config       08007
 __LcstackBANK0                            cstackBANK0  00000
 __LcstackCOMMON                           cstackCOMMON 00000
 __Leeprom_data                            eeprom_data  00000
-__Lend_init                               end_init     0000B
+__Lend_init                               end_init     0000D
 __Lfunctab                                functab      00000
 __Lidloc                                  idloc        00000
-__Linit                                   init         0000B
+__Linit                                   init         0000D
 __Lintentry                               intentry     00004
 __Lmaintext                               maintext     00000
 __Lpowerup                                powerup      00000
@@ -822,76 +825,83 @@ __Lsfr6                                   sfr6         00000
 __Lsfr7                                   sfr7         00000
 __Lsfr8                                   sfr8         00000
 __Lsfr9                                   sfr9         00000
+__Lspace_0                                (abs)        00000
+__Lspace_1                                (abs)        00000
+__Lspace_2                                (abs)        00000
+__Lspace_3                                (abs)        00000
+__Lstack                                  stack        00000
 __Lstrings                                strings      00000
 __Lstringtext                             stringtext   00000
 __Ltext                                   text         00000
 __S0                                      (abs)        08009
 __S1                                      (abs)        0026E
+__S2                                      (abs)        00000
+___int_sp                                 stack        00000
 ___latbits                                (abs)        00002
-__end_of_APP_DeviceAudioMIDIInitialize    text36       00AD7
-__end_of_APP_DeviceAudioMIDISOFHandler    text40       008ED
-__end_of_APP_DeviceAudioMIDITasks         text1        00157
-__end_of_APP_LEDUpdateUSBStatus           text41       00BFC
-__end_of_BUTTON_Enable                    text46       008FE
-__end_of_BUTTON_IsPressed                 text2        0093A
-__end_of_LED_Enable                       text47       00999
-__end_of_LED_Off                          text43       009B2
-__end_of_LED_On                           text42       009CB
-__end_of_SYSTEM_Initialize                text45       00A01
-__end_of_SYS_InterruptHigh                intentry     0000B
-__end_of_USBCheckStdRequest               text21       00CF1
-__end_of_USBConfigureEndpoint             text39       00BAD
-__end_of_USBCtrlEPAllowDataStage          text28       00D48
-__end_of_USBCtrlEPAllowStatusStage        text30       00DB1
-__end_of_USBCtrlEPService                 text16       00F00
-__end_of_USBCtrlEPServiceComplete         text27       002E4
-__end_of_USBCtrlTrfInHandler              text17       00E20
-__end_of_USBCtrlTrfOutHandler             text18       00B06
-__end_of_USBCtrlTrfRxService              text19       007B8
-__end_of_USBCtrlTrfSetupHandler           text20       007FA
-__end_of_USBCtrlTrfTxService              text29       00E90
-__end_of_USBDeviceInit                    text44       00670
-__end_of_USBDeviceTasks                   text15       004EB
-__end_of_USBEnableEndpoint                text38       00A84
-__end_of_USBIncrement1msInternalTimers    text32       00980
-__end_of_USBStallHandler                  text31       00A5F
-__end_of_USBStdFeatureReqHandler          text22       0025E
-__end_of_USBStdGetDscHandler              text24       00F7F
-__end_of_USBStdGetStatusHandler           text23       00C4B
-__end_of_USBStdSetCfgHandler              text25       01000
-__end_of_USBSuspend                       text33       00968
-__end_of_USBTransferOnePacket             text37       00C9B
-__end_of_USBWakeFromSuspend               text34       00300
-__end_of_USB_CD_Ptr                       stringtext   00330
-__end_of_USB_SD_Ptr                       stringtext   0032E
-__end_of_USER_USB_CALLBACK_EVENT_HANDLER  text35       00B6E
-__end_of__initialization                  cinit        00AA9
-__end_of__stringtab                       stringtext   00301
-__end_of_configDescriptor1                stringtext   00399
-__end_of_device_dsc                       stringtext   003F9
-__end_of_get_adc                          text6        008DC
-__end_of_get_data                         text10       008E1
-__end_of_is_adc_ready                     text7        008E6
-__end_of_is_end_of_scan                   text9        00927
-__end_of_main                             maintext     00950
-__end_of_memset                           text26       00A1E
-__end_of_process_level                    text5        005C4
-__end_of_run_adc                          text8        008F4
-__end_of_scan_init                        text14       00A3B
-__end_of_scan_task                        text3        0071B
-__end_of_sd000                            stringtext   003FD
-__end_of_sd001                            stringtext   003CD
-__end_of_sd002                            stringtext   003E7
-__end_of_set_clock_and_data               text11       009E5
-__end_of_set_timer                        text13       00909
-__end_of_store_key_level                  text4        00B35
-__end_of_waiting_for_timer                text12       00914
-__end_ofprocess_level@L                   stringtext   00331
-__end_ofprocess_level@idx_midi_map        stringtext   00328
-__end_ofprocess_level@key_off_threshold   stringtext   00332
-__end_ofprocess_level@key_on_threshold    stringtext   00333
-__end_ofprocess_level@midi_shift          stringtext   00334
-__initialization                          cinit        00A84
+___sp                                     stack        00000
+__end_of_APP_DeviceAudioMIDIInitialize    text20       00AEA
+__end_of_APP_DeviceAudioMIDISOFHandler    text19       0091E
+__end_of_APP_DeviceAudioMIDITasks         text31       00182
+__end_of_APP_LEDUpdateUSBStatus           text18       00C0E
+__end_of_BUTTON_Enable                    text30       00928
+__end_of_BUTTON_IsPressed                 text47       00965
+__end_of_LED_Enable                       text29       00A0A
+__end_of_LED_Off                          text37       009D8
+__end_of_LED_On                           text36       009F1
+__end_of_SYSTEM_Initialize                text28       00A5B
+__end_of_SYS_InterruptHigh                intentry     0000D
+__end_of_USBCheckStdRequest               text11       00D54
+__end_of_USBConfigureEndpoint             text22       00BC1
+__end_of_USBCtrlEPAllowDataStage          text10       00CFF
+__end_of_USBCtrlEPAllowStatusStage        text25       00E23
+__end_of_USBCtrlEPService                 text7        00F02
+__end_of_USBCtrlEPServiceComplete         text9        007BF
+__end_of_USBCtrlTrfInHandler              text26       00DBB
+__end_of_USBCtrlTrfOutHandler             text23       00B19
+__end_of_USBCtrlTrfRxService              text24       00739
+__end_of_USBCtrlTrfSetupHandler           text8        00800
+__end_of_USBCtrlTrfTxService              text27       00E92
+__end_of_USBDeviceInit                    text6        006A7
+__end_of_USBDeviceTasks                   text1        00473
+__end_of_USBEnableEndpoint                text21       00A9B
+__end_of_USBIncrement1msInternalTimers    text5        009BF
+__end_of_USBStallHandler                  text4        00ABF
+__end_of_USBStdFeatureReqHandler          text16       00288
+__end_of_USBStdGetDscHandler              text15       00F81
+__end_of_USBStdGetStatusHandler           text14       00C5B
+__end_of_USBStdSetCfgHandler              text12       01000
+__end_of_USBSuspend                       text3        009A7
+__end_of_USBTransferOnePacket             text46       00CAB
+__end_of_USBWakeFromSuspend               text2        00A3F
+__end_of_USB_CD_Ptr                       stringtext   002B7
+__end_of_USB_SD_Ptr                       stringtext   002B5
+__end_of_USER_USB_CALLBACK_EVENT_HANDLER  text17       00B82
+__end_of__initialization                  cinit        00034
+__end_of_configDescriptor1                stringtext   00320
+__end_of_device_dsc                       stringtext   00380
+__end_of_get_adc                          text45       008FE
+__end_of_get_data                         text44       00903
+__end_of_is_adc_ready                     text43       00910
+__end_of_is_end_of_scan                   text42       0097A
+__end_of_main                             maintext     00990
+__end_of_memset                           text13       00A24
+__end_of_process_level                    text35       00552
+__end_of_run_adc                          text41       00917
+__end_of_scan_init                        text40       00A78
+__end_of_scan_task                        text32       005FF
+__end_of_sd000                            stringtext   00384
+__end_of_sd001                            stringtext   00354
+__end_of_sd002                            stringtext   0036E
+__end_of_set_clock_and_data               text39       00950
+__end_of_set_timer                        text38       00933
+__end_of_store_key_level                  text34       00B49
+__end_of_waiting_for_timer                text33       0093E
+__end_ofprocess_level@L                   stringtext   002B8
+__end_ofprocess_level@idx_midi_map        stringtext   002AF
+__end_ofprocess_level@key_off_threshold   stringtext   002B9
+__end_ofprocess_level@key_on_threshold    stringtext   002BA
+__end_ofprocess_level@midi_shift          stringtext   002BB
+__initialization                          cinit        0000F
 __pbssBANK0                               bssBANK0     0006B
 __pbssBANK1                               bssBANK1     000E0
 __pbssBANK2                               bssBANK2     00120
@@ -901,60 +911,60 @@ __pbssCOMMON                              bssCOMMON    0007C
 __pcstackBANK0                            cstackBANK0  00050
 __pcstackCOMMON                           cstackCOMMON 00070
 __pintentry                               intentry     00004
-__pmaintext                               maintext     0093A
-__pstringtext                             stringtext   00300
-__pswtext1                                swtext1      0081A
-__pswtext2                                swtext2      00800
-__pswtext3                                swtext3      00826
+__pmaintext                               maintext     0097A
+__pstringtext                             stringtext   00288
+__pswtext1                                swtext1      00800
+__pswtext2                                swtext2      00826
+__pswtext3                                swtext3      0081A
 __pswtext4                                swtext4      00830
 __pswtext5                                swtext5      0083A
-__ptext1                                  text1        0000D
-__ptext10                                 text10       008DC
-__ptext11                                 text11       009CB
-__ptext12                                 text12       00909
-__ptext13                                 text13       008FE
-__ptext14                                 text14       00A1E
-__ptext15                                 text15       003FD
-__ptext16                                 text16       00E90
-__ptext17                                 text17       00DB1
-__ptext18                                 text18       00AD7
-__ptext19                                 text19       0071B
-__ptext2                                  text2        00927
-__ptext20                                 text20       007B8
-__ptext21                                 text21       00C9B
-__ptext22                                 text22       00157
-__ptext23                                 text23       00BFC
-__ptext24                                 text24       00F00
-__ptext25                                 text25       00F7F
-__ptext26                                 text26       00A01
-__ptext27                                 text27       0025E
-__ptext28                                 text28       00CF1
-__ptext29                                 text29       00E20
-__ptext3                                  text3        00670
-__ptext30                                 text30       00D48
-__ptext31                                 text31       00A3B
-__ptext32                                 text32       00968
-__ptext33                                 text33       00950
-__ptext34                                 text34       002E4
-__ptext35                                 text35       00B35
-__ptext36                                 text36       00AAC
-__ptext37                                 text37       00C4B
-__ptext38                                 text38       00A5F
-__ptext39                                 text39       00B6E
-__ptext4                                  text4        00B06
-__ptext40                                 text40       008E6
-__ptext41                                 text41       00BAD
-__ptext42                                 text42       009B2
-__ptext43                                 text43       00999
-__ptext44                                 text44       005C4
-__ptext45                                 text45       009E5
-__ptext46                                 text46       008F4
-__ptext47                                 text47       00980
-__ptext5                                  text5        004EB
-__ptext6                                  text6        008D9
-__ptext7                                  text7        008E1
-__ptext8                                  text8        008ED
-__ptext9                                  text9        00914
+__ptext1                                  text1        00384
+__ptext10                                 text10       00CAB
+__ptext11                                 text11       00CFF
+__ptext12                                 text12       00F81
+__ptext13                                 text13       00A0A
+__ptext14                                 text14       00C0E
+__ptext15                                 text15       00F02
+__ptext16                                 text16       00182
+__ptext17                                 text17       00B49
+__ptext18                                 text18       00BC1
+__ptext19                                 text19       00917
+__ptext2                                  text2        00A24
+__ptext20                                 text20       00ABF
+__ptext21                                 text21       00A78
+__ptext22                                 text22       00B82
+__ptext23                                 text23       00AEA
+__ptext24                                 text24       006A7
+__ptext25                                 text25       00DBB
+__ptext26                                 text26       00D54
+__ptext27                                 text27       00E23
+__ptext28                                 text28       00A3F
+__ptext29                                 text29       009F1
+__ptext3                                  text3        00990
+__ptext30                                 text30       0091E
+__ptext31                                 text31       00038
+__ptext32                                 text32       00552
+__ptext33                                 text33       00933
+__ptext34                                 text34       00B19
+__ptext35                                 text35       00473
+__ptext36                                 text36       009D8
+__ptext37                                 text37       009BF
+__ptext38                                 text38       00928
+__ptext39                                 text39       0093E
+__ptext4                                  text4        00A9B
+__ptext40                                 text40       00A5B
+__ptext41                                 text41       00910
+__ptext42                                 text42       00965
+__ptext43                                 text43       00909
+__ptext44                                 text44       008FE
+__ptext45                                 text45       008FB
+__ptext46                                 text46       00C5B
+__ptext47                                 text47       00950
+__ptext5                                  text5        009A7
+__ptext6                                  text6        005FF
+__ptext7                                  text7        00E92
+__ptext8                                  text8        007BF
+__ptext9                                  text9        00739
 __size_of_APP_DeviceAudioMIDIInitialize   (abs)        00000
 __size_of_APP_DeviceAudioMIDISOFHandler   (abs)        00000
 __size_of_APP_DeviceAudioMIDITasks        (abs)        00000
@@ -1004,54 +1014,54 @@ __size_of_set_clock_and_data              (abs)        00000
 __size_of_set_timer                       (abs)        00000
 __size_of_store_key_level                 (abs)        00000
 __size_of_waiting_for_timer               (abs)        00000
-__stringtab                               stringtext   00300
 _adc_levels                               bssBANK4     00220
-_configDescriptor1                        stringtext   00334
-_controlTransferState                     bssBANK1     000E4
-_device_dsc                               stringtext   003E7
-_endpoint_number                          bssBANK2     00163
-_ep_data_in                               bssBANK2     00151
-_ep_data_out                              bssBANK2     00153
-_get_adc                                  text6        008D9
-_get_data                                 text10       008DC
-_inPipes                                  bssBANK1     000E9
-_is_adc_ready                             text7        008E1
-_is_end_of_scan                           text9        00914
-_is_initialized                           bssBANK2     00164
-_main                                     maintext     0093A
-_memset                                   text26       00A01
+_configDescriptor1                        stringtext   002BB
+_controlTransferState                     bssBANK1     000E9
+_device_dsc                               stringtext   0036E
+_endpoint_number                          bssBANK2     00164
+_ep_data_in                               bssBANK2     00152
+_ep_data_out                              bssBANK2     00154
+_get_adc                                  text45       008FB
+_get_data                                 text44       008FE
+_inPipes                                  bssBANK1     000E0
+_is_adc_ready                             text43       00909
+_is_end_of_scan                           text42       00965
+_is_initialized                           bssBANK2     00165
+_main                                     maintext     0097A
+_memset                                   text13       00A0A
 _midiData                                 (abs)        001A0
-_msCounter                                bssBANK1     000E5
-_note_event                               bssBANK2     00155
+_msCounter                                bssBANK1     000EA
+_note_event                               bssBANK2     00156
 _outPipes                                 bssBANK2     00147
 _pBDTEntryEP0OutCurrent                   bssBANK0     0006E
 _pBDTEntryEP0OutNext                      bssCOMMON    0007C
 _pBDTEntryIn                              bssBANK0     0006B
-_pBDTEntryOut                             bssBANK2     00157
-_pDst                                     bssBANK2     00165
-_pitch                                    bssBANK1     000E6
-_process_level                            text5        004EB
-_process_level$858                        cstackBANK0  00057
-_process_level$859                        cstackBANK0  00054
-_run_adc                                  text8        008ED
-_scan_init                                text14       00A1E
-_scan_task                                text3        00670
-_scan_task$869                            cstackBANK0  0005C
-_scan_task$870                            cstackBANK0  0005E
-_sd000                                    stringtext   003F9
-_sd001                                    stringtext   00399
-_sd002                                    stringtext   003CD
-_sentNoteOff                              bssBANK2     00166
-_set_clock_and_data                       text11       009CB
-_set_timer                                text13       008FE
-_shortPacketStatus                        bssBANK1     000E7
-_store_key_level                          text4        00B06
-_wait_timer                               bssBANK2     00167
-_waiting_for_timer                        text12       00909
-_waiting_for_timer$821                    cstackCOMMON 00071
+_pBDTEntryOut                             bssBANK2     00158
+_pDst                                     bssBANK2     00166
+_pitch                                    bssBANK1     000EB
+_process_level                            text35       00473
+_process_level$860                        cstackBANK0  00057
+_process_level$861                        cstackBANK0  00054
+_run_adc                                  text41       00910
+_scan_init                                text40       00A5B
+_scan_task                                text32       00552
+_scan_task$879                            cstackBANK0  0005C
+_scan_task$883                            cstackBANK0  0005E
+_sd000                                    stringtext   00380
+_sd001                                    stringtext   00320
+_sd002                                    stringtext   00354
+_sentNoteOff                              bssBANK2     00167
+_set_clock_and_data                       text39       0093E
+_set_timer                                text38       00928
+_shortPacketStatus                        bssBANK1     000EC
+_store_key_level                          text34       00B19
+_wait_timer                               bssBANK2     00168
+_waiting_for_timer                        text33       00933
+_waiting_for_timer$823                    cstackCOMMON 00071
 btemp                                     (abs)        0007E
-clear_ram0                                clrtext      007FA
-end_of_initialization                     cinit        00AA9
+clear_ram0                                clrtext      00903
+end_of_initialization                     cinit        00034
+int$flags                                 (abs)        0007E
 intlevel0                                 functab      00000
 intlevel1                                 functab      00000
 intlevel2                                 functab      00000
@@ -1059,22 +1069,27 @@ intlevel3                                 functab      00000
 intlevel4                                 functab      00000
 intlevel5                                 functab      00000
 is_end_of_scan@res                        cstackCOMMON 00073
-is_end_of_scan@scan_counter               bssBANK2     00168
+is_end_of_scan@scan_counter               bssBANK2     00169
+ltemp                                     (abs)        0007E
+ltemp0                                    (abs)        0007E
+ltemp1                                    (abs)        00082
+ltemp2                                    (abs)        00086
+ltemp3                                    (abs)        00080
 memset@c                                  cstackCOMMON 00071
 memset@n                                  cstackCOMMON 00073
-memset@p                                  cstackCOMMON 00077
-memset@p1                                 cstackCOMMON 00076
-process_level@L                           stringtext   00330
+memset@p                                  cstackCOMMON 00076
+memset@p1                                 cstackCOMMON 00077
+process_level@L                           stringtext   002B7
 process_level@current_state               cstackBANK0  00052
 process_level@filtered_state              cstackBANK0  00059
 process_level@idx_key                     cstackBANK0  0005A
-process_level@idx_midi_map                stringtext   00301
+process_level@idx_midi_map                stringtext   00288
 process_level@key_off_counter             bssBANK3     001A4
-process_level@key_off_threshold           stringtext   00331
+process_level@key_off_threshold           stringtext   002B8
 process_level@key_on_counter              bssBANK4     00247
-process_level@key_on_threshold            stringtext   00332
+process_level@key_on_threshold            stringtext   002B9
 process_level@key_states                  bssBANK2     00120
-process_level@midi_shift                  stringtext   00333
+process_level@midi_shift                  stringtext   002BA
 process_level@new_level                   cstackCOMMON 00073
 process_level@off_flag                    cstackBANK0  00056
 process_level@old_level                   cstackCOMMON 00072
@@ -1082,23 +1097,38 @@ process_level@old_state                   cstackBANK0  00050
 process_level@on_flag                     cstackBANK0  00058
 reset_vec                                 reset_vec    00000
 scan_task@note                            cstackBANK0  00060
-scan_task@state                           bssBANK2     00169
+scan_task@state                           bssBANK2     0016A
 scan_task@velocity                        cstackBANK0  0005B
-set_clock_and_data@c                      cstackCOMMON 00073
+set_clock_and_data@c                      cstackCOMMON 00072
 set_clock_and_data@d                      cstackCOMMON 00071
-start                                     init         0000B
-start_initialization                      cinit        00A84
+stackhi                                   (abs)        023EF
+stacklo                                   (abs)        0218E
+start                                     init         0000D
+start_initialization                      cinit        0000F
 store_key_level@end_of_scan               cstackCOMMON 00077
-store_key_level@idx_key                   bssBANK1     000E8
+store_key_level@idx_key                   bssBANK1     000ED
 store_key_level@level                     cstackCOMMON 0007A
+ttemp                                     (abs)        0007E
+ttemp0                                    (abs)        0007E
+ttemp1                                    (abs)        00081
+ttemp2                                    (abs)        00084
+ttemp3                                    (abs)        00087
+ttemp4                                    (abs)        0007F
+wtemp                                     (abs)        0007E
 wtemp0                                    (abs)        0007E
+wtemp1                                    (abs)        00080
+wtemp2                                    (abs)        00082
+wtemp3                                    (abs)        00084
+wtemp4                                    (abs)        00086
+wtemp5                                    (abs)        00088
+wtemp6                                    (abs)        0007F
 
 
 FUNCTION INFORMATION:
 
  *************** function _main *****************
  Defined at:
-		line 35 in file "../src/main.c"
+		line 34 in file "../src/main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1106,7 +1136,7 @@ FUNCTION INFORMATION:
  Return value:  Size  Location     Type
 		None               void
  Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1119,57 +1149,923 @@ FUNCTION INFORMATION:
 Total ram usage:        0 bytes
  Hardware stack levels required when called:   10
  This function calls:
+		_APP_DeviceAudioMIDITasks
 		_SYSTEM_Initialize
 		_USBDeviceInit
 		_USBDeviceTasks
-		_APP_DeviceAudioMIDITasks
  This function is called by:
 		Startup code after reset
  This function uses a non-reentrant model
 
 
- *************** function _APP_DeviceAudioMIDITasks *****************
+ *************** function _USBDeviceTasks *****************
  Defined at:
-		line 58 in file "../src/app_device_audio_midi.c"
+		line 496 in file "../framework/usb/usb_device.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
-  velocity        1   26[BANK0 ] unsigned char 
-  scan_pitch      1   25[BANK0 ] unsigned char 
+  i               1   24[BANK0 ] unsigned char 
  Return value:  Size  Location     Type
 		None               void
  Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
  Tracked objects:
 		On entry : 
 		On exit  : 
 		Unchanged: 
  Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
       Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       8       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
       Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0      10       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:       10 bytes
+      Totals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
  Hardware stack levels used:    1
- Hardware stack levels required when called:    5
+ Hardware stack levels required when called:    9
  This function calls:
-		_USBTransferOnePacket
-		_scan_task
-		_BUTTON_IsPressed
+		_USBCtrlEPAllowStatusStage
+		_USBCtrlEPService
+		_USBDeviceInit
+		_USBIncrement1msInternalTimers
+		_USBStallHandler
+		_USBSuspend
+		_USBWakeFromSuspend
+		_USER_USB_CALLBACK_EVENT_HANDLER
  This function is called by:
 		_main
  This function uses a non-reentrant model
 
 
- *************** function _BUTTON_IsPressed *****************
+ *************** function _USBWakeFromSuspend *****************
  Defined at:
-		line 56 in file "../bsp/pic16f1459/buttons.c"
+		line 2322 in file "../framework/usb/usb_device.c"
  Parameters:    Size  Location     Type
-  button          1    wreg     enum E2603
+		None
  Auto vars:     Size  Location     Type
-  button          1    1[COMMON] enum E2603
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function is called by:
+		_USBDeviceTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _USBSuspend *****************
+ Defined at:
+		line 2264 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function is called by:
+		_USBDeviceTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _USBStallHandler *****************
+ Defined at:
+		line 2221 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBDeviceTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _USBIncrement1msInternalTimers *****************
+ Defined at:
+		line 3050 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBDeviceTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _USBDeviceInit *****************
+ Defined at:
+		line 300 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  p               2    2[COMMON] PTR unsigned char 
+		 -> UEP1(1), 
+  i               1    4[COMMON] unsigned char 
+  i               1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         4       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         5       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_USBDeviceTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlEPService *****************
+ Defined at:
+		line 2391 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  setup_cnt       1   21[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       3       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_USBCtrlTrfInHandler
+		_USBCtrlTrfOutHandler
+		_USBCtrlTrfSetupHandler
+ This function is called by:
+		_USBDeviceTasks
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlTrfSetupHandler *****************
+ Defined at:
+		line 2491 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_USBCheckStdRequest
+		_USBCtrlEPServiceComplete
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function is called by:
+		_USBCtrlEPService
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlEPServiceComplete *****************
+ Defined at:
+		line 1635 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_USBCtrlEPAllowDataStage
+		_USBCtrlEPAllowStatusStage
+ This function is called by:
+		_USBCtrlTrfSetupHandler
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlEPAllowDataStage *****************
+ Defined at:
+		line 1507 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_USBCtrlTrfTxService
+ This function is called by:
+		_USBCtrlEPServiceComplete
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCheckStdRequest *****************
+ Defined at:
+		line 2711 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_USBStdFeatureReqHandler
+		_USBStdGetDscHandler
+		_USBStdGetStatusHandler
+		_USBStdSetCfgHandler
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function is called by:
+		_USBCtrlTrfSetupHandler
+ This function uses a non-reentrant model
+
+
+ *************** function _USBStdSetCfgHandler *****************
+ Defined at:
+		line 1987 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  p               2   10[BANK0 ] PTR unsigned char 
+		 -> UEP1(1), 
+  i               1   12[BANK0 ] unsigned char 
+  i               1   13[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       4       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_USER_USB_CALLBACK_EVENT_HANDLER
+		_memset
+ This function is called by:
+		_USBCheckStdRequest
+ This function uses a non-reentrant model
+
+
+ *************** function _memset *****************
+ Defined at:
+		line 8 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c"
+ Parameters:    Size  Location     Type
+  p1              1    wreg     PTR void 
+		 -> USBAlternateInterface(1), BDT(32), 
+  c               2    1[COMMON] int 
+  n               2    3[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  p1              1    7[COMMON] PTR void 
+		 -> USBAlternateInterface(1), BDT(32), 
+  p               1    6[COMMON] PTR unsigned char 
+		 -> USBAlternateInterface(1), BDT(32), 
+ Return value:  Size  Location     Type
+                  1    wreg      PTR void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         4       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         7       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBStdSetCfgHandler
+ This function uses a non-reentrant model
+
+
+ *************** function _USBStdGetStatusHandler *****************
+ Defined at:
+		line 2148 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  p               1    2[COMMON] PTR struct __BDT
+		 -> BDT(32), NULL(0), 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBCheckStdRequest
+ This function uses a non-reentrant model
+
+
+ *************** function _USBStdGetDscHandler *****************
+ Defined at:
+		line 2062 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          3       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBCheckStdRequest
+ This function uses a non-reentrant model
+
+
+ *************** function _USBStdFeatureReqHandler *****************
+ Defined at:
+		line 2779 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  pUEP            2   12[BANK0 ] PTR unsigned char 
+		 -> UEP0(1), 
+  p               1   15[BANK0 ] PTR struct __BDT
+		 -> BDT(32), NULL(0), 
+  current_ep_d    1   14[BANK0 ] struct .
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function is called by:
+		_USBCheckStdRequest
+ This function uses a non-reentrant model
+
+
+ *************** function _USER_USB_CALLBACK_EVENT_HANDLER *****************
+ Defined at:
+		line 87 in file "../src/main.c"
+ Parameters:    Size  Location     Type
+  event           2    5[BANK0 ] enum E2694
+  pdata           1    7[BANK0 ] PTR void 
+		 -> USTATcopy(1), USBActiveConfiguration(1), BDT(32), NULL(0), 
+  size            2    8[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+		None
  Return value:  Size  Location     Type
                   1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       5       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       5       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_APP_DeviceAudioMIDIInitialize
+		_APP_DeviceAudioMIDISOFHandler
+		_APP_LEDUpdateUSBStatus
+ This function is called by:
+		_USBDeviceTasks
+		_USBStdSetCfgHandler
+		_USBSuspend
+		_USBWakeFromSuspend
+		_USBCtrlTrfSetupHandler
+		_USBCheckStdRequest
+		_USBStdFeatureReqHandler
+ This function uses a non-reentrant model
+
+
+ *************** function _APP_LEDUpdateUSBStatus *****************
+ Defined at:
+		line 23 in file "../src/app_led_usb_status.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_LED_Off
+		_LED_On
+ This function is called by:
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function uses a non-reentrant model
+
+
+ *************** function _APP_DeviceAudioMIDISOFHandler *****************
+ Defined at:
+		line 53 in file "../src/app_device_audio_midi.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function uses a non-reentrant model
+
+
+ *************** function _APP_DeviceAudioMIDIInitialize *****************
+ Defined at:
+		line 40 in file "../src/app_device_audio_midi.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_USBEnableEndpoint
+		_USBTransferOnePacket
+ This function is called by:
+		_USER_USB_CALLBACK_EVENT_HANDLER
+ This function uses a non-reentrant model
+
+
+ *************** function _USBEnableEndpoint *****************
+ Defined at:
+		line 897 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+  ep              1    wreg     unsigned char 
+  options         1    8[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  ep              1    2[BANK0 ] unsigned char 
+  p               2    0[BANK0 ] PTR unsigned char 
+		 -> UEP0(1), 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       3       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_USBConfigureEndpoint
+ This function is called by:
+		_APP_DeviceAudioMIDIInitialize
+ This function uses a non-reentrant model
+
+
+ *************** function _USBConfigureEndpoint *****************
+ Defined at:
+		line 1562 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+  EPNum           1    wreg     unsigned char 
+  direction       1    1[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  EPNum           1    6[COMMON] unsigned char 
+  handle          1    7[COMMON] PTR volatile struct __BD
+		 -> BDT(32), 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          4       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         7       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBEnableEndpoint
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlTrfOutHandler *****************
+ Defined at:
+		line 2563 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_USBCtrlTrfRxService
+ This function is called by:
+		_USBCtrlEPService
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlTrfRxService *****************
+ Defined at:
+		line 1871 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  byteToRead      1    6[COMMON] unsigned char 
+  i               1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         4       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_USBCtrlEPAllowStatusStage
+ This function is called by:
+		_USBCtrlTrfOutHandler
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlEPAllowStatusStage *****************
+ Defined at:
+		line 1435 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBDeviceTasks
+		_USBCtrlEPServiceComplete
+		_USBCtrlTrfRxService
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlTrfInHandler *****************
+ Defined at:
+		line 2617 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  lastDTS         1    6[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_USBCtrlTrfTxService
+ This function is called by:
+		_USBCtrlEPService
+ This function uses a non-reentrant model
+
+
+ *************** function _USBCtrlTrfTxService *****************
+ Defined at:
+		line 1790 in file "../framework/usb/usb_device.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  byteToSend      1    3[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_USBCtrlEPAllowDataStage
+		_USBCtrlTrfInHandler
+ This function uses a non-reentrant model
+
+
+ *************** function _SYSTEM_Initialize *****************
+ Defined at:
+		line 86 in file "../src/pic16f1459/system.c"
+ Parameters:    Size  Location     Type
+  state           1    wreg     enum E2644
+ Auto vars:     Size  Location     Type
+  state           1    2[COMMON] enum E2644
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_BUTTON_Enable
+		_LED_Enable
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LED_Enable *****************
+ Defined at:
+		line 220 in file "../bsp/pic16f1459/leds.c"
+ Parameters:    Size  Location     Type
+  led             1    wreg     enum E2
+ Auto vars:     Size  Location     Type
+  led             1    1[COMMON] enum E2
+ Return value:  Size  Location     Type
+		None               void
  Registers used:
 		wreg, fsr0l, fsr0h, status,2, status,0
  Tracked objects:
@@ -1187,13 +2083,76 @@ Total ram usage:        1 bytes
  This function calls:
 		Nothing
  This function is called by:
-		_APP_DeviceAudioMIDITasks
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _BUTTON_Enable *****************
+ Defined at:
+		line 85 in file "../bsp/pic16f1459/buttons.c"
+ Parameters:    Size  Location     Type
+  button          1    wreg     enum E2613
+ Auto vars:     Size  Location     Type
+  button          1    1[COMMON] enum E2613
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _APP_DeviceAudioMIDITasks *****************
+ Defined at:
+		line 57 in file "../src/app_device_audio_midi.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  velocity        1   26[BANK0 ] unsigned char 
+  scan_pitch      1   25[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       8       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0      10       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       10 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_BUTTON_IsPressed
+		_USBTransferOnePacket
+		_scan_task
+ This function is called by:
+		_main
  This function uses a non-reentrant model
 
 
  *************** function _scan_task *****************
  Defined at:
-		line 211 in file "../src/scan.c"
+		line 212 in file "../src/scan.c"
  Parameters:    Size  Location     Type
   note            1    wreg     PTR unsigned char 
 		 -> APP_DeviceAudioMIDITasks@scan_pitch(1), 
@@ -1219,24 +2178,54 @@ Total ram usage:        7 bytes
  Hardware stack levels used:    1
  Hardware stack levels required when called:    4
  This function calls:
-		_scan_init
-		_set_timer
-		_waiting_for_timer
-		_set_clock_and_data
+		_get_adc
 		_get_data
+		_is_adc_ready
 		_is_end_of_scan
 		_run_adc
-		_is_adc_ready
-		_get_adc
+		_scan_init
+		_set_clock_and_data
+		_set_timer
 		_store_key_level
+		_waiting_for_timer
  This function is called by:
 		_APP_DeviceAudioMIDITasks
  This function uses a non-reentrant model
 
 
+ *************** function _waiting_for_timer *****************
+ Defined at:
+		line 64 in file "../src/scan.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_scan_task
+ This function uses a non-reentrant model
+
+
  *************** function _store_key_level *****************
  Defined at:
-		line 193 in file "../src/scan.c"
+		line 194 in file "../src/scan.c"
  Parameters:    Size  Location     Type
   level           1    wreg     unsigned char 
   end_of_scan     1    7[COMMON] unsigned char 
@@ -1303,17 +2292,79 @@ Total ram usage:       16 bytes
  This function uses a non-reentrant model
 
 
- *************** function _get_adc *****************
+ *************** function _LED_On *****************
  Defined at:
-		line 94 in file "../src/scan.c"
+		line 59 in file "../bsp/pic16f1459/leds.c"
+ Parameters:    Size  Location     Type
+  led             1    wreg     enum E2
+ Auto vars:     Size  Location     Type
+  led             1    1[COMMON] enum E2
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_APP_LEDUpdateUSBStatus
+		_process_level
+ This function uses a non-reentrant model
+
+
+ *************** function _LED_Off *****************
+ Defined at:
+		line 100 in file "../bsp/pic16f1459/leds.c"
+ Parameters:    Size  Location     Type
+  led             1    wreg     enum E2
+ Auto vars:     Size  Location     Type
+  led             1    1[COMMON] enum E2
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_APP_LEDUpdateUSBStatus
+		_process_level
+ This function uses a non-reentrant model
+
+
+ *************** function _set_timer *****************
+ Defined at:
+		line 55 in file "../src/scan.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
-                  1    wreg      unsigned char 
+		None               void
  Registers used:
-		wreg
+		status,2
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1333,17 +2384,48 @@ Total ram usage:        0 bytes
  This function uses a non-reentrant model
 
 
- *************** function _is_adc_ready *****************
+ *************** function _set_clock_and_data *****************
  Defined at:
-		line 90 in file "../src/scan.c"
+		line 68 in file "../src/scan.c"
+ Parameters:    Size  Location     Type
+  c               1    wreg     const unsigned char 
+  d               1    1[COMMON] const unsigned char 
+ Auto vars:     Size  Location     Type
+  c               1    2[COMMON] const unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_scan_task
+ This function uses a non-reentrant model
+
+
+ *************** function _scan_init *****************
+ Defined at:
+		line 32 in file "../src/scan.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
-                  1    wreg      unsigned char 
+		None               void
  Registers used:
-		wreg
+		wreg, status,2, status,0
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1423,6 +2505,36 @@ Total ram usage:        3 bytes
  This function uses a non-reentrant model
 
 
+ *************** function _is_adc_ready *****************
+ Defined at:
+		line 90 in file "../src/scan.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_scan_task
+ This function uses a non-reentrant model
+
+
  *************** function _get_data *****************
  Defined at:
 		line 73 in file "../src/scan.c"
@@ -1453,40 +2565,9 @@ Total ram usage:        0 bytes
  This function uses a non-reentrant model
 
 
- *************** function _set_clock_and_data *****************
+ *************** function _get_adc *****************
  Defined at:
-		line 68 in file "../src/scan.c"
- Parameters:    Size  Location     Type
-  c               1    wreg     const unsigned char 
-  d               1    1[COMMON] const unsigned char 
- Auto vars:     Size  Location     Type
-  c               1    3[COMMON] const unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        3 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_scan_task
- This function uses a non-reentrant model
-
-
- *************** function _waiting_for_timer *****************
- Defined at:
-		line 64 in file "../src/scan.c"
+		line 94 in file "../src/scan.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1494,37 +2575,7 @@ Total ram usage:        3 bytes
  Return value:  Size  Location     Type
                   1    wreg      unsigned char 
  Registers used:
-		wreg, status,2
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_scan_task
- This function uses a non-reentrant model
-
-
- *************** function _set_timer *****************
- Defined at:
-		line 55 in file "../src/scan.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		status,2
+		wreg
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1541,749 +2592,12 @@ Total ram usage:        0 bytes
 		Nothing
  This function is called by:
 		_scan_task
- This function uses a non-reentrant model
-
-
- *************** function _scan_init *****************
- Defined at:
-		line 32 in file "../src/scan.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_scan_task
- This function uses a non-reentrant model
-
-
- *************** function _USBDeviceTasks *****************
- Defined at:
-		line 497 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  i               1   24[BANK0 ] unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        3 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    9
- This function calls:
-		_USBDeviceInit
-		_USER_USB_CALLBACK_EVENT_HANDLER
-		_USBWakeFromSuspend
-		_USBSuspend
-		_USBIncrement1msInternalTimers
-		_USBCtrlEPAllowStatusStage
-		_USBStallHandler
-		_USBCtrlEPService
- This function is called by:
-		_main
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlEPService *****************
- Defined at:
-		line 2392 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  setup_cnt       1   21[BANK0 ] unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       3       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        4 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    8
- This function calls:
-		_USBCtrlTrfSetupHandler
-		_USBCtrlTrfOutHandler
-		_USBCtrlTrfInHandler
- This function is called by:
-		_USBDeviceTasks
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlTrfInHandler *****************
- Defined at:
-		line 2618 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  lastDTS         1    6[COMMON] unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        3 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    2
- This function calls:
-		_USBCtrlTrfTxService
- This function is called by:
-		_USBCtrlEPService
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlTrfOutHandler *****************
- Defined at:
-		line 2564 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        2 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    3
- This function calls:
-		_USBCtrlTrfRxService
- This function is called by:
-		_USBCtrlEPService
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlTrfRxService *****************
- Defined at:
-		line 1872 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  byteToRead      1    6[COMMON] unsigned char 
-  i               1    5[COMMON] unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         4       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        4 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    2
- This function calls:
-		_USBCtrlEPAllowStatusStage
- This function is called by:
-		_USBCtrlTrfOutHandler
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlTrfSetupHandler *****************
- Defined at:
-		line 2492 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    7
- This function calls:
-		_USER_USB_CALLBACK_EVENT_HANDLER
-		_USBCtrlEPServiceComplete
-		_USBCheckStdRequest
- This function is called by:
-		_USBCtrlEPService
- This function uses a non-reentrant model
-
-
- *************** function _USBCheckStdRequest *****************
- Defined at:
-		line 2712 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    6
- This function calls:
-		_USER_USB_CALLBACK_EVENT_HANDLER
-		_USBStdSetCfgHandler
-		_USBStdGetDscHandler
-		_USBStdGetStatusHandler
-		_USBStdFeatureReqHandler
- This function is called by:
-		_USBCtrlTrfSetupHandler
- This function uses a non-reentrant model
-
-
- *************** function _USBStdFeatureReqHandler *****************
- Defined at:
-		line 2780 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  pUEP            2   12[BANK0 ] PTR unsigned char 
-		 -> UEP0(1), 
-  p               1   15[BANK0 ] PTR struct __BDT
-		 -> BDT(32), NULL(0), 
-  current_ep_d    1   14[BANK0 ] struct .
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        6 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    5
- This function calls:
-		_USER_USB_CALLBACK_EVENT_HANDLER
- This function is called by:
-		_USBCheckStdRequest
- This function uses a non-reentrant model
-
-
- *************** function _USBStdGetStatusHandler *****************
- Defined at:
-		line 2149 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  p               1    2[COMMON] PTR struct __BDT
-		 -> BDT(32), NULL(0), 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        2 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBCheckStdRequest
- This function uses a non-reentrant model
-
-
- *************** function _USBStdGetDscHandler *****************
- Defined at:
-		line 2063 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, status,2, status,0, pclath
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          3       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        3 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBCheckStdRequest
- This function uses a non-reentrant model
-
-
- *************** function _USBStdSetCfgHandler *****************
- Defined at:
-		line 1988 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  p               2   10[BANK0 ] PTR unsigned char 
-		 -> UEP1(1), 
-  i               1   12[BANK0 ] unsigned char 
-  i               1   13[BANK0 ] unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       4       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        5 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    5
- This function calls:
-		_USER_USB_CALLBACK_EVENT_HANDLER
-		_memset
- This function is called by:
-		_USBCheckStdRequest
- This function uses a non-reentrant model
-
-
- *************** function _memset *****************
- Defined at:
-		line 10 in file "C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c"
- Parameters:    Size  Location     Type
-  p1              1    wreg     PTR void 
-		 -> USBAlternateInterface(1), BDT(32), 
-  c               2    1[COMMON] int 
-  n               2    3[COMMON] unsigned int 
- Auto vars:     Size  Location     Type
-  p1              1    6[COMMON] PTR void 
-		 -> USBAlternateInterface(1), BDT(32), 
-  p               1    7[COMMON] PTR unsigned char 
-		 -> USBAlternateInterface(1), BDT(32), 
- Return value:  Size  Location     Type
-                  1    wreg      PTR void 
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         4       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         7       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        7 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBStdSetCfgHandler
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlEPServiceComplete *****************
- Defined at:
-		line 1636 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        2 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    3
- This function calls:
-		_USBCtrlEPAllowStatusStage
-		_USBCtrlEPAllowDataStage
- This function is called by:
-		_USBCtrlTrfSetupHandler
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlEPAllowDataStage *****************
- Defined at:
-		line 1508 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        2 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    2
- This function calls:
-		_USBCtrlTrfTxService
- This function is called by:
-		_USBCtrlEPServiceComplete
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlTrfTxService *****************
- Defined at:
-		line 1791 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  byteToSend      1    3[COMMON] unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        3 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBCtrlEPAllowDataStage
-		_USBCtrlTrfInHandler
- This function uses a non-reentrant model
-
-
- *************** function _USBCtrlEPAllowStatusStage *****************
- Defined at:
-		line 1436 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        2 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBDeviceTasks
-		_USBCtrlEPServiceComplete
-		_USBCtrlTrfRxService
- This function uses a non-reentrant model
-
-
- *************** function _USBStallHandler *****************
- Defined at:
-		line 2222 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBDeviceTasks
- This function uses a non-reentrant model
-
-
- *************** function _USBIncrement1msInternalTimers *****************
- Defined at:
-		line 3051 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBDeviceTasks
- This function uses a non-reentrant model
-
-
- *************** function _USBSuspend *****************
- Defined at:
-		line 2265 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    5
- This function calls:
-		_USER_USB_CALLBACK_EVENT_HANDLER
- This function is called by:
-		_USBDeviceTasks
- This function uses a non-reentrant model
-
-
- *************** function _USBWakeFromSuspend *****************
- Defined at:
-		line 2323 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    5
- This function calls:
-		_USER_USB_CALLBACK_EVENT_HANDLER
- This function is called by:
-		_USBDeviceTasks
- This function uses a non-reentrant model
-
-
- *************** function _USER_USB_CALLBACK_EVENT_HANDLER *****************
- Defined at:
-		line 88 in file "../src/main.c"
- Parameters:    Size  Location     Type
-  event           2    5[BANK0 ] enum E2684
-  pdata           1    7[BANK0 ] PTR void 
-		 -> USTATcopy(1), USBActiveConfiguration(1), BDT(32), NULL(0), 
-  size            2    8[BANK0 ] unsigned int 
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-                  1    wreg      unsigned char 
- Registers used:
-		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr1l, fsr1h, status,2, status,0, btemp+1, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       5       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       5       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        5 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    4
- This function calls:
-		_APP_LEDUpdateUSBStatus
-		_APP_DeviceAudioMIDISOFHandler
-		_APP_DeviceAudioMIDIInitialize
- This function is called by:
-		_USBDeviceTasks
-		_USBStdSetCfgHandler
-		_USBSuspend
-		_USBWakeFromSuspend
-		_USBCtrlTrfSetupHandler
-		_USBCheckStdRequest
-		_USBStdFeatureReqHandler
- This function uses a non-reentrant model
-
-
- *************** function _APP_DeviceAudioMIDIInitialize *****************
- Defined at:
-		line 41 in file "../src/app_device_audio_midi.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        2 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    3
- This function calls:
-		_USBEnableEndpoint
-		_USBTransferOnePacket
- This function is called by:
-		_USER_USB_CALLBACK_EVENT_HANDLER
  This function uses a non-reentrant model
 
 
  *************** function _USBTransferOnePacket *****************
  Defined at:
-		line 1015 in file "../framework/usb/usb_device.c"
+		line 1014 in file "../framework/usb/usb_device.c"
  Parameters:    Size  Location     Type
   ep              1    wreg     unsigned char 
   dir             1    1[COMMON] unsigned char 
@@ -2318,142 +2632,15 @@ Total ram usage:        8 bytes
  This function uses a non-reentrant model
 
 
- *************** function _USBEnableEndpoint *****************
+ *************** function _BUTTON_IsPressed *****************
  Defined at:
-		line 898 in file "../framework/usb/usb_device.c"
+		line 55 in file "../bsp/pic16f1459/buttons.c"
  Parameters:    Size  Location     Type
-  ep              1    wreg     unsigned char 
-  options         1    8[COMMON] unsigned char 
+  button          1    wreg     enum E2613
  Auto vars:     Size  Location     Type
-  ep              1    2[BANK0 ] unsigned char 
-  p               2    0[BANK0 ] PTR unsigned char 
-		 -> UEP0(1), 
+  button          1    1[COMMON] enum E2613
  Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         3       3       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        6 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    2
- This function calls:
-		_USBConfigureEndpoint
- This function is called by:
-		_APP_DeviceAudioMIDIInitialize
- This function uses a non-reentrant model
-
-
- *************** function _USBConfigureEndpoint *****************
- Defined at:
-		line 1563 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-  EPNum           1    wreg     unsigned char 
-  direction       1    1[COMMON] unsigned char 
- Auto vars:     Size  Location     Type
-  EPNum           1    6[COMMON] unsigned char 
-  handle          1    7[COMMON] PTR volatile struct __BD
-		 -> BDT(32), 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          4       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         7       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        7 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USBEnableEndpoint
- This function uses a non-reentrant model
-
-
- *************** function _APP_DeviceAudioMIDISOFHandler *****************
- Defined at:
-		line 53 in file "../src/app_device_audio_midi.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_USER_USB_CALLBACK_EVENT_HANDLER
- This function uses a non-reentrant model
-
-
- *************** function _APP_LEDUpdateUSBStatus *****************
- Defined at:
-		line 24 in file "../src/app_led_usb_status.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    2
- This function calls:
-		_LED_Off
-		_LED_On
- This function is called by:
-		_USER_USB_CALLBACK_EVENT_HANDLER
- This function uses a non-reentrant model
-
-
- *************** function _LED_On *****************
- Defined at:
-		line 60 in file "../bsp/pic16f1459/leds.c"
- Parameters:    Size  Location     Type
-  led             1    wreg     enum E2
- Auto vars:     Size  Location     Type
-  led             1    1[COMMON] enum E2
- Return value:  Size  Location     Type
-		None               void
+                  1    wreg      unsigned char 
  Registers used:
 		wreg, fsr0l, fsr0h, status,2, status,0
  Tracked objects:
@@ -2471,170 +2658,13 @@ Total ram usage:        1 bytes
  This function calls:
 		Nothing
  This function is called by:
-		_APP_LEDUpdateUSBStatus
-		_process_level
- This function uses a non-reentrant model
-
-
- *************** function _LED_Off *****************
- Defined at:
-		line 101 in file "../bsp/pic16f1459/leds.c"
- Parameters:    Size  Location     Type
-  led             1    wreg     enum E2
- Auto vars:     Size  Location     Type
-  led             1    1[COMMON] enum E2
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_APP_LEDUpdateUSBStatus
-		_process_level
- This function uses a non-reentrant model
-
-
- *************** function _USBDeviceInit *****************
- Defined at:
-		line 301 in file "../framework/usb/usb_device.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-  p               2    3[COMMON] PTR unsigned char 
-		 -> UEP1(1), 
-  i               1    5[COMMON] unsigned char 
-  i               1    6[COMMON] unsigned char 
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr1l, fsr1h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         4       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         6       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        6 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_main
-		_USBDeviceTasks
- This function uses a non-reentrant model
-
-
- *************** function _SYSTEM_Initialize *****************
- Defined at:
-		line 87 in file "../src/pic16f1459/system.c"
- Parameters:    Size  Location     Type
-  state           1    wreg     enum E2634
- Auto vars:     Size  Location     Type
-  state           1    2[COMMON] enum E2634
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    2
- This function calls:
-		_LED_Enable
-		_BUTTON_Enable
- This function is called by:
-		_main
- This function uses a non-reentrant model
-
-
- *************** function _BUTTON_Enable *****************
- Defined at:
-		line 86 in file "../bsp/pic16f1459/buttons.c"
- Parameters:    Size  Location     Type
-  button          1    wreg     enum E2603
- Auto vars:     Size  Location     Type
-  button          1    1[COMMON] enum E2603
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_SYSTEM_Initialize
- This function uses a non-reentrant model
-
-
- *************** function _LED_Enable *****************
- Defined at:
-		line 221 in file "../bsp/pic16f1459/leds.c"
- Parameters:    Size  Location     Type
-  led             1    wreg     enum E2
- Auto vars:     Size  Location     Type
-  led             1    1[COMMON] enum E2
- Return value:  Size  Location     Type
-		None               void
- Registers used:
-		wreg, fsr0l, fsr0h, status,2, status,0
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        1 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		Nothing
- This function is called by:
-		_SYSTEM_Initialize
+		_APP_DeviceAudioMIDITasks
  This function uses a non-reentrant model
 
 
  *************** function _SYS_InterruptHigh *****************
  Defined at:
-		line 113 in file "../src/pic16f1459/system.c"
+		line 112 in file "../src/pic16f1459/system.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2665,106 +2695,105 @@ Total ram usage:        1 bytes
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
-../src/pic16f1459/system.c
-		_SYS_InterruptH		CODE           	0004	0000	7
-		_SYSTEM_Initial		CODE           	09E5	0000	28
+../src/app_led_usb_status.c
+		_APP_LEDUpdateUSBStatus		CODE           	0BC1	0000	78
 
-../src/pic16f1459/system.c estimated size: 35
+../src/app_led_usb_status.c estimated size: 78
 
-../bsp/pic16f1459/leds.c
-		_LED_Off       		CODE           	0999	0000	25
-		_LED_On        		CODE           	09B2	0000	25
-		_LED_Enable    		CODE           	0980	0000	25
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c
+		_memset        		CODE           	0A0A	0000	27
 
-../bsp/pic16f1459/leds.c estimated size: 75
-
-shared
-		_configDescript		STRCODE        	0334	0000	101
-		_USB_CD_Ptr    		STRCODE        	032E	0000	2
-		_sd001         		STRCODE        	0399	0000	52
-		__stringtab    		STRCODE        	0300	0000	1
-		process_level@k		STRCODE        	0332	0000	1
-		process_level@k		STRCODE        	0331	0000	1
-		_sd002         		STRCODE        	03CD	0000	26
-		__initializatio		CODE           	0A84	0000	37
-		process_level@m		STRCODE        	0333	0000	1
-		_device_dsc    		STRCODE        	03E7	0000	18
-		process_level@L		STRCODE        	0330	0000	1
-		process_level@i		STRCODE        	0301	0000	39
-		_USB_SD_Ptr    		STRCODE        	0328	0000	6
-		_sd000         		STRCODE        	03F9	0000	4
-
-shared estimated size: 290
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c estimated size: 27
 
 ../bsp/pic16f1459/buttons.c
-		_BUTTON_IsPress		CODE           	0927	0000	19
-		_BUTTON_Enable 		CODE           	08F4	0000	10
+		_BUTTON_IsPressed		CODE           	0950	0000	22
+		_BUTTON_Enable 		CODE           	091E	0000	11
 
-../bsp/pic16f1459/buttons.c estimated size: 29
+../bsp/pic16f1459/buttons.c estimated size: 33
 
-../src/scan.c
-		_waiting_for_ti		CODE           	0909	0000	11
-		_scan_task     		CODE           	0670	0000	171
-		_process_level 		CODE           	04EB	0000	217
-		_scan_init     		CODE           	0A1E	0000	29
-		_is_end_of_scan		CODE           	0914	0000	19
-		_set_clock_and_		CODE           	09CB	0000	26
-		_store_key_leve		CODE           	0B06	0000	47
-		_get_adc       		CODE           	08D9	0000	3
-		_set_timer     		CODE           	08FE	0000	11
-		_is_adc_ready  		CODE           	08E1	0000	5
-		_get_data      		CODE           	08DC	0000	5
-		_run_adc       		CODE           	08ED	0000	7
+../bsp/pic16f1459/leds.c
+		_LED_Off       		CODE           	09BF	0000	26
+		_LED_On        		CODE           	09D8	0000	26
+		_LED_Enable    		CODE           	09F1	0000	26
 
-../src/scan.c estimated size: 551
-
-../framework/usb/usb_device.c
-		_USBCtrlTrfInHa		CODE           	0DB1	0000	111
-		_USBTransferOne		CODE           	0C4B	0000	80
-		_USBStdGetDscHa		CODE           	0F00	0000	127
-		_USBCtrlEPAllow		CODE           	0CF1	0000	87
-		_USBStdFeatureR		CODE           	0157	0000	263
-		_USBCtrlEPAllow		CODE           	0D48	0000	105
-		_USBCtrlTrfSetu		CODE           	07B8	0000	66
-		_USBCtrlTrfOutH		CODE           	0AD7	0000	47
-		_USBCtrlEPServi		CODE           	025E	0000	134
-		_USBSuspend    		CODE           	0950	0000	24
-		_USBStdSetCfgHa		CODE           	0F7F	0000	129
-		_USBStdGetStatu		CODE           	0BFC	0000	79
-		_USBWakeFromSus		CODE           	02E4	0000	28
-		_USBCtrlTrfRxSe		CODE           	071B	0000	157
-		_USBCtrlTrfTxSe		CODE           	0E20	0000	112
-		_USBEnableEndpo		CODE           	0A5F	0000	37
-		_USBConfigureEn		CODE           	0B6E	0000	63
-		_USBDeviceInit 		CODE           	05C4	0000	172
-		_USBIncrement1m		CODE           	0968	0000	24
-		_USBCtrlEPServi		CODE           	0E90	0000	112
-		_USBStallHandle		CODE           	0A3B	0000	36
-		_USBDeviceTasks		CODE           	03FD	0000	238
-		_USBCheckStdReq		CODE           	0C9B	0000	86
-
-../framework/usb/usb_device.c estimated size: 2317
+../bsp/pic16f1459/leds.c estimated size: 78
 
 ../src/app_device_audio_midi.c
-		_APP_DeviceAudi		CODE           	000D	0000	330
-		_APP_DeviceAudi		CODE           	0AAC	0000	43
-		_APP_DeviceAudi		CODE           	08E6	0000	7
+		_APP_DeviceAudioMIDITasks		CODE           	0038	0000	331
+		_APP_DeviceAudioMIDIInitialize		CODE           	0ABF	0000	44
+		_APP_DeviceAudioMIDISOFHandler		CODE           	0917	0000	8
 
-../src/app_device_audio_midi.c estimated size: 380
+../src/app_device_audio_midi.c estimated size: 383
 
-C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c
-		_memset        		CODE           	0A01	0000	29
+../src/scan.c
+		_waiting_for_timer		CODE           	0933	0000	12
+		_scan_task     		CODE           	0552	0000	174
+		_process_level 		CODE           	0473	0000	224
+		_scan_init     		CODE           	0A5B	0000	30
+		_is_end_of_scan		CODE           	0965	0000	22
+		_set_clock_and_data		CODE           	093E	0000	19
+		_store_key_level		CODE           	0B19	0000	49
+		_get_adc       		CODE           	08FB	0000	4
+		_set_timer     		CODE           	0928	0000	12
+		_is_adc_ready  		CODE           	0909	0000	8
+		_get_data      		CODE           	08FE	0000	6
+		_run_adc       		CODE           	0910	0000	8
 
-C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c estimated size: 29
+../src/scan.c estimated size: 568
 
-../src/app_led_usb_status.c
-		_APP_LEDUpdateU		CODE           	0BAD	0000	79
+shared
+		_configDescriptor1		STRCODE        	02BB	0000	102
+		_USB_CD_Ptr    		STRCODE        	02B5	0000	3
+		_sd001         		STRCODE        	0320	0000	53
+		process_level@key_on_threshold		STRCODE        	02B9	0000	2
+		process_level@key_off_threshold		STRCODE        	02B8	0000	2
+		_sd002         		STRCODE        	0354	0000	27
+		__initialization		CODE           	000F	0000	38
+		process_level@midi_shift		STRCODE        	02BA	0000	2
+		_device_dsc    		STRCODE        	036E	0000	19
+		process_level@L		STRCODE        	02B7	0000	2
+		process_level@idx_midi_map		STRCODE        	0288	0000	40
+		_USB_SD_Ptr    		STRCODE        	02AF	0000	7
+		_sd000         		STRCODE        	0380	0000	5
 
-../src/app_led_usb_status.c estimated size: 79
+shared estimated size: 302
+
+../src/pic16f1459/system.c
+		_SYS_InterruptHigh		CODE           	0004	0000	10
+		_SYSTEM_Initialize		CODE           	0A3F	0000	29
+
+../src/pic16f1459/system.c estimated size: 39
+
+../framework/usb/usb_device.c
+		_USBCtrlTrfInHandler		CODE           	0D54	0000	104
+		_USBTransferOnePacket		CODE           	0C5B	0000	81
+		_USBStdGetDscHandler		CODE           	0F02	0000	128
+		_USBCtrlEPAllowDataStage		CODE           	0CAB	0000	85
+		_USBStdFeatureReqHandler		CODE           	0182	0000	263
+		_USBCtrlEPAllowStatusStage		CODE           	0DBB	0000	105
+		_USBCtrlTrfSetupHandler		CODE           	07BF	0000	66
+		_USBCtrlTrfOutHandler		CODE           	0AEA	0000	48
+		_USBCtrlEPServiceComplete		CODE           	0739	0000	135
+		_USBSuspend    		CODE           	0990	0000	24
+		_USBStdSetCfgHandler		CODE           	0F81	0000	128
+		_USBStdGetStatusHandler		CODE           	0C0E	0000	78
+		_USBWakeFromSuspend		CODE           	0A24	0000	28
+		_USBCtrlTrfRxService		CODE           	06A7	0000	147
+		_USBCtrlTrfTxService		CODE           	0E23	0000	112
+		_USBEnableEndpoint		CODE           	0A78	0000	36
+		_USBConfigureEndpoint		CODE           	0B82	0000	64
+		_USBDeviceInit 		CODE           	05FF	0000	169
+		_USBIncrement1msInternalTimers		CODE           	09A7	0000	25
+		_USBCtrlEPService		CODE           	0E92	0000	113
+		_USBStallHandler		CODE           	0A9B	0000	37
+		_USBDeviceTasks		CODE           	0384	0000	240
+		_USBCheckStdRequest		CODE           	0CFF	0000	86
+
+../framework/usb/usb_device.c estimated size: 2302
 
 ../src/main.c
-		_main          		CODE           	093A	0000	22
-		_USER_USB_CALLB		CODE           	0B35	0000	57
+		_main          		CODE           	097A	0000	23
+		_USER_USB_CALLBACK_EVENT_HANDLER		CODE           	0B49	0000	58
 
-../src/main.c estimated size: 79
+../src/main.c estimated size: 81
 
