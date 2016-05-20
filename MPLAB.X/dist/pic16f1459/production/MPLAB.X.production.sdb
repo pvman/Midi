@@ -117,7 +117,7 @@ BUTTON_S1 1
 ]
 "14 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
 [e E2683 . `uc
-N_KEYS 32
+N_KEYS 39
 ]
 "34
 [e E2693 . `uc
@@ -126,7 +126,7 @@ PIN_INPUT 1
 PIN_ANALOG 1
 PIN_DIGITAL 0
 ]
-"184
+"185
 [e E2645 . `uc
 LED_NONE 0
 LED_D1 1
@@ -134,7 +134,7 @@ LED_D2 2
 LED_D3 3
 LED_D4 4
 ]
-"211
+"212
 [e E2749 . `uc
 S_INIT 0
 S_GO 1
@@ -335,9 +335,9 @@ EVENT_TRANSFER_TERMINATED 5
 [v _get_adc get_adc `T(uc  1 e 1 0 ]
 "145
 [v _process_level process_level `T(v  1 e 0 0 ]
-"192
+"193
 [v _store_key_level store_key_level `T(uc  1 e 1 0 ]
-"210
+"211
 [v _scan_task scan_task `(uc  1 e 1 0 ]
 "10 C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c
 [v _memset memset `(*.4v  1 e 1 0 ]
@@ -613,7 +613,7 @@ EVENT_TRANSFER_TERMINATED 5
 "13 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
 [v _wait_timer wait_timer `uc  1 s 1 wait_timer ]
 "14
-[v _adc_levels adc_levels `[32]uc  1 s 32 adc_levels ]
+[v _adc_levels adc_levels `[39]uc  1 s 39 adc_levels ]
 "16
 [v _is_initialized is_initialized `uc  1 s 1 is_initialized ]
 [s S466 . 2 `uc 1 pitch 1 0 `uc 1 velocity 1 1 ]
@@ -886,39 +886,39 @@ EVENT_TRANSFER_TERMINATED 5
 [v BUTTON_IsPressed@button button `E2603  1 a 1 1 ]
 "67
 } 0
-"210 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
+"211 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
 [v _scan_task scan_task `(uc  1 e 1 0 ]
 {
 [v scan_task@note note `*.4uc  1 a 1 16 ]
 [v scan_task@note note `*.4uc  1 a 1 16 ]
 [v scan_task@velocity velocity `*.4uc  1 p 1 11 ]
-"211
+"212
 [v scan_task@state state `uc  1 s 1 state ]
-"259
+"260
 } 0
-"192
+"193
 [v _store_key_level store_key_level `T(uc  1 e 1 0 ]
 {
 [v store_key_level@level level `uc  1 a 1 10 ]
 [v store_key_level@level level `uc  1 a 1 10 ]
 [v store_key_level@end_of_scan end_of_scan `uc  1 p 1 7 ]
-"193
+"194
 [v store_key_level@idx_key idx_key `uc  1 s 1 idx_key ]
-"199
+"200
 } 0
 "145
 [v _process_level process_level `T(v  1 e 0 0 ]
 {
 [v process_level@idx_key idx_key `uc  1 a 1 10 ]
-"179
+"180
 [v process_level@filtered_state filtered_state `uc  1 a 1 9 ]
-"177
-[v process_level@on_flag on_flag `uc  1 a 1 8 ]
 "178
+[v process_level@on_flag on_flag `uc  1 a 1 8 ]
+"179
 [v process_level@off_flag off_flag `uc  1 a 1 6 ]
-"161
+"162
 [v process_level@current_state current_state `i  1 a 2 2 ]
-"160
+"161
 [v process_level@old_state old_state `i  1 a 2 0 ]
 "145
 [v process_level@idx_key idx_key `uc  1 a 1 10 ]
@@ -927,20 +927,20 @@ EVENT_TRANSFER_TERMINATED 5
 "146
 [v process_level@L L `DCCuc  1 s 1 L ]
 "147
-[v process_level@idx_midi_map idx_midi_map `DCC[32]uc  1 s 32 idx_midi_map ]
-"151
-[v process_level@key_states key_states `[32]uc  1 s 32 key_states ]
+[v process_level@idx_midi_map idx_midi_map `DCC[39]uc  1 s 39 idx_midi_map ]
 "152
+[v process_level@key_states key_states `[39]uc  1 s 39 key_states ]
+"153
 [v process_level@midi_shift midi_shift `DCCuc  1 s 1 midi_shift ]
-"154
-[v process_level@key_off_threshold key_off_threshold `DCCuc  1 s 1 key_off_threshold ]
 "155
+[v process_level@key_off_threshold key_off_threshold `DCCuc  1 s 1 key_off_threshold ]
+"156
 [v process_level@key_on_threshold key_on_threshold `DCCuc  1 s 1 key_on_threshold ]
-"157
-[v process_level@key_off_counter key_off_counter `[32]uc  1 s 32 key_off_counter ]
 "158
-[v process_level@key_on_counter key_on_counter `[32]uc  1 s 32 key_on_counter ]
-"189
+[v process_level@key_off_counter key_off_counter `[39]uc  1 s 39 key_off_counter ]
+"159
+[v process_level@key_on_counter key_on_counter `[39]uc  1 s 39 key_on_counter ]
+"190
 } 0
 "94
 [v _get_adc get_adc `T(uc  1 e 1 0 ]
