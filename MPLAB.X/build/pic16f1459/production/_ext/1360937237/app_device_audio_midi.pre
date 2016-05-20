@@ -4506,28 +4506,8 @@ USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
 }
 }
 
-
-if(BUTTON_IsPressed(BUTTON_S1))
-{
-
-
-
-if(msCounter == 0 && sentNoteOff && !(USBTxHandle==0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
-
-msCounter = 100;
-midiData.Val = 0;
-
-midiData.CableNumber = 0;
-midiData.CodeIndexNumber = 0x9;
-midiData.DATA_0 = 0x90;
-midiData.DATA_1 = pitch;
-midiData.DATA_2 = 0x7F;
-USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
-
-sentNoteOff = 0;
-}
-}
-else if (msCounter == 0 && !sentNoteOff && !(USBTxHandle==0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
+# 108
+if (msCounter == 0 && !sentNoteOff && !(USBTxHandle==0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
 
 msCounter = 100;
 midiData.Val = 0;
