@@ -3,6 +3,7 @@
 #include "pic16f1459/system.h"
 #include "../framework/usb/usb.h"
 #include "../framework/usb/usb_device_midi.h"
+#include "app_device_ble_midi.h"
 
 bool scan_task(uint8_t *note, uint8_t *velocity);
 
@@ -80,6 +81,7 @@ void APP_DeviceAudioMIDITasks()
             midiData.DATA_1 = scan_pitch;
             midiData.DATA_2 = velocity; 
             USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
+            SendMidiData(midiData.DATA_1,  midiData.DATA_2);
         }
     }
 
@@ -119,6 +121,7 @@ void APP_DeviceAudioMIDITasks()
         if(pitch == 0x49)
             pitch = 0x3C;
         USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
+        SendMidiData(midiData.DATA_1,  midiData.DATA_2);
         sentNoteOff = true;
     }
 }

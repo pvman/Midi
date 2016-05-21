@@ -4215,6 +4215,13 @@ uint8_t DATA_2;
 };
 } USB_AUDIO_MIDI_EVENT_PACKET, *P_USB_AUDIO_MIDI_EVENT_PACKET;
 
+# 43 "../src/app_device_ble_midi.h"
+void SendMidiData(uint8_t tone, uint8_t velocity);
+void PlayWrap(uint8_t tone, uint8_t velocity);
+void PlayAlexF();
+void APP_DeviceBLETask();
+void BLEDeviceInt();
+
 # 34 "../src/main.c"
 void main(void)
 {
@@ -4223,21 +4230,23 @@ SYSTEM_Initialize(SYSTEM_STATE_USB_START);
 USBDeviceInit();
 ;
 
+BLEDeviceInt();
+
 while(1)
 {
 ;
 
-# 58
+# 61
 USBDeviceTasks();
 
-# 64
+# 67
 if( USBDeviceState < CONFIGURED_STATE )
 {
 
 continue;
 }
 
-# 74
+# 77
 if( UCONbits.SUSPND == 1 )
 {
 
@@ -4246,6 +4255,8 @@ continue;
 
 
 APP_DeviceAudioMIDITasks();
+
+
 
 }
 }
@@ -4260,7 +4271,7 @@ break;
 
 case EVENT_SOF:
 
-# 97
+# 102
 APP_LEDUpdateUSBStatus();
 APP_DeviceAudioMIDISOFHandler();
 break;
@@ -4277,7 +4288,7 @@ break;
 
 case EVENT_CONFIGURED:
 
-# 114
+# 119
 APP_DeviceAudioMIDIInitialize();
 break;
 

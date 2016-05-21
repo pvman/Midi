@@ -96,7 +96,7 @@ void SYSTEM_Initialize( SYSTEM_STATE state )
             #endif
             LED_Enable(LED_USB_DEVICE_STATE);
         //   LED_Enable(LED_SIGNAL);pvv
-            BUTTON_Enable(BUTTON_DEVICE_AUDIO_MIDI);
+        //    BUTTON_Enable(BUTTON_DEVICE_AUDIO_MIDI);
             break;
             
         case SYSTEM_STATE_USB_SUSPEND: 

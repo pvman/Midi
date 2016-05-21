@@ -4447,14 +4447,21 @@ uint8_t DATA_2;
 };
 } USB_AUDIO_MIDI_EVENT_PACKET, *P_USB_AUDIO_MIDI_EVENT_PACKET;
 
-# 7 "../src/app_device_audio_midi.c"
+# 43 "../src/app_device_ble_midi.h"
+void SendMidiData(uint8_t tone, uint8_t velocity);
+void PlayWrap(uint8_t tone, uint8_t velocity);
+void PlayAlexF();
+void APP_DeviceBLETask();
+void BLEDeviceInt();
+
+# 8 "../src/app_device_audio_midi.c"
 bool scan_task(uint8_t *note, uint8_t *velocity);
 
-# 23
+# 24
 static uint8_t ReceivedDataBuffer[64] @ 0x0A0;
 static USB_AUDIO_MIDI_EVENT_PACKET midiData @ 0x1A0;
 
-# 31
+# 32
 static void* USBTxHandle;
 static void* USBRxHandle;
 
@@ -4489,7 +4496,7 @@ return;
 if(!(USBRxHandle==0?0:((volatile BDT_ENTRY*)USBRxHandle)->STAT.UOWN))
 {
 
-# 70
+# 71
 USBRxHandle = USBTransferOnePacket(1,0,(uint8_t*)&ReceivedDataBuffer,64);
 }
 
@@ -4503,10 +4510,11 @@ midiData.DATA_0 = 0x90;
 midiData.DATA_1 = scan_pitch;
 midiData.DATA_2 = velocity;
 USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
+SendMidiData(midiData.DATA_1, midiData.DATA_2);
 }
 }
 
-# 108
+# 110
 if (msCounter == 0 && !sentNoteOff && !(USBTxHandle==0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
 
 msCounter = 100;
@@ -4521,6 +4529,7 @@ midiData.DATA_2 = 0x00;
 if(pitch == 0x49)
 pitch = 0x3C;
 USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
+SendMidiData(midiData.DATA_1, midiData.DATA_2);
 sentNoteOff = 1;
 }
 }

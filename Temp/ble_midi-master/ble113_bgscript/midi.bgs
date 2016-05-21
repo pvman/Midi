@@ -1,0 +1,86 @@
+
+dim midi_ble_packet(5)
+dim timestamp
+
+dim tmp(10)
+dim res
+dim channel
+dim tlen
+
+dim is_connected
+
+event system_boot(major, minor, patch, build, ll_version, protocol, hw)
+
+    is_connected = 0
+    
+    # start advertising in connectable mode
+    call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
+    
+    # remove all bonds (optional! normally this shouldn't be run on every boot)
+    #call sm_delete_bonding($ff)
+    
+    # enable bondable mode for systems which want to use it
+    call sm_set_bondable_mode(1)
+    
+    # Enable GPIO interrupts from PORT 0 PINs P0_7 on rising edge
+    call hardware_io_port_config_irq(0, $80, 0)
+            
+    call hardware_io_port_config_direction(0,$10)
+    call hardware_io_port_config_pull(0, $10, 1)
+
+end
+
+event connection_disconnected(handle, result)
+    # start advertising again after disconnection
+    call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
+    is_connected = 0
+end
+
+event connection_status(connection, flags, address, address_type, conn_interval, timeout, latency, bonding)
+    if flags & connection_completed then
+        is_connected = 1
+    end if
+end
+
+#HW interrupt listener
+event hardware_io_port_status(delta, port, irq, state)
+    if port = 0 then
+        if (irq & $80) = $80 then
+        
+            midi_ble_packet(0:1)=$80#header
+            midi_ble_packet(1:1)=timestamp#timestamp
+            midi_ble_packet(2:1)=$80#midi status
+            
+            if is_connected = 1
+                call attributes_write(midi_io,0,5,midi_ble_packet(0:5))
+            end if
+            
+            timestamp = timestamp + 1 
+            
+            #debug values
+            #midi_ble_packet(3:1)=108#$3C#midievent #1
+            #midi_ble_packet(4:1)=$10#midievent #2
+
+            #select slave
+            call hardware_io_port_write(0,$10,$00)
+            #read/write data
+            call hardware_spi_transfer(0, 3, "\x00\x00\x00")(res, channel, tlen, tmp(0:3))
+            #release slave
+            call hardware_io_port_write(0,$10,$10)
+
+            #todo^ check SPI transfer status
+            if res = 0            
+                if is_connected = 1
+                    midi_ble_packet(3:1) = tmp(0:1)
+                    midi_ble_packet(4:1) = tmp(1:1)
+                    
+                    midi_ble_packet(2:1)=$90#midi status
+                    call attributes_write(midi_io,0,5,midi_ble_packet(0:5))
+                end if
+            end if
+            
+            #todo: make normal stamp
+            timestamp = timestamp + 1 
+        end if
+    end if
+end

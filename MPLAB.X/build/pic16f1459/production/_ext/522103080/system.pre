@@ -4458,7 +4458,7 @@ ACTCON = 0x90;
 
 LED_Enable(LED_D1);
 
-BUTTON_Enable(BUTTON_S1);
+
 break;
 
 case SYSTEM_STATE_USB_SUSPEND:

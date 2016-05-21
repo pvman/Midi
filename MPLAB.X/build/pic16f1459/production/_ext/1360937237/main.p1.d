@@ -8,6 +8,7 @@
 ../src/pic16f1459/system.h  \
 ../src/../src/pic16f1459/io_mapping.h  \
 ../src/../bsp/pic16f1459/leds.h  \
+../src/app_device_ble_midi.h  \
 ../src/app_device_audio_midi.h  \
 ../src/../src/pic16f1459/system.h  \
 ../src/../framework/usb/usb_device.h  \

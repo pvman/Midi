@@ -13,6 +13,9 @@
         <itemPath>../src/app_led_usb_status.h</itemPath>
         <itemPath>../src/usb_config.h</itemPath>
         <itemPath>../src/app_device_audio_midi.h</itemPath>
+        <itemPath>../src/app_device_ble_midi.h</itemPath>
+        <itemPath>../src/pin_manager.h</itemPath>
+        <itemPath>../src/spi.h</itemPath>
       </logicalFolder>
       <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
         <logicalFolder name="f1" displayName="pic16f1459" projectFiles="true">
@@ -51,6 +54,9 @@
         <itemPath>../src/usb_descriptors.c</itemPath>
         <itemPath>../src/app_device_audio_midi.c</itemPath>
         <itemPath>../src/scan.c</itemPath>
+        <itemPath>../src/app_device_ble_midi.c</itemPath>
+        <itemPath>../src/pin_manager.c</itemPath>
+        <itemPath>../src/spi.c</itemPath>
       </logicalFolder>
       <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
         <logicalFolder name="f1" displayName="pic16f1459" projectFiles="true">
