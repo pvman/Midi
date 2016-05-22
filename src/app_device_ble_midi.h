@@ -26,23 +26,12 @@
  * Revision history: 
  */
 
-#define _XTAL_FREQ  8000000 
+#define _XTAL_FREQ  16000000 
 
-#define FSH_4 66
-#define A_4 69
-#define B_4 71
-#define E_4 64
-#define CSH_5 73
-#define D_5 74
-#define FSH_5 78
-#define CSH_4 61
-#define GSH_4 68    
 
 #define REST  0 
 
 void SendMidiData(uint8_t tone, uint8_t velocity);
-void PlayWrap(uint8_t tone, uint8_t velocity);
-void PlayAlexF();
 void APP_DeviceBLETask();
-void BLEDeviceInt();
+void BLEDeviceInit();
 

@@ -44,49 +44,6 @@ void SendMidiData(uint8_t tone, uint8_t velocity) {
 
 } 
 
-void PlayWrap(uint8_t tone, uint8_t velocity) {
-
-    SendMidiData(tone, velocity);
-
-    for (int i = 0; i < velocity * 7; i++)
-        __delay_ms(1);
-    
-    //LedFlash();
-}
-
-void PlayAlexF() {
-
-    while (1) {
-        // Axel F
-        PlayWrap(FSH_4, 20);
-        PlayWrap(REST, 0);
-        PlayWrap(A_4, 30);
-        PlayWrap(FSH_4, 20);
-        PlayWrap(FSH_4, 10);
-        PlayWrap(B_4, 20);
-        PlayWrap(FSH_4, 20);
-        PlayWrap(E_4, 20);
-        PlayWrap(FSH_4, 20);
-        PlayWrap(REST, 0);
-        PlayWrap(CSH_5, 30);
-        PlayWrap(FSH_4, 20);
-        PlayWrap(FSH_4, 10);
-        PlayWrap(D_5, 20);
-        PlayWrap(CSH_5, 20);
-        PlayWrap(A_4, 20);
-        PlayWrap(FSH_4, 20);
-        PlayWrap(CSH_5, 20);
-        PlayWrap(FSH_5, 20);
-        PlayWrap(FSH_4, 10);
-        PlayWrap(E_4, 20);
-        PlayWrap(E_4, 10);
-        PlayWrap(CSH_4, 20);
-        PlayWrap(GSH_4, 20);
-        PlayWrap(FSH_4, 60);
-        PlayWrap(REST, 0);
-        __delay_ms(2000);
-    }
-} 
 
 
 void APP_DeviceBLETask(){
@@ -110,7 +67,7 @@ void APP_DeviceBLETask(){
     
     
     
-void BLEDeviceInt(){
+void BLEDeviceInit(){
     
     PIN_MANAGER_Initialize();
     SPI_Initialize(); 

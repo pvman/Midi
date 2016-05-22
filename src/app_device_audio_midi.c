@@ -57,38 +57,49 @@ void APP_DeviceAudioMIDISOFHandler()  {
 
 void APP_DeviceAudioMIDITasks()
 {
-    if( USBGetDeviceState() < CONFIGURED_STATE || USBIsDeviceSuspended())
-        return;
+   // if( USBGetDeviceState() < CONFIGURED_STATE || USBIsDeviceSuspended())
+   //     return;
 
-    if(!USBHandleBusy(USBRxHandle))
-    {
+   // if(!USBHandleBusy(USBRxHandle))
+  //  {
         //We have received a MIDI packet from the host, process it and then
         //  prepare to receive the next packet
 
         //INSERT MIDI PROCESSING CODE HERE
 
         //Get ready for next packet (this will overwrite the old data)
-        USBRxHandle = USBRxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&ReceivedDataBuffer,64);
-    }
+   //     USBRxHandle = USBRxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&ReceivedDataBuffer,64);
+   // }
     
     {
-        uint8_t scan_pitch = 0x3C, velocity = 0;    
-        if (scan_task(&scan_pitch, &velocity)) {
+        uint8_t scan_pitch = 0x3C, velocity = 0;  
+        bool bscan = 0;
+        bscan = scan_task(&scan_pitch, &velocity);
+        if (bscan) {
             midiData.Val = 0;
             midiData.CableNumber = 0;
             midiData.CodeIndexNumber = MIDI_CIN_NOTE_ON;
             midiData.DATA_0 = 0x90;
             midiData.DATA_1 = scan_pitch;
             midiData.DATA_2 = velocity; 
-            USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
-            SendMidiData(midiData.DATA_1,  midiData.DATA_2);
+        //    USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
+          //  SendMidiData(midiData.DATA_1,  midiData.DATA_2);
+            
+            if( USBGetDeviceState() == CONFIGURED_STATE || USBIsDeviceSuspended())
+            {
+                    if(!USBHandleBusy(USBRxHandle))
+                    {
+                        USBRxHandle = USBRxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&ReceivedDataBuffer,64);
+                    }
+                USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);                
+            }
         }
     }
 
     /* If the user button is pressed... */
    /* if(BUTTON_IsPressed(BUTTON_DEVICE_AUDIO_MIDI))
     {
-        /* and we haven't sent a transmission in the past 100ms... */
+        // and we haven't sent a transmission in the past 100ms... 
         /* and we have sent the NOTE_OFF for the last note... */
         /* and we aren't currently trying to transmit data... */
     /*    if(msCounter == 0 && sentNoteOff && !USBHandleBusy(USBTxHandle))  {
@@ -102,7 +113,7 @@ void APP_DeviceAudioMIDITasks()
             midiData.DATA_1 = pitch;         //pitch
             midiData.DATA_2 = 0x7F;  //velocity
             USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
-            /* we now need to send the NOTE_OFF for this note. */
+            
     /*        sentNoteOff = false;
         }
     }
@@ -120,8 +131,17 @@ void APP_DeviceAudioMIDITasks()
 
         if(pitch == 0x49)
             pitch = 0x3C;
-        USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
-        SendMidiData(midiData.DATA_1,  midiData.DATA_2);
+        //USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
+      //  SendMidiData(midiData.DATA_1,  midiData.DATA_2);
         sentNoteOff = true;
+        
+        if( USBGetDeviceState() == CONFIGURED_STATE || USBIsDeviceSuspended())
+            {
+                    if(!USBHandleBusy(USBRxHandle))
+                    {
+                        USBRxHandle = USBRxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&ReceivedDataBuffer,64);
+                    }
+                USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
+            }
     }
 }

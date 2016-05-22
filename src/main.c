@@ -38,12 +38,15 @@ MAIN_RETURN main(void)
     USBDeviceInit();
     USBDeviceAttach();
     
-    BLEDeviceInt();
+    BLEDeviceInit();
     
     while(1)
     {
         SYSTEM_Tasks();
    //     APP_DeviceBLETask();
+        
+        //Application specific tasks
+        APP_DeviceAudioMIDITasks();
 
         #if defined(USB_POLLING)
             // Interrupt or polling method.  If using polling, must call
@@ -80,8 +83,7 @@ MAIN_RETURN main(void)
             continue;
         }
             
-        //Application specific tasks
-        APP_DeviceAudioMIDITasks();
+
         
         
 

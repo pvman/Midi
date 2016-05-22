@@ -1,16 +1,15 @@
-[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPACEOPT ]
 [d version 1.1 ]
 [d edition pro ]
 [d chip 16F1459 ]
-[d frameptr 6 ]
 "87 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
-[e E2644 . `uc
+[e E2634 . `uc
 SYSTEM_STATE_USB_START 0
 SYSTEM_STATE_USB_SUSPEND 1
 SYSTEM_STATE_USB_RESUME 2
 ]
 "97
-[e E2621 . `uc
+[e E2611 . `uc
 LED_NONE 0
 LED_D1 1
 LED_D2 2
@@ -18,7 +17,7 @@ LED_D3 3
 LED_D4 4
 ]
 "29 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
-[e E2649 . `uc
+[e E2639 . `uc
 LED_NONE 0
 LED_D1 1
 LED_D2 2
@@ -26,7 +25,7 @@ LED_D3 3
 LED_D4 4
 ]
 "33
-[e E2746 . `uc
+[e E2736 . `uc
 DETACHED_STATE 0
 ATTACHED_STATE 1
 POWERED_STATE 2
@@ -36,13 +35,13 @@ ADDRESS_STATE 16
 CONFIGURED_STATE 32
 ]
 "36 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
-[e E2644 . `uc
+[e E2634 . `uc
 SYSTEM_STATE_USB_START 0
 SYSTEM_STATE_USB_SUSPEND 1
 SYSTEM_STATE_USB_RESUME 2
 ]
-"67
-[e E2751 . `uc
+"70
+[e E2741 . `uc
 DETACHED_STATE 0
 ATTACHED_STATE 1
 POWERED_STATE 2
@@ -51,8 +50,8 @@ ADR_PENDING_STATE 8
 ADDRESS_STATE 16
 CONFIGURED_STATE 32
 ]
-"93
-[e E2694 . `ui
+"95
+[e E2684 . `ui
 EVENT_NONE 0
 EVENT_DEVICE_STACK_BASE 1
 EVENT_HOST_STACK_BASE 100
@@ -88,16 +87,16 @@ EVENT_AUDIO_BASE 1000
 EVENT_USER_BASE 10000
 EVENT_BUS_ERROR 32767
 ]
-"94
-[e E2760 . `uc
+"96
+[e E2750 . `uc
 EVENT_CONFIGURED 1
 EVENT_SET_DESCRIPTOR 2
 EVENT_EP0_REQUEST 3
 EVENT_ATTACH 4
 EVENT_TRANSFER_TERMINATED 5
 ]
-"60 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
-[e E2938 . `uc
+"86 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+[e E2928 . `uc
 DETACHED_STATE 0
 ATTACHED_STATE 1
 POWERED_STATE 2
@@ -107,18 +106,18 @@ ADDRESS_STATE 16
 CONFIGURED_STATE 32
 ]
 "14 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
-[e E2693 . `uc
+[e E2683 . `uc
 N_KEYS 39
 ]
 "34
-[e E2703 . `uc
+[e E2693 . `uc
 PIN_OUTPUT 0
 PIN_INPUT 1
 PIN_ANALOG 1
 PIN_DIGITAL 0
 ]
 "186
-[e E2655 . `uc
+[e E2645 . `uc
 LED_NONE 0
 LED_D1 1
 LED_D2 2
@@ -126,7 +125,7 @@ LED_D3 3
 LED_D4 4
 ]
 "213
-[e E2759 . `uc
+[e E2749 . `uc
 S_INIT 0
 S_GO 1
 S_CLOCK_RAISE 2
@@ -135,16 +134,16 @@ S_ADC_WAIT 4
 S_ADC_READ 5
 ]
 "56 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/buttons.c
-[e E2613 . `uc
+[e E2603 . `uc
 BUTTON_NONE 0
 BUTTON_S1 1
 ]
 "32 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/adc.c
-[e E2641 . `uc
+[e E2631 . `uc
 ADC_CHANNEL_10 10
 ]
 "135
-[e E2644 . `uc
+[e E2634 . `uc
 ADC_CONFIGURATION_DEFAULT 0
 ]
 "60 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
@@ -156,7 +155,7 @@ LED_D3 3
 LED_D4 4
 ]
 "136 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
-[e E2940 . `uc
+[e E2932 . `uc
 DETACHED_STATE 0
 ATTACHED_STATE 1
 POWERED_STATE 2
@@ -166,7 +165,7 @@ ADDRESS_STATE 16
 CONFIGURED_STATE 32
 ]
 "732
-[e E2691 . `ui
+[e E2683 . `ui
 EVENT_NONE 0
 EVENT_DEVICE_STACK_BASE 1
 EVENT_HOST_STACK_BASE 100
@@ -203,88 +202,114 @@ EVENT_USER_BASE 10000
 EVENT_BUS_ERROR 32767
 ]
 "2036
-[e E2949 . `uc
+[e E2941 . `uc
 EVENT_CONFIGURED 1
 EVENT_SET_DESCRIPTOR 2
 EVENT_EP0_REQUEST 3
 EVENT_ATTACH 4
 EVENT_TRANSFER_TERMINATED 5
 ]
-"71 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/adc.c
+"32 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/adc.c
+[v _ADC_ReadPercentage ADC_ReadPercentage `(uc  1 e 1 0 ]
+"72
 [v _ADC_Read10bit ADC_Read10bit `(ui  1 e 2 0 ]
-"59 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+"109
+[v _ADC_Enable ADC_Enable `(uc  1 e 1 0 ]
+"135
+[v _ADC_SetConfiguration ADC_SetConfiguration `(uc  1 e 1 0 ]
+"56 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/buttons.c
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+"86
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+"60 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
 [v _LED_On LED_On `(v  1 e 0 0 ]
-"100
+"101
 [v _LED_Off LED_Off `(v  1 e 0 0 ]
-"220
+"142
+[v _LED_Toggle LED_Toggle `(v  1 e 0 0 ]
+"183
+[v _LED_Get LED_Get `(uc  1 e 1 0 ]
+"221
 [v _LED_Enable LED_Enable `(v  1 e 0 0 ]
-"300 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+"47 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/usart.c
+[v _USART_Initialize USART_Initialize `(v  1 e 0 0 ]
+"81
+[v _USART_putcUSART USART_putcUSART `(v  1 e 0 0 ]
+"161
+[v _USART_getcUSART USART_getcUSART `(uc  1 e 1 0 ]
+"301 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
 [v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
-"496
+"497
 [v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
-"897
+"898
 [v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
-"1014
-[v _USBTransferOnePacket USBTransferOnePacket `(*.1v  1 e 1 0 ]
-"1435
+"1015
+[v _USBTransferOnePacket USBTransferOnePacket `(*.4v  1 e 1 0 ]
+"1093
+[v _USBStallEndpoint USBStallEndpoint `(v  1 e 0 0 ]
+"1149
+[v _USBCancelIO USBCancelIO `(v  1 e 0 0 ]
+"1436
 [v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
-"1507
+"1508
 [v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
-"1562
+"1563
 [v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
-"1635
+"1636
 [v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
-"1790
+"1791
 [v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
-"1871
+"1872
 [v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
-"1987
+"1988
 [v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
-"2062
+"2063
 [v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
-"2148
+"2149
 [v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
-"2221
+"2222
 [v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
-"2264
+"2265
 [v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
-"2322
+"2323
 [v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
-"2391
+"2392
 [v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
-"2491
+"2492
 [v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
-"2563
+"2564
 [v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
-"2617
+"2618
 [v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
-"2711
+"2712
 [v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
-"2779
+"2780
 [v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
-"3050
+"3051
 [v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
-"41 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+"3130
+[v _USBGet1msTickCount USBGet1msTickCount `(ul  1 e 4 0 ]
+"42 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
 [v _APP_DeviceAudioMIDIInitialize APP_DeviceAudioMIDIInitialize `(v  1 e 0 0 ]
 "54
 [v _APP_DeviceAudioMIDISOFHandler APP_DeviceAudioMIDISOFHandler `(v  1 e 0 0 ]
-"58
+"59
 [v _APP_DeviceAudioMIDITasks APP_DeviceAudioMIDITasks `(v  1 e 0 0 ]
 "16 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
 [v _SendMidiData SendMidiData `(v  1 e 0 0 ]
-"47
-[v _PlayWrap PlayWrap `(v  1 e 0 0 ]
-"113
-[v _BLEDeviceInt BLEDeviceInt `(v  1 e 0 0 ]
-"23 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
+"49
+[v _APP_DeviceBLETask APP_DeviceBLETask `(v  1 e 0 0 ]
+"70
+[v _BLEDeviceInit BLEDeviceInit `(v  1 e 0 0 ]
+"24 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
 [v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
-"34 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
+"35 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
 [v _main main `(v  1 e 0 0 ]
-"92
+"95
 [v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
-"86 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+"87 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
-"112
+"113
 [v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
 "50 F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
@@ -316,6 +341,10 @@ EVENT_TRANSFER_TERMINATED 5
 [v _SPI_Initialize SPI_Initialize `(v  1 e 0 0 ]
 "77
 [v _SPI_Exchange8bit SPI_Exchange8bit `(uc  1 e 1 0 ]
+"91
+[v _SPI_Exchange8bitBuffer SPI_Exchange8bitBuffer `(uc  1 e 1 0 ]
+"119
+[v _SPI_IsBufferFull SPI_IsBufferFull `(uc  1 e 1 0 ]
 "123
 [v _SPI_HasWriteCollisionOccured SPI_HasWriteCollisionOccured `(uc  1 e 1 0 ]
 "127
@@ -324,23 +353,87 @@ EVENT_TRANSFER_TERMINATED 5
 [v _SPI_HasReceiveOverflowOccured SPI_HasReceiveOverflowOccured `(uc  1 e 1 0 ]
 "135
 [v _SPI_ClearReceiveOverflowStatus SPI_ClearReceiveOverflowStatus `(v  1 e 0 0 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\float.c
-[v ___ftpack __ftpack `(f  1 e 3 0 ]
-"86 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftadd.c
-[v ___ftadd __ftadd `(f  1 e 3 0 ]
-"6 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwdiv.c
-[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
-"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c
 [v _memset memset `(*.4v  1 e 1 0 ]
-"15 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\Umul16.c
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"87 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"17 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\wmul.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 "136 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
-[v _USBDeviceState USBDeviceState `E2746  1 e 1 0 ]
+[v _USBDeviceState USBDeviceState `E2736  1 e 1 0 ]
 "137
 [v _USBActiveConfiguration USBActiveConfiguration `uc  1 e 1 0 ]
 "138
 [v _USBAlternateInterface USBAlternateInterface `[1]uc  1 e 1 0 ]
-[s S307 . 1 `uc 1 BC8 1 0 :1:0 
+[s S311 . 1 `uc 1 BC8 1 0 :1:0 
 `uc 1 BC9 1 0 :1:1 
 `uc 1 BSTALL 1 0 :1:2 
 `uc 1 DTSEN 1 0 :1:3 
@@ -350,80 +443,80 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 UOWN 1 0 :1:7 
 ]
 "139
-[s S316 . 1 `uc 1 . 1 0 :2:0 
+[s S320 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PID0 1 0 :1:2 
 `uc 1 PID1 1 0 :1:3 
 `uc 1 PID2 1 0 :1:4 
 `uc 1 PID3 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 ]
-[s S323 . 1 `uc 1 . 1 0 :2:0 
+[s S327 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PID 1 0 :4:2 
 `uc 1 . 1 0 :2:6 
 ]
-[u S327 _BD_STAT 1 `uc 1 Val 1 0 `S307 1 . 1 0 `S316 1 . 1 0 `S323 1 . 1 0 ]
-[s S332 . 4 `S327 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
-[s S337 . 4 `uc 1 filler1 1 0 :8:0 
+[u S331 _BD_STAT 1 `uc 1 Val 1 0 `S311 1 . 1 0 `S320 1 . 1 0 `S327 1 . 1 0 ]
+[s S336 . 4 `S331 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S341 . 4 `uc 1 filler1 1 0 :8:0 
 `uc 1 filler2 1 1 :8:0 
 `ui 1 ADR 2 2 ]
-[u S341 __BDT 4 `S332 1 . 4 0 `S337 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
-[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.1VES341  1 e 1 0 ]
+[u S345 __BDT 4 `S336 1 . 4 0 `S341 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.4VES345  1 e 1 0 ]
 "140
-[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.1VES341  1 e 1 0 ]
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.4VES345  1 e 1 0 ]
 "141
-[v _pBDTEntryOut pBDTEntryOut `[2]*.1VES341  1 e 2 0 ]
+[v _pBDTEntryOut pBDTEntryOut `[2]*.4VES345  1 e 2 0 ]
 "142
-[v _pBDTEntryIn pBDTEntryIn `[2]*.1VES341  1 e 2 0 ]
+[v _pBDTEntryIn pBDTEntryIn `[2]*.4VES345  1 e 2 0 ]
 "143
 [v _shortPacketStatus shortPacketStatus `uc  1 e 1 0 ]
 "144
 [v _controlTransferState controlTransferState `uc  1 e 1 0 ]
-[u S1139 . 2 `*.1uc 1 bRam 2 0 `*.1DCCuc 1 bRom 2 0 `*.1ui 1 wRam 2 0 `*.1DCCui 1 wRom 2 0 ]
+[u S1312 . 2 `*.1uc 1 bRam 2 0 `*.1DCCuc 1 bRom 2 0 `*.1ui 1 wRam 2 0 `*.1DCCui 1 wRom 2 0 ]
 "145
-[s S1144 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+[s S1317 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
 `uc 1 reserved 1 0 :5:1 
 `uc 1 includeZero 1 0 :1:6 
 `uc 1 busy 1 0 :1:7 
 ]
-[u S1149 . 1 `S1144 1 bits 1 0 `uc 1 Val 1 0 ]
-[s S1152 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
-[u S1155 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S1152 1 byte 2 0 ]
-[s S1159 . 5 `S1139 1 pSrc 2 0 `S1149 1 info 1 2 `S1155 1 wCount 2 3 ]
-[v _inPipes inPipes `[1]S1159  1 e 5 0 ]
-[u S1163 . 2 `*.1uc 1 bRam 2 0 `*.1ui 1 wRam 2 0 ]
+[u S1322 . 1 `S1317 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S1325 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S1328 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S1325 1 byte 2 0 ]
+[s S1332 . 5 `S1312 1 pSrc 2 0 `S1322 1 info 1 2 `S1328 1 wCount 2 3 ]
+[v _inPipes inPipes `[1]S1332  1 e 5 0 ]
+[u S1336 . 2 `*.1uc 1 bRam 2 0 `*.1ui 1 wRam 2 0 ]
 "146
-[s S1166 . 1 `uc 1 reserved 1 0 :7:0 
+[s S1339 . 1 `uc 1 reserved 1 0 :7:0 
 `uc 1 busy 1 0 :1:7 
 ]
-[u S1169 . 1 `S1166 1 bits 1 0 `uc 1 Val 1 0 ]
-[s S1173 . 7 `S1163 1 pDst 2 0 `S1169 1 info 1 2 `S1155 1 wCount 2 3 `*.37(v 1 pFunc 2 5 ]
-[v _outPipes outPipes `[1]S1173  1 e 7 0 ]
+[u S1342 . 1 `S1339 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S1346 . 6 `S1336 1 pDst 2 0 `S1342 1 info 1 2 `S1328 1 wCount 2 3 `*.27(v 1 pFunc 1 5 ]
+[v _outPipes outPipes `[1]S1346  1 e 6 0 ]
 "147
-[v _pDst pDst `*.1uc  1 e 1 0 ]
+[v _pDst pDst `*.4uc  1 e 1 0 ]
 "148
 [v _RemoteWakeup RemoteWakeup `uc  1 e 1 0 ]
 "149
 [v _USBBusIsSuspended USBBusIsSuspended `uc  1 e 1 0 ]
-[s S1178 . 1 `uc 1 filler1 1 0 :1:0 
+[s S1351 . 1 `uc 1 filler1 1 0 :1:0 
 `uc 1 ping_pong 1 0 :1:1 
 `uc 1 direction 1 0 :1:2 
 `uc 1 endpoint_number 1 0 :4:3 
 ]
 "150
-[u S1183 __USTAT 1 `S1178 1 . 1 0 `uc 1 Val 1 0 ]
-[v _USTATcopy USTATcopy `S1183  1 e 1 0 ]
+[u S1356 __USTAT 1 `S1351 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `S1356  1 e 1 0 ]
 "151
 [v _endpoint_number endpoint_number `uc  1 e 1 0 ]
 "152
 [v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `uc  1 e 1 0 ]
-[s S1186 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+[s S1359 . 1 `uc 1 ping_pong_state 1 0 :1:0 
 `uc 1 transfer_terminated 1 0 :1:1 
 ]
 "153
-[u S1189 . 1 `S1186 1 bits 1 0 `uc 1 Val 1 0 ]
-[v _ep_data_in ep_data_in `[2]S1189  1 e 2 0 ]
+[u S1362 . 1 `S1359 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `[2]S1362  1 e 2 0 ]
 "154
-[v _ep_data_out ep_data_out `[2]S1189  1 e 2 0 ]
+[v _ep_data_out ep_data_out `[2]S1362  1 e 2 0 ]
 "155
 [v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `uc  1 e 1 0 ]
 "156
@@ -436,18 +529,16 @@ EVENT_TRANSFER_TERMINATED 5
 [v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
 "160
 [v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
-"161
-[v _USB1msTickCount USB1msTickCount `ul  1 e 4 0 ]
 "162
 [v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `uc  1 e 1 0 ]
 "169
-[v _BDT BDT `VE[8]S341  1 e 32 @32 ]
-[s S1192 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+[v _BDT BDT `VE[8]S345  1 e 32 @32 ]
+[s S1365 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
 "174
-[s S1219 . 8 `uc 1 . 1 0 :8:0 
+[s S1392 . 8 `uc 1 . 1 0 :8:0 
 `uc 1 . 1 1 :8:0 
-`S1155 1 W_Value 2 2 `S1155 1 W_Index 2 4 `S1155 1 W_Length 2 6 ]
-[s S1225 . 8 `uc 1 Recipient 1 0 :5:0 
+`S1328 1 W_Value 2 2 `S1328 1 W_Index 2 4 `S1328 1 W_Length 2 6 ]
+[s S1398 . 8 `uc 1 Recipient 1 0 :5:0 
 `uc 1 RequestType 1 0 :2:5 
 `uc 1 DataDir 1 0 :1:7 
 `uc 1 . 1 1 :8:0 
@@ -457,44 +548,44 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 . 1 6 :8:0 
 `uc 1 . 1 7 :8:0 
 ]
-[s S1236 . 1 `uc 1 recipient 1 0 :5:0 
+[s S1409 . 1 `uc 1 recipient 1 0 :5:0 
 `uc 1 type 1 0 :2:5 
 `uc 1 direction 1 0 :1:7 
 ]
-[u S1240 . 1 `uc 1 bmRequestType 1 0 `S1236 1 . 1 0 ]
-[s S1243 . 1 `S1240 1 requestInfo 1 0 ]
-[s S1245 . 8 `uc 1 . 1 0 :8:0 
+[u S1413 . 1 `uc 1 bmRequestType 1 0 `S1409 1 . 1 0 ]
+[s S1416 . 1 `S1413 1 requestInfo 1 0 ]
+[s S1418 . 8 `uc 1 . 1 0 :8:0 
 `uc 1 . 1 1 :8:0 
 `uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
 `uc 1 . 1 7 :8:0 
 ]
-[s S1253 . 8 `uc 1 . 1 0 :8:0 
+[s S1426 . 8 `uc 1 . 1 0 :8:0 
 `uc 1 . 1 1 :8:0 
 `uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
 `uc 1 . 1 5 :8:0 
 `uc 1 . 1 6 :8:0 
 `uc 1 . 1 7 :8:0 
 ]
-[s S1262 . 8 `uc 1 . 1 0 :8:0 
+[s S1435 . 8 `uc 1 . 1 0 :8:0 
 `uc 1 . 1 1 :8:0 
 `uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
 `uc 1 . 1 5 :8:0 
 `uc 1 . 1 6 :8:0 
 `uc 1 . 1 7 :8:0 
 ]
-[s S1271 . 8 `uc 1 . 1 0 :8:0 
+[s S1444 . 8 `uc 1 . 1 0 :8:0 
 `uc 1 . 1 1 :8:0 
 `uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
 `uc 1 . 1 7 :8:0 
 ]
-[s S1280 . 8 `uc 1 . 1 0 :8:0 
+[s S1453 . 8 `uc 1 . 1 0 :8:0 
 `uc 1 . 1 1 :8:0 
 `uc 1 . 1 2 :8:0 
 `uc 1 . 1 3 :8:0 
 `uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
 `uc 1 . 1 7 :8:0 
 ]
-[s S1289 . 8 `uc 1 . 1 0 :8:0 
+[s S1462 . 8 `uc 1 . 1 0 :8:0 
 `uc 1 . 1 1 :8:0 
 `uc 1 . 1 2 :8:0 
 `uc 1 . 1 3 :8:0 
@@ -505,26 +596,26 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 . 1 6 :8:0 
 `uc 1 . 1 7 :8:0 
 ]
-[u S1300 . 8 `S1192 1 . 8 0 `S1219 1 . 8 0 `S1225 1 . 8 0 `S1243 1 . 1 0 `S1245 1 . 8 0 `S1253 1 . 8 0 `S1262 1 . 8 0 `S1271 1 . 8 0 `S1280 1 . 8 0 `S1289 1 . 8 0 ]
-[v _SetupPkt SetupPkt `VES1300  1 e 8 @64 ]
+[u S1473 . 8 `S1365 1 . 8 0 `S1392 1 . 8 0 `S1398 1 . 8 0 `S1416 1 . 1 0 `S1418 1 . 8 0 `S1426 1 . 8 0 `S1435 1 . 8 0 `S1444 1 . 8 0 `S1453 1 . 8 0 `S1462 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES1473  1 e 8 @64 ]
 "175
 [v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @72 ]
 "24 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
 [v _ReceivedDataBuffer ReceivedDataBuffer `[64]uc  1 s 64 ReceivedDataBuffer ]
-[s S254 . 4 `uc 1 CIN 1 0 :4:0 
+[s S252 . 4 `uc 1 CIN 1 0 :4:0 
 `uc 1 CN 1 0 :4:4 
 `uc 1 MIDI_0 1 1 `uc 1 MIDI_1 1 2 `uc 1 MIDI_2 1 3 ]
 "25
-[s S260 . 4 `uc 1 CodeIndexNumber 1 0 :4:0 
+[s S258 . 4 `uc 1 CodeIndexNumber 1 0 :4:0 
 `uc 1 CableNumber 1 0 :4:4 
 `uc 1 DATA_0 1 1 `uc 1 DATA_1 1 2 `uc 1 DATA_2 1 3 ]
-[u S266 . 4 `S254 1 . 4 0 `S260 1 . 4 0 ]
-[u S269 . 4 `ul 1 Val 4 0 `[4]uc 1 v 4 0 `S266 1 . 4 0 ]
-[v _midiData midiData `S269  1 s 4 midiData ]
+[u S264 . 4 `S252 1 . 4 0 `S258 1 . 4 0 ]
+[u S267 . 4 `ul 1 Val 4 0 `[4]uc 1 v 4 0 `S264 1 . 4 0 ]
+[v _midiData midiData `S267  1 s 4 midiData ]
 "32
-[v _USBTxHandle USBTxHandle `*.1v  1 s 1 USBTxHandle ]
+[v _USBTxHandle USBTxHandle `*.4v  1 s 1 USBTxHandle ]
 "33
-[v _USBRxHandle USBRxHandle `*.1v  1 s 1 USBRxHandle ]
+[v _USBRxHandle USBRxHandle `*.4v  1 s 1 USBRxHandle ]
 "35
 [v _pitch pitch `uc  1 s 1 pitch ]
 "36
@@ -537,28 +628,28 @@ EVENT_TRANSFER_TERMINATED 5
 [v _adc_levels adc_levels `[39]uc  1 s 39 adc_levels ]
 "16
 [v _is_initialized is_initialized `uc  1 s 1 is_initialized ]
-[s S461 . 2 `uc 1 pitch 1 0 `uc 1 velocity 1 1 ]
+[s S454 . 2 `uc 1 pitch 1 0 `uc 1 velocity 1 1 ]
 "23
-[v _note_event note_event `S461  1 s 2 note_event ]
-[s S191 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+[v _note_event note_event `S454  1 s 2 note_event ]
+[s S189 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
 "153 F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c
-[v _device_dsc device_dsc `DCCS191  1 e 18 0 ]
+[v _device_dsc device_dsc `DCCS189  1 e 18 0 ]
 "173
 [v _configDescriptor1 configDescriptor1 `DCC[101]uc  1 e 101 0 ]
-[s S206 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+[s S204 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
 "297
-[v _sd000 sd000 `DCCS206  1 e 4 0 ]
-[s S210 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+[v _sd000 sd000 `DCCS204  1 e 4 0 ]
+[s S208 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
 "302
-[v _sd001 sd001 `DCCS210  1 e 52 0 ]
-[s S214 . 26 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[12]ui 1 string 24 2 ]
+[v _sd001 sd001 `DCCS208  1 e 52 0 ]
+[s S212 . 26 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[12]ui 1 string 24 2 ]
 "309
-[v _sd002 sd002 `DCCS214  1 e 26 0 ]
+[v _sd002 sd002 `DCCS212  1 e 26 0 ]
 "314
 [v _USB_CD_Ptr USB_CD_Ptr `DCC[1]*.25DCCuc  1 e 2 0 ]
 "320
 [v _USB_SD_Ptr USB_SD_Ptr `DCC[3]*.25DCCuc  1 e 6 0 ]
-[s S697 . 1 `uc 1 IOCIF 1 0 :1:0 
+[s S690 . 1 `uc 1 IOCIF 1 0 :1:0 
 `uc 1 INTF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 IOCIE 1 0 :1:3 
@@ -567,64 +658,34 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-"360 C:\Program Files (x86)\Microchip\xc8\v1.35\include\pic16f1459.h
-[s S706 . 1 `uc 1 . 1 0 :2:0 
+"355 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+[s S699 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 T0IE 1 0 :1:5 
 ]
-[u S711 . 1 `S697 1 . 1 0 `S706 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES711  1 e 1 @11 ]
-[s S880 . 1 `uc 1 RA0 1 0 :1:0 
+[u S704 . 1 `S690 1 . 1 0 `S699 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES704  1 e 1 @11 ]
+[s S1064 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
 `uc 1 RA4 1 0 :1:4 
 `uc 1 RA5 1 0 :1:5 
 ]
-"429
-[u S887 . 1 `S880 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES887  1 e 1 @12 ]
-[s S2242 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 RB4 1 0 :1:4 
-`uc 1 RB5 1 0 :1:5 
-`uc 1 RB6 1 0 :1:6 
-`uc 1 RB7 1 0 :1:7 
+"424
+[u S1071 . 1 `S1064 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES1071  1 e 1 @12 ]
+[s S875 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
 ]
-"472
-[u S2248 . 1 `S2242 1 . 1 0 ]
-[v _PORTBbits PORTBbits `VES2248  1 e 1 @13 ]
-[s S1371 . 1 `uc 1 . 1 0 :1:0 
-`uc 1 ACTIF 1 0 :1:1 
-`uc 1 USBIF 1 0 :1:2 
-`uc 1 BCL1IF 1 0 :1:3 
-`uc 1 . 1 0 :1:4 
-`uc 1 C1IF 1 0 :1:5 
-`uc 1 C2IF 1 0 :1:6 
-`uc 1 OSFIF 1 0 :1:7 
-]
-"630
-[u S1380 . 1 `S1371 1 . 1 0 ]
-[v _PIR2bits PIR2bits `VES1380  1 e 1 @18 ]
-"664
-[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
-[s S550 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 TRISA4 1 0 :1:4 
-`uc 1 TRISA5 1 0 :1:5 
-]
-"987
-[u S554 . 1 `S550 1 . 1 0 ]
-[v _TRISAbits TRISAbits `VES554  1 e 1 @140 ]
-[s S936 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 TRISB4 1 0 :1:4 
-`uc 1 TRISB5 1 0 :1:5 
-`uc 1 TRISB6 1 0 :1:6 
-`uc 1 TRISB7 1 0 :1:7 
-]
-"1015
-[u S942 . 1 `S936 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES942  1 e 1 @141 ]
-[s S464 . 1 `uc 1 TRISC0 1 0 :1:0 
+"467
+[u S881 . 1 `S875 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES881  1 e 1 @13 ]
+[s S457 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 TRISC3 1 0 :1:3 
@@ -633,64 +694,57 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 TRISC6 1 0 :1:6 
 `uc 1 TRISC7 1 0 :1:7 
 ]
-"1056
-[u S473 . 1 `S464 1 . 1 0 ]
-[v _TRISCbits TRISCbits `VES473  1 e 1 @142 ]
-[s S561 . 1 `uc 1 TMR1IE 1 0 :1:0 
-`uc 1 TMR2IE 1 0 :1:1 
-`uc 1 . 1 0 :1:2 
-`uc 1 SSP1IE 1 0 :1:3 
-`uc 1 TXIE 1 0 :1:4 
-`uc 1 RCIE 1 0 :1:5 
-`uc 1 ADIE 1 0 :1:6 
-`uc 1 TMR1GIE 1 0 :1:7 
+"625
+[u S466 . 1 `S457 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES466  1 e 1 @18 ]
+"659
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+[s S543 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
 ]
-"1117
-[u S570 . 1 `S561 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES570  1 e 1 @145 ]
-[s S1311 . 1 `uc 1 . 1 0 :1:0 
-`uc 1 ACTIE 1 0 :1:1 
-`uc 1 USBIE 1 0 :1:2 
-`uc 1 BCL1IE 1 0 :1:3 
-`uc 1 . 1 0 :1:4 
-`uc 1 C1IE 1 0 :1:5 
-`uc 1 C2IE 1 0 :1:6 
-`uc 1 OSFIE 1 0 :1:7 
-]
-"1173
-[u S1320 . 1 `S1311 1 . 1 0 ]
-[v _PIE2bits PIE2bits `VES1320  1 e 1 @146 ]
-[s S665 . 1 `uc 1 PS 1 0 :3:0 
+"982
+[u S547 . 1 `S543 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES547  1 e 1 @140 ]
+"1010
+[v _TRISBbits TRISBbits `VES881  1 e 1 @141 ]
+"1051
+[v _TRISCbits TRISCbits `VES466  1 e 1 @142 ]
+"1112
+[v _PIE1bits PIE1bits `VES466  1 e 1 @145 ]
+"1168
+[v _PIE2bits PIE2bits `VES466  1 e 1 @146 ]
+[s S658 . 1 `uc 1 PS 1 0 :3:0 
 `uc 1 PSA 1 0 :1:3 
 `uc 1 TMR0SE 1 0 :1:4 
 `uc 1 TMR0CS 1 0 :1:5 
 `uc 1 INTEDG 1 0 :1:6 
 `uc 1 nWPUEN 1 0 :1:7 
 ]
-"1230
-[s S672 . 1 `uc 1 PS0 1 0 :1:0 
+"1225
+[s S665 . 1 `uc 1 PS0 1 0 :1:0 
 `uc 1 PS1 1 0 :1:1 
 `uc 1 PS2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T0SE 1 0 :1:4 
 `uc 1 T0CS 1 0 :1:5 
 ]
-[u S679 . 1 `S665 1 . 1 0 `S672 1 . 1 0 ]
-[v _OPTION_REGbits OPTION_REGbits `VES679  1 e 1 @149 ]
-"1466
+[u S672 . 1 `S658 1 . 1 0 `S665 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES672  1 e 1 @149 ]
+"1461
 [v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
-"1597
+"1592
 [v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
-"1616
+"1611
 [v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
-"1635
+"1630
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
-[s S582 . 1 `uc 1 ADON 1 0 :1:0 
+[s S575 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :5:2 
 ]
-"1660
-[s S586 . 1 `uc 1 . 1 0 :1:0 
+"1655
+[s S579 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 ADGO 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
@@ -698,83 +752,66 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 CHS3 1 0 :1:5 
 `uc 1 CHS4 1 0 :1:6 
 ]
-[s S594 . 1 `uc 1 . 1 0 :1:0 
+[s S587 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 ]
-[u S597 . 1 `S582 1 . 1 0 `S586 1 . 1 0 `S594 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES597  1 e 1 @157 ]
-"1714
+[u S590 . 1 `S575 1 . 1 0 `S579 1 . 1 0 `S587 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES590  1 e 1 @157 ]
+"1709
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
-[s S617 . 1 `uc 1 ADPREF 1 0 :2:0 
+[s S610 . 1 `uc 1 ADPREF 1 0 :2:0 
 `uc 1 . 1 0 :2:2 
 `uc 1 ADCS 1 0 :3:4 
 `uc 1 ADFM 1 0 :1:7 
 ]
-"1735
-[s S622 . 1 `uc 1 ADPREF0 1 0 :1:0 
+"1730
+[s S615 . 1 `uc 1 ADPREF0 1 0 :1:0 
 `uc 1 ADPREF1 1 0 :1:1 
 `uc 1 . 1 0 :2:2 
 `uc 1 ADCS0 1 0 :1:4 
 `uc 1 ADCS1 1 0 :1:5 
 `uc 1 ADCS2 1 0 :1:6 
 ]
-[u S629 . 1 `S617 1 . 1 0 `S622 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES629  1 e 1 @158 ]
-"1779
+[u S622 . 1 `S610 1 . 1 0 `S615 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES622  1 e 1 @158 ]
+"1774
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
-[s S645 . 1 `uc 1 . 1 0 :4:0 
+[s S638 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TRIGSEL 1 0 :3:4 
 ]
-"1796
-[s S648 . 1 `uc 1 . 1 0 :4:0 
+"1791
+[s S641 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TRIGSEL0 1 0 :1:4 
 `uc 1 TRIGSEL1 1 0 :1:5 
 `uc 1 TRIGSEL2 1 0 :1:6 
 ]
-[u S653 . 1 `S645 1 . 1 0 `S648 1 . 1 0 ]
-[v _ADCON2bits ADCON2bits `VES653  1 e 1 @159 ]
-[s S2227 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 LATB4 1 0 :1:4 
-`uc 1 LATB5 1 0 :1:5 
-`uc 1 LATB6 1 0 :1:6 
-`uc 1 LATB7 1 0 :1:7 
-]
-"1860
-[u S2233 . 1 `S2227 1 . 1 0 ]
-[v _LATBbits LATBbits `VES2233  1 e 1 @269 ]
-[s S515 . 1 `uc 1 LATC0 1 0 :1:0 
-`uc 1 LATC1 1 0 :1:1 
-`uc 1 LATC2 1 0 :1:2 
-`uc 1 LATC3 1 0 :1:3 
-`uc 1 LATC4 1 0 :1:4 
-`uc 1 LATC5 1 0 :1:5 
-`uc 1 LATC6 1 0 :1:6 
-`uc 1 LATC7 1 0 :1:7 
-]
-"1901
-[u S524 . 1 `S515 1 . 1 0 ]
-[v _LATCbits LATCbits `VES524  1 e 1 @270 ]
-"2460
+[u S646 . 1 `S638 1 . 1 0 `S641 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES646  1 e 1 @159 ]
+"1855
+[v _LATBbits LATBbits `VES881  1 e 1 @269 ]
+"1896
+[v _LATCbits LATCbits `VES466  1 e 1 @270 ]
+"2455
 [v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
-[s S536 . 1 `uc 1 . 1 0 :4:0 
+[s S529 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 ANSA4 1 0 :1:4 
 ]
-"2474
-[s S539 . 1 `uc 1 ANSELA 1 0 :6:0 
+"2469
+[s S532 . 1 `uc 1 ANSELA 1 0 :6:0 
 ]
-[u S541 . 1 `S536 1 . 1 0 `S539 1 . 1 0 ]
-[v _ANSELAbits ANSELAbits `VES541  1 e 1 @396 ]
-[s S951 . 1 `uc 1 . 1 0 :4:0 
+[u S534 . 1 `S529 1 . 1 0 `S532 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES534  1 e 1 @396 ]
+[s S1129 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 ANSB4 1 0 :1:4 
 `uc 1 ANSB5 1 0 :1:5 
 ]
-"2504
-[s S955 . 1 `uc 1 . 1 0 :4:0 
+"2499
+[s S1133 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 ANSB 1 0 :4:4 
 ]
-[u S958 . 1 `S951 1 . 1 0 `S955 1 . 1 0 ]
-[v _ANSELBbits ANSELBbits `VES958  1 e 1 @397 ]
-[s S491 . 1 `uc 1 ANSC0 1 0 :1:0 
+[u S1136 . 1 `S1129 1 . 1 0 `S1133 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES1136  1 e 1 @397 ]
+[s S484 . 1 `uc 1 ANSC0 1 0 :1:0 
 `uc 1 ANSC1 1 0 :1:1 
 `uc 1 ANSC2 1 0 :1:2 
 `uc 1 ANSC3 1 0 :1:3 
@@ -782,52 +819,32 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 ANSC6 1 0 :1:6 
 `uc 1 ANSC7 1 0 :1:7 
 ]
-"2542
-[s S499 . 1 `uc 1 ANSELC 1 0 :8:0 
+"2537
+[s S492 . 1 `uc 1 ANSELC 1 0 :8:0 
 ]
-[u S501 . 1 `S491 1 . 1 0 `S499 1 . 1 0 ]
-[v _ANSELCbits ANSELCbits `VES501  1 e 1 @398 ]
-"2776
+[u S494 . 1 `S484 1 . 1 0 `S492 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES494  1 e 1 @398 ]
+"2771
 [v _RCREG RCREG `VEuc  1 e 1 @409 ]
-"2795
+"2790
 [v _TXREG TXREG `VEuc  1 e 1 @410 ]
-"2858
+"2847
 [v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
-[s S1057 . 1 `uc 1 RX9D 1 0 :1:0 
-`uc 1 OERR 1 0 :1:1 
-`uc 1 FERR 1 0 :1:2 
-`uc 1 ADDEN 1 0 :1:3 
-`uc 1 CREN 1 0 :1:4 
-`uc 1 SREN 1 0 :1:5 
-`uc 1 RX9 1 0 :1:6 
-`uc 1 SPEN 1 0 :1:7 
-]
-"2875
-[u S1066 . 1 `S1057 1 . 1 0 ]
-[v _RCSTAbits RCSTAbits `VES1066  1 e 1 @413 ]
-"2919
+"2864
+[v _RCSTAbits RCSTAbits `VES466  1 e 1 @413 ]
+"2908
 [v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
-"2980
+"2969
 [v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
-"3123
+"3112
 [v _SSPBUF SSPBUF `VEuc  1 e 1 @529 ]
-"3229
+"3218
 [v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
-[s S2357 . 1 `uc 1 BF 1 0 :1:0 
-`uc 1 UA 1 0 :1:1 
-`uc 1 R_nW 1 0 :1:2 
-`uc 1 S 1 0 :1:3 
-`uc 1 P 1 0 :1:4 
-`uc 1 D_nA 1 0 :1:5 
-`uc 1 CKE 1 0 :1:6 
-`uc 1 SMP 1 0 :1:7 
-]
-"3251
-[u S2366 . 1 `S2357 1 . 1 0 ]
-[v _SSP1STATbits SSP1STATbits `VES2366  1 e 1 @532 ]
-"3350
+"3240
+[v _SSP1STATbits SSP1STATbits `VES466  1 e 1 @532 ]
+"3339
 [v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
-[s S2325 . 1 `uc 1 SSP1M0 1 0 :1:0 
+[s S977 . 1 `uc 1 SSP1M0 1 0 :1:0 
 `uc 1 SSP1M1 1 0 :1:1 
 `uc 1 SSP1M2 1 0 :1:2 
 `uc 1 SSP1M3 1 0 :1:3 
@@ -836,19 +853,19 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 SSPOV 1 0 :1:6 
 `uc 1 WCOL 1 0 :1:7 
 ]
-"3382
-[s S2334 . 1 `uc 1 SSPM 1 0 :4:0 
+"3371
+[s S986 . 1 `uc 1 SSPM 1 0 :4:0 
 `uc 1 . 1 0 :1:4 
 `uc 1 SSP1EN 1 0 :1:5 
 `uc 1 SSP1OV 1 0 :1:6 
 ]
-[u S2339 . 1 `S2325 1 . 1 0 `S2334 1 . 1 0 ]
-[v _SSP1CON1bits SSP1CON1bits `VES2339  1 e 1 @533 ]
-"3713
+[u S991 . 1 `S977 1 . 1 0 `S986 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES991  1 e 1 @533 ]
+"3702
 [v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
-"4206
+"4195
 [v _ACTCON ACTCON `VEuc  1 e 1 @923 ]
-"4897
+"4886
 [v _UCON UCON `VEuc  1 e 1 @3726 ]
 [s S40 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 SUSPND 1 0 :1:1 
@@ -858,195 +875,96 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 SE0 1 0 :1:5 
 `uc 1 PPBRST 1 0 :1:6 
 ]
-"4913
+"4902
 [u S48 . 1 `S40 1 . 1 0 ]
 [v _UCONbits UCONbits `VES48  1 e 1 @3726 ]
-"4947
+"4936
 [v _USTAT USTAT `VEuc  1 e 1 @3727 ]
-"5006
+"4995
 [v _UIR UIR `VEuc  1 e 1 @3728 ]
-[s S1351 . 1 `uc 1 URSTIF 1 0 :1:0 
-`uc 1 UERRIF 1 0 :1:1 
-`uc 1 ACTVIF 1 0 :1:2 
-`uc 1 TRNIF 1 0 :1:3 
-`uc 1 IDLEIF 1 0 :1:4 
-`uc 1 STALLIF 1 0 :1:5 
-`uc 1 SOFIF 1 0 :1:6 
-]
-"5022
-[u S1359 . 1 `S1351 1 . 1 0 ]
-[v _UIRbits UIRbits `VES1359  1 e 1 @3728 ]
-"5061
+"5011
+[v _UIRbits UIRbits `VES48  1 e 1 @3728 ]
+"5050
 [v _UCFG UCFG `VEuc  1 e 1 @3729 ]
-"5114
+"5103
 [v _UIE UIE `VEuc  1 e 1 @3730 ]
-[s S1392 . 1 `uc 1 URSTIE 1 0 :1:0 
-`uc 1 UERRIE 1 0 :1:1 
-`uc 1 ACTVIE 1 0 :1:2 
-`uc 1 TRNIE 1 0 :1:3 
-`uc 1 IDLEIE 1 0 :1:4 
-`uc 1 STALLIE 1 0 :1:5 
-`uc 1 SOFIE 1 0 :1:6 
-]
-"5130
-[u S1400 . 1 `S1392 1 . 1 0 ]
-[v _UIEbits UIEbits `VES1400  1 e 1 @3730 ]
-"5169
+"5119
+[v _UIEbits UIEbits `VES48  1 e 1 @3730 ]
+"5158
 [v _UEIR UEIR `VEuc  1 e 1 @3731 ]
-"5317
+"5306
 [v _UADDR UADDR `VEuc  1 e 1 @3734 ]
-"5372
+"5361
 [v _UEIE UEIE `VEuc  1 e 1 @3735 ]
-"5422
+"5411
 [v _UEP0 UEP0 `VEuc  1 e 1 @3736 ]
-[s S1527 . 1 `uc 1 EPSTALL 1 0 :1:0 
+[s S1700 . 1 `uc 1 EPSTALL 1 0 :1:0 
 `uc 1 EPINEN 1 0 :1:1 
 `uc 1 EPOUTEN 1 0 :1:2 
 `uc 1 EPCONDIS 1 0 :1:3 
 `uc 1 EPHSHK 1 0 :1:4 
 ]
-"5436
-[u S1533 . 1 `S1527 1 . 1 0 ]
-[v _UEP0bits UEP0bits `VES1533  1 e 1 @3736 ]
-"5465
+"5425
+[u S1706 . 1 `S1700 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES1706  1 e 1 @3736 ]
+"5454
 [v _UEP1 UEP1 `VEuc  1 e 1 @3737 ]
-"34 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
+"35 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
 [v _main main `(v  1 e 0 0 ]
 {
-"89
+"91
 } 0
-"496 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+"497 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
 [v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
 {
 "498
-[v USBDeviceTasks@i i `uc  1 a 1 24 ]
+[v USBDeviceTasks@i i `uc  1 a 1 13 ]
 "846
 } 0
-"2322
-[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
-{
-"2368
-} 0
-"2264
-[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
-{
-"2305
-} 0
-"2221
-[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
-{
-"2246
-} 0
-"3050
-[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
-{
-"3068
-} 0
-"300
-[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
-{
-"315
-[v USBDeviceInit@p p `*.39uc  1 a 2 2 ]
-[v USBDeviceInit@i_1708 i `uc  1 a 1 4 ]
-"302
-[v USBDeviceInit@i i `uc  1 a 1 5 ]
-"390
-} 0
-"2391
+"2392
 [v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
 {
 "2420
-[v USBCtrlEPService@setup_cnt setup_cnt `uc  1 a 1 21 ]
+[v USBCtrlEPService@setup_cnt setup_cnt `uc  1 a 1 11 ]
 "2449
 } 0
-"2491
+"2618
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+{
+"2619
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 3 ]
+"2692
+} 0
+"2564
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+{
+"2592
+} 0
+"1872
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+{
+"1873
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 5 ]
+"1874
+[v USBCtrlTrfRxService@i i `uc  1 a 1 4 ]
+"1966
+} 0
+"2492
 [v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
 {
 "2540
 } 0
-"1635
-[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
-{
-"1767
-} 0
-"1507
-[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
-{
-"1537
-} 0
-"2711
+"2712
 [v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
 {
 "2758
 } 0
-"1987
-[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
-{
-"1995
-[v USBStdSetCfgHandler@p p `*.39uc  1 a 2 10 ]
-[v USBStdSetCfgHandler@i_2039 i `uc  1 a 1 12 ]
-"1989
-[v USBStdSetCfgHandler@i i `uc  1 a 1 13 ]
-"2043
-} 0
-"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c
-[v _memset memset `(*.4v  1 e 1 0 ]
-{
-[v memset@p1 p1 `*.4v  1 a 1 wreg ]
-"15
-[v memset@p p `*.4uc  1 a 1 6 ]
-"8
-[v memset@p1 p1 `*.4v  1 a 1 wreg ]
-[v memset@c c `i  1 p 2 1 ]
-[v memset@n n `ui  1 p 2 3 ]
-"18
-[v memset@p1 p1 `*.4v  1 a 1 7 ]
-"22
-} 0
-"2148 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
-[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
-{
-[s S307 . 1 `uc 1 BC8 1 0 :1:0 
-`uc 1 BC9 1 0 :1:1 
-`uc 1 BSTALL 1 0 :1:2 
-`uc 1 DTSEN 1 0 :1:3 
-`uc 1 INCDIS 1 0 :1:4 
-`uc 1 KEN 1 0 :1:5 
-`uc 1 DTS 1 0 :1:6 
-`uc 1 UOWN 1 0 :1:7 
-]
-"2180
-[s S316 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 PID0 1 0 :1:2 
-`uc 1 PID1 1 0 :1:3 
-`uc 1 PID2 1 0 :1:4 
-`uc 1 PID3 1 0 :1:5 
-`uc 1 . 1 0 :1:6 
-]
-[s S323 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 PID 1 0 :4:2 
-`uc 1 . 1 0 :2:6 
-]
-[u S327 _BD_STAT 1 `uc 1 Val 1 0 `S307 1 . 1 0 `S316 1 . 1 0 `S323 1 . 1 0 ]
-[s S332 . 4 `S327 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
-[s S337 . 4 `uc 1 filler1 1 0 :8:0 
-`uc 1 filler2 1 1 :8:0 
-`ui 1 ADR 2 2 ]
-[u S341 __BDT 4 `S332 1 . 4 0 `S337 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
-[v USBStdGetStatusHandler@p p `*.1S341  1 a 1 2 ]
-"2203
-} 0
-"2062
-[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
-{
-"2131
-} 0
-"2779
+"2780
 [v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
 {
 "2786
-[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 12 ]
-[s S307 . 1 `uc 1 BC8 1 0 :1:0 
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 5 ]
+[s S311 . 1 `uc 1 BC8 1 0 :1:0 
 `uc 1 BC9 1 0 :1:1 
 `uc 1 BSTALL 1 0 :1:2 
 `uc 1 DTSEN 1 0 :1:3 
@@ -1056,75 +974,163 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 UOWN 1 0 :1:7 
 ]
 "2781
-[s S316 . 1 `uc 1 . 1 0 :2:0 
+[s S320 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PID0 1 0 :1:2 
 `uc 1 PID1 1 0 :1:3 
 `uc 1 PID2 1 0 :1:4 
 `uc 1 PID3 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 ]
-[s S323 . 1 `uc 1 . 1 0 :2:0 
+[s S327 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PID 1 0 :4:2 
 `uc 1 . 1 0 :2:6 
 ]
-[u S327 _BD_STAT 1 `uc 1 Val 1 0 `S307 1 . 1 0 `S316 1 . 1 0 `S323 1 . 1 0 ]
-[s S332 . 4 `S327 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
-[s S337 . 4 `uc 1 filler1 1 0 :8:0 
+[u S331 _BD_STAT 1 `uc 1 Val 1 0 `S311 1 . 1 0 `S320 1 . 1 0 `S327 1 . 1 0 ]
+[s S336 . 4 `S331 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S341 . 4 `uc 1 filler1 1 0 :8:0 
 `uc 1 filler2 1 1 :8:0 
 `ui 1 ADR 2 2 ]
-[u S341 __BDT 4 `S332 1 . 4 0 `S337 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
-[v USBStdFeatureReqHandler@p p `*.1S341  1 a 1 15 ]
-[s S1186 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+[u S345 __BDT 4 `S336 1 . 4 0 `S341 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.4S345  1 a 1 8 ]
+[s S1359 . 1 `uc 1 ping_pong_state 1 0 :1:0 
 `uc 1 transfer_terminated 1 0 :1:1 
 ]
 "2782
-[u S1189 . 1 `S1186 1 bits 1 0 `uc 1 Val 1 0 ]
-[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S1189  1 a 1 14 ]
+[u S1362 . 1 `S1359 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S1362  1 a 1 7 ]
 "3005
 } 0
-"92 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
+"2149
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+{
+[s S311 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2180
+[s S320 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S327 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S331 _BD_STAT 1 `uc 1 Val 1 0 `S311 1 . 1 0 `S320 1 . 1 0 `S327 1 . 1 0 ]
+[s S336 . 4 `S331 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S341 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S345 __BDT 4 `S336 1 . 4 0 `S341 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.4S345  1 a 1 0 ]
+"2203
+} 0
+"2063
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+{
+"2131
+} 0
+"1988
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+{
+"1995
+[v USBStdSetCfgHandler@p p `*.39uc  1 a 2 10 ]
+[v USBStdSetCfgHandler@i_2209 i `uc  1 a 1 12 ]
+"1989
+[v USBStdSetCfgHandler@i i `uc  1 a 1 13 ]
+"2043
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+{
+[v memset@p1 p1 `*.4v  1 a 1 4 ]
+"15
+[v memset@p p `*.4uc  1 a 1 5 ]
+"10
+[v memset@p1 p1 `*.4v  1 a 1 4 ]
+[v memset@c c `i  1 p 2 0 ]
+[v memset@n n `ui  1 p 2 2 ]
+"22
+} 0
+"1636 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+{
+"1767
+} 0
+"1508
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+{
+"1537
+} 0
+"1791
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+{
+"1792
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
+"1844
+} 0
+"1436
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+{
+"1478
+} 0
+"2222
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+{
+"2246
+} 0
+"3051
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
+{
+"3068
+} 0
+"2265
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+{
+"2305
+} 0
+"2323
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+{
+"2368
+} 0
+"95 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
 [v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
 {
-[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E2694  1 p 2 5 ]
-[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.1v  1 p 1 7 ]
-[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 8 ]
-"138
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E2684  1 p 2 0 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.4v  1 p 1 2 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 3 ]
+"140
 } 0
-"23 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
-[v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
-{
-"25
-[v APP_LEDUpdateUSBStatus@ledCount ledCount `ui  1 s 2 ledCount ]
-"72
-} 0
-"54 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
-[v _APP_DeviceAudioMIDISOFHandler APP_DeviceAudioMIDISOFHandler `(v  1 e 0 0 ]
-{
-"56
-} 0
-"41
+"42 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
 [v _APP_DeviceAudioMIDIInitialize APP_DeviceAudioMIDIInitialize `(v  1 e 0 0 ]
 {
 "52
 } 0
-"897 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+"898 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
 [v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
 {
-[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@ep ep `uc  1 a 1 9 ]
 "899
-[v USBEnableEndpoint@p p `*.39uc  1 a 2 0 ]
-"897
-[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
-[v USBEnableEndpoint@options options `uc  1 p 1 8 ]
-"903
-[v USBEnableEndpoint@ep ep `uc  1 a 1 2 ]
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 7 ]
+"898
+[v USBEnableEndpoint@ep ep `uc  1 a 1 9 ]
+[v USBEnableEndpoint@options options `uc  1 p 1 4 ]
 "921
 } 0
-"1562
+"1563
 [v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
 {
-[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
-[s S307 . 1 `uc 1 BC8 1 0 :1:0 
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 2 ]
+[s S311 . 1 `uc 1 BC8 1 0 :1:0 
 `uc 1 BC9 1 0 :1:1 
 `uc 1 BSTALL 1 0 :1:2 
 `uc 1 DTSEN 1 0 :1:3 
@@ -1134,84 +1140,214 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 UOWN 1 0 :1:7 
 ]
 "1564
-[s S316 . 1 `uc 1 . 1 0 :2:0 
+[s S320 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PID0 1 0 :1:2 
 `uc 1 PID1 1 0 :1:3 
 `uc 1 PID2 1 0 :1:4 
 `uc 1 PID3 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 ]
-[s S323 . 1 `uc 1 . 1 0 :2:0 
+[s S327 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PID 1 0 :4:2 
 `uc 1 . 1 0 :2:6 
 ]
-[u S327 _BD_STAT 1 `uc 1 Val 1 0 `S307 1 . 1 0 `S316 1 . 1 0 `S323 1 . 1 0 ]
-[s S332 . 4 `S327 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
-[s S337 . 4 `uc 1 filler1 1 0 :8:0 
+[u S331 _BD_STAT 1 `uc 1 Val 1 0 `S311 1 . 1 0 `S320 1 . 1 0 `S327 1 . 1 0 ]
+[s S336 . 4 `S331 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S341 . 4 `uc 1 filler1 1 0 :8:0 
 `uc 1 filler2 1 1 :8:0 
 `ui 1 ADR 2 2 ]
-[u S341 __BDT 4 `S332 1 . 4 0 `S337 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
-[v USBConfigureEndpoint@handle handle `*.4VES341  1 a 1 7 ]
-"1562
-[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
-[v USBConfigureEndpoint@direction direction `uc  1 p 1 1 ]
-"1568
-[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 6 ]
+[u S345 __BDT 4 `S336 1 . 4 0 `S341 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.4VES345  1 a 1 3 ]
+"1563
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 2 ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
 "1604
 } 0
-"2563
-[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+"54 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+[v _APP_DeviceAudioMIDISOFHandler APP_DeviceAudioMIDISOFHandler `(v  1 e 0 0 ]
 {
-"2592
+"56
 } 0
-"1871
-[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+"24 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
+[v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
 {
-"1873
-[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 6 ]
-"1874
-[v USBCtrlTrfRxService@i i `uc  1 a 1 5 ]
-"1966
+"25
+[v APP_LEDUpdateUSBStatus@ledCount ledCount `ui  1 s 2 ledCount ]
+"72
 } 0
-"1435
-[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+"301 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
 {
-"1478
+"315
+[v USBDeviceInit@p p `*.39uc  1 a 2 2 ]
+[v USBDeviceInit@i_1881 i `uc  1 a 1 4 ]
+"302
+[v USBDeviceInit@i i `uc  1 a 1 5 ]
+"390
 } 0
-"2617
-[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+"59 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+[v _APP_DeviceAudioMIDITasks APP_DeviceAudioMIDITasks `(v  1 e 0 0 ]
 {
-"2619
-[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 6 ]
-"2692
+"75
+[v APP_DeviceAudioMIDITasks@velocity velocity `uc  1 a 1 14 ]
+[v APP_DeviceAudioMIDITasks@scan_pitch scan_pitch `uc  1 a 1 13 ]
+"145
 } 0
-"1790
-[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+"212 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
+[v _scan_task scan_task `(uc  1 e 1 0 ]
 {
-"1792
-[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 3 ]
-"1844
+[v scan_task@note note `*.4uc  1 a 1 6 ]
+[v scan_task@note note `*.4uc  1 a 1 6 ]
+[v scan_task@velocity velocity `*.4uc  1 p 1 1 ]
+"213
+[v scan_task@state state `uc  1 s 1 state ]
+"261
 } 0
-"86 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
-[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+"194
+[v _store_key_level store_key_level `T(uc  1 e 1 0 ]
 {
-[v SYSTEM_Initialize@state state `E2644  1 a 1 wreg ]
-[v SYSTEM_Initialize@state state `E2644  1 a 1 wreg ]
-[v SYSTEM_Initialize@state state `E2644  1 a 1 2 ]
-"108
+[v store_key_level@level level `uc  1 a 1 0 ]
+[v store_key_level@level level `uc  1 a 1 0 ]
+[v store_key_level@end_of_scan end_of_scan `uc  1 p 1 13 ]
+"195
+[v store_key_level@idx_key idx_key `uc  1 s 1 idx_key ]
+"201
 } 0
-"220 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
-[v _LED_Enable LED_Enable `(v  1 e 0 0 ]
+"145
+[v _process_level process_level `T(v  1 e 0 0 ]
 {
-[v LED_Enable@led led `E2  1 a 1 wreg ]
-[v LED_Enable@led led `E2  1 a 1 wreg ]
-[v LED_Enable@led led `E2  1 a 1 1 ]
-"243
+[v process_level@idx_key idx_key `uc  1 a 1 12 ]
+"181
+[v process_level@filtered_state filtered_state `uc  1 a 1 11 ]
+"179
+[v process_level@on_flag on_flag `uc  1 a 1 10 ]
+"180
+[v process_level@off_flag off_flag `uc  1 a 1 6 ]
+"163
+[v process_level@current_state current_state `i  1 a 2 4 ]
+"145
+[v process_level@idx_key idx_key `uc  1 a 1 12 ]
+[v process_level@old_level old_level `DCCuc  1 p 1 1 ]
+[v process_level@new_level new_level `DCCuc  1 p 1 2 ]
+"147
+[v process_level@idx_midi_map idx_midi_map `DCC[39]uc  1 s 39 idx_midi_map ]
+"153
+[v process_level@key_states key_states `[39]uc  1 s 39 key_states ]
+"159
+[v process_level@key_off_counter key_off_counter `[39]uc  1 s 39 key_off_counter ]
+"160
+[v process_level@key_on_counter key_on_counter `[39]uc  1 s 39 key_on_counter ]
+"191
 } 0
-"113 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
-[v _BLEDeviceInt BLEDeviceInt `(v  1 e 0 0 ]
+"60 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+[v _LED_On LED_On `(v  1 e 0 0 ]
 {
-"118
+[v LED_On@led led `E2  1 a 1 0 ]
+[v LED_On@led led `E2  1 a 1 0 ]
+"82
+} 0
+"101
+[v _LED_Off LED_Off `(v  1 e 0 0 ]
+{
+[v LED_Off@led led `E2  1 a 1 0 ]
+[v LED_Off@led led `E2  1 a 1 0 ]
+"123
+} 0
+"94 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
+[v _get_adc get_adc `T(uc  1 e 1 0 ]
+{
+"96
+} 0
+"90
+[v _is_adc_ready is_adc_ready `T(uc  1 e 1 0 ]
+{
+"92
+} 0
+"85
+[v _run_adc run_adc `T(v  1 e 0 0 ]
+{
+"88
+} 0
+"77
+[v _is_end_of_scan is_end_of_scan `T(uc  1 e 1 0 ]
+{
+"80
+[v is_end_of_scan@res res `uc  1 a 1 0 ]
+"79
+[v is_end_of_scan@scan_counter scan_counter `uc  1 s 1 scan_counter ]
+"83
+} 0
+"73
+[v _get_data get_data `T(uc  1 e 1 0 ]
+{
+"75
+} 0
+"68
+[v _set_clock_and_data set_clock_and_data `T(v  1 e 0 0 ]
+{
+[v set_clock_and_data@c c `DCCuc  1 a 1 2 ]
+[v set_clock_and_data@c c `DCCuc  1 a 1 2 ]
+[v set_clock_and_data@d d `DCCuc  1 p 1 0 ]
+"71
+} 0
+"64
+[v _waiting_for_timer waiting_for_timer `T(uc  1 e 1 0 ]
+{
+"66
+} 0
+"55
+[v _set_timer set_timer `T(v  1 e 0 0 ]
+{
+"62
+} 0
+"32
+[v _scan_init scan_init `(v  1 e 0 0 ]
+{
+"53
+} 0
+"1015 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.4v  1 e 1 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 6 ]
+[s S311 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1016
+[s S320 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S327 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S331 _BD_STAT 1 `uc 1 Val 1 0 `S311 1 . 1 0 `S320 1 . 1 0 `S327 1 . 1 0 ]
+[s S336 . 4 `S331 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S341 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S345 __BDT 4 `S336 1 . 4 0 `S341 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.4VES345  1 a 1 7 ]
+"1015
+[v USBTransferOnePacket@ep ep `uc  1 a 1 6 ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1066
+} 0
+"70 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
+[v _BLEDeviceInit BLEDeviceInit `(v  1 e 0 0 ]
+{
+"75
 } 0
 "64 F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c
 [v _SPI_Initialize SPI_Initialize `(v  1 e 0 0 ]
@@ -1223,230 +1359,21 @@ EVENT_TRANSFER_TERMINATED 5
 {
 "78
 } 0
-"58 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
-[v _APP_DeviceAudioMIDITasks APP_DeviceAudioMIDITasks `(v  1 e 0 0 ]
+"87 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
 {
-"75
-[v APP_DeviceAudioMIDITasks@velocity velocity `uc  1 a 1 24 ]
-[v APP_DeviceAudioMIDITasks@scan_pitch scan_pitch `uc  1 a 1 23 ]
-"127
+[v SYSTEM_Initialize@state state `E2634  1 a 1 1 ]
+[v SYSTEM_Initialize@state state `E2634  1 a 1 1 ]
+"108
 } 0
-"212 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
-[v _scan_task scan_task `(uc  1 e 1 0 ]
+"221 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+[v _LED_Enable LED_Enable `(v  1 e 0 0 ]
 {
-[v scan_task@note note `*.4uc  1 a 1 wreg ]
-[v scan_task@note note `*.4uc  1 a 1 wreg ]
-[v scan_task@velocity velocity `*.4uc  1 p 1 11 ]
-"213
-[v scan_task@state state `uc  1 s 1 state ]
-"215
-[v scan_task@note note `*.4uc  1 a 1 16 ]
-"261
+[v LED_Enable@led led `E2  1 a 1 0 ]
+[v LED_Enable@led led `E2  1 a 1 0 ]
+"243
 } 0
-"64
-[v _waiting_for_timer waiting_for_timer `T(uc  1 e 1 0 ]
-{
-"66
-} 0
-"194
-[v _store_key_level store_key_level `T(uc  1 e 1 0 ]
-{
-[v store_key_level@level level `uc  1 a 1 wreg ]
-[v store_key_level@level level `uc  1 a 1 wreg ]
-[v store_key_level@end_of_scan end_of_scan `uc  1 p 1 7 ]
-"195
-[v store_key_level@idx_key idx_key `uc  1 s 1 idx_key ]
-[v store_key_level@level level `uc  1 a 1 10 ]
-"201
-} 0
-"145
-[v _process_level process_level `T(v  1 e 0 0 ]
-{
-[v process_level@idx_key idx_key `uc  1 a 1 wreg ]
-"181
-[v process_level@filtered_state filtered_state `uc  1 a 1 9 ]
-"179
-[v process_level@on_flag on_flag `uc  1 a 1 8 ]
-"180
-[v process_level@off_flag off_flag `uc  1 a 1 6 ]
-"163
-[v process_level@current_state current_state `i  1 a 2 2 ]
-"162
-[v process_level@old_state old_state `i  1 a 2 0 ]
-"145
-[v process_level@idx_key idx_key `uc  1 a 1 wreg ]
-[v process_level@old_level old_level `DCCuc  1 p 1 2 ]
-[v process_level@new_level new_level `DCCuc  1 p 1 3 ]
-"146
-[v process_level@L L `DCCuc  1 s 1 L ]
-"147
-[v process_level@idx_midi_map idx_midi_map `DCC[39]uc  1 s 39 idx_midi_map ]
-"153
-[v process_level@key_states key_states `[39]uc  1 s 39 key_states ]
-"154
-[v process_level@midi_shift midi_shift `DCCuc  1 s 1 midi_shift ]
-"156
-[v process_level@key_off_threshold key_off_threshold `DCCuc  1 s 1 key_off_threshold ]
-"157
-[v process_level@key_on_threshold key_on_threshold `DCCuc  1 s 1 key_on_threshold ]
-"159
-[v process_level@key_off_counter key_off_counter `[39]uc  1 s 39 key_off_counter ]
-"160
-[v process_level@key_on_counter key_on_counter `[39]uc  1 s 39 key_on_counter ]
-"162
-[v process_level@idx_key idx_key `uc  1 a 1 10 ]
-"191
-} 0
-"59 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
-[v _LED_On LED_On `(v  1 e 0 0 ]
-{
-[v LED_On@led led `E2  1 a 1 wreg ]
-[v LED_On@led led `E2  1 a 1 wreg ]
-[v LED_On@led led `E2  1 a 1 1 ]
-"82
-} 0
-"100
-[v _LED_Off LED_Off `(v  1 e 0 0 ]
-{
-[v LED_Off@led led `E2  1 a 1 wreg ]
-[v LED_Off@led led `E2  1 a 1 wreg ]
-[v LED_Off@led led `E2  1 a 1 1 ]
-"123
-} 0
-"55 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
-[v _set_timer set_timer `T(v  1 e 0 0 ]
-{
-"62
-} 0
-"68
-[v _set_clock_and_data set_clock_and_data `T(v  1 e 0 0 ]
-{
-[v set_clock_and_data@c c `DCCuc  1 a 1 wreg ]
-[v set_clock_and_data@c c `DCCuc  1 a 1 wreg ]
-[v set_clock_and_data@d d `DCCuc  1 p 1 1 ]
-[v set_clock_and_data@c c `DCCuc  1 a 1 2 ]
-"71
-} 0
-"32
-[v _scan_init scan_init `(v  1 e 0 0 ]
-{
-"53
-} 0
-"85
-[v _run_adc run_adc `T(v  1 e 0 0 ]
-{
-"88
-} 0
-"77
-[v _is_end_of_scan is_end_of_scan `T(uc  1 e 1 0 ]
-{
-"80
-[v is_end_of_scan@res res `uc  1 a 1 3 ]
-"79
-[v is_end_of_scan@scan_counter scan_counter `uc  1 s 1 scan_counter ]
-"83
-} 0
-"90
-[v _is_adc_ready is_adc_ready `T(uc  1 e 1 0 ]
-{
-"92
-} 0
-"73
-[v _get_data get_data `T(uc  1 e 1 0 ]
-{
-"75
-} 0
-"94
-[v _get_adc get_adc `T(uc  1 e 1 0 ]
-{
-"96
-} 0
-"1014 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
-[v _USBTransferOnePacket USBTransferOnePacket `(*.1v  1 e 1 0 ]
-{
-[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
-[s S307 . 1 `uc 1 BC8 1 0 :1:0 
-`uc 1 BC9 1 0 :1:1 
-`uc 1 BSTALL 1 0 :1:2 
-`uc 1 DTSEN 1 0 :1:3 
-`uc 1 INCDIS 1 0 :1:4 
-`uc 1 KEN 1 0 :1:5 
-`uc 1 DTS 1 0 :1:6 
-`uc 1 UOWN 1 0 :1:7 
-]
-"1016
-[s S316 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 PID0 1 0 :1:2 
-`uc 1 PID1 1 0 :1:3 
-`uc 1 PID2 1 0 :1:4 
-`uc 1 PID3 1 0 :1:5 
-`uc 1 . 1 0 :1:6 
-]
-[s S323 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 PID 1 0 :4:2 
-`uc 1 . 1 0 :2:6 
-]
-[u S327 _BD_STAT 1 `uc 1 Val 1 0 `S307 1 . 1 0 `S316 1 . 1 0 `S323 1 . 1 0 ]
-[s S332 . 4 `S327 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
-[s S337 . 4 `uc 1 filler1 1 0 :8:0 
-`uc 1 filler2 1 1 :8:0 
-`ui 1 ADR 2 2 ]
-[u S341 __BDT 4 `S332 1 . 4 0 `S337 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
-[v USBTransferOnePacket@handle handle `*.1VES341  1 a 1 8 ]
-"1014
-[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
-[v USBTransferOnePacket@dir dir `uc  1 p 1 1 ]
-[v USBTransferOnePacket@data data `*.39uc  1 p 2 2 ]
-[v USBTransferOnePacket@len len `uc  1 p 1 4 ]
-"1019
-[v USBTransferOnePacket@ep ep `uc  1 a 1 7 ]
-"1066
-} 0
-"16 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
-[v _SendMidiData SendMidiData `(v  1 e 0 0 ]
-{
-[v SendMidiData@tone tone `uc  1 a 1 wreg ]
-"18
-[v SendMidiData@timeout_ms timeout_ms `VEuc  1 a 1 7 ]
-"16
-[v SendMidiData@tone tone `uc  1 a 1 wreg ]
-[v SendMidiData@velocity velocity `uc  1 p 1 4 ]
-"18
-[v SendMidiData@tone tone `uc  1 a 1 6 ]
-"45
-} 0
-"123 F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c
-[v _SPI_HasWriteCollisionOccured SPI_HasWriteCollisionOccured `(uc  1 e 1 0 ]
-{
-"125
-} 0
-"131
-[v _SPI_HasReceiveOverflowOccured SPI_HasReceiveOverflowOccured `(uc  1 e 1 0 ]
-{
-"133
-} 0
-"77
-[v _SPI_Exchange8bit SPI_Exchange8bit `(uc  1 e 1 0 ]
-{
-[v SPI_Exchange8bit@data data `uc  1 a 1 wreg ]
-"78
-[v SPI_Exchange8bit@dummyRead dummyRead `uc  1 a 1 2 ]
-"77
-[v SPI_Exchange8bit@data data `uc  1 a 1 wreg ]
-[v SPI_Exchange8bit@data data `uc  1 a 1 3 ]
-"89
-} 0
-"127
-[v _SPI_ClearWriteCollisionStatus SPI_ClearWriteCollisionStatus `(v  1 e 0 0 ]
-{
-"129
-} 0
-"135
-[v _SPI_ClearReceiveOverflowStatus SPI_ClearReceiveOverflowStatus `(v  1 e 0 0 ]
-{
-"137
-} 0
-"112 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+"113 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
 [v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
 {
 "117

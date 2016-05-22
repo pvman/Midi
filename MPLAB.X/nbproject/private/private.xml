@@ -4,10 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/src/scan.c</file>
-            <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/framework/usb/usb_device_midi.h</file>
-            <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/bsp/pic16f1459/buttons.c</file>
             <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/src/main.c</file>
+            <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/src/app_device_ble_midi.c</file>
+            <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/src/app_device_ble_midi.h</file>
             <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/src/app_device_audio_midi.c</file>
+            <file>file:/F:/Altium_projects/Volkovets/GitHub/Midi/bsp/pic16f1459/leds.c</file>
         </group>
     </open-files>
 </project-private>
