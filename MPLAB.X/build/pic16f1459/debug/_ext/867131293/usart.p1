@@ -1,5 +1,9 @@
 Version 3.2 HI-TECH Software Intermediate Code
+<<<<<<< HEAD
 "2489 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"2489 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S133 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S133 . . ANSB4 ANSB5 ]
 "2494
@@ -42,7 +46,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic16f1459\usart.h: 118: void USART_mySetLineCodingHandler(void);
 [; ;pic16f1459\usart.h: 136: unsigned char USART_getcUSART(void);
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
+<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

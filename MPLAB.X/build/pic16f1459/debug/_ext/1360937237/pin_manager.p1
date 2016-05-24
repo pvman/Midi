@@ -1,5 +1,9 @@
 Version 3.2 HI-TECH Software Intermediate Code
+<<<<<<< HEAD
 "1002 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"1002 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S61 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S61 . . TRISB4 TRISB5 TRISB6 TRISB7 ]
 "1001
@@ -16,7 +20,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "1051
 [v _TRISCbits `VS62 ~T0 @X0 0 e@142 ]
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
+<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

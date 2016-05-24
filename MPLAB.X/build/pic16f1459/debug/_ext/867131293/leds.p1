@@ -2,7 +2,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "60 ../bsp/pic16f1459/leds.c
 [c E2 0 1 2 3 4 .. ]
 [n E2 . LED_NONE LED_D1 LED_D2 LED_D3 LED_D4  ]
+<<<<<<< HEAD
 "1885 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"1885 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S103 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
 "1884
@@ -33,7 +37,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic16f1459\leds.h: 110: bool LED_Get(LED led);
 [; ;pic16f1459\leds.h: 127: void LED_Enable(LED led);
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
+<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

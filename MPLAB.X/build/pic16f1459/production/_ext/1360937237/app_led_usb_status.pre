@@ -1,7 +1,7 @@
 
 # 1 "../src/app_led_usb_status.c"
 
-# 13 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdint.h"
+# 13 "C:\Program Files\Microchip\xc8\v1.20\include\stdint.h"
 typedef signed char int8_t;
 
 # 20
@@ -91,7 +91,7 @@ typedef int16_t intptr_t;
 
 typedef uint16_t uintptr_t;
 
-# 44 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h"
+# 44 "C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h"
 extern volatile unsigned char INDF0 @ 0x000;
 
 asm("INDF0 equ 00h");
@@ -3544,7 +3544,7 @@ extern volatile __bit nTO @ (((unsigned) &STATUS)*8) + 4;
 extern volatile __bit nWPUEN @ (((unsigned) &OPTION_REG)*8) + 7;
 
 
-# 27 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic.h"
+# 27 "C:\Program Files\Microchip\xc8\v1.20\include\pic.h"
 #pragma intrinsic(_nop)
 extern void _nop(void);
 
@@ -3556,7 +3556,7 @@ extern unsigned int flash_read(unsigned short addr);
 #pragma intrinsic(_delay)
 extern void _delay(unsigned long);
 
-# 12 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdbool.h"
+# 12 "C:\Program Files\Microchip\xc8\v1.20\include\stdbool.h"
 typedef unsigned char bool;
 
 # 29 "../src\../bsp/pic16f1459/buttons.h"
@@ -4016,7 +4016,7 @@ extern  USB_DEVICE_STATE USBDeviceState;
 extern  uint8_t USBActiveConfiguration;
 extern  uint8_t USBTicksSinceSuspendEnd;
 
-# 4 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\string.h"
+# 4 "C:\Program Files\Microchip\xc8\v1.20\include\string.h"
 typedef int ptrdiff_t;
 typedef unsigned size_t;
 typedef unsigned short wchar_t;

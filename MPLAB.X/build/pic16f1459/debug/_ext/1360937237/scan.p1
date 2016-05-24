@@ -5,7 +5,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "18
 [s S323 `uc 1 `uc 1 ]
 [n S323 . pitch velocity ]
+<<<<<<< HEAD
 "1040 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"1040 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S63 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S63 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
 "1039
@@ -16,7 +20,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "34 ../src/scan.c
 [c E2693 0 1 1 0 .. ]
 [n E2693 . PIN_OUTPUT PIN_INPUT PIN_ANALOG PIN_DIGITAL  ]
+<<<<<<< HEAD
 "2455 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"2455 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _ANSELA `Vuc ~T0 @X0 0 e@396 ]
 "2524
 [s S136 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -166,7 +174,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stdint.h: 210: typedef int16_t intptr_t;
 [; ;stdint.h: 215: typedef uint16_t uintptr_t;
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
+<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

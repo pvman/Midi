@@ -1,5 +1,5 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"3218 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"3218 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [v _SSP1STAT `Vuc ~T0 @X0 0 e@532 ]
 "3339
 [v _SSP1CON1 `Vuc ~T0 @X0 0 e@533 ]
@@ -27,7 +27,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "3240
 [v _SSP1STATbits `VS185 ~T0 @X0 0 e@532 ]
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
-"46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

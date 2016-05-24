@@ -18,7 +18,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n E2741 . DETACHED_STATE ATTACHED_STATE POWERED_STATE DEFAULT_STATE ADR_PENDING_STATE ADDRESS_STATE CONFIGURED_STATE  ]
 "2055 ../src/../framework/usb/usb_device.h
 [v _USBDeviceState `E2741 ~T0 @X0 0 e ]
-"4892 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"4892 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [s S264 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S264 . . SUSPND RESUME USBEN PKTDIS SE0 PPBRST ]
 "4891
@@ -39,7 +39,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [c E2750 1 2 3 4 5 .. ]
 [n E2750 . EVENT_CONFIGURED EVENT_SET_DESCRIPTOR EVENT_EP0_REQUEST EVENT_ATTACH EVENT_TRANSFER_TERMINATED  ]
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
-"46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

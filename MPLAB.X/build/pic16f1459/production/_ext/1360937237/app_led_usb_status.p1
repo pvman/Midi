@@ -1,5 +1,5 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"4892 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"4892 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [s S264 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S264 . . SUSPND RESUME USBEN PKTDIS SE0 PPBRST ]
 "4891
@@ -48,7 +48,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stdint.h: 210: typedef int16_t intptr_t;
 [; ;stdint.h: 215: typedef uint16_t uintptr_t;
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
-"46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

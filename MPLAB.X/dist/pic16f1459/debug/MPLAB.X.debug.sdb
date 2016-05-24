@@ -2,7 +2,11 @@
 [d version 1.1 ]
 [d edition pro ]
 [d chip 16F1459 ]
+<<<<<<< HEAD
 "87 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+=======
+"87 F:\WORK\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2634 . `uc
 SYSTEM_STATE_USB_START 0
 SYSTEM_STATE_USB_SUSPEND 1
@@ -16,7 +20,11 @@ LED_D2 2
 LED_D3 3
 LED_D4 4
 ]
+<<<<<<< HEAD
 "29 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
+=======
+"29 F:\WORK\Volkovets\GitHub\Midi/src/app_led_usb_status.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2639 . `uc
 LED_NONE 0
 LED_D1 1
@@ -34,7 +42,11 @@ ADR_PENDING_STATE 8
 ADDRESS_STATE 16
 CONFIGURED_STATE 32
 ]
+<<<<<<< HEAD
 "36 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
+=======
+"36 F:\WORK\Volkovets\GitHub\Midi/src/main.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2634 . `uc
 SYSTEM_STATE_USB_START 0
 SYSTEM_STATE_USB_SUSPEND 1
@@ -95,7 +107,11 @@ EVENT_EP0_REQUEST 3
 EVENT_ATTACH 4
 EVENT_TRANSFER_TERMINATED 5
 ]
+<<<<<<< HEAD
 "88 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+=======
+"88 F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2928 . `uc
 DETACHED_STATE 0
 ATTACHED_STATE 1
@@ -105,7 +121,11 @@ ADR_PENDING_STATE 8
 ADDRESS_STATE 16
 CONFIGURED_STATE 32
 ]
+<<<<<<< HEAD
 "14 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
+=======
+"14 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2683 . `uc
 N_KEYS 39
 ]
@@ -133,12 +153,20 @@ S_CLOCK_FALL 3
 S_ADC_WAIT 4
 S_ADC_READ 5
 ]
+<<<<<<< HEAD
 "56 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/buttons.c
+=======
+"56 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/buttons.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2603 . `uc
 BUTTON_NONE 0
 BUTTON_S1 1
 ]
+<<<<<<< HEAD
 "32 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/adc.c
+=======
+"32 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/adc.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2631 . `uc
 ADC_CHANNEL_10 10
 ]
@@ -146,7 +174,11 @@ ADC_CHANNEL_10 10
 [e E2634 . `uc
 ADC_CONFIGURATION_DEFAULT 0
 ]
+<<<<<<< HEAD
 "60 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+=======
+"60 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2 . `uc
 LED_NONE 0
 LED_D1 1
@@ -154,7 +186,11 @@ LED_D2 2
 LED_D3 3
 LED_D4 4
 ]
+<<<<<<< HEAD
 "136 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"136 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [e E2932 . `uc
 DETACHED_STATE 0
 ATTACHED_STATE 1
@@ -209,7 +245,11 @@ EVENT_EP0_REQUEST 3
 EVENT_ATTACH 4
 EVENT_TRANSFER_TERMINATED 5
 ]
+<<<<<<< HEAD
 "32 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/adc.c
+=======
+"32 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/adc.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _ADC_ReadPercentage ADC_ReadPercentage `(uc  1 e 1 0 ]
 "72
 [v _ADC_Read10bit ADC_Read10bit `(ui  1 e 2 0 ]
@@ -217,11 +257,19 @@ EVENT_TRANSFER_TERMINATED 5
 [v _ADC_Enable ADC_Enable `(uc  1 e 1 0 ]
 "135
 [v _ADC_SetConfiguration ADC_SetConfiguration `(uc  1 e 1 0 ]
+<<<<<<< HEAD
 "56 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/buttons.c
 [v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
 "86
 [v _BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
 "60 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+=======
+"56 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/buttons.c
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+"86
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+"60 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _LED_On LED_On `(v  1 e 0 0 ]
 "101
 [v _LED_Off LED_Off `(v  1 e 0 0 ]
@@ -231,13 +279,21 @@ EVENT_TRANSFER_TERMINATED 5
 [v _LED_Get LED_Get `(uc  1 e 1 0 ]
 "221
 [v _LED_Enable LED_Enable `(v  1 e 0 0 ]
+<<<<<<< HEAD
 "47 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/usart.c
+=======
+"47 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/usart.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USART_Initialize USART_Initialize `(v  1 e 0 0 ]
 "81
 [v _USART_putcUSART USART_putcUSART `(v  1 e 0 0 ]
 "161
 [v _USART_getcUSART USART_getcUSART `(uc  1 e 1 0 ]
+<<<<<<< HEAD
 "301 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"301 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
 "497
 [v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
@@ -289,18 +345,27 @@ EVENT_TRANSFER_TERMINATED 5
 [v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
 "3130
 [v _USBGet1msTickCount USBGet1msTickCount `(ul  1 e 4 0 ]
+<<<<<<< HEAD
 "42 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+=======
+"42 F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _APP_DeviceAudioMIDIInitialize APP_DeviceAudioMIDIInitialize `(v  1 e 0 0 ]
 "54
 [v _APP_DeviceAudioMIDISOFHandler APP_DeviceAudioMIDISOFHandler `(v  1 e 0 0 ]
 "59
 [v _APP_DeviceAudioMIDITasks APP_DeviceAudioMIDITasks `(v  1 e 0 0 ]
+<<<<<<< HEAD
 "16 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
+=======
+"16 F:\WORK\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _SendMidiData SendMidiData `(v  1 e 0 0 ]
 "49
 [v _APP_DeviceBLETask APP_DeviceBLETask `(v  1 e 0 0 ]
 "70
 [v _BLEDeviceInit BLEDeviceInit `(v  1 e 0 0 ]
+<<<<<<< HEAD
 "24 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
 [v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
 "35 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
@@ -314,6 +379,21 @@ EVENT_TRANSFER_TERMINATED 5
 "50 F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
 "32 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
+=======
+"24 F:\WORK\Volkovets\GitHub\Midi/src/app_led_usb_status.c
+[v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
+"35 F:\WORK\Volkovets\GitHub\Midi/src/main.c
+[v _main main `(v  1 e 0 0 ]
+"95
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+"87 F:\WORK\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+"113
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
+"50 F:\WORK\Volkovets\GitHub\Midi/src/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
+"32 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _scan_init scan_init `(v  1 e 0 0 ]
 "55
 [v _set_timer set_timer `T(v  1 e 0 0 ]
@@ -337,7 +417,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v _store_key_level store_key_level `T(uc  1 e 1 0 ]
 "212
 [v _scan_task scan_task `(uc  1 e 1 0 ]
+<<<<<<< HEAD
 "64 F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c
+=======
+"64 F:\WORK\Volkovets\GitHub\Midi/src/spi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _SPI_Initialize SPI_Initialize `(v  1 e 0 0 ]
 "77
 [v _SPI_Exchange8bit SPI_Exchange8bit `(uc  1 e 1 0 ]
@@ -353,6 +437,7 @@ EVENT_TRANSFER_TERMINATED 5
 [v _SPI_HasReceiveOverflowOccured SPI_HasReceiveOverflowOccured `(uc  1 e 1 0 ]
 "135
 [v _SPI_ClearReceiveOverflowStatus SPI_ClearReceiveOverflowStatus `(v  1 e 0 0 ]
+<<<<<<< HEAD
 "10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c
 [v _memset memset `(*.4v  1 e 1 0 ]
 "5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\abdiv.c
@@ -428,6 +513,83 @@ EVENT_TRANSFER_TERMINATED 5
 "3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic\wmul.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 "136 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"10 C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"34 C:\Program Files\Microchip\xc8\v1.20\sources\pic\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v1.20\sources\pic\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 C:\Program Files\Microchip\xc8\v1.20\sources\pic\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"33 C:\Program Files\Microchip\xc8\v1.20\sources\pic\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.20\sources\pic\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"63 C:\Program Files\Microchip\xc8\v1.20\sources\pic\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"87 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"17 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 C:\Program Files\Microchip\xc8\v1.20\sources\pic\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"36 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files\Microchip\xc8\v1.20\sources\pic\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.20\sources\pic\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.20\sources\pic\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"136 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USBDeviceState USBDeviceState `E2736  1 e 1 0 ]
 "137
 [v _USBActiveConfiguration USBActiveConfiguration `uc  1 e 1 0 ]
@@ -600,7 +762,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v _SetupPkt SetupPkt `VES1474  1 e 8 @64 ]
 "175
 [v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @72 ]
+<<<<<<< HEAD
 "24 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+=======
+"24 F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _ReceivedDataBuffer ReceivedDataBuffer `[64]uc  1 s 64 ReceivedDataBuffer ]
 [s S252 . 4 `uc 1 CIN 1 0 :4:0 
 `uc 1 CN 1 0 :4:4 
@@ -622,7 +788,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v _sentNoteOff sentNoteOff `uc  1 s 1 sentNoteOff ]
 "38
 [v _msCounter msCounter `uc  1 s 1 msCounter ]
+<<<<<<< HEAD
 "13 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
+=======
+"13 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _wait_timer wait_timer `uc  1 s 1 wait_timer ]
 "14
 [v _adc_levels adc_levels `[39]uc  1 s 39 adc_levels ]
@@ -632,7 +802,11 @@ EVENT_TRANSFER_TERMINATED 5
 "23
 [v _note_event note_event `S455  1 s 2 note_event ]
 [s S189 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+<<<<<<< HEAD
 "153 F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c
+=======
+"153 F:\WORK\Volkovets\GitHub\Midi/src/usb_descriptors.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _device_dsc device_dsc `DCCS189  1 e 18 0 ]
 "173
 [v _configDescriptor1 configDescriptor1 `DCC[101]uc  1 e 101 0 ]
@@ -658,7 +832,11 @@ EVENT_TRANSFER_TERMINATED 5
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
+<<<<<<< HEAD
 "355 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"355 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S700 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -909,12 +1087,20 @@ EVENT_TRANSFER_TERMINATED 5
 [v _UEP0bits UEP0bits `VES1707  1 e 1 @3736 ]
 "5454
 [v _UEP1 UEP1 `VEuc  1 e 1 @3737 ]
+<<<<<<< HEAD
 "35 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
+=======
+"35 F:\WORK\Volkovets\GitHub\Midi/src/main.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _main main `(v  1 e 0 0 ]
 {
 "91
 } 0
+<<<<<<< HEAD
 "497 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"497 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
 {
 "498
@@ -1048,7 +1234,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v USBStdSetCfgHandler@i i `uc  1 a 1 13 ]
 "2043
 } 0
+<<<<<<< HEAD
 "10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c
+=======
+"10 C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _memset memset `(*.4v  1 e 1 0 ]
 {
 [v memset@p1 p1 `*.4v  1 a 1 4 ]
@@ -1060,7 +1250,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v memset@n n `ui  1 p 2 2 ]
 "22
 } 0
+<<<<<<< HEAD
 "1636 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"1636 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
 {
 "1767
@@ -1102,7 +1296,11 @@ EVENT_TRANSFER_TERMINATED 5
 {
 "2368
 } 0
+<<<<<<< HEAD
 "95 F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c
+=======
+"95 F:\WORK\Volkovets\GitHub\Midi/src/main.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
 {
 [v USER_USB_CALLBACK_EVENT_HANDLER@event event `E2684  1 p 2 0 ]
@@ -1110,12 +1308,20 @@ EVENT_TRANSFER_TERMINATED 5
 [v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 3 ]
 "140
 } 0
+<<<<<<< HEAD
 "42 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+=======
+"42 F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _APP_DeviceAudioMIDIInitialize APP_DeviceAudioMIDIInitialize `(v  1 e 0 0 ]
 {
 "52
 } 0
+<<<<<<< HEAD
 "898 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"898 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
 {
 [v USBEnableEndpoint@ep ep `uc  1 a 1 9 ]
@@ -1163,19 +1369,31 @@ EVENT_TRANSFER_TERMINATED 5
 [v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
 "1604
 } 0
+<<<<<<< HEAD
 "54 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+=======
+"54 F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _APP_DeviceAudioMIDISOFHandler APP_DeviceAudioMIDISOFHandler `(v  1 e 0 0 ]
 {
 "56
 } 0
+<<<<<<< HEAD
 "24 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c
+=======
+"24 F:\WORK\Volkovets\GitHub\Midi/src/app_led_usb_status.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 0 0 ]
 {
 "25
 [v APP_LEDUpdateUSBStatus@ledCount ledCount `ui  1 s 2 ledCount ]
 "72
 } 0
+<<<<<<< HEAD
 "301 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"301 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
 {
 "315
@@ -1185,7 +1403,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v USBDeviceInit@i i `uc  1 a 1 5 ]
 "390
 } 0
+<<<<<<< HEAD
 "59 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+=======
+"59 F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _APP_DeviceAudioMIDITasks APP_DeviceAudioMIDITasks `(v  1 e 0 0 ]
 {
 "75
@@ -1195,7 +1417,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v APP_DeviceAudioMIDITasks@bscan bscan `uc  1 a 1 13 ]
 "147
 } 0
+<<<<<<< HEAD
 "212 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
+=======
+"212 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _scan_task scan_task `(uc  1 e 1 0 ]
 {
 [v scan_task@note note `*.4uc  1 a 1 6 ]
@@ -1241,7 +1467,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v process_level@key_on_counter key_on_counter `[39]uc  1 s 39 key_on_counter ]
 "191
 } 0
+<<<<<<< HEAD
 "60 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+=======
+"60 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _LED_On LED_On `(v  1 e 0 0 ]
 {
 [v LED_On@led led `E2  1 a 1 0 ]
@@ -1255,7 +1485,11 @@ EVENT_TRANSFER_TERMINATED 5
 [v LED_Off@led led `E2  1 a 1 0 ]
 "123
 } 0
+<<<<<<< HEAD
 "94 F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c
+=======
+"94 F:\WORK\Volkovets\GitHub\Midi/src/scan.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _get_adc get_adc `T(uc  1 e 1 0 ]
 {
 "96
@@ -1307,7 +1541,11 @@ EVENT_TRANSFER_TERMINATED 5
 {
 "53
 } 0
+<<<<<<< HEAD
 "1015 F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+=======
+"1015 F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USBTransferOnePacket USBTransferOnePacket `(*.4v  1 e 1 0 ]
 {
 [v USBTransferOnePacket@ep ep `uc  1 a 1 6 ]
@@ -1346,36 +1584,60 @@ EVENT_TRANSFER_TERMINATED 5
 [v USBTransferOnePacket@len len `uc  1 p 1 3 ]
 "1066
 } 0
+<<<<<<< HEAD
 "70 F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
+=======
+"70 F:\WORK\Volkovets\GitHub\Midi/src/app_device_ble_midi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _BLEDeviceInit BLEDeviceInit `(v  1 e 0 0 ]
 {
 "75
 } 0
+<<<<<<< HEAD
 "64 F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c
+=======
+"64 F:\WORK\Volkovets\GitHub\Midi/src/spi.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _SPI_Initialize SPI_Initialize `(v  1 e 0 0 ]
 {
 "75
 } 0
+<<<<<<< HEAD
 "50 F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c
+=======
+"50 F:\WORK\Volkovets\GitHub\Midi/src/pin_manager.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
 {
 "78
 } 0
+<<<<<<< HEAD
 "87 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+=======
+"87 F:\WORK\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
 {
 [v SYSTEM_Initialize@state state `E2634  1 a 1 1 ]
 [v SYSTEM_Initialize@state state `E2634  1 a 1 1 ]
 "108
 } 0
+<<<<<<< HEAD
 "221 F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+=======
+"221 F:\WORK\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _LED_Enable LED_Enable `(v  1 e 0 0 ]
 {
 [v LED_Enable@led led `E2  1 a 1 0 ]
 [v LED_Enable@led led `E2  1 a 1 0 ]
 "243
 } 0
+<<<<<<< HEAD
 "113 F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+=======
+"113 F:\WORK\Volkovets\GitHub\Midi/src/pic16f1459/system.c
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
 {
 "117

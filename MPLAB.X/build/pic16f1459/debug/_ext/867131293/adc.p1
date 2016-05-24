@@ -4,7 +4,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n E2631 . ADC_CHANNEL_10  ]
 "81 ../bsp/pic16f1459\adc.h
 [v _ADC_Read10bit `(ui ~T0 @X0 0 ef1`E2631 ]
+<<<<<<< HEAD
 "1636 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"1636 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S89 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
 [n S89 . ADON GO_nDONE CHS ]
 "1641
@@ -44,7 +48,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "135 ../bsp/pic16f1459/adc.c
 [c E2634 0 .. ]
 [n E2634 . ADC_CONFIGURATION_DEFAULT  ]
+<<<<<<< HEAD
 "1630 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"1630 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _ADCON0 `Vuc ~T0 @X0 0 e@157 ]
 "1709
 [v _ADCON1 `Vuc ~T0 @X0 0 e@158 ]
@@ -80,7 +88,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stdint.h: 215: typedef uint16_t uintptr_t;
 [; ;stdbool.h: 12: typedef unsigned char bool;
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
+<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

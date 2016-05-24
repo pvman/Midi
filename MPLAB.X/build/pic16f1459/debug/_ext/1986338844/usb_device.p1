@@ -124,7 +124,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "280
 [u S336 `S337 1 `S338 1 `S345 1 `S346 1 `S349 1 `S350 1 `S351 1 `S352 1 `S353 1 `S354 1 ]
 [n S336 . . . . . . . . . . . ]
+<<<<<<< HEAD
 "1157 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"1157 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S67 . . ACTIE USBIE BCL1IE . C1IE C2IE OSFIE ]
 "1156
@@ -197,7 +201,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _USBCtrlEPAllowStatusStage `(v ~T0 @X0 0 ef ]
 "241 ../framework/usb/usb_device.c
 [v _USBStallHandler `(v ~T0 @X0 0 sf ]
+<<<<<<< HEAD
 "4936 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"4936 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _USTAT `Vuc ~T0 @X0 0 e@3727 ]
 "226 ../framework/usb/usb_device.c
 [v _USBCtrlEPService `(v ~T0 @X0 0 sf ]
@@ -211,7 +219,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S378 . Val bits ]
 "232
 [v _USBCtrlTrfTxService `(v ~T0 @X0 0 sf ]
+<<<<<<< HEAD
 "24 C:\Program Files (x86)\Microchip\xc8\v1.20\include\string.h
+=======
+"24 C:\Program Files\Microchip\xc8\v1.20\include\string.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _memset `(*v ~T0 @X0 0 ef3`*v`i`ui ]
 "2036 ../framework/usb/usb_device.c
 [c E2941 1 2 3 4 5 .. ]
@@ -227,7 +239,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "216
 [v F3282 `*Cuc ~T0 @X0 1 t ]
 [v _USB_SD_Ptr `C*Cuc ~T0 @X0 -> 0 `x e ]
+<<<<<<< HEAD
 "5417 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"5417 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S286 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S286 . EPSTALL EPINEN EPOUTEN EPCONDIS EPHSHK ]
 "5416
@@ -278,7 +294,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stddef.h: 4: typedef unsigned short wchar_t;
 [; ;stddef.h: 13: extern int errno;
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
+<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

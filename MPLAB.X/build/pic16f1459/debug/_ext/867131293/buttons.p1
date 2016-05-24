@@ -2,7 +2,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "56 ../bsp/pic16f1459/buttons.c
 [c E2603 0 1 .. ]
 [n E2603 . BUTTON_NONE BUTTON_S1  ]
+<<<<<<< HEAD
 "415 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"415 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [s S30 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S30 . RA0 RA1 . RA3 RA4 RA5 ]
 "414
@@ -11,7 +15,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "424
 [v _PORTAbits `VS29 ~T0 @X0 0 e@12 ]
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
+<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+=======
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+>>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {

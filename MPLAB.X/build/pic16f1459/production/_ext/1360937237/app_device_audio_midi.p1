@@ -17,12 +17,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _USBTransferOnePacket `(*v ~T0 @X0 0 ef4`uc`uc`*uc`uc ]
 "8 ../src/app_device_audio_midi.c
 [v _scan_task `(uc ~T0 @X0 0 ef2`*uc`*uc ]
-"86
+"88
 [c E2928 0 1 2 4 8 16 32 .. ]
 [n E2928 . DETACHED_STATE ATTACHED_STATE POWERED_STATE DEFAULT_STATE ADR_PENDING_STATE ADDRESS_STATE CONFIGURED_STATE  ]
 "2055 ../src\../framework/usb/usb_device.h
 [v _USBDeviceState `E2928 ~T0 @X0 0 e ]
-"4892 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"4892 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [s S264 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S264 . . SUSPND RESUME USBEN PKTDIS SE0 PPBRST ]
 "4891
@@ -81,7 +81,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stdint.h: 215: typedef uint16_t uintptr_t;
 [; ;stdbool.h: 12: typedef unsigned char bool;
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
-"46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
+"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {
@@ -3300,127 +3300,134 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e = _scan_pitch -> -> 60 `i `uc ]
 [v _velocity `uc ~T0 @X0 1 a ]
 [e = _velocity -> -> 0 `i `uc ]
-[; ;app_device_audio_midi.c: 76: if (scan_task(&scan_pitch, &velocity)) {
 "76
-[e $ ! != -> ( _scan_task (2 , &U _scan_pitch &U _velocity `i -> -> -> 0 `i `uc `i 384  ]
-{
-[; ;app_device_audio_midi.c: 77: midiData.Val = 0;
+[v _bscan `uc ~T0 @X0 1 a ]
+[; ;app_device_audio_midi.c: 76: bool bscan = 0;
+[e = _bscan -> -> 0 `i `uc ]
+[; ;app_device_audio_midi.c: 77: bscan = scan_task(&scan_pitch, &velocity);
 "77
-[e = . _midiData 0 -> -> -> 0 `i `l `ul ]
-[; ;app_device_audio_midi.c: 78: midiData.CableNumber = 0;
+[e = _bscan ( _scan_task (2 , &U _scan_pitch &U _velocity ]
+[; ;app_device_audio_midi.c: 78: if (bscan) {
 "78
-[e = . . . _midiData 2 1 1 -> -> 0 `i `uc ]
-[; ;app_device_audio_midi.c: 79: midiData.CodeIndexNumber = 0x9;
-"79
-[e = . . . _midiData 2 1 0 -> -> 9 `i `uc ]
-[; ;app_device_audio_midi.c: 80: midiData.DATA_0 = 0x90;
-"80
-[e = . . . _midiData 2 1 2 -> -> 144 `i `uc ]
-[; ;app_device_audio_midi.c: 81: midiData.DATA_1 = scan_pitch;
-"81
-[e = . . . _midiData 2 1 3 _scan_pitch ]
-[; ;app_device_audio_midi.c: 82: midiData.DATA_2 = velocity;
-"82
-[e = . . . _midiData 2 1 4 _velocity ]
-[; ;app_device_audio_midi.c: 86: if( USBDeviceState == CONFIGURED_STATE || UCONbits.SUSPND)
-"86
-[e $ ! || == -> _USBDeviceState `i -> . `E2928 6 `i != -> . . _UCONbits 0 1 `i -> -> -> 0 `i `Vuc `i 385  ]
-[; ;app_device_audio_midi.c: 87: {
-"87
+[e $ ! != -> _bscan `i -> -> -> 0 `i `uc `i 384  ]
 {
-[; ;app_device_audio_midi.c: 88: if(!(USBRxHandle==0?0:((volatile BDT_ENTRY*)USBRxHandle)->STAT.UOWN))
+[; ;app_device_audio_midi.c: 79: midiData.Val = 0;
+"79
+[e = . _midiData 0 -> -> -> 0 `i `l `ul ]
+[; ;app_device_audio_midi.c: 80: midiData.CableNumber = 0;
+"80
+[e = . . . _midiData 2 1 1 -> -> 0 `i `uc ]
+[; ;app_device_audio_midi.c: 81: midiData.CodeIndexNumber = 0x9;
+"81
+[e = . . . _midiData 2 1 0 -> -> 9 `i `uc ]
+[; ;app_device_audio_midi.c: 82: midiData.DATA_0 = 0x90;
+"82
+[e = . . . _midiData 2 1 2 -> -> 144 `i `uc ]
+[; ;app_device_audio_midi.c: 83: midiData.DATA_1 = scan_pitch;
+"83
+[e = . . . _midiData 2 1 3 _scan_pitch ]
+[; ;app_device_audio_midi.c: 84: midiData.DATA_2 = velocity;
+"84
+[e = . . . _midiData 2 1 4 _velocity ]
+[; ;app_device_audio_midi.c: 88: if( USBDeviceState == CONFIGURED_STATE || UCONbits.SUSPND)
 "88
-[e $ ! ! != ? == _USBRxHandle -> -> 0 `i `*v : -> 0 `i -> . . . . *U -> _USBRxHandle `*VS369 0 0 1 7 `i -> 0 `i 386  ]
+[e $ ! || == -> _USBDeviceState `i -> . `E2928 6 `i != -> . . _UCONbits 0 1 `i -> -> -> 0 `i `Vuc `i 385  ]
 [; ;app_device_audio_midi.c: 89: {
 "89
 {
-[; ;app_device_audio_midi.c: 90: USBRxHandle = USBTransferOnePacket(1,0,(uint8_t*)&ReceivedDataBuffer,64);
+[; ;app_device_audio_midi.c: 90: if(!(USBRxHandle==0?0:((volatile BDT_ENTRY*)USBRxHandle)->STAT.UOWN))
 "90
-[e = _USBRxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 0 `i `uc &U _ReceivedDataBuffer -> -> 64 `i `uc ]
+[e $ ! ! != ? == _USBRxHandle -> -> 0 `i `*v : -> 0 `i -> . . . . *U -> _USBRxHandle `*VS369 0 0 1 7 `i -> 0 `i 386  ]
+[; ;app_device_audio_midi.c: 91: {
 "91
-}
-[e :U 386 ]
-[; ;app_device_audio_midi.c: 91: }
-[; ;app_device_audio_midi.c: 92: USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
+{
+[; ;app_device_audio_midi.c: 92: USBRxHandle = USBTransferOnePacket(1,0,(uint8_t*)&ReceivedDataBuffer,64);
 "92
-[e = _USBTxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 1 `i `uc -> &U _midiData `*uc -> -> 4 `i `uc ]
+[e = _USBRxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 0 `i `uc &U _ReceivedDataBuffer -> -> 64 `i `uc ]
 "93
 }
-[e :U 385 ]
+[e :U 386 ]
+[; ;app_device_audio_midi.c: 93: }
+[; ;app_device_audio_midi.c: 94: USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
 "94
-}
-[e :U 384 ]
+[e = _USBTxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 1 `i `uc -> &U _midiData `*uc -> -> 4 `i `uc ]
 "95
 }
-[; ;app_device_audio_midi.c: 93: }
-[; ;app_device_audio_midi.c: 94: }
+[e :U 385 ]
+"96
+}
+[e :U 384 ]
+"97
+}
 [; ;app_device_audio_midi.c: 95: }
-[; ;app_device_audio_midi.c: 119: if (msCounter == 0 && !sentNoteOff && !(USBTxHandle==0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
-"119
+[; ;app_device_audio_midi.c: 96: }
+[; ;app_device_audio_midi.c: 97: }
+[; ;app_device_audio_midi.c: 121: if (msCounter == 0 && !sentNoteOff && !(USBTxHandle==0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
+"121
 [e $ ! && && == -> _msCounter `i -> 0 `i ! != -> _sentNoteOff `i -> -> -> 0 `i `uc `i ! != ? == _USBTxHandle -> -> 0 `i `*v : -> 0 `i -> . . . . *U -> _USBTxHandle `*VS369 0 0 1 7 `i -> 0 `i 387  ]
 {
-[; ;app_device_audio_midi.c: 121: msCounter = 100;
-"121
+[; ;app_device_audio_midi.c: 123: msCounter = 100;
+"123
 [e = _msCounter -> -> 100 `i `uc ]
-[; ;app_device_audio_midi.c: 122: midiData.Val = 0;
-"122
-[e = . _midiData 0 -> -> -> 0 `i `l `ul ]
-[; ;app_device_audio_midi.c: 124: midiData.CableNumber = 0;
+[; ;app_device_audio_midi.c: 124: midiData.Val = 0;
 "124
-[e = . . . _midiData 2 1 1 -> -> 0 `i `uc ]
-[; ;app_device_audio_midi.c: 125: midiData.CodeIndexNumber = 0x9;
-"125
-[e = . . . _midiData 2 1 0 -> -> 9 `i `uc ]
-[; ;app_device_audio_midi.c: 126: midiData.DATA_0 = 0x90;
+[e = . _midiData 0 -> -> -> 0 `i `l `ul ]
+[; ;app_device_audio_midi.c: 126: midiData.CableNumber = 0;
 "126
-[e = . . . _midiData 2 1 2 -> -> 144 `i `uc ]
-[; ;app_device_audio_midi.c: 127: midiData.DATA_1 = pitch++;
+[e = . . . _midiData 2 1 1 -> -> 0 `i `uc ]
+[; ;app_device_audio_midi.c: 127: midiData.CodeIndexNumber = 0x9;
 "127
-[e = . . . _midiData 2 1 3 ++ _pitch -> -> 1 `i `uc ]
-[; ;app_device_audio_midi.c: 128: midiData.DATA_2 = 0x00;
+[e = . . . _midiData 2 1 0 -> -> 9 `i `uc ]
+[; ;app_device_audio_midi.c: 128: midiData.DATA_0 = 0x90;
 "128
-[e = . . . _midiData 2 1 4 -> -> 0 `i `uc ]
-[; ;app_device_audio_midi.c: 130: if(pitch == 0x49)
+[e = . . . _midiData 2 1 2 -> -> 144 `i `uc ]
+[; ;app_device_audio_midi.c: 129: midiData.DATA_1 = pitch++;
+"129
+[e = . . . _midiData 2 1 3 ++ _pitch -> -> 1 `i `uc ]
+[; ;app_device_audio_midi.c: 130: midiData.DATA_2 = 0x00;
 "130
+[e = . . . _midiData 2 1 4 -> -> 0 `i `uc ]
+[; ;app_device_audio_midi.c: 132: if(pitch == 0x49)
+"132
 [e $ ! == -> _pitch `i -> 73 `i 388  ]
-[; ;app_device_audio_midi.c: 131: pitch = 0x3C;
-"131
+[; ;app_device_audio_midi.c: 133: pitch = 0x3C;
+"133
 [e = _pitch -> -> 60 `i `uc ]
 [e :U 388 ]
-[; ;app_device_audio_midi.c: 134: sentNoteOff = 1;
-"134
-[e = _sentNoteOff -> -> 1 `i `uc ]
-[; ;app_device_audio_midi.c: 136: if( USBDeviceState == CONFIGURED_STATE || UCONbits.SUSPND)
+[; ;app_device_audio_midi.c: 136: sentNoteOff = 1;
 "136
-[e $ ! || == -> _USBDeviceState `i -> . `E2928 6 `i != -> . . _UCONbits 0 1 `i -> -> -> 0 `i `Vuc `i 389  ]
-[; ;app_device_audio_midi.c: 137: {
-"137
-{
-[; ;app_device_audio_midi.c: 138: if(!(USBRxHandle==0?0:((volatile BDT_ENTRY*)USBRxHandle)->STAT.UOWN))
+[e = _sentNoteOff -> -> 1 `i `uc ]
+[; ;app_device_audio_midi.c: 138: if( USBDeviceState == CONFIGURED_STATE || UCONbits.SUSPND)
 "138
-[e $ ! ! != ? == _USBRxHandle -> -> 0 `i `*v : -> 0 `i -> . . . . *U -> _USBRxHandle `*VS369 0 0 1 7 `i -> 0 `i 390  ]
+[e $ ! || == -> _USBDeviceState `i -> . `E2928 6 `i != -> . . _UCONbits 0 1 `i -> -> -> 0 `i `Vuc `i 389  ]
 [; ;app_device_audio_midi.c: 139: {
 "139
 {
-[; ;app_device_audio_midi.c: 140: USBRxHandle = USBTransferOnePacket(1,0,(uint8_t*)&ReceivedDataBuffer,64);
+[; ;app_device_audio_midi.c: 140: if(!(USBRxHandle==0?0:((volatile BDT_ENTRY*)USBRxHandle)->STAT.UOWN))
 "140
-[e = _USBRxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 0 `i `uc &U _ReceivedDataBuffer -> -> 64 `i `uc ]
+[e $ ! ! != ? == _USBRxHandle -> -> 0 `i `*v : -> 0 `i -> . . . . *U -> _USBRxHandle `*VS369 0 0 1 7 `i -> 0 `i 390  ]
+[; ;app_device_audio_midi.c: 141: {
 "141
-}
-[e :U 390 ]
-[; ;app_device_audio_midi.c: 141: }
-[; ;app_device_audio_midi.c: 142: USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
+{
+[; ;app_device_audio_midi.c: 142: USBRxHandle = USBTransferOnePacket(1,0,(uint8_t*)&ReceivedDataBuffer,64);
 "142
-[e = _USBTxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 1 `i `uc -> &U _midiData `*uc -> -> 4 `i `uc ]
+[e = _USBRxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 0 `i `uc &U _ReceivedDataBuffer -> -> 64 `i `uc ]
 "143
 }
-[e :U 389 ]
+[e :U 390 ]
+[; ;app_device_audio_midi.c: 143: }
+[; ;app_device_audio_midi.c: 144: USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
 "144
+[e = _USBTxHandle ( _USBTransferOnePacket (4 , , , -> -> 1 `i `uc -> -> 1 `i `uc -> &U _midiData `*uc -> -> 4 `i `uc ]
+"145
+}
+[e :U 389 ]
+"146
 }
 [e :U 387 ]
-[; ;app_device_audio_midi.c: 143: }
-[; ;app_device_audio_midi.c: 144: }
 [; ;app_device_audio_midi.c: 145: }
-"145
+[; ;app_device_audio_midi.c: 146: }
+[; ;app_device_audio_midi.c: 147: }
+"147
 [e :UE 383 ]
 }
