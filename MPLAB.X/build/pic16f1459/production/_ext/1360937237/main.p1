@@ -7,14 +7,18 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef1`E2634 ]
 "200 ../src/../framework/usb/usb_device.h
 [v _USBDeviceInit `(v ~T0 @X0 0 ef ]
-"304
+"36 ../src/app_device_ble_midi.h
+[v _BLEDeviceInit `(v ~T0 @X0 0 ef ]
+"51 ../src\app_device_audio_midi.h
+[v _APP_DeviceAudioMIDITasks `(v ~T0 @X0 0 ef ]
+"304 ../src/../framework/usb/usb_device.h
 [v _USBDeviceTasks `(v ~T0 @X0 0 ef ]
-"64 ../src/main.c
+"70 ../src/main.c
 [c E2741 0 1 2 4 8 16 32 .. ]
 [n E2741 . DETACHED_STATE ATTACHED_STATE POWERED_STATE DEFAULT_STATE ADR_PENDING_STATE ADDRESS_STATE CONFIGURED_STATE  ]
 "2055 ../src/../framework/usb/usb_device.h
 [v _USBDeviceState `E2741 ~T0 @X0 0 e ]
-"4892 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+"4892 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
 [s S264 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S264 . . SUSPND RESUME USBEN PKTDIS SE0 PPBRST ]
 "4891
@@ -22,9 +26,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S263 . . ]
 "4902
 [v _UCONbits `VS263 ~T0 @X0 0 e@3726 ]
-"51 ../src\app_device_audio_midi.h
-[v _APP_DeviceAudioMIDITasks `(v ~T0 @X0 0 ef ]
-"88 ../src/main.c
+"95 ../src/main.c
 [c E2684 0 1 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 400 500 600 700 800 900 1000 10000 32767 .. ]
 [n E2684 . EVENT_NONE EVENT_DEVICE_STACK_BASE EVENT_HOST_STACK_BASE EVENT_HUB_ATTACH EVENT_STALL EVENT_VBUS_SES_REQUEST EVENT_VBUS_OVERCURRENT EVENT_VBUS_REQUEST_POWER EVENT_VBUS_RELEASE_POWER EVENT_VBUS_POWER_AVAILABLE EVENT_UNSUPPORTED_DEVICE EVENT_CANNOT_ENUMERATE EVENT_CLIENT_INIT_ERROR EVENT_OUT_OF_MEMORY EVENT_UNSPECIFIED_ERROR EVENT_DETACH EVENT_TRANSFER EVENT_SOF EVENT_RESUME EVENT_SUSPEND EVENT_RESET EVENT_DATA_ISOC_READ EVENT_DATA_ISOC_WRITE EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION EVENT_1MS EVENT_GENERIC_BASE EVENT_MSD_BASE EVENT_HID_BASE EVENT_PRINTER_BASE EVENT_CDC_BASE EVENT_CHARGER_BASE EVENT_AUDIO_BASE EVENT_USER_BASE EVENT_BUS_ERROR  ]
 "40 ../src\app_led_usb_status.h
@@ -33,11 +35,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _APP_DeviceAudioMIDISOFHandler `(v ~T0 @X0 0 ef ]
 "35
 [v _APP_DeviceAudioMIDIInitialize `(v ~T0 @X0 0 ef ]
-"89 ../src/main.c
+"96 ../src/main.c
 [c E2750 1 2 3 4 5 .. ]
 [n E2750 . EVENT_CONFIGURED EVENT_SET_DESCRIPTOR EVENT_EP0_REQUEST EVENT_ATTACH EVENT_TRANSFER_TERMINATED  ]
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
-"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
+"46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {
@@ -2984,6 +2986,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;usb_device_midi.h: 47: };
 [; ;usb_device_midi.h: 48: };
 [; ;usb_device_midi.h: 49: } USB_AUDIO_MIDI_EVENT_PACKET, *P_USB_AUDIO_MIDI_EVENT_PACKET;
+[; ;app_device_ble_midi.h: 34: void SendMidiData(uint8_t tone, uint8_t velocity);
+[; ;app_device_ble_midi.h: 35: void APP_DeviceBLETask();
+[; ;app_device_ble_midi.h: 36: void BLEDeviceInit();
 "35 ../src/main.c
 [v _main `(v ~T0 @X0 1 ef ]
 {
@@ -2998,152 +3003,155 @@ Version 3.2 HI-TECH Software Intermediate Code
 "38
 [e ( _USBDeviceInit ..  ]
 [; ;main.c: 39: ;
-[; ;main.c: 41: while(1)
+[; ;main.c: 41: BLEDeviceInit();
 "41
+[e ( _BLEDeviceInit ..  ]
+[; ;main.c: 43: while(1)
+"43
 [e :U 355 ]
-[; ;main.c: 42: {
-"42
+[; ;main.c: 44: {
+"44
 {
-[; ;main.c: 43: ;
-[; ;main.c: 58: USBDeviceTasks();
-"58
-[e ( _USBDeviceTasks ..  ]
-[; ;main.c: 64: if( USBDeviceState < CONFIGURED_STATE )
+[; ;main.c: 45: ;
+[; ;main.c: 49: APP_DeviceAudioMIDITasks();
+"49
+[e ( _APP_DeviceAudioMIDITasks ..  ]
+[; ;main.c: 64: USBDeviceTasks();
 "64
+[e ( _USBDeviceTasks ..  ]
+[; ;main.c: 70: if( USBDeviceState < CONFIGURED_STATE )
+"70
 [e $ ! < -> _USBDeviceState `i -> . `E2741 6 `i 357  ]
-[; ;main.c: 65: {
-"65
+[; ;main.c: 71: {
+"71
 {
-[; ;main.c: 67: continue;
-"67
+[; ;main.c: 73: continue;
+"73
 [e $U 354  ]
-"68
+"74
 }
 [e :U 357 ]
-[; ;main.c: 68: }
-[; ;main.c: 74: if( UCONbits.SUSPND == 1 )
-"74
+[; ;main.c: 74: }
+[; ;main.c: 80: if( UCONbits.SUSPND == 1 )
+"80
 [e $ ! == -> . . _UCONbits 0 1 `i -> 1 `i 358  ]
-[; ;main.c: 75: {
-"75
+[; ;main.c: 81: {
+"81
 {
-[; ;main.c: 77: continue;
-"77
+[; ;main.c: 83: continue;
+"83
 [e $U 354  ]
-"78
+"84
 }
 [e :U 358 ]
-[; ;main.c: 78: }
-[; ;main.c: 81: APP_DeviceAudioMIDITasks();
-"81
-[e ( _APP_DeviceAudioMIDITasks ..  ]
-"83
+"90
 }
 [e :U 354 ]
-"41
+"43
 [e $U 355  ]
 [e :U 356 ]
-[; ;main.c: 83: }
 [; ;main.c: 84: }
-"84
+[; ;main.c: 90: }
+[; ;main.c: 91: }
+"91
 [e :UE 353 ]
 }
-"88
+"95
 [v _USER_USB_CALLBACK_EVENT_HANDLER `(uc ~T0 @X0 1 ef3`E2684`*v`ui ]
 {
-[; ;main.c: 87: bool USER_USB_CALLBACK_EVENT_HANDLER(USB_EVENT event, void *pdata, uint16_t size)
-[; ;main.c: 88: {
+[; ;main.c: 94: bool USER_USB_CALLBACK_EVENT_HANDLER(USB_EVENT event, void *pdata, uint16_t size)
+[; ;main.c: 95: {
 [e :U _USER_USB_CALLBACK_EVENT_HANDLER ]
 [v _event `E2684 ~T0 @X0 1 r1 ]
 [v _pdata `*v ~T0 @X0 1 r2 ]
 [v _size `ui ~T0 @X0 1 r3 ]
 [f ]
-[; ;main.c: 89: switch( (int) event )
-"89
+[; ;main.c: 96: switch( (int) event )
+"96
 [e $U 361  ]
-[; ;main.c: 90: {
-"90
-{
-[; ;main.c: 91: case EVENT_TRANSFER:
-"91
-[e :U 362 ]
-[; ;main.c: 92: break;
-"92
-[e $U 360  ]
-[; ;main.c: 94: case EVENT_SOF:
-"94
-[e :U 363 ]
-[; ;main.c: 97: APP_LEDUpdateUSBStatus();
+[; ;main.c: 97: {
 "97
-[e ( _APP_LEDUpdateUSBStatus ..  ]
-[; ;main.c: 98: APP_DeviceAudioMIDISOFHandler();
+{
+[; ;main.c: 98: case EVENT_TRANSFER:
 "98
-[e ( _APP_DeviceAudioMIDISOFHandler ..  ]
+[e :U 362 ]
 [; ;main.c: 99: break;
 "99
 [e $U 360  ]
-[; ;main.c: 101: case EVENT_SUSPEND:
+[; ;main.c: 101: case EVENT_SOF:
 "101
-[e :U 364 ]
-[; ;main.c: 103: APP_LEDUpdateUSBStatus();
-"103
-[e ( _APP_LEDUpdateUSBStatus ..  ]
-[; ;main.c: 104: break;
+[e :U 363 ]
+[; ;main.c: 104: APP_LEDUpdateUSBStatus();
 "104
-[e $U 360  ]
-[; ;main.c: 106: case EVENT_RESUME:
-"106
-[e :U 365 ]
-[; ;main.c: 108: APP_LEDUpdateUSBStatus();
-"108
 [e ( _APP_LEDUpdateUSBStatus ..  ]
-[; ;main.c: 109: break;
-"109
+[; ;main.c: 105: APP_DeviceAudioMIDISOFHandler();
+"105
+[e ( _APP_DeviceAudioMIDISOFHandler ..  ]
+[; ;main.c: 106: break;
+"106
 [e $U 360  ]
-[; ;main.c: 111: case EVENT_CONFIGURED:
+[; ;main.c: 108: case EVENT_SUSPEND:
+"108
+[e :U 364 ]
+[; ;main.c: 110: APP_LEDUpdateUSBStatus();
+"110
+[e ( _APP_LEDUpdateUSBStatus ..  ]
+[; ;main.c: 111: break;
 "111
-[e :U 366 ]
-[; ;main.c: 114: APP_DeviceAudioMIDIInitialize();
-"114
-[e ( _APP_DeviceAudioMIDIInitialize ..  ]
-[; ;main.c: 115: break;
+[e $U 360  ]
+[; ;main.c: 113: case EVENT_RESUME:
+"113
+[e :U 365 ]
+[; ;main.c: 115: APP_LEDUpdateUSBStatus();
 "115
+[e ( _APP_LEDUpdateUSBStatus ..  ]
+[; ;main.c: 116: break;
+"116
 [e $U 360  ]
-[; ;main.c: 117: case EVENT_SET_DESCRIPTOR:
-"117
-[e :U 367 ]
-[; ;main.c: 118: break;
+[; ;main.c: 118: case EVENT_CONFIGURED:
 "118
-[e $U 360  ]
-[; ;main.c: 120: case EVENT_EP0_REQUEST:
-"120
-[e :U 368 ]
-[; ;main.c: 121: break;
+[e :U 366 ]
+[; ;main.c: 121: APP_DeviceAudioMIDIInitialize();
 "121
+[e ( _APP_DeviceAudioMIDIInitialize ..  ]
+[; ;main.c: 122: break;
+"122
 [e $U 360  ]
-[; ;main.c: 123: case EVENT_BUS_ERROR:
-"123
-[e :U 369 ]
-[; ;main.c: 124: break;
+[; ;main.c: 124: case EVENT_SET_DESCRIPTOR:
 "124
+[e :U 367 ]
+[; ;main.c: 125: break;
+"125
 [e $U 360  ]
-[; ;main.c: 126: case EVENT_TRANSFER_TERMINATED:
-"126
-[e :U 370 ]
-[; ;main.c: 127: break;
+[; ;main.c: 127: case EVENT_EP0_REQUEST:
 "127
+[e :U 368 ]
+[; ;main.c: 128: break;
+"128
 [e $U 360  ]
-[; ;main.c: 129: default:
-"129
-[e :U 371 ]
-[; ;main.c: 130: break;
+[; ;main.c: 130: case EVENT_BUS_ERROR:
 "130
-[e $U 360  ]
+[e :U 369 ]
+[; ;main.c: 131: break;
 "131
-}
-[; ;main.c: 131: }
 [e $U 360  ]
-"89
+[; ;main.c: 133: case EVENT_TRANSFER_TERMINATED:
+"133
+[e :U 370 ]
+[; ;main.c: 134: break;
+"134
+[e $U 360  ]
+[; ;main.c: 136: default:
+"136
+[e :U 371 ]
+[; ;main.c: 137: break;
+"137
+[e $U 360  ]
+"138
+}
+[; ;main.c: 138: }
+[e $U 360  ]
+"96
 [e :U 361 ]
 [e [\ -> _event `i , $ -> . `E2684 16 `i 362
  , $ -> . `E2684 17 `i 363
@@ -3155,13 +3163,13 @@ Version 3.2 HI-TECH Software Intermediate Code
  , $ -> . `E2684 33 `i 369
  , $ -> . `E2750 4 `i 370
  371 ]
-"131
+"138
 [e :U 360 ]
-[; ;main.c: 132: return 1;
-"132
+[; ;main.c: 139: return 1;
+"139
 [e ) -> -> 1 `i `uc ]
 [e $UE 359  ]
-[; ;main.c: 133: }
-"133
+[; ;main.c: 140: }
+"140
 [e :UE 359 ]
 }

@@ -28,7 +28,7 @@
 
 #include "../framework/usb/usb_device.h" 
 #include "../framework/usb/usb_device_midi.h"
-
+#include "app_device_ble_midi.h"
 
 
 MAIN_RETURN main(void)
@@ -38,9 +38,15 @@ MAIN_RETURN main(void)
     USBDeviceInit();
     USBDeviceAttach();
     
+    BLEDeviceInit();
+    
     while(1)
     {
         SYSTEM_Tasks();
+   //     APP_DeviceBLETask();
+        
+        //Application specific tasks
+        APP_DeviceAudioMIDITasks();
 
         #if defined(USB_POLLING)
             // Interrupt or polling method.  If using polling, must call
@@ -77,8 +83,9 @@ MAIN_RETURN main(void)
             continue;
         }
             
-        //Application specific tasks
-        APP_DeviceAudioMIDITasks();
+
+        
+        
 
     }//end while
 }//end main

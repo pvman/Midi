@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <service uuid="1800">
+      <description>Generic Access Profile</description>
+
+      <characteristic uuid="2a00">
+        <properties read="true" const="true" />
+        <value>MIDI Generator</value>
+      </characteristic>
+
+      <characteristic uuid="2a01">
+        <properties read="true" const="true" />
+        <value type="hex">4000</value>
+      </characteristic>
+    </service>
+    
+    
+    <service type="primary" uuid="03B80E5A-EDE8-4B33-A751-6CE34EC4C700" advertise="true">
+      <description>MIDI Service</description>
+
+      <characteristic uuid="7772E5DB-3868-4112-A1A9-F2669D106BF3" id = "midi_io">
+        <properties read="true" write_no_response="true" notify="true" />
+        <value length="5" >MIDI I/O</value>       
+      </characteristic>
+      
+    </service>
+
+</configuration>

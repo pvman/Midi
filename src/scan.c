@@ -145,12 +145,13 @@ inline void process_level0(uint8_t idx_key, const uint8_t old_level, const uint8
 inline void process_level(uint8_t idx_key, const uint8_t old_level, const uint8_t new_level) {
     static const uint8_t L = 0x0A;  
     static const uint8_t idx_midi_map[N_KEYS] = {
-        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
-        12,  13, 14, 15,  16,  17,  18,  19, 20,  21,  22,  23,
-        24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38
+        63, 24, 24, 24, 24, 71, 24, 24, 24, 24, 24,
+        24, 24, 68, 69, 70, 49, 50, 24, 24, 48, 65, 
+        66, 67, 24, 24, 54, 56, 52, 59, 61, 64, 51, 
+        53, 55, 57, 58, 60, 62
     };
     static bool key_states[N_KEYS] = {0, };
-    static const uint8_t  midi_shift = 48;
+    static const uint8_t  midi_shift = 0;
     static const uint8_t  
         key_off_threshold = 5,
         key_on_threshold  = 7;
