@@ -32,7 +32,7 @@ bool scan_task(uint8_t *note, uint8_t *velocity);
 static USB_HANDLE USBTxHandle;
 static USB_HANDLE USBRxHandle;
 
-static uint8_t pitch;
+static uint8_t pitch, ble_pitch, ble_velocity;
 static bool sentNoteOff;
 
 static USB_VOLATILE uint8_t msCounter;
@@ -71,7 +71,7 @@ void APP_DeviceAudioMIDITasks()
    //     USBRxHandle = USBRxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&ReceivedDataBuffer,64);
    // }
     
-    {
+    
         uint8_t scan_pitch = 0x3C, velocity = 0;  
         bool bscan = 0;
         bscan = scan_task(&scan_pitch, &velocity);
@@ -82,8 +82,10 @@ void APP_DeviceAudioMIDITasks()
             midiData.DATA_0 = 0x90;
             midiData.DATA_1 = scan_pitch;
             midiData.DATA_2 = velocity; 
+            ble_pitch  = scan_pitch;
+            ble_velocity = velocity;
         //    USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
-          //  SendMidiData(midiData.DATA_1,  midiData.DATA_2);
+            SendMidiData(ble_pitch, ble_velocity);
             
             if( USBGetDeviceState() == CONFIGURED_STATE || USBIsDeviceSuspended())
             {
@@ -94,7 +96,7 @@ void APP_DeviceAudioMIDITasks()
                 USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);                
             }
         }
-    }
+    
 
     /* If the user button is pressed... */
    /* if(BUTTON_IsPressed(BUTTON_DEVICE_AUDIO_MIDI))
@@ -124,15 +126,18 @@ void APP_DeviceAudioMIDITasks()
         midiData.Val = 0;   //must set all unused values to 0 so go ahead
                             //  and set them all to 0
         midiData.CableNumber = 0;
-        midiData.CodeIndexNumber = MIDI_CIN_NOTE_ON;
+        midiData.CodeIndexNumber = MIDI_CIN_NOTE_OFF;
         midiData.DATA_0 = 0x90;     //Note off
         midiData.DATA_1 = pitch++;     //pitch
         midiData.DATA_2 = 0x00;        //velocity
-
+        ble_pitch  = pitch;
+        ble_velocity = 0x00;
+        
         if(pitch == 0x49)
             pitch = 0x3C;
         //USBTxHandle = USBTxOnePacket(USB_DEVICE_AUDIO_MIDI_ENDPOINT,(uint8_t*)&midiData,4);
-      //  SendMidiData(midiData.DATA_1,  midiData.DATA_2);
+        
+        SendMidiData(ble_pitch, ble_velocity);
         sentNoteOff = true;
         
         if( USBGetDeviceState() == CONFIGURED_STATE || USBIsDeviceSuspended())

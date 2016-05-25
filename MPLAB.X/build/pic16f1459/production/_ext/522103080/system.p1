@@ -2,11 +2,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "87 ../src/pic16f1459/system.c
 [c E2634 0 1 2 .. ]
 [n E2634 . SYSTEM_STATE_USB_START SYSTEM_STATE_USB_SUSPEND SYSTEM_STATE_USB_RESUME  ]
-<<<<<<< HEAD
 "1461 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
-=======
-"1461 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
->>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [v _OSCCON `Vuc ~T0 @X0 0 e@153 ]
 "4195
 [v _ACTCON `Vuc ~T0 @X0 0 e@923 ]
@@ -16,11 +12,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "127 ../src\../bsp/pic16f1459/leds.h
 [v _LED_Enable `(v ~T0 @X0 0 ef1`E2611 ]
 [; ;pic16f1459.h: 44: extern volatile unsigned char INDF0 @ 0x000;
-<<<<<<< HEAD
 "46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h
-=======
-"46 C:\Program Files\Microchip\xc8\v1.20\include\pic16f1459.h
->>>>>>> 294cec88a44345e18ed169f134f9ed5e8a295ee1
 [; ;pic16f1459.h: 46: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic16f1459.h: 49: typedef union {
@@ -3159,7 +3151,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "31 ../src/pic16f1459/system.c
 [p x FOSC=INTOSC ]
 "32
-[p x WDTE=OFF ]
+[p x WDTE=ON ]
 "33
 [p x PWRTE=OFF ]
 "34

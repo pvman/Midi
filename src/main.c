@@ -42,6 +42,7 @@ MAIN_RETURN main(void)
     
     while(1)
     {
+        asm ("clrwdt");
         SYSTEM_Tasks();
    //     APP_DeviceBLETask();
         
