@@ -100,6 +100,25 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S95 . . . ]
 "1791
 [v _ADCON2bits `VS95 ~T0 @X0 0 e@159 ]
+"906
+[s S56 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S56 . T2CKPS TMR2ON T2OUTPS ]
+"911
+[s S57 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S57 . T2CKPS0 T2CKPS1 . T2OUTPS0 T2OUTPS1 T2OUTPS2 T2OUTPS3 ]
+"905
+[u S55 `S56 1 `S57 1 ]
+[n S55 . . . ]
+"921
+[v _T2CONbits `VS55 ~T0 @X0 0 e@28 ]
+"558
+[s S36 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S36 . TMR1IF TMR2IF . SSP1IF TXIF RCIF ADIF TMR1GIF ]
+"557
+[u S35 `S36 1 ]
+[n S35 . . ]
+"569
+[v _PIR1bits `VS35 ~T0 @X0 0 e@17 ]
 "1208
 [s S69 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S69 . PS PSA TMR0SE TMR0CS INTEDG nWPUEN ]
@@ -126,14 +145,14 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _TMR0 `Vuc ~T0 @X0 0 e@21 ]
 "1611
 [v _ADRESH `Vuc ~T0 @X0 0 e@156 ]
-"186 ../src/scan.c
+"195 ../src/scan.c
 [c E2645 0 1 2 3 4 .. ]
 [n E2645 . LED_NONE LED_D1 LED_D2 LED_D3 LED_D4  ]
 "56 ../bsp/pic16f1459\leds.h
 [v _LED_On `(v ~T0 @X0 0 ef1`E2645 ]
 "74
 [v _LED_Off `(v ~T0 @X0 0 ef1`E2645 ]
-"213 ../src/scan.c
+"222 ../src/scan.c
 [c E2749 0 1 2 3 4 5 .. ]
 [n E2749 . S_INIT S_GO S_CLOCK_RAISE S_CLOCK_FALL S_ADC_WAIT S_ADC_READ  ]
 [; ;stdbool.h: 12: typedef unsigned char bool;
@@ -2870,185 +2889,200 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;scan.c: 52: ADCON2bits.TRIGSEL = 0;
 "52
 [e = . . _ADCON2bits 0 1 -> -> 0 `i `uc ]
-[; ;scan.c: 53: }
-"53
+[; ;scan.c: 55: T2CONbits.T2CKPS = 3;
+"55
+[e = . . _T2CONbits 0 0 -> -> 3 `i `uc ]
+[; ;scan.c: 56: T2CONbits.T2OUTPS = 0x0F;
+"56
+[e = . . _T2CONbits 0 2 -> -> 15 `i `uc ]
+[; ;scan.c: 57: PIE1bits.TMR2IE = 0;
+"57
+[e = . . _PIE1bits 0 1 -> -> 0 `i `uc ]
+[; ;scan.c: 58: PIR1bits.TMR2IF = 0;
+"58
+[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
+[; ;scan.c: 59: T2CONbits.TMR2ON = 1;
+"59
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+[; ;scan.c: 62: }
+"62
 [e :UE 324 ]
 }
-"55
+"64
 [v F2701 `(v ~T0 @X0 1 tf ]
 [v _set_timer `TF2701 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 55: inline void set_timer(void) {
+[; ;scan.c: 64: inline void set_timer(void) {
 [e :U _set_timer ]
 [f ]
-[; ;scan.c: 56: wait_timer = 1;
-"56
+[; ;scan.c: 65: wait_timer = 1;
+"65
 [e = _wait_timer -> -> 1 `i `uc ]
-[; ;scan.c: 57: OPTION_REGbits.TMR0CS = 0;
-"57
+[; ;scan.c: 66: OPTION_REGbits.TMR0CS = 0;
+"66
 [e = . . _OPTION_REGbits 0 3 -> -> 0 `i `uc ]
-[; ;scan.c: 58: OPTION_REGbits.PSA = 1;
-"58
+[; ;scan.c: 67: OPTION_REGbits.PSA = 1;
+"67
 [e = . . _OPTION_REGbits 0 1 -> -> 1 `i `uc ]
-[; ;scan.c: 59: INTCONbits.TMR0IE = 0;
-"59
+[; ;scan.c: 68: INTCONbits.TMR0IE = 0;
+"68
 [e = . . _INTCONbits 0 5 -> -> 0 `i `uc ]
-[; ;scan.c: 60: INTCONbits.TMR0IF = 0;
-"60
+[; ;scan.c: 69: INTCONbits.TMR0IF = 0;
+"69
 [e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
-[; ;scan.c: 61: TMR0 = 0;
-"61
+[; ;scan.c: 70: TMR0 = 0;
+"70
 [e = _TMR0 -> -> 0 `i `uc ]
-[; ;scan.c: 62: }
-"62
+[; ;scan.c: 71: }
+"71
 [e :UE 325 ]
 }
-"64
+"73
 [v F2704 `(uc ~T0 @X0 1 tf ]
 [v _waiting_for_timer `TF2704 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 64: inline bool waiting_for_timer(void) {
+[; ;scan.c: 73: inline bool waiting_for_timer(void) {
 [e :U _waiting_for_timer ]
 [f ]
-[; ;scan.c: 65: return (wait_timer = wait_timer && !INTCONbits.TMR0IF);
-"65
+[; ;scan.c: 74: return (wait_timer = wait_timer && !INTCONbits.TMR0IF);
+"74
 [e ) = _wait_timer -> -> && != -> _wait_timer `i -> -> -> 0 `i `uc `i ! != -> . . _INTCONbits 0 2 `i -> -> -> 0 `i `Vuc `i `i `uc ]
 [e $UE 326  ]
-[; ;scan.c: 66: }
-"66
+[; ;scan.c: 75: }
+"75
 [e :UE 326 ]
 }
-"68
+"77
 [v F2708 `(v ~T0 @X0 1 tf2`Cuc`Cuc ]
 [v _set_clock_and_data `TF2708 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 68: inline void set_clock_and_data(const uint8_t c, const uint8_t d) {
+[; ;scan.c: 77: inline void set_clock_and_data(const uint8_t c, const uint8_t d) {
 [e :U _set_clock_and_data ]
 [v _c `Cuc ~T0 @X0 1 r1 ]
 [v _d `Cuc ~T0 @X0 1 r2 ]
 [f ]
-[; ;scan.c: 69: LATCbits.LATC4 = !!c;
-"69
+[; ;scan.c: 78: LATCbits.LATC4 = !!c;
+"78
 [e = . . _LATCbits 0 4 -> -> ! ! != -> _c `i -> -> -> 0 `i `Cuc `i `i `uc ]
-[; ;scan.c: 70: LATCbits.LATC5 = !!d;
-"70
+[; ;scan.c: 79: LATCbits.LATC5 = !!d;
+"79
 [e = . . _LATCbits 0 5 -> -> ! ! != -> _d `i -> -> -> 0 `i `Cuc `i `i `uc ]
-[; ;scan.c: 71: }
-"71
+[; ;scan.c: 80: }
+"80
 [e :UE 327 ]
 }
-"73
+"82
 [v F2711 `(uc ~T0 @X0 1 tf ]
 [v _get_data `TF2711 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 73: inline uint8_t get_data(void) {
+[; ;scan.c: 82: inline uint8_t get_data(void) {
 [e :U _get_data ]
 [f ]
-[; ;scan.c: 74: return LATCbits.LATC5;
-"74
+[; ;scan.c: 83: return LATCbits.LATC5;
+"83
 [e ) . . _LATCbits 0 5 ]
 [e $UE 328  ]
-[; ;scan.c: 75: }
-"75
+[; ;scan.c: 84: }
+"84
 [e :UE 328 ]
 }
-"77
+"86
 [v F2714 `(uc ~T0 @X0 1 tf ]
 [v _is_end_of_scan `TF2714 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 77: inline bool is_end_of_scan(void) {
+[; ;scan.c: 86: inline bool is_end_of_scan(void) {
 [e :U _is_end_of_scan ]
 [f ]
-"79
+"88
 [v F2715 `uc ~T0 @X0 1 s scan_counter ]
 [i F2715
 -> -> 0 `i `uc
 ]
-"80
+"89
 [v _res `uc ~T0 @X0 1 a ]
-[; ;scan.c: 79: static uint8_t scan_counter = 0;
-[; ;scan.c: 80: bool res = (++scan_counter) >= N_KEYS;
+[; ;scan.c: 88: static uint8_t scan_counter = 0;
+[; ;scan.c: 89: bool res = (++scan_counter) >= N_KEYS;
 [e = _res -> -> >= -> =+ F2715 -> -> 1 `i `uc `i -> . `E2683 0 `i `i `uc ]
-[; ;scan.c: 81: if (scan_counter >= N_KEYS) scan_counter = 0;
-"81
+[; ;scan.c: 90: if (scan_counter >= N_KEYS) scan_counter = 0;
+"90
 [e $ ! >= -> F2715 `i -> . `E2683 0 `i 330  ]
 [e = F2715 -> -> 0 `i `uc ]
 [e :U 330 ]
-[; ;scan.c: 82: return res;
-"82
+[; ;scan.c: 91: return res;
+"91
 [e ) _res ]
 [e $UE 329  ]
-[; ;scan.c: 83: }
-"83
+[; ;scan.c: 92: }
+"92
 [e :UE 329 ]
 }
-"85
+"94
 [v F2719 `(v ~T0 @X0 1 tf ]
 [v _run_adc `TF2719 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 85: inline void run_adc(void) {
+[; ;scan.c: 94: inline void run_adc(void) {
 [e :U _run_adc ]
 [f ]
-[; ;scan.c: 86: ADCON0bits.CHS = 7;
-"86
+[; ;scan.c: 95: ADCON0bits.CHS = 7;
+"95
 [e = . . _ADCON0bits 0 2 -> -> 7 `i `uc ]
-[; ;scan.c: 87: ADCON0bits.GO = 1;
-"87
+[; ;scan.c: 96: ADCON0bits.GO = 1;
+"96
 [e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
-[; ;scan.c: 88: }
-"88
+[; ;scan.c: 97: }
+"97
 [e :UE 331 ]
 }
-"90
+"99
 [v F2722 `(uc ~T0 @X0 1 tf ]
 [v _is_adc_ready `TF2722 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 90: inline bool is_adc_ready(void) {
+[; ;scan.c: 99: inline bool is_adc_ready(void) {
 [e :U _is_adc_ready ]
 [f ]
-[; ;scan.c: 91: return !ADCON0bits.GO_nDONE;
-"91
+[; ;scan.c: 100: return !ADCON0bits.GO_nDONE;
+"100
 [e ) -> -> ! != -> . . _ADCON0bits 0 1 `i -> -> -> 0 `i `Vuc `i `i `uc ]
 [e $UE 332  ]
-[; ;scan.c: 92: }
-"92
+[; ;scan.c: 101: }
+"101
 [e :UE 332 ]
 }
-"94
+"103
 [v F2725 `(uc ~T0 @X0 1 tf ]
 [v _get_adc `TF2725 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 94: inline uint8_t get_adc(void) {
+[; ;scan.c: 103: inline uint8_t get_adc(void) {
 [e :U _get_adc ]
 [f ]
-[; ;scan.c: 95: return ADRESH;
-"95
+[; ;scan.c: 104: return ADRESH;
+"104
 [e ) _ADRESH ]
 [e $UE 333  ]
-[; ;scan.c: 96: }
-"96
+[; ;scan.c: 105: }
+"105
 [e :UE 333 ]
 }
-"145
+"154
 [v F2730 `(v ~T0 @X0 1 tf3`uc`Cuc`Cuc ]
 [v _process_level `TF2730 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 145: inline void process_level(uint8_t idx_key, const uint8_t old_level, const uint8_t new_level) {
+[; ;scan.c: 154: inline void process_level(uint8_t idx_key, const uint8_t old_level, const uint8_t new_level) {
 [e :U _process_level ]
 [v _idx_key `uc ~T0 @X0 1 r1 ]
 [v _old_level `Cuc ~T0 @X0 1 r2 ]
 [v _new_level `Cuc ~T0 @X0 1 r3 ]
 [f ]
-"146
+"155
 [v F2731 `Cuc ~T0 @X0 1 s L ]
 [i F2731
 -> -> 10 `i `uc
 ]
-"147
+"156
 [v F2732 `Cuc ~T0 @X0 . `E2683 0 s idx_midi_map ]
 [i F2732
 :U ..
-"148
+"157
 -> -> 63 `i `uc
 -> -> 24 `i `uc
 -> -> 24 `i `uc
@@ -3060,7 +3094,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 24 `i `uc
 -> -> 24 `i `uc
 -> -> 24 `i `uc
-"149
+"158
 -> -> 24 `i `uc
 -> -> 24 `i `uc
 -> -> 68 `i `uc
@@ -3072,7 +3106,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 24 `i `uc
 -> -> 48 `i `uc
 -> -> 65 `i `uc
-"150
+"159
 -> -> 66 `i `uc
 -> -> 67 `i `uc
 -> -> 24 `i `uc
@@ -3084,326 +3118,326 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 61 `i `uc
 -> -> 64 `i `uc
 -> -> 51 `i `uc
-"151
+"160
 -> -> 53 `i `uc
 -> -> 55 `i `uc
 -> -> 57 `i `uc
 -> -> 58 `i `uc
 -> -> 60 `i `uc
-"152
+"161
 -> -> 62 `i `uc
 ..
 ]
-"153
+"162
 [v F2733 `uc ~T0 @X0 . `E2683 0 s key_states ]
 [i F2733
 :U ..
 -> -> 0 `i `uc
 ..
 ]
-"154
+"163
 [v F2734 `Cuc ~T0 @X0 1 s midi_shift ]
 [i F2734
 -> -> 0 `i `uc
 ]
-"156
+"165
 [v F2735 `Cuc ~T0 @X0 1 s key_off_threshold ]
 [i F2735
 -> -> 5 `i `uc
 ]
-"157
+"166
 [v F2736 `Cuc ~T0 @X0 1 s key_on_threshold ]
 [i F2736
 -> -> 7 `i `uc
 ]
-"159
+"168
 [v F2737 `uc ~T0 @X0 . `E2683 0 s key_off_counter ]
 [i F2737
 :U ..
 -> -> 0 `i `uc
 ..
 ]
-"160
+"169
 [v F2738 `uc ~T0 @X0 . `E2683 0 s key_on_counter ]
 [i F2738
 :U ..
 -> -> 0 `i `uc
 ..
 ]
-"162
+"171
 [v _old_state `i ~T0 @X0 1 a ]
-[; ;scan.c: 146: static const uint8_t L = 0x0A;
-[; ;scan.c: 147: static const uint8_t idx_midi_map[N_KEYS] = {
-[; ;scan.c: 148: 63, 24, 24, 24, 24, 71, 24, 24, 24, 24, 24,
-[; ;scan.c: 149: 24, 24, 68, 69, 70, 49, 50, 24, 24, 48, 65,
-[; ;scan.c: 150: 66, 67, 24, 24, 54, 56, 52, 59, 61, 64, 51,
-[; ;scan.c: 151: 53, 55, 57, 58, 60, 62
-[; ;scan.c: 152: };
-[; ;scan.c: 153: static bool key_states[N_KEYS] = {0, };
-[; ;scan.c: 154: static const uint8_t midi_shift = 0;
-[; ;scan.c: 155: static const uint8_t
-[; ;scan.c: 156: key_off_threshold = 5,
-[; ;scan.c: 157: key_on_threshold = 7;
-[; ;scan.c: 159: static uint8_t key_off_counter[N_KEYS] = {0,};
-[; ;scan.c: 160: static uint8_t key_on_counter[N_KEYS] = {0,};
-[; ;scan.c: 162: int old_state = (old_level > L);
+[; ;scan.c: 155: static const uint8_t L = 0x0A;
+[; ;scan.c: 156: static const uint8_t idx_midi_map[N_KEYS] = {
+[; ;scan.c: 157: 63, 24, 24, 24, 24, 71, 24, 24, 24, 24, 24,
+[; ;scan.c: 158: 24, 24, 68, 69, 70, 49, 50, 24, 24, 48, 65,
+[; ;scan.c: 159: 66, 67, 24, 24, 54, 56, 52, 59, 61, 64, 51,
+[; ;scan.c: 160: 53, 55, 57, 58, 60, 62
+[; ;scan.c: 161: };
+[; ;scan.c: 162: static bool key_states[N_KEYS] = {0, };
+[; ;scan.c: 163: static const uint8_t midi_shift = 0;
+[; ;scan.c: 164: static const uint8_t
+[; ;scan.c: 165: key_off_threshold = 5,
+[; ;scan.c: 166: key_on_threshold = 7;
+[; ;scan.c: 168: static uint8_t key_off_counter[N_KEYS] = {0,};
+[; ;scan.c: 169: static uint8_t key_on_counter[N_KEYS] = {0,};
+[; ;scan.c: 171: int old_state = (old_level > L);
 [e = _old_state -> > -> _old_level `i -> F2731 `i `i ]
-"163
+"172
 [v _current_state `i ~T0 @X0 1 a ]
-[; ;scan.c: 163: int current_state = (new_level > L);
+[; ;scan.c: 172: int current_state = (new_level > L);
 [e = _current_state -> > -> _new_level `i -> F2731 `i `i ]
-[; ;scan.c: 165: note_event.pitch = 0;
-"165
+[; ;scan.c: 174: note_event.pitch = 0;
+"174
 [e = . _note_event 0 -> -> 0 `i `uc ]
-[; ;scan.c: 166: note_event.velocity = 0;
-"166
+[; ;scan.c: 175: note_event.velocity = 0;
+"175
 [e = . _note_event 1 -> -> 0 `i `uc ]
-[; ;scan.c: 168: if (current_state) {
-"168
+[; ;scan.c: 177: if (current_state) {
+"177
 [e $ ! != _current_state -> 0 `i 335  ]
 {
-[; ;scan.c: 169: key_off_counter[idx_key] = 0;
-"169
+[; ;scan.c: 178: key_off_counter[idx_key] = 0;
+"178
 [e = *U + &U F2737 * -> _idx_key `ux -> -> # *U &U F2737 `ui `ux -> -> 0 `i `uc ]
-[; ;scan.c: 170: key_on_counter [idx_key] ++;
-"170
+[; ;scan.c: 179: key_on_counter [idx_key] ++;
+"179
 [e ++ *U + &U F2738 * -> _idx_key `ux -> -> # *U &U F2738 `ui `ux -> -> 1 `i `uc ]
-"171
+"180
 }
-[; ;scan.c: 171: }
+[; ;scan.c: 180: }
 [e $U 336  ]
-"172
+"181
 [e :U 335 ]
-[; ;scan.c: 172: else {
+[; ;scan.c: 181: else {
 {
-[; ;scan.c: 173: key_on_counter[idx_key] = 0;
-"173
+[; ;scan.c: 182: key_on_counter[idx_key] = 0;
+"182
 [e = *U + &U F2738 * -> _idx_key `ux -> -> # *U &U F2738 `ui `ux -> -> 0 `i `uc ]
-[; ;scan.c: 174: key_off_counter [idx_key] ++;
-"174
+[; ;scan.c: 183: key_off_counter [idx_key] ++;
+"183
 [e ++ *U + &U F2737 * -> _idx_key `ux -> -> # *U &U F2737 `ui `ux -> -> 1 `i `uc ]
-"175
+"184
 }
 [e :U 336 ]
-[; ;scan.c: 175: }
-[; ;scan.c: 177: {
-"177
+[; ;scan.c: 184: }
+[; ;scan.c: 186: {
+"186
 {
-"179
+"188
 [v _on_flag `uc ~T0 @X0 1 a ]
-[; ;scan.c: 178: bool
-[; ;scan.c: 179: on_flag = key_on_counter [idx_key] >= key_on_threshold,
+[; ;scan.c: 187: bool
+[; ;scan.c: 188: on_flag = key_on_counter [idx_key] >= key_on_threshold,
 [e = _on_flag -> -> >= -> *U + &U F2738 * -> _idx_key `ux -> -> # *U &U F2738 `ui `ux `i -> F2736 `i `i `uc ]
-"180
+"189
 [v _off_flag `uc ~T0 @X0 1 a ]
-[; ;scan.c: 180: off_flag = key_off_counter[idx_key] >= key_off_threshold,
+[; ;scan.c: 189: off_flag = key_off_counter[idx_key] >= key_off_threshold,
 [e = _off_flag -> -> >= -> *U + &U F2737 * -> _idx_key `ux -> -> # *U &U F2737 `ui `ux `i -> F2735 `i `i `uc ]
-"181
+"190
 [v _filtered_state `uc ~T0 @X0 1 a ]
-[; ;scan.c: 181: filtered_state = on_flag || !on_flag && !off_flag && key_states[idx_key];
+[; ;scan.c: 190: filtered_state = on_flag || !on_flag && !off_flag && key_states[idx_key];
 [e = _filtered_state -> -> || != -> _on_flag `i -> -> -> 0 `i `uc `i && && ! != -> _on_flag `i -> -> -> 0 `i `uc `i ! != -> _off_flag `i -> -> -> 0 `i `uc `i != -> *U + &U F2733 * -> _idx_key `ux -> -> # *U &U F2733 `ui `ux `i -> -> -> 0 `i `uc `i `i `uc ]
-[; ;scan.c: 183: if (!key_states[idx_key] != !filtered_state) {
-"183
+[; ;scan.c: 192: if (!key_states[idx_key] != !filtered_state) {
+"192
 [e $ ! != ! != -> *U + &U F2733 * -> _idx_key `ux -> -> # *U &U F2733 `ui `ux `i -> -> -> 0 `i `uc `i ! != -> _filtered_state `i -> -> -> 0 `i `uc `i 337  ]
 {
-[; ;scan.c: 184: note_event.pitch = midi_shift + idx_midi_map[idx_key];
-"184
+[; ;scan.c: 193: note_event.pitch = midi_shift + idx_midi_map[idx_key];
+"193
 [e = . _note_event 0 -> + -> F2734 `i -> *U + &U F2732 * -> _idx_key `ux -> -> # *U &U F2732 `ui `ux `i `uc ]
-[; ;scan.c: 185: note_event.velocity = (filtered_state? (new_level * 2 + 5): 0);
-"185
+[; ;scan.c: 194: note_event.velocity = (filtered_state? (new_level * 2 + 5): 0);
+"194
 [e = . _note_event 1 -> ? != -> _filtered_state `i -> -> -> 0 `i `uc `i : + * -> _new_level `i -> 2 `i -> 5 `i -> 0 `i `uc ]
-[; ;scan.c: 186: if (filtered_state) LED_On(LED_D1);
-"186
+[; ;scan.c: 195: if (filtered_state) LED_On(LED_D1);
+"195
 [e $ ! != -> _filtered_state `i -> -> -> 0 `i `uc `i 338  ]
 [e ( _LED_On (1 -> . `E2645 1 `E2645 ]
 [e $U 339  ]
-"187
+"196
 [e :U 338 ]
-[; ;scan.c: 187: else LED_Off(LED_D1);
+[; ;scan.c: 196: else LED_Off(LED_D1);
 [e ( _LED_Off (1 -> . `E2645 1 `E2645 ]
 [e :U 339 ]
-"188
+"197
 }
 [e :U 337 ]
-[; ;scan.c: 188: }
-[; ;scan.c: 189: key_states[idx_key] = filtered_state;
-"189
+[; ;scan.c: 197: }
+[; ;scan.c: 198: key_states[idx_key] = filtered_state;
+"198
 [e = *U + &U F2733 * -> _idx_key `ux -> -> # *U &U F2733 `ui `ux _filtered_state ]
-"190
+"199
 }
-[; ;scan.c: 190: }
-[; ;scan.c: 191: }
-"191
+[; ;scan.c: 199: }
+[; ;scan.c: 200: }
+"200
 [e :UE 334 ]
 }
-"194
+"203
 [v F2747 `(uc ~T0 @X0 1 tf2`uc`uc ]
 [v _store_key_level `TF2747 ~T0 @X0 1 e ]
 {
-[; ;scan.c: 194: inline bool store_key_level(uint8_t level, bool end_of_scan) {
+[; ;scan.c: 203: inline bool store_key_level(uint8_t level, bool end_of_scan) {
 [e :U _store_key_level ]
 [v _level `uc ~T0 @X0 1 r1 ]
 [v _end_of_scan `uc ~T0 @X0 1 r2 ]
 [f ]
-"195
+"204
 [v F2748 `uc ~T0 @X0 1 s idx_key ]
 [i F2748
 -> -> 0 `i `uc
 ]
-[; ;scan.c: 195: static uint8_t idx_key = 0;
-[; ;scan.c: 196: process_level(idx_key, adc_levels[idx_key], level);
-"196
+[; ;scan.c: 204: static uint8_t idx_key = 0;
+[; ;scan.c: 205: process_level(idx_key, adc_levels[idx_key], level);
+"205
 [e ( _process_level (3 , , F2748 *U + &U _adc_levels * -> F2748 `ux -> -> # *U &U _adc_levels `ui `ux _level ]
-[; ;scan.c: 197: adc_levels[idx_key] = level;
-"197
+[; ;scan.c: 206: adc_levels[idx_key] = level;
+"206
 [e = *U + &U _adc_levels * -> F2748 `ux -> -> # *U &U _adc_levels `ui `ux _level ]
-[; ;scan.c: 198: idx_key ++;
-"198
+[; ;scan.c: 207: idx_key ++;
+"207
 [e ++ F2748 -> -> 1 `i `uc ]
-[; ;scan.c: 199: if (idx_key >= N_KEYS || end_of_scan) idx_key = 0;
-"199
+[; ;scan.c: 208: if (idx_key >= N_KEYS || end_of_scan) idx_key = 0;
+"208
 [e $ ! || >= -> F2748 `i -> . `E2683 0 `i != -> _end_of_scan `i -> -> -> 0 `i `uc `i 341  ]
 [e = F2748 -> -> 0 `i `uc ]
 [e :U 341 ]
-[; ;scan.c: 200: return idx_key == 0;
-"200
+[; ;scan.c: 209: return idx_key == 0;
+"209
 [e ) -> -> == -> F2748 `i -> 0 `i `i `uc ]
 [e $UE 340  ]
-[; ;scan.c: 201: }
-"201
+[; ;scan.c: 210: }
+"210
 [e :UE 340 ]
 }
-[; ;scan.c: 203: enum {
-[; ;scan.c: 204: S_INIT,
-[; ;scan.c: 205: S_GO,
-[; ;scan.c: 206: S_CLOCK_RAISE,
-[; ;scan.c: 207: S_CLOCK_FALL,
-[; ;scan.c: 208: S_ADC_WAIT,
-[; ;scan.c: 209: S_ADC_READ
-[; ;scan.c: 210: };
-"212
+[; ;scan.c: 212: enum {
+[; ;scan.c: 213: S_INIT,
+[; ;scan.c: 214: S_GO,
+[; ;scan.c: 215: S_CLOCK_RAISE,
+[; ;scan.c: 216: S_CLOCK_FALL,
+[; ;scan.c: 217: S_ADC_WAIT,
+[; ;scan.c: 218: S_ADC_READ
+[; ;scan.c: 219: };
+"221
 [v _scan_task `(uc ~T0 @X0 1 ef2`*uc`*uc ]
 {
-[; ;scan.c: 212: bool scan_task(uint8_t *note, uint8_t *velocity){
+[; ;scan.c: 221: bool scan_task(uint8_t *note, uint8_t *velocity){
 [e :U _scan_task ]
 [v _note `*uc ~T0 @X0 1 r1 ]
 [v _velocity `*uc ~T0 @X0 1 r2 ]
 [f ]
-"213
+"222
 [v F2759 `uc ~T0 @X0 1 s state ]
 [i F2759
 -> . `E2749 0 `uc
 ]
-[; ;scan.c: 213: static uint8_t state = S_INIT;
-[; ;scan.c: 215: note_event.pitch = note_event.velocity = 0;
-"215
+[; ;scan.c: 222: static uint8_t state = S_INIT;
+[; ;scan.c: 224: note_event.pitch = note_event.velocity = 0;
+"224
 [e = . _note_event 0 = . _note_event 1 -> -> 0 `i `uc ]
-[; ;scan.c: 216: *note = *velocity = 0;
-"216
+[; ;scan.c: 225: *note = *velocity = 0;
+"225
 [e = *U _note = *U _velocity -> -> 0 `i `uc ]
-[; ;scan.c: 218: if (!is_initialized)
-"218
+[; ;scan.c: 227: if (!is_initialized)
+"227
 [e $ ! ! != -> _is_initialized `i -> -> -> 0 `i `uc `i 343  ]
-[; ;scan.c: 219: scan_init();
-"219
+[; ;scan.c: 228: scan_init();
+"228
 [e ( _scan_init ..  ]
 [e :U 343 ]
-[; ;scan.c: 221: if (waiting_for_timer()) return 0;
-"221
+[; ;scan.c: 230: if (waiting_for_timer()) return 0;
+"230
 [e $ ! != -> ( _waiting_for_timer ..  `i -> -> -> 0 `i `uc `i 344  ]
 [e ) -> -> 0 `i `uc ]
 [e $UE 342  ]
 [e :U 344 ]
-[; ;scan.c: 223: switch(state) {
-"223
+[; ;scan.c: 232: switch(state) {
+"232
 [e $U 346  ]
 {
-[; ;scan.c: 224: case(S_INIT):
-"224
-[e :U 347 ]
-[; ;scan.c: 225: set_clock_and_data(0,1);
-"225
-[e ( _set_clock_and_data (2 , -> -> 0 `i `uc -> -> 1 `i `uc ]
-[; ;scan.c: 226: state = S_GO;
-"226
-[e = F2759 -> . `E2749 1 `uc ]
-[; ;scan.c: 227: set_timer();
-"227
-[e ( _set_timer ..  ]
-[; ;scan.c: 228: break;
-"228
-[e $U 345  ]
-[; ;scan.c: 230: case(S_GO):
-"230
-[e :U 348 ]
-[; ;scan.c: 231: set_clock_and_data(0,1);
-"231
-[e ( _set_clock_and_data (2 , -> -> 0 `i `uc -> -> 1 `i `uc ]
-[; ;scan.c: 232: state = S_CLOCK_RAISE;
-"232
-[e = F2759 -> . `E2749 2 `uc ]
-[; ;scan.c: 233: set_timer();
+[; ;scan.c: 233: case(S_INIT):
 "233
-[e ( _set_timer ..  ]
-[; ;scan.c: 234: break;
+[e :U 347 ]
+[; ;scan.c: 234: set_clock_and_data(0,1);
 "234
-[e $U 345  ]
-[; ;scan.c: 236: case(S_CLOCK_RAISE):
+[e ( _set_clock_and_data (2 , -> -> 0 `i `uc -> -> 1 `i `uc ]
+[; ;scan.c: 235: state = S_GO;
+"235
+[e = F2759 -> . `E2749 1 `uc ]
+[; ;scan.c: 236: set_timer();
 "236
-[e :U 349 ]
-[; ;scan.c: 237: set_clock_and_data(1, get_data());
+[e ( _set_timer ..  ]
+[; ;scan.c: 237: break;
 "237
-[e ( _set_clock_and_data (2 , -> -> 1 `i `uc ( _get_data ..  ]
-[; ;scan.c: 238: state = S_CLOCK_FALL;
-"238
-[e = F2759 -> . `E2749 3 `uc ]
-[; ;scan.c: 239: set_timer();
+[e $U 345  ]
+[; ;scan.c: 239: case(S_GO):
 "239
-[e ( _set_timer ..  ]
-[; ;scan.c: 240: break;
+[e :U 348 ]
+[; ;scan.c: 240: set_clock_and_data(0,1);
 "240
-[e $U 345  ]
-[; ;scan.c: 242: case(S_CLOCK_FALL):
+[e ( _set_clock_and_data (2 , -> -> 0 `i `uc -> -> 1 `i `uc ]
+[; ;scan.c: 241: state = S_CLOCK_RAISE;
+"241
+[e = F2759 -> . `E2749 2 `uc ]
+[; ;scan.c: 242: set_timer();
 "242
-[e :U 350 ]
-[; ;scan.c: 243: set_clock_and_data(0,0);
-"243
-[e ( _set_clock_and_data (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
-[; ;scan.c: 244: run_adc();
-"244
-[e ( _run_adc ..  ]
-[; ;scan.c: 245: state = S_ADC_WAIT;
-"245
-[e = F2759 -> . `E2749 4 `uc ]
-[; ;scan.c: 246: set_timer();
-"246
 [e ( _set_timer ..  ]
-[; ;scan.c: 247: break;
+[; ;scan.c: 243: break;
+"243
+[e $U 345  ]
+[; ;scan.c: 245: case(S_CLOCK_RAISE):
+"245
+[e :U 349 ]
+[; ;scan.c: 246: set_clock_and_data(1, get_data());
+"246
+[e ( _set_clock_and_data (2 , -> -> 1 `i `uc ( _get_data ..  ]
+[; ;scan.c: 247: state = S_CLOCK_FALL;
 "247
-[e $U 345  ]
-[; ;scan.c: 249: case(S_ADC_WAIT):
+[e = F2759 -> . `E2749 3 `uc ]
+[; ;scan.c: 248: set_timer();
+"248
+[e ( _set_timer ..  ]
+[; ;scan.c: 249: break;
 "249
-[e :U 351 ]
-[; ;scan.c: 250: state = (is_adc_ready()? S_ADC_READ : S_ADC_WAIT);
-"250
-[e = F2759 -> ? != -> ( _is_adc_ready ..  `i -> -> -> 0 `i `uc `i : -> . `E2749 5 `i -> . `E2749 4 `i `uc ]
-[; ;scan.c: 251: break;
+[e $U 345  ]
+[; ;scan.c: 251: case(S_CLOCK_FALL):
 "251
-[e $U 345  ]
-[; ;scan.c: 253: case(S_ADC_READ):
+[e :U 350 ]
+[; ;scan.c: 252: set_clock_and_data(0,0);
+"252
+[e ( _set_clock_and_data (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+[; ;scan.c: 253: run_adc();
 "253
-[e :U 352 ]
-[; ;scan.c: 254: state = (store_key_level(get_adc(), is_end_of_scan())? S_GO : S_CLOCK_RAISE);
+[e ( _run_adc ..  ]
+[; ;scan.c: 254: state = S_ADC_WAIT;
 "254
-[e = F2759 -> ? != -> ( _store_key_level (2 , ( _get_adc ..  ( _is_end_of_scan ..  `i -> -> -> 0 `i `uc `i : -> . `E2749 1 `i -> . `E2749 2 `i `uc ]
-[; ;scan.c: 255: break;
+[e = F2759 -> . `E2749 4 `uc ]
+[; ;scan.c: 255: set_timer();
 "255
-[e $U 345  ]
+[e ( _set_timer ..  ]
+[; ;scan.c: 256: break;
 "256
-}
-[; ;scan.c: 256: }
 [e $U 345  ]
-"223
+[; ;scan.c: 258: case(S_ADC_WAIT):
+"258
+[e :U 351 ]
+[; ;scan.c: 259: state = (is_adc_ready()? S_ADC_READ : S_ADC_WAIT);
+"259
+[e = F2759 -> ? != -> ( _is_adc_ready ..  `i -> -> -> 0 `i `uc `i : -> . `E2749 5 `i -> . `E2749 4 `i `uc ]
+[; ;scan.c: 260: break;
+"260
+[e $U 345  ]
+[; ;scan.c: 262: case(S_ADC_READ):
+"262
+[e :U 352 ]
+[; ;scan.c: 263: state = (store_key_level(get_adc(), is_end_of_scan())? S_GO : S_CLOCK_RAISE);
+"263
+[e = F2759 -> ? != -> ( _store_key_level (2 , ( _get_adc ..  ( _is_end_of_scan ..  `i -> -> -> 0 `i `uc `i : -> . `E2749 1 `i -> . `E2749 2 `i `uc ]
+[; ;scan.c: 264: break;
+"264
+[e $U 345  ]
+"265
+}
+[; ;scan.c: 265: }
+[e $U 345  ]
+"232
 [e :U 346 ]
 [e [\ F2759 , $ -> . `E2749 0 `uc 347
  , $ -> . `E2749 1 `uc 348
@@ -3412,19 +3446,26 @@ Version 3.2 HI-TECH Software Intermediate Code
  , $ -> . `E2749 4 `uc 351
  , $ -> . `E2749 5 `uc 352
  345 ]
-"256
+"265
 [e :U 345 ]
-[; ;scan.c: 258: *note = note_event.pitch;
-"258
+[; ;scan.c: 266: if (note_event.velocity > 127)
+"266
+[e $ ! > -> . _note_event 1 `i -> 127 `i 353  ]
+[; ;scan.c: 267: note_event.velocity = 127;
+"267
+[e = . _note_event 1 -> -> 127 `i `uc ]
+[e :U 353 ]
+[; ;scan.c: 268: *note = note_event.pitch;
+"268
 [e = *U _note . _note_event 0 ]
-[; ;scan.c: 259: *velocity = note_event.velocity;
-"259
+[; ;scan.c: 269: *velocity = note_event.velocity;
+"269
 [e = *U _velocity . _note_event 1 ]
-[; ;scan.c: 260: return !! note_event.pitch;
-"260
+[; ;scan.c: 270: return !! note_event.pitch;
+"270
 [e ) -> -> ! ! != -> . _note_event 0 `i -> -> -> 0 `i `uc `i `i `uc ]
 [e $UE 342  ]
-[; ;scan.c: 261: }
-"261
+[; ;scan.c: 271: }
+"271
 [e :UE 342 ]
 }

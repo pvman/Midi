@@ -3560,8 +3560,7 @@ typedef uint16_t uintptr_t;
 typedef unsigned char bool;
 
 # 34 "../src/app_device_ble_midi.h"
-void SendMidiData(uint8_t tone, uint8_t velocity);
-void APP_DeviceBLETask();
+void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity);
 void BLEDeviceInit();
 
 # 160 "../src/pin_manager.h"
@@ -3603,7 +3602,7 @@ bool SPI_HasReceiveOverflowOccured(void);
 void SPI_ClearReceiveOverflowStatus(void);
 
 # 16 "../src/app_device_ble_midi.c"
-void SendMidiData(uint8_t tone, uint8_t velocity) {
+void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity) {
 
 volatile uint8_t timeout_ms = 10;
 
@@ -3627,33 +3626,15 @@ while ((PORTBbits.RB5 != 0) && (timeout_ms > 0)) {
 
 if (PORTBbits.RB5 == 0) {
 
+SPI_Exchange8bit(header);
+SPI_Exchange8bit(timestamp);
+SPI_Exchange8bit(midi_status);
 SPI_Exchange8bit(tone);
 SPI_Exchange8bit(velocity);
-SPI_Exchange8bit(0xAA);
 }
 
 }
 
-
-
-void APP_DeviceBLETask(){
-
-uint8_t tone = 36;
-SendMidiData(tone, 1);
-
-
-if (tone != 0x45) {
-tone = 0x45;
-} else {
-tone = 0x60;
-}
-
-if (++tone > 84) {
-tone = 36;
-}
-
-_delay((unsigned long)((100)*(16000000/4000.0)));
-}
 
 
 

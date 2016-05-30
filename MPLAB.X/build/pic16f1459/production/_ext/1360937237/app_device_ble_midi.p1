@@ -25,9 +25,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _PORTBbits `VS31 ~T0 @X0 0 e@13 ]
 "152 ../src/spi.h
 [v _SPI_Exchange8bit `(uc ~T0 @X0 0 ef1`uc ]
-"151 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic.h
-[v __delay `(v ~T0 @X0 0 ef1`ul ]
-[p i __delay ]
 "160 ../src/pin_manager.h
 [v _PIN_MANAGER_Initialize `(v ~T0 @X0 0 ef ]
 "117 ../src/spi.h
@@ -2625,9 +2622,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stdint.h: 210: typedef int16_t intptr_t;
 [; ;stdint.h: 215: typedef uint16_t uintptr_t;
 [; ;stdbool.h: 12: typedef unsigned char bool;
-[; ;app_device_ble_midi.h: 34: void SendMidiData(uint8_t tone, uint8_t velocity);
-[; ;app_device_ble_midi.h: 35: void APP_DeviceBLETask();
-[; ;app_device_ble_midi.h: 36: void BLEDeviceInit();
+[; ;app_device_ble_midi.h: 34: void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity);
+[; ;app_device_ble_midi.h: 35: void BLEDeviceInit();
 [; ;pin_manager.h: 160: void PIN_MANAGER_Initialize(void);
 [; ;pin_manager.h: 172: void PIN_MANAGER_IOC(void);
 [; ;stddef.h: 2: typedef int ptrdiff_t;
@@ -2643,12 +2639,15 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;spi.h: 289: bool SPI_HasReceiveOverflowOccured(void);
 [; ;spi.h: 313: void SPI_ClearReceiveOverflowStatus(void);
 "16 ../src/app_device_ble_midi.c
-[v _SendMidiData `(v ~T0 @X0 1 ef2`uc`uc ]
+[v _SendMidiData `(v ~T0 @X0 1 ef5`uc`uc`uc`uc`uc ]
 {
-[; ;app_device_ble_midi.c: 16: void SendMidiData(uint8_t tone, uint8_t velocity) {
+[; ;app_device_ble_midi.c: 16: void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity) {
 [e :U _SendMidiData ]
-[v _tone `uc ~T0 @X0 1 r1 ]
-[v _velocity `uc ~T0 @X0 1 r2 ]
+[v _header `uc ~T0 @X0 1 r1 ]
+[v _timestamp `uc ~T0 @X0 1 r2 ]
+[v _midi_status `uc ~T0 @X0 1 r3 ]
+[v _tone `uc ~T0 @X0 1 r4 ]
+[v _velocity `uc ~T0 @X0 1 r5 ]
 [f ]
 "18
 [v _timeout_ms `Vuc ~T0 @X0 1 a ]
@@ -2706,87 +2705,42 @@ Version 3.2 HI-TECH Software Intermediate Code
 "38
 [e $ ! == -> . . _PORTBbits 0 2 `i -> 0 `i 335  ]
 {
-[; ;app_device_ble_midi.c: 40: SPI_Exchange8bit(tone);
+[; ;app_device_ble_midi.c: 40: SPI_Exchange8bit(header);
 "40
-[e ( _SPI_Exchange8bit (1 _tone ]
-[; ;app_device_ble_midi.c: 41: SPI_Exchange8bit(velocity);
+[e ( _SPI_Exchange8bit (1 _header ]
+[; ;app_device_ble_midi.c: 41: SPI_Exchange8bit(timestamp);
 "41
-[e ( _SPI_Exchange8bit (1 _velocity ]
-[; ;app_device_ble_midi.c: 42: SPI_Exchange8bit(0xAA);
+[e ( _SPI_Exchange8bit (1 _timestamp ]
+[; ;app_device_ble_midi.c: 42: SPI_Exchange8bit(midi_status);
 "42
-[e ( _SPI_Exchange8bit (1 -> -> 170 `i `uc ]
+[e ( _SPI_Exchange8bit (1 _midi_status ]
+[; ;app_device_ble_midi.c: 43: SPI_Exchange8bit(tone);
 "43
+[e ( _SPI_Exchange8bit (1 _tone ]
+[; ;app_device_ble_midi.c: 44: SPI_Exchange8bit(velocity);
+"44
+[e ( _SPI_Exchange8bit (1 _velocity ]
+"45
 }
 [e :U 335 ]
-[; ;app_device_ble_midi.c: 43: }
 [; ;app_device_ble_midi.c: 45: }
-"45
+[; ;app_device_ble_midi.c: 47: }
+"47
 [e :UE 323 ]
 }
-"49
-[v _APP_DeviceBLETask `(v ~T0 @X0 1 ef ]
-{
-[; ;app_device_ble_midi.c: 49: void APP_DeviceBLETask(){
-[e :U _APP_DeviceBLETask ]
-[f ]
-"51
-[v _tone `uc ~T0 @X0 1 a ]
-[; ;app_device_ble_midi.c: 51: uint8_t tone = 36;
-[e = _tone -> -> 36 `i `uc ]
-[; ;app_device_ble_midi.c: 52: SendMidiData(tone, 1);
 "52
-[e ( _SendMidiData (2 , _tone -> -> 1 `i `uc ]
-[; ;app_device_ble_midi.c: 55: if (tone != 0x45) {
-"55
-[e $ ! != -> _tone `i -> 69 `i 337  ]
-{
-[; ;app_device_ble_midi.c: 56: tone = 0x45;
-"56
-[e = _tone -> -> 69 `i `uc ]
-"57
-}
-[; ;app_device_ble_midi.c: 57: } else {
-[e $U 338  ]
-[e :U 337 ]
-{
-[; ;app_device_ble_midi.c: 58: tone = 0x60;
-"58
-[e = _tone -> -> 96 `i `uc ]
-"59
-}
-[e :U 338 ]
-[; ;app_device_ble_midi.c: 59: }
-[; ;app_device_ble_midi.c: 61: if (++tone > 84) {
-"61
-[e $ ! > -> =+ _tone -> -> 1 `i `uc `i -> 84 `i 339  ]
-{
-[; ;app_device_ble_midi.c: 62: tone = 36;
-"62
-[e = _tone -> -> 36 `i `uc ]
-"63
-}
-[e :U 339 ]
-[; ;app_device_ble_midi.c: 63: }
-[; ;app_device_ble_midi.c: 65: _delay((unsigned long)((100)*(16000000/4000.0)));
-"65
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
-[; ;app_device_ble_midi.c: 66: }
-"66
-[e :UE 336 ]
-}
-"70
 [v _BLEDeviceInit `(v ~T0 @X0 1 ef ]
 {
-[; ;app_device_ble_midi.c: 70: void BLEDeviceInit(){
+[; ;app_device_ble_midi.c: 52: void BLEDeviceInit(){
 [e :U _BLEDeviceInit ]
 [f ]
-[; ;app_device_ble_midi.c: 72: PIN_MANAGER_Initialize();
-"72
+[; ;app_device_ble_midi.c: 54: PIN_MANAGER_Initialize();
+"54
 [e ( _PIN_MANAGER_Initialize ..  ]
-[; ;app_device_ble_midi.c: 73: SPI_Initialize();
-"73
+[; ;app_device_ble_midi.c: 55: SPI_Initialize();
+"55
 [e ( _SPI_Initialize ..  ]
-[; ;app_device_ble_midi.c: 75: }
-"75
-[e :UE 340 ]
+[; ;app_device_ble_midi.c: 57: }
+"57
+[e :UE 336 ]
 }

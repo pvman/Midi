@@ -3684,6 +3684,15 @@ ADCON1bits.ADFM = 0;
 ADCON1bits.ADCS = 0b110;
 ADCON1bits.ADPREF = 0;
 ADCON2bits.TRIGSEL = 0;
+
+
+T2CONbits.T2CKPS = 3;
+T2CONbits.T2OUTPS = 0x0F;
+PIE1bits.TMR2IE = 0;
+PIR1bits.TMR2IF = 0;
+T2CONbits.TMR2ON = 1;
+
+
 }
 
 inline void set_timer(void) {
@@ -3729,7 +3738,7 @@ inline uint8_t get_adc(void) {
 return ADRESH;
 }
 
-# 145
+# 154
 inline void process_level(uint8_t idx_key, const uint8_t old_level, const uint8_t new_level) {
 static const uint8_t L = 0x0A;
 static const uint8_t idx_midi_map[N_KEYS] = {
@@ -3842,7 +3851,8 @@ case(S_ADC_READ):
 state = (store_key_level(get_adc(), is_end_of_scan())? S_GO : S_CLOCK_RAISE);
 break;
 }
-
+if (note_event.velocity > 127)
+note_event.velocity = 127;
 *note = note_event.pitch;
 *velocity = note_event.velocity;
 return !! note_event.pitch;

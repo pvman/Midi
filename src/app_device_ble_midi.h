@@ -30,8 +30,7 @@
 
 
 #define REST  0 
-
-void SendMidiData(uint8_t tone, uint8_t velocity);
-void APP_DeviceBLETask();
+//SendMidiData(ble_header, ble_timestamp, ble_midi_status, ble_pitch, ble_velocity);
+void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity);
 void BLEDeviceInit();
 

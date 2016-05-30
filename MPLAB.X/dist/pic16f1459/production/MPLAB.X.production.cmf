@@ -11,81 +11,81 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\user\AppData\Local\Temp\s620.obj
+$C:\Users\user\AppData\Local\Temp\s1qg.obj
 end_init CODE 0 6 6 2 2
 reset_vec CODE 0 0 0 2 2
 config CONFIG 0 8007 8007 2 2
 $dist/pic16f1459/production\MPLAB.X.production.obj
 intentry CODE 0 4 4 2 2
 swtext5 CONST 0 83A 83A A 2
-text54 CODE 0 A7B A7B 16 2
-text53 CODE 0 AEB AEB 19 2
-text52 CODE 0 A14 A14 7 2
-text51 CODE 0 A02 A02 6 2
-text50 CODE 0 A1B A1B 7 2
-text49 CODE 0 D35 D35 4E 2
-text48 CODE 0 B1E B1E 1C 2
-text47 CODE 0 A30 A30 A 2
-text46 CODE 0 A3A A3A F 2
-text45 CODE 0 B04 B04 1A 2
-text44 CODE 0 9F8 9F8 5 2
-text43 CODE 0 A58 A58 11 2
-text42 CODE 0 A22 A22 7 2
-text41 CODE 0 9FD 9FD 5 2
-text40 CODE 0 9F2 9F2 2 2
+text54 CODE 0 A58 A58 16 2
+text53 CODE 0 AC8 AC8 19 2
+text52 CODE 0 9E5 9E5 7 2
+text51 CODE 0 9D3 9D3 6 2
+text50 CODE 0 9EC 9EC 7 2
+text49 CODE 0 D79 D79 4E 2
+text48 CODE 0 B3C B3C 26 2
+text47 CODE 0 A01 A01 A 2
+text46 CODE 0 A17 A17 F 2
+text45 CODE 0 AE1 AE1 1A 2
+text44 CODE 0 9C9 9C9 5 2
+text43 CODE 0 A35 A35 11 2
+text42 CODE 0 9F3 9F3 7 2
+text41 CODE 0 9CE 9CE 5 2
+text40 CODE 0 9C5 9C5 2 2
 swtext4 CONST 0 830 830 A 2
-text39 CODE 0 A91 A91 16 2
+text39 CODE 0 A6E A6E 16 2
 swtext3 CONST 0 826 826 A 2
-text38 CODE 0 AA7 AA7 16 2
-text37 CODE 0 4EF 4EF AA 2
-text36 CODE 0 7D7 7D7 29 2
+text38 CODE 0 A84 A84 16 2
+text37 CODE 0 599 599 AA 2
+text36 CODE 0 B89 B89 29 2
 swtext2 CONST 0 81A 81A C 2
-text35 CODE 0 599 599 A1 2
-text34 CODE 0 A08 A08 6 2
-text33 CODE 0 2 2 2 2
-text32 CODE 0 9F4 9F4 4 2
-text31 CODE 0 2FE 2FE 2 2
-text30 CODE 0 2F2 2F2 C 2
-text29 CODE 0 C7C C7C 37 2
-text28 CODE 0 118 118 FF 2
-text27 CODE 0 6CC 6CC 87 2
-text26 CODE 0 E21 E21 5C 2
-text25 CODE 0 A29 A29 7 2
-text24 CODE 0 BEC BEC 2E 2
-text23 CODE 0 B9A B9A 27 2
-text22 CODE 0 B57 B57 1F 2
-text21 CODE 0 CB3 CB3 38 2
-text20 CODE 0 AD3 AD3 18 2
-text19 CODE 0 A69 A69 12 2
-text18 CODE 0 A49 A49 F 2
-text17 CODE 0 B76 B76 24 2
-text16 CODE 0 F3C F3C 62 2
-text15 CODE 0 E7D E7D 5E 2
-text14 CODE 0 D83 D83 4E 2
-text13 CODE 0 753 753 84 2
-text12 CODE 0 ABD ABD 16 2
-text11 CODE 0 EDB EDB 61 2
-text10 CODE 0 286 286 6C 2
-text9 CODE 0 DD1 DD1 50 2
-text8 CODE 0 8 8 110 2
+text35 CODE 0 4EF 4EF AA 2
+text34 CODE 0 9D9 9D9 6 2
+text33 CODE 0 9C7 9C7 2 2
+text32 CODE 0 2FC 2FC 4 2
+text31 CODE 0 2 2 2 2
+text30 CODE 0 A0B A0B C 2
+text29 CODE 0 CA4 CA4 3F 2
+text28 CODE 0 8 8 113 2
+text27 CODE 0 6D5 6D5 87 2
+text26 CODE 0 E17 E17 5C 2
+text25 CODE 0 9FA 9FA 7 2
+text24 CODE 0 BDD BDD 2E 2
+text23 CODE 0 B62 B62 27 2
+text22 CODE 0 7E0 7E0 1F 2
+text21 CODE 0 C6C C6C 38 2
+text20 CODE 0 AB0 AB0 18 2
+text19 CODE 0 A46 A46 12 2
+text18 CODE 0 A26 A26 F 2
+text17 CODE 0 B18 B18 24 2
+text16 CODE 0 F32 F32 62 2
+text15 CODE 0 E73 E73 5E 2
+text14 CODE 0 D2D D2D 4C 2
+text13 CODE 0 75C 75C 84 2
+text12 CODE 0 A9A A9A 16 2
+text11 CODE 0 ED1 ED1 61 2
+text10 CODE 0 F94 F94 6C 2
+text9 CODE 0 DC7 DC7 50 2
+text8 CODE 0 11B 11B 110 2
 swtext1 CONST 0 800 800 1A 2
-text7 CODE 0 CEB CEB 4A 2
-text6 CODE 0 C49 C49 33 2
-text5 CODE 0 63A 63A 92 2
-text4 CODE 0 C1A C1A 2F 2
-text3 CODE 0 217 217 6F 2
-text2 CODE 0 F9E F9E 62 2
+text7 CODE 0 CE3 CE3 4A 2
+text6 CODE 0 C3A C3A 32 2
+text5 CODE 0 643 643 92 2
+text4 CODE 0 C0B C0B 2F 2
+text3 CODE 0 22B 22B 6F 2
+text2 CODE 0 29A 29A 62 2
 text1 CODE 0 3FA 3FA F5 2
-maintext CODE 0 B3A B3A 1D 2
+maintext CODE 0 AFB AFB 1D 2
 cstackBANK0 BANK0 1 60 60 10 1
 cstackCOMMON COMMON 1 70 70 E 1
-clrtext CODE 0 A0E A0E 6 2
+clrtext CODE 0 9DF 9DF 6 2
 bssBANK4 BANK4 1 220 220 4E 1
 bssBANK3 BANK3 1 1A4 1A4 27 1
-bssBANK2 BANK2 1 120 120 3E 1
+bssBANK2 BANK2 1 120 120 3F 1
 bssBANK1 BANK1 1 E0 E0 10 1
 bssBANK0 BANK0 1 50 50 10 1
-cinit CODE 0 BC1 BC1 2B 2
+cinit CODE 0 BB2 BB2 2B 2
 stringtext STRCODE 0 300 300 FA 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -96,7 +96,7 @@ stringtext STRCODE 0 300 300 FA 2
 BANK10 00520-0056F 1
 BANK11 005A0-005EF 1
 BANK12 00620-0064F 1
-BANK2 0015E-0016F 1
+BANK2 0015F-0016F 1
 BANK3 001CB-001EF 1
 BANK4 0026E-0026F 1
 BANK5 002A0-002EF 1
@@ -105,14 +105,17 @@ BANK7 003A0-003EF 1
 BANK8 00420-0046F 1
 BANK9 004A0-004EF 1
 BIGRAM 02000-023EF 1
-CODE 00844-009F1 2
+CODE 007FF-007FF 2
+CODE 00844-009C4 2
 CODE 01000-01FFF 2
-CONST 00844-009F1 2
+CONST 007FF-007FF 2
+CONST 00844-009C4 2
 CONST 01000-01FFF 2
-ENTRY 00844-009F1 2
+ENTRY 007FF-007FF 2
+ENTRY 00844-009C4 2
 ENTRY 01000-01FFF 2
 IDLOC 08000-08003 2
-RAM 0015E-0016F 1
+RAM 0015F-0016F 1
 RAM 001CB-001EF 1
 RAM 0026E-0026F 1
 RAM 002A0-002EF 1
@@ -155,9 +158,11 @@ SFR6 00300-0031F 1
 SFR7 00380-0039F 1
 SFR8 00400-0041F 1
 SFR9 00480-0049F 1
-STRCODE 00844-009F1 2
+STRCODE 007FF-007FF 2
+STRCODE 00844-009C4 2
 STRCODE 01000-01FFF 2
-STRING 00844-009F1 2
+STRING 007FF-007FF 2
+STRING 00844-009C4 2
 STRING 01000-01FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -173,151 +178,147 @@ STRING 01000-01FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/pic16f1459/production\MPLAB.X.production.obj
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":136 2 text33 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":137 3 text33 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":128 2 text31 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":129 3 text31 CODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":113 4 intentry CODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":117 5 intentry CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2825 8 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2827 15 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2828 16 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2829 1C text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2831 20 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2838 22 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2842 45 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2845 46 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2847 4A text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2848 52 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2849 5A text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2852 5B text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2853 62 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2860 6A text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2862 6E text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2863 6F text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2866 70 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2872 71 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2874 75 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2875 7D text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2878 7E text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2882 85 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2884 8B text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2888 92 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2890 96 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2891 9D text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2894 9E text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2899 A5 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2900 A9 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2901 AD text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2907 AE text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2909 B0 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2913 B7 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2914 BB text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2915 BF text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2916 CA text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2920 CB text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2925 CF text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2931 D2 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2933 DD text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2935 E1 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2936 E8 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2939 E9 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2942 F0 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2945 F5 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2946 100 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2950 101 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2998 106 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3002 112 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3005 117 text8 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":75 118 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":77 11C text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":78 124 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":79 128 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":80 12D text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":81 12F text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":82 133 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":83 135 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":84 139 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":85 13D text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":86 141 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":88 145 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":90 14B text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":92 157 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":94 16D text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":96 179 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":123 187 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":125 1AB text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":126 1AE text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":128 1B3 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":129 1B5 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":130 1B9 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":131 1BB text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":132 1C1 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":133 1C3 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":134 1C7 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":136 1C8 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":137 1CF text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":140 1D1 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":141 1D7 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":143 1DA text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":145 1E6 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":147 1FC text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":149 208 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":152 216 text28 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2621 217 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2624 21E text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2629 220 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2631 226 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2632 22A text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2634 22E text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2635 231 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2638 232 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2643 235 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2645 23A text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2646 246 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2652 249 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2656 250 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2657 256 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2658 25A text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2661 25B text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2663 260 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2664 266 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2665 26A text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2668 26B text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2669 271 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2678 276 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2680 27B text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2682 27F text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2684 282 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2687 283 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2692 285 text3 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2064 286 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2066 28D text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2068 28F text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2074 290 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2076 294 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2077 297 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2082 298 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2085 29D text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2093 2AC text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2094 2B9 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2095 2C6 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2098 2C7 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2105 2C9 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2108 2CF text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2110 2DE text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2111 2E5 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2068 2E6 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2131 2F1 text10 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":77 2F2 text30 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":78 2F3 text30 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":81 2F5 text30 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":83 2F6 text30 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":85 2F8 text30 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":88 2FC text30 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":89 2FD text30 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":128 2FE text31 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":129 2FF text31 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":77 8 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":79 C text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":80 14 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":81 18 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":82 1D text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":83 1F text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":84 23 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":85 25 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":86 29 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":87 2D text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":88 31 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":91 35 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":92 37 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":93 3A text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":95 46 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":97 52 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":99 68 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":101 74 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":128 82 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":130 A6 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":131 A9 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":133 AE text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":134 B0 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":135 B4 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":136 B6 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":137 BC text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":138 BE text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":139 C2 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":141 C3 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":142 CA text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":144 CC text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":145 CD text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":146 D0 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":147 DB text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":149 DE text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":151 EA text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":153 100 text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":155 10C text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":158 11A text28 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2825 11B text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2827 128 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2828 129 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2829 12F text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2831 133 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2838 135 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2842 158 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2845 159 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2847 15D text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2848 165 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2849 16D text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2852 16E text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2853 175 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2860 17D text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2862 181 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2863 182 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2866 183 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2872 184 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2874 188 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2875 190 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2878 191 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2882 198 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2884 19E text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2888 1A5 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2890 1A9 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2891 1B0 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2894 1B1 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2899 1B8 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2900 1BC text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2901 1C0 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2907 1C1 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2909 1C3 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2913 1CA text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2914 1CE text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2915 1D2 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2916 1DD text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2920 1DE text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2925 1E2 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2931 1E5 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2933 1F0 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2935 1F4 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2936 1FB text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2939 1FC text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2942 203 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2945 208 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2946 213 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2950 214 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2998 219 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3002 225 text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3005 22A text8 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2621 22B text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2624 232 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2629 234 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2631 23A text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2632 23E text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2634 242 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2635 245 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2638 246 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2643 249 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2645 24E text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2646 25A text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2652 25D text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2656 264 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2657 26A text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2658 26E text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2661 26F text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2663 274 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2664 27A text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2665 27E text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2668 27F text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2669 285 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2678 28A text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2680 28F text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2682 293 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2684 296 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2687 297 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2692 299 text3 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2397 29A text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2401 29C text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2405 2A3 text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2413 2A9 text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2415 2AB text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2418 2AD text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2426 2B8 text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2428 2B9 text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2429 2CB text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2426 2D4 text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2431 2DB text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2434 2E7 text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2435 2EA text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2439 2EB text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2442 2EF text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2446 2F8 text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2449 2FB text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":124 2FC text32 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":125 2FF text32 CODE
 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic16f1459.h":5959 300 stringtext STRCODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":147 301 stringtext STRCODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":156 301 stringtext STRCODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c":320 328 stringtext STRCODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c":314 32E stringtext STRCODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c":173 330 stringtext STRCODE
@@ -325,7 +326,7 @@ $dist/pic16f1459/production\MPLAB.X.production.obj
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c":309 3C9 stringtext STRCODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c":153 3E3 stringtext STRCODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/src/usb_descriptors.c":297 3F5 stringtext STRCODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":154 3F9 stringtext STRCODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":163 3F9 stringtext STRCODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":585 3FA text1 CODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":588 400 text1 CODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":591 402 text1 CODE
@@ -382,599 +383,616 @@ $dist/pic16f1459/production\MPLAB.X.production.obj
 "F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":835 4DA text1 CODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":804 4E5 text1 CODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":846 4EE text1 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":163 4EF text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":165 4F7 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":166 4F9 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":168 4FA text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":169 500 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":170 506 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":171 50C text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":173 50D text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":174 513 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":179 519 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":180 524 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":181 52F text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":183 54D text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":184 568 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":185 571 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":186 584 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":187 58D text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":189 591 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":191 598 text37 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":215 599 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":216 59D text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":218 5A6 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":219 5AC text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":221 5AF text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":225 5B9 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":226 5BF text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":227 5C1 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":228 5C4 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":231 5C5 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":232 5CB text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":233 5CD text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":234 5D0 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":237 5D1 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":238 5D9 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":239 5DB text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":240 5DE text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":243 5DF text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":244 5E4 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":245 5E7 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":246 5EA text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":247 5ED text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":250 5EE text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":251 602 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":254 603 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":255 61C text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":223 61D text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":258 627 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":259 62E text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":260 635 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":261 639 text35 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1878 63A text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1884 63F text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1886 64D text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1889 64F text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1893 653 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1895 655 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1893 65F text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1900 666 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1902 671 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1903 677 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1904 683 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1906 68A text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1907 68F text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1908 693 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1911 694 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1912 699 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1920 69E text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1921 6A4 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1925 6B0 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1926 6B5 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1933 6B9 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1940 6BE text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1946 6C1 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1960 6C2 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1962 6C8 text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1966 6CB text5 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":304 6CC text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":307 6CE text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":310 6D0 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":313 6D1 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":315 6D2 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":317 6E4 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":326 6EB text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":328 6EC text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":326 6F8 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":332 6FF text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":335 701 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":338 702 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":341 703 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":346 704 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":348 705 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":349 707 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":350 709 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":351 70B text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":355 710 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":356 713 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":358 715 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":359 716 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":360 718 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":364 719 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":366 71A text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":367 71F text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":368 725 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":369 72B text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":364 731 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":373 738 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":375 73B text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":377 73E text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":378 747 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":379 749 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":380 74B text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":383 74C text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":386 74E text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":389 750 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":390 752 text27 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1641 753 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1647 755 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1649 75A text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1651 75F text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1662 762 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1664 768 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1669 76B text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1670 76D text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1671 76E text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1678 76F text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1679 775 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1680 781 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1681 786 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1682 78A text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1683 78F text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1688 794 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1690 798 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1704 79A text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1706 7A0 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1729 7A3 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1730 7A5 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1731 7A6 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1733 7AC text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1748 7B0 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1751 7B2 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1752 7B7 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1753 7C3 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1754 7C8 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1757 7CC text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1758 7CE text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1759 7CF text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1767 7D6 text13 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":195 7D7 text36 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":196 7D9 text36 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":197 7E6 text36 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":198 7EE text36 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":199 7EF text36 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":200 7FA text36 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":201 7FF text36 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":224 4EF text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":225 4F3 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":227 4FC text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":228 502 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":230 505 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":234 50F text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":235 515 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":236 517 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":237 51A text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":240 51B text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":241 521 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":242 523 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":243 526 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":246 527 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":247 52F text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":248 531 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":249 534 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":252 535 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":253 53A text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":254 53D text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":255 540 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":256 543 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":259 544 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":260 558 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":263 559 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":264 572 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":232 573 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":266 57D text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":267 584 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":268 586 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":269 58D text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":270 594 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":271 598 text35 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":172 599 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":174 5A1 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":175 5A3 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":177 5A4 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":178 5AA text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":179 5B0 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":180 5B6 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":182 5B7 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":183 5BD text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":188 5C3 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":189 5CE text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":190 5D9 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":192 5F7 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":193 612 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":194 61B text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":195 62E text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":196 637 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":198 63B text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":200 642 text37 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1878 643 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1884 648 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1886 656 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1889 658 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1893 65C text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1895 65E text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1893 668 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1900 66F text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1902 67A text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1903 680 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1904 68C text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1906 693 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1907 698 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1908 69C text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1911 69D text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1912 6A2 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1920 6A7 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1921 6AD text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1925 6B9 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1926 6BE text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1933 6C2 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1940 6C7 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1946 6CA text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1960 6CB text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1962 6D1 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1966 6D4 text5 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":304 6D5 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":307 6D7 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":310 6D9 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":313 6DA text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":315 6DB text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":317 6ED text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":326 6F4 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":328 6F5 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":326 701 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":332 708 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":335 70A text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":338 70B text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":341 70C text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":346 70D text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":348 70E text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":349 710 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":350 712 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":351 714 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":355 719 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":356 71C text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":358 71E text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":359 720 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":360 721 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":364 722 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":366 723 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":367 728 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":368 72E text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":369 734 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":364 73A text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":373 741 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":375 744 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":377 747 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":378 750 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":379 752 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":380 754 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":383 755 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":386 757 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":389 759 text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":390 75B text27 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1641 75C text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1647 75E text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1649 763 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1651 768 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1662 76B text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1664 771 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1669 774 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1670 776 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1671 777 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1678 778 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1679 77E text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1680 78A text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1681 78F text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1682 793 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1683 798 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1688 79D text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1690 7A1 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1704 7A3 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1706 7A9 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1729 7AC text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1730 7AE text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1731 7AF text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1733 7B5 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1748 7B9 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1751 7BB text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1752 7C0 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1753 7CC text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1754 7D1 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1757 7D5 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1758 7D7 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1759 7D8 text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1767 7DF text13 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":45 7E0 text22 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":46 7E2 text22 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":47 7E4 text22 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":48 7E6 text22 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":49 7E9 text22 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":51 7EB text22 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":53 7F1 text22 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":54 7FE text22 CODE
 "F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2715 800 swtext1 CONST
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":223 81A swtext2 CONST
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":232 81A swtext2 CONST
 "F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":61 826 swtext3 CONST
 "F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":102 830 swtext4 CONST
 "F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":222 83A swtext5 CONST
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":95 9F2 text40 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":96 9F3 text40 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":124 9F4 text32 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":125 9F7 text32 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":74 9F8 text44 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":75 9FC text44 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":91 9FD text41 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":92 A01 text41 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":68 A02 text51 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":71 A04 text51 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":74 A06 text51 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":75 A07 text51 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":132 A08 text34 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":133 A0D text34 CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4834 A0E clrtext CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4836 A0F clrtext CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4837 A10 clrtext CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4838 A11 clrtext CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4839 A12 clrtext CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4840 A13 clrtext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":52 A14 text52 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":53 A16 text52 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":54 A17 text52 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":55 A18 text52 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":56 A19 text52 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":78 A1A text52 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":72 A1B text50 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":73 A1E text50 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":75 A21 text50 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":86 A22 text42 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":87 A27 text42 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":88 A28 text42 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":55 A29 text25 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":56 A2F text25 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":56 A30 text47 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":57 A32 text47 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":58 A34 text47 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":59 A35 text47 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":60 A36 text47 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":61 A37 text47 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":62 A39 text47 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":65 A3A text46 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":66 A48 text46 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3059 A49 text18 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3061 A4F text18 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3063 A50 text18 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3065 A55 text18 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3068 A57 text18 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":80 A58 text43 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":81 A60 text43 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":82 A67 text43 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":83 A68 text43 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2289 A69 text19 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2290 A6A text19 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2293 A6B text19 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2296 A6C text19 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2297 A6F text19 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2304 A70 text19 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2305 A7A text19 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":221 A7B text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":222 A7C text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":225 A7D text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":226 A7F text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":229 A80 text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":230 A82 text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":237 A83 text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":238 A85 text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":222 A86 text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":243 A90 text54 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":101 A91 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":102 A92 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":105 A93 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":106 A95 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":109 A96 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":110 A98 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":117 A99 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":118 A9B text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":102 A9C text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":123 AA6 text39 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":60 AA7 text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":61 AA8 text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":64 AA9 text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":65 AAB text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":68 AAC text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":69 AAE text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":76 AAF text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":77 AB1 text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":61 AB2 text38 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":82 ABC text38 CODE
-"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":18 ABD text12 CODE
-"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":19 AC0 text12 CODE
-"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":20 AC1 text12 CODE
-"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":19 AC7 text12 CODE
-"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":22 AD2 text12 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2324 AD3 text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2330 AD5 text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2337 ADF text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2342 AE1 text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2360 AE2 text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2363 AE3 text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2360 AE4 text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2366 AE8 text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2368 AEA text20 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":87 AEB text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":88 AEC text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":94 AED text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":95 AF0 text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":97 AF3 text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":100 AF7 text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":88 AF8 text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":108 B03 text53 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":68 B04 text45 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":69 B05 text45 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":70 B11 text45 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":71 B1D text45 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":33 B1E text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":34 B20 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":35 B22 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":36 B23 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":38 B24 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":40 B26 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":41 B27 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":42 B29 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":44 B2A text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":45 B2C text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":47 B2E text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":48 B2F text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":49 B30 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":50 B31 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":51 B35 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":52 B37 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":53 B39 text48 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":36 B3A maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":38 B3E maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":41 B41 maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":45 B44 maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":50 B45 maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":65 B48 maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":71 B4B maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":81 B52 maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":43 B57 text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":92 B57 maintext CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":44 B59 text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":45 B5B text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":46 B5D text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":47 B60 text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":49 B62 text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":51 B68 text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":52 B75 text22 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2233 B76 text17 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2236 B7A text17 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2239 B8D text17 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2240 B92 text17 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2242 B96 text17 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2245 B98 text17 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2246 B99 text17 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":903 B9A text23 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":905 B9F text23 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":907 BA4 text23 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":909 BA8 text23 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":918 BAE text23 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":920 BB8 text23 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":921 BC0 text23 CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4844 BC1 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4845 BC2 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4846 BC3 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4847 BC4 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4848 BC5 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4849 BC6 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4853 BC9 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4854 BCA cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4855 BCB cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4856 BCC cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4857 BCD cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4858 BCE cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4862 BD1 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4863 BD2 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4864 BD3 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4865 BD4 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4866 BD5 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4867 BD6 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4871 BD9 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4872 BDA cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4873 BDB cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4874 BDC cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4875 BDD cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4876 BDE cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4880 BE1 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4881 BE2 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4882 BE3 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4883 BE4 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4884 BE5 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4885 BE6 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4892 BE9 cinit CODE
-"C:\Users\user\AppData\Local\Temp\s620.":4893 BEA cinit CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1568 BEC text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1569 BEF text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1571 BF9 text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1576 BFD text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1578 C02 text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1579 C09 text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1582 C0A text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1586 C10 text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1587 C14 text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1604 C19 text24 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2565 C1A text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2567 C20 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2568 C23 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2573 C24 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2580 C25 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2582 C2B text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2583 C31 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2584 C3D text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2585 C42 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2586 C46 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2589 C47 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2592 C48 text4 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2496 C49 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2497 C4B text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2498 C4D text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2499 C4F text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2500 C51 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2501 C52 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2510 C54 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2511 C58 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2512 C5A text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2513 C5E text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2514 C60 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2516 C64 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2517 C65 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2518 C67 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2519 C69 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2525 C6B text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2526 C6E text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2539 C78 text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2540 C7B text6 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":18 C7C text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":21 C7F text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":22 C87 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":25 C8A text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":26 C92 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":30 C95 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":31 C97 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":33 C98 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":38 CA2 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":40 CA6 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":41 CAA text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":42 CAE text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":45 CB2 text29 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":97 CB3 text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":105 CB4 text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":106 CB7 text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":107 CBA text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":111 CBB text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":112 CBE text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":122 CBF text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":123 CC2 text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":97 CC3 text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":141 CEA text21 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2713 CEB text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2718 CF5 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2719 CF6 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2721 CF8 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2723 CF9 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2724 CFC text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2726 CFD text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2727 D00 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2729 D01 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2730 D05 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2731 D06 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2732 D08 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2733 D09 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2735 D0A text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2736 D0D text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2739 D0E text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2740 D11 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2742 D12 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2748 D18 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2749 D19 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2750 D1F text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2752 D20 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2753 D29 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2715 D2A text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2758 D34 text7 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1019 D35 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1022 D3A text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1023 D40 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1027 D41 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1032 D48 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1034 D4D text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1048 D4F text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1049 D5D text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1050 D62 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1051 D67 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1052 D6B text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1055 D6F text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1058 D73 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1059 D79 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1063 D7A text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1065 D81 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1066 D82 text49 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1509 D83 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1510 D85 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1512 D87 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1515 D8E text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1516 D93 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1517 D9F text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1518 DA4 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1519 DA8 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1524 DA9 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1526 DB3 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1528 DB7 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1533 DBA text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1534 DC7 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1535 DCC text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1537 DD0 text14 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2150 DD1 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2151 DD3 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2153 DD5 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2156 DD6 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2166 DD7 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2168 DDD text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2172 DE0 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2173 DE1 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2175 DE2 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2182 DE3 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2184 DE7 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2185 DEF text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2188 DF0 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2191 DF7 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2192 E05 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2153 E08 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2197 E14 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2199 E19 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2200 E1D text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2201 E1E text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2203 E20 text9 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":27 E21 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":29 E26 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":38 E2B text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":40 E32 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":41 E36 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":42 E37 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":44 E3E text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":45 E42 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":46 E43 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":48 E4C text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":50 E4F text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":55 E50 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":57 E57 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":58 E5B text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":59 E5C text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":61 E63 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":62 E67 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":63 E68 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":33 E72 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":71 E78 text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":72 E7C text26 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1796 E7D text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1797 E7F text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1799 E88 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1806 E8A text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1808 E90 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1809 E92 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1810 E93 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1812 E98 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1818 E9A text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1823 E9F text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1827 EA4 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1828 EA7 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1832 EAD text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1833 EBD text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1830 EBE text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1840 EC4 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1841 ED4 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1838 ED5 text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1844 EDA text15 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1992 EDB text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1995 EDD text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1998 EEF text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2001 EF8 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2006 EFA text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2008 EFB text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2009 F01 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2006 F07 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2013 F0E text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2016 F17 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2018 F19 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2021 F1C text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2022 F1E text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2025 F20 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2028 F23 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2031 F28 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2032 F2B text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2036 F2C text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2041 F38 text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2043 F3B text11 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1442 F3C text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1444 F42 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1445 F44 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1447 F49 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1451 F4B text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1453 F52 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1454 F56 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1455 F5B text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1456 F5F text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1457 F60 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1459 F65 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1464 F67 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1465 F6D text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1466 F79 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1467 F7E text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1468 F82 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1472 F85 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1473 F8B text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1474 F97 text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1478 F9D text16 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2397 F9E text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2401 FA0 text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2405 FA7 text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2413 FAD text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2415 FAF text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2418 FB1 text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2426 FBC text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2428 FBD text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2429 FCF text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2426 FD8 text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2431 FDF text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2434 FEB text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2435 FEE text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2439 FEF text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2442 FF3 text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2446 FFC text2 CODE
-"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2449 FFF text2 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":104 9C5 text40 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":105 9C6 text40 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":136 9C7 text33 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":137 9C8 text33 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":83 9C9 text44 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":84 9CD text44 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":100 9CE text41 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":101 9D2 text41 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":68 9D3 text51 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":71 9D5 text51 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":74 9D7 text51 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":75 9D8 text51 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":132 9D9 text34 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":133 9DE text34 CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4844 9DF clrtext CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4846 9E0 clrtext CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4847 9E1 clrtext CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4848 9E2 clrtext CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4849 9E3 clrtext CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4850 9E4 clrtext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":52 9E5 text52 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":53 9E7 text52 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":54 9E8 text52 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":55 9E9 text52 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":56 9EA text52 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pin_manager.c":78 9EB text52 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":54 9EC text50 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":55 9EF text50 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":57 9F2 text50 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":95 9F3 text42 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":96 9F8 text42 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":97 9F9 text42 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":57 9FA text25 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":58 A00 text25 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":65 A01 text47 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":66 A03 text47 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":67 A05 text47 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":68 A06 text47 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":69 A07 text47 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":70 A08 text47 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":71 A0A text47 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":77 A0B text30 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":78 A0C text30 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":81 A0E text30 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":83 A0F text30 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":85 A11 text30 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":88 A15 text30 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/spi.c":89 A16 text30 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":74 A17 text46 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":75 A25 text46 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3059 A26 text18 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3061 A2C text18 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3063 A2D text18 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3065 A32 text18 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":3068 A34 text18 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":89 A35 text43 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":90 A3D text43 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":91 A44 text43 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":92 A45 text43 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2289 A46 text19 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2290 A47 text19 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2293 A48 text19 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2296 A49 text19 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2297 A4C text19 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2304 A4D text19 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2305 A57 text19 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":221 A58 text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":222 A59 text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":225 A5A text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":226 A5C text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":229 A5D text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":230 A5F text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":237 A60 text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":238 A62 text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":222 A63 text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":243 A6D text54 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":101 A6E text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":102 A6F text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":105 A70 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":106 A72 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":109 A73 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":110 A75 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":117 A76 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":118 A78 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":102 A79 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":123 A83 text39 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":60 A84 text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":61 A85 text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":64 A86 text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":65 A88 text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":68 A89 text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":69 A8B text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":76 A8C text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":77 A8E text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":61 A8F text38 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/bsp/pic16f1459/leds.c":82 A99 text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":18 A9A text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":19 A9D text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":20 A9E text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":19 AA4 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\memset.c":22 AAF text12 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2324 AB0 text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2330 AB2 text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2337 ABC text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2342 ABE text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2360 ABF text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2363 AC0 text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2360 AC1 text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2366 AC5 text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2368 AC7 text20 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":87 AC8 text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":88 AC9 text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":94 ACA text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":95 ACD text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":97 AD0 text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":100 AD4 text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":88 AD5 text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/pic16f1459/system.c":108 AE0 text53 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":77 AE1 text45 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":78 AE2 text45 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":79 AEE text45 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":80 AFA text45 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":36 AFB maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":38 AFF maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":41 B02 maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":45 B05 maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":50 B06 maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":65 B09 maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":71 B0C maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":81 B13 maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":92 B18 maintext CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2233 B18 text17 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2236 B1C text17 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2239 B2F text17 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2240 B34 text17 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2242 B38 text17 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2245 B3A text17 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2246 B3B text17 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":33 B3C text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":34 B3E text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":35 B40 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":36 B41 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":38 B42 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":40 B44 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":41 B45 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":42 B47 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":44 B48 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":45 B4A text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":47 B4C text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":48 B4D text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":49 B4E text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":50 B4F text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":51 B53 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":52 B55 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":55 B57 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":56 B5A text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":57 B5C text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":58 B5E text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":59 B60 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":62 B61 text48 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":903 B62 text23 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":905 B67 text23 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":907 B6C text23 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":909 B70 text23 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":918 B76 text23 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":920 B80 text23 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":921 B88 text23 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":204 B89 text36 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":205 B8B text36 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":206 B98 text36 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":207 BA0 text36 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":208 BA1 text36 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":209 BAC text36 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/scan.c":210 BB1 text36 CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4854 BB2 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4855 BB3 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4856 BB4 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4857 BB5 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4858 BB6 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4859 BB7 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4863 BBA cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4864 BBB cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4865 BBC cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4866 BBD cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4867 BBE cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4868 BBF cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4872 BC2 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4873 BC3 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4874 BC4 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4875 BC5 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4876 BC6 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4877 BC7 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4881 BCA cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4882 BCB cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4883 BCC cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4884 BCD cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4885 BCE cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4886 BCF cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4890 BD2 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4891 BD3 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4892 BD4 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4893 BD5 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4894 BD6 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4895 BD7 cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4902 BDA cinit CODE
+"C:\Users\user\AppData\Local\Temp\s1qg.":4903 BDB cinit CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1568 BDD text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1569 BE0 text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1571 BEA text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1576 BEE text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1578 BF3 text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1579 BFA text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1582 BFB text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1586 C01 text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1587 C05 text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1604 C0A text24 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2565 C0B text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2567 C11 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2568 C14 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2573 C15 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2580 C16 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2582 C1C text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2583 C22 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2584 C2E text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2585 C33 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2586 C37 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2589 C38 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2592 C39 text4 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2496 C3A text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2497 C3C text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2498 C3E text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2499 C40 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2500 C41 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2501 C42 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2510 C44 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2511 C48 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2512 C4A text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2513 C4E text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2514 C50 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2516 C54 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2517 C55 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2518 C57 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2519 C59 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2525 C5B text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2526 C5E text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2539 C68 text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2540 C6B text6 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":97 C6C text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":105 C6D text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":106 C70 text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":107 C73 text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":111 C74 text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":112 C77 text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":122 C78 text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":123 C7B text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":97 C7C text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/main.c":141 CA3 text21 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":18 CA4 text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":21 CA7 text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":22 CAF text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":25 CB2 text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":26 CBA text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":30 CBD text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":31 CBF text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":33 CC0 text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":38 CCA text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":40 CCE text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":41 CD2 text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":42 CD6 text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":43 CDA text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":44 CDE text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_device_ble_midi.c":47 CE2 text29 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2713 CE3 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2718 CED text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2719 CEE text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2721 CF0 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2723 CF1 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2724 CF4 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2726 CF5 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2727 CF8 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2729 CF9 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2730 CFD text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2731 CFE text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2732 D00 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2733 D01 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2735 D02 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2736 D05 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2739 D06 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2740 D09 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2742 D0A text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2748 D10 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2749 D11 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2750 D17 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2752 D18 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2753 D21 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2715 D22 text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2758 D2C text7 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1509 D2D text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1510 D2E text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1512 D2F text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1515 D36 text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1516 D3B text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1517 D47 text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1518 D4C text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1519 D50 text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1524 D51 text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1526 D5B text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1528 D5F text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1533 D62 text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1534 D6F text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1535 D74 text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1537 D78 text14 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1019 D79 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1022 D7E text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1023 D84 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1027 D85 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1032 D8C text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1034 D91 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1048 D93 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1049 DA1 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1050 DA6 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1051 DAB text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1052 DAF text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1055 DB3 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1058 DB7 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1059 DBD text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1063 DBE text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1065 DC5 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1066 DC6 text49 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2150 DC7 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2151 DC9 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2153 DCB text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2156 DCC text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2166 DCD text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2168 DD3 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2172 DD6 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2173 DD7 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2175 DD8 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2182 DD9 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2184 DDD text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2185 DE5 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2188 DE6 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2191 DED text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2192 DFB text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2153 DFE text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2197 E0A text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2199 E0F text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2200 E13 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2201 E14 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2203 E16 text9 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":27 E17 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":29 E1C text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":38 E21 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":40 E28 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":41 E2C text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":42 E2D text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":44 E34 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":45 E38 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":46 E39 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":48 E42 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":50 E45 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":55 E46 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":57 E4D text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":58 E51 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":59 E52 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":61 E59 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":62 E5D text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":63 E5E text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":33 E68 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":71 E6E text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/src/app_led_usb_status.c":72 E72 text26 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1796 E73 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1797 E75 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1799 E7E text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1806 E80 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1808 E86 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1809 E88 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1810 E89 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1812 E8E text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1818 E90 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1823 E95 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1827 E9A text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1828 E9D text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1832 EA3 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1833 EB3 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1830 EB4 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1840 EBA text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1841 ECA text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1838 ECB text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1844 ED0 text15 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1992 ED1 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1995 ED3 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1998 EE5 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2001 EEE text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2006 EF0 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2008 EF1 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2009 EF7 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2006 EFD text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2013 F04 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2016 F0D text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2018 F0F text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2021 F12 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2022 F14 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2025 F16 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2028 F19 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2031 F1E text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2032 F21 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2036 F22 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2041 F2E text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2043 F31 text11 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1442 F32 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1444 F38 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1445 F3A text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1447 F3F text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1451 F41 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1453 F48 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1454 F4C text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1455 F51 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1456 F55 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1457 F56 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1459 F5B text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1464 F5D text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1465 F63 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1466 F6F text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1467 F74 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1468 F78 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1472 F7B text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1473 F81 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1474 F8D text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":1478 F93 text16 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2064 F94 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2066 F9B text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2068 F9D text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2074 F9E text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2076 FA2 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2077 FA5 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2082 FA6 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2085 FAB text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2093 FBA text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2094 FC7 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2095 FD4 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2098 FD5 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2105 FD7 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2108 FDD text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2110 FEC text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2111 FF3 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2068 FF4 text10 CODE
+"F:\Altium_projects\Volkovets\GitHub\Midi/framework/usb/usb_device.c":2131 FFF text10 CODE
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -991,8 +1009,8 @@ __size_of_store_key_level 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.product
 _USBDeviceTasks 7F4 0 CODE 0 text1 dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@new_level 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 is_end_of_scan@scan_counter ED 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
-_is_adc_ready 13FA 0 CODE 0 text41 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBStdFeatureReqHandler 10 0 CODE 0 text8 dist/pic16f1459/production\MPLAB.X.production.obj
+_is_adc_ready 139C 0 CODE 0 text41 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStdFeatureReqHandler 236 0 CODE 0 text8 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_SYS_InterruptHigh C 0 CODE 0 intentry dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SPI_ClearWriteCollisionStatus 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_WRT$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1007,8 +1025,7 @@ _UIR E90 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _SSP1STATbits 214 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Hintentry C 0 CODE 0 intentry -
 __Lintentry 8 0 CODE 0 intentry -
-__end_of_waiting_for_timer 1492 0 CODE 0 text46 dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDITasks$460 6B 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_waiting_for_timer 144C 0 CODE 0 text46 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_configDescriptor1 72A 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_BOREN$ON 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __pintentry 8 0 CODE 0 intentry dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1017,41 +1034,43 @@ _ReceivedDataBuffer A0 0 ABS 1 - dist/pic16f1459/production\MPLAB.X.production.o
 _UEP0 E98 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _UEP1 E99 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _TMR0 15 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_scan_task C74 0 CODE 0 text35 dist/pic16f1459/production\MPLAB.X.production.obj
+_TMR2 1A 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_scan_task B32 0 CODE 0 text35 dist/pic16f1459/production\MPLAB.X.production.obj
 _UCFG E91 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _UEIE E97 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 USBEnableEndpoint@ep 79 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _UCON E8E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _UEIR E93 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_SPI_ClearWriteCollisionStatus 5FC 0 CODE 0 text31 dist/pic16f1459/production\MPLAB.X.production.obj
+_SPI_ClearWriteCollisionStatus 4 0 CODE 0 text31 dist/pic16f1459/production\MPLAB.X.production.obj
 USBStdSetCfgHandler@i 7D 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_PIN_MANAGER_Initialize 1436 0 CODE 0 text52 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_PIN_MANAGER_Initialize 13D8 0 CODE 0 text52 dist/pic16f1459/production\MPLAB.X.production.obj
 USBStdSetCfgHandler@p 7A 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USB_CD_Ptr 660 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBCtrlEPAllowDataStage 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_scan_init 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 set_clock_and_data@c 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 set_clock_and_data@d 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_USBStallHandler 16EC 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
-_main 1674 0 CODE 0 maintext dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStallHandler 1630 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
+_main 15F6 0 CODE 0 maintext dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_sd001 792 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 _pDst EB 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDITasks$432 67 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 btemp 7E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _sd000 7EA 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 _sd001 72A 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 _sd002 792 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDITasks 230 0 CODE 0 text28 dist/pic16f1459/production\MPLAB.X.production.obj
-start C 0 CODE 0 init C:\Users\user\AppData\Local\Temp\s620.obj
+_APP_DeviceAudioMIDITasks 10 0 CODE 0 text28 dist/pic16f1459/production\MPLAB.X.production.obj
+start C 0 CODE 0 init C:\Users\user\AppData\Local\Temp\s1qg.obj
 _midiData 1A0 0 ABS 1 - dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDISOFHandler 1452 0 CODE 0 text25 dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDISOFHandler 13F4 0 CODE 0 text25 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_is_end_of_scan 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 LED_Enable@led 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 USBCtrlTrfTxService@byteToSend 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_USBDeferINDataStagePackets E2 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBDeferINDataStagePackets 158 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 _USBBusIsSuspended 157 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
-_get_data 13F0 0 CODE 0 text44 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBWakeFromSuspend 15A6 0 CODE 0 text20 dist/pic16f1459/production\MPLAB.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec C:\Users\user\AppData\Local\Temp\s620.obj
+_get_data 1392 0 CODE 0 text44 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBWakeFromSuspend 1560 0 CODE 0 text20 dist/pic16f1459/production\MPLAB.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\user\AppData\Local\Temp\s1qg.obj
 __size_of_USBWakeFromSuspend 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 store_key_level@end_of_scan 7D 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _UADDR E96 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1060,7 +1079,7 @@ _USTAT E8F 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 USBCtrlTrfRxService@i 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __Hconfig 10012 0 CONFIG 0 config -
 __Lconfig 1000E 0 CONFIG 0 config -
-_store_key_level FAE 0 CODE 0 text36 dist/pic16f1459/production\MPLAB.X.production.obj
+_store_key_level 1712 0 CODE 0 text36 dist/pic16f1459/production\MPLAB.X.production.obj
 USBConfigureEndpoint@direction 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 LED_On@led 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBDeviceInit 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1070,18 +1089,19 @@ __Lbigram 0 0 ABS 0 bigram -
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
 _pitch 58 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlTrfInHandler 50C 0 CODE 0 text3 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfInHandler 534 0 CODE 0 text3 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBIncrement1msInternalTimers 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_STVREN$ON 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
+USBStdSetCfgHandler@i_2281 7C 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_get_data 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Hfunctab 0 0 CODE 0 functab -
 __Lfunctab 0 0 CODE 0 functab -
-__end_of_SPI_ClearWriteCollisionStatus 600 0 CODE 0 text31 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SPI_ClearWriteCollisionStatus 8 0 CODE 0 text31 dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@old_level 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _SetupPkt 40 0 ABS 1 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_process_level 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBTransferOnePacket 1B06 0 CODE 0 text49 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_APP_DeviceAudioMIDITasks 42E 0 CODE 0 text28 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBTransferOnePacket 1B8E 0 CODE 0 text49 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_APP_DeviceAudioMIDITasks 236 0 CODE 0 text28 dist/pic16f1459/production\MPLAB.X.production.obj
 _outPipes 147 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hcommon 0 0 ABS 0 common -
 __Lcommon 0 0 ABS 0 common -
@@ -1089,26 +1109,26 @@ _PIE1bits 91 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _pBDTEntryOut 153 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 _PIE2bits 92 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
-__end_of_SPI_ClearReceiveOverflowStatus 8 0 CODE 0 text33 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SPI_ClearReceiveOverflowStatus 1392 0 CODE 0 text33 dist/pic16f1459/production\MPLAB.X.production.obj
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 _UEP0bits E98 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_get_adc 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBConfigureEndpoint 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
+_PIR1bits 11 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _PIR2bits 12 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _LATBbits 10D 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _LATCbits 10E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-USBStdSetCfgHandler@i_2218 7C 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _ANSELA 18C 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _UCONbits E8E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_SPI_Exchange8bit 5E4 0 CODE 0 text30 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_process_level B32 0 CODE 0 text37 dist/pic16f1459/production\MPLAB.X.production.obj
+_SPI_Exchange8bit 1416 0 CODE 0 text30 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_process_level C86 0 CODE 0 text37 dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@key_on_counter 247 0 BANK4 1 bssBANK4 dist/pic16f1459/production\MPLAB.X.production.obj
 ?_USBConfigureEndpoint 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _pBDTEntryEP0OutNext 57 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 _SSPBUF 211 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _ADRESH 9C 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_scan_init 1674 0 CODE 0 text48 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_scan_init 16C4 0 CODE 0 text48 dist/pic16f1459/production\MPLAB.X.production.obj
 _OSCCON 99 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Habs1 0 0 ABS 0 abs1 -
 __Labs1 0 0 ABS 0 abs1 -
@@ -1118,7 +1138,7 @@ __Hsfr0 0 0 ABS 0 sfr0 -
 __Lsfr0 0 0 ABS 0 sfr0 -
 __Hsfr1 0 0 ABS 0 sfr1 -
 __Lsfr1 0 0 ABS 0 sfr1 -
-_USBDeferOUTDataStagePackets 158 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBDeferOUTDataStagePackets 159 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hsfr2 0 0 ABS 0 sfr2 -
 __Lsfr2 0 0 ABS 0 sfr2 -
 __Hsfr3 0 0 ABS 0 sfr3 -
@@ -1136,19 +1156,19 @@ __Lsfr8 0 0 ABS 0 sfr8 -
 __Hsfr9 0 0 ABS 0 sfr9 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 USBEnableEndpoint@options 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-USBDeviceInit@i_1890 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlTrfSetupHandler 1892 0 CODE 0 text6 dist/pic16f1459/production\MPLAB.X.production.obj
-_SendMidiData 18F8 0 CODE 0 text29 dist/pic16f1459/production\MPLAB.X.production.obj
+USBDeviceInit@i_1953 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlTrfSetupHandler 1874 0 CODE 0 text6 dist/pic16f1459/production\MPLAB.X.production.obj
+_SendMidiData 1948 0 CODE 0 text29 dist/pic16f1459/production\MPLAB.X.production.obj
 USBTransferOnePacket@data 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_sd002 7C6 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-_ble_pitch E7 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
+_ble_pitch E6 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 LED_Off@led 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_is_end_of_scan 14B0 0 CODE 0 text43 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBStdGetDscHandler 5E4 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
+_is_end_of_scan 146A 0 CODE 0 text43 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBStdGetDscHandler 2000 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
 USBDeviceTasks@i 6D 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-_LED_On 154E 0 CODE 0 text38 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlEPService 1F3C 0 CODE 0 text2 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_memset 15A6 0 CODE 0 text12 dist/pic16f1459/production\MPLAB.X.production.obj
+_LED_On 1508 0 CODE 0 text38 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlEPService 534 0 CODE 0 text2 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_memset 1560 0 CODE 0 text12 dist/pic16f1459/production\MPLAB.X.production.obj
 USBDeviceInit@p 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBCtrlEPService 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Hcode 0 0 ABS 0 code -
@@ -1159,22 +1179,22 @@ process_level@key_states 120 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __size_of_USBStallHandler 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDITasks$425 67 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hinit C 0 CODE 0 init -
 __Linit C 0 CODE 0 init -
-_memset 157A 0 CODE 0 text12 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_main 16AE 0 CODE 0 maintext dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USER_USB_CALLBACK_EVENT_HANDLER 19D6 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.production.obj
-_is_initialized 15A 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
+_memset 1534 0 CODE 0 text12 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_main 1630 0 CODE 0 maintext dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USER_USB_CALLBACK_EVENT_HANDLER 1948 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.production.obj
+_is_initialized 15B 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 __Htext 0 0 ABS 0 text -
 __Ltext 0 0 ABS 0 text -
-__end_of_LED_Off 154E 0 CODE 0 text39 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlEPAllowDataStage 1BA2 0 CODE 0 text14 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBStdFeatureReqHandler 230 0 CODE 0 text8 dist/pic16f1459/production\MPLAB.X.production.obj
-_scan_task B32 0 CODE 0 text35 dist/pic16f1459/production\MPLAB.X.production.obj
-end_of_initialization 17D2 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_LED_Off 1508 0 CODE 0 text39 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlEPAllowDataStage 1AF2 0 CODE 0 text14 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBStdFeatureReqHandler 456 0 CODE 0 text8 dist/pic16f1459/production\MPLAB.X.production.obj
+_scan_task 9DE 0 CODE 0 text35 dist/pic16f1459/production\MPLAB.X.production.obj
+end_of_initialization 17B4 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@on_flag 7A 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+SendMidiData@timestamp 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 scan_task@note 66 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hsfr10 0 0 ABS 0 sfr10 -
 __Lsfr10 0 0 ABS 0 sfr10 -
@@ -1188,7 +1208,7 @@ __Hsfr21 0 0 ABS 0 sfr21 -
 __Lsfr21 0 0 ABS 0 sfr21 -
 __size_of_waiting_for_timer 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __stringtab 600 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-scan_task@state 15D 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
+scan_task@state 15E 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hsfr31 0 0 ABS 0 sfr31 -
 __Hsfr12 0 0 ABS 0 sfr12 -
 __Lsfr31 0 0 ABS 0 sfr31 -
@@ -1201,12 +1221,12 @@ __Hsfr13 0 0 ABS 0 sfr13 -
 __Lsfr13 0 0 ABS 0 sfr13 -
 __Hsfr23 0 0 ABS 0 sfr23 -
 __Lsfr23 0 0 ABS 0 sfr23 -
-_set_timer 1460 0 CODE 0 text47 dist/pic16f1459/production\MPLAB.X.production.obj
+_set_timer 1402 0 CODE 0 text47 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBStdGetStatusHandler 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Hsfr14 0 0 ABS 0 sfr14 -
 __Lsfr14 0 0 ABS 0 sfr14 -
 __Hsfr24 0 0 ABS 0 sfr24 -
-__end_of_APP_DeviceAudioMIDIInitialize 16EC 0 CODE 0 text22 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_APP_DeviceAudioMIDIInitialize FFE 0 CODE 0 text22 dist/pic16f1459/production\MPLAB.X.production.obj
 __Lsfr24 0 0 ABS 0 sfr24 -
 __Hsfr15 0 0 ABS 0 sfr15 -
 __Lsfr15 0 0 ABS 0 sfr15 -
@@ -1214,13 +1234,13 @@ __Hsfr25 0 0 ABS 0 sfr25 -
 __Lsfr25 0 0 ABS 0 sfr25 -
 __Hsfr16 0 0 ABS 0 sfr16 -
 __Lsfr16 0 0 ABS 0 sfr16 -
-__end_of_USBCtrlEPAllowStatusStage 1F3C 0 CODE 0 text16 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlEPAllowStatusStage 1F28 0 CODE 0 text16 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hsfr26 0 0 ABS 0 sfr26 -
 __Lsfr26 0 0 ABS 0 sfr26 -
 __Hsfr17 0 0 ABS 0 sfr17 -
 __Lsfr17 0 0 ABS 0 sfr17 -
 __Hsfr27 0 0 ABS 0 sfr27 -
-_APP_LEDUpdateUSBStatus 1C42 0 CODE 0 text26 dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_LEDUpdateUSBStatus 1C2E 0 CODE 0 text26 dist/pic16f1459/production\MPLAB.X.production.obj
 __Lsfr27 0 0 ABS 0 sfr27 -
 __Hsfr18 0 0 ABS 0 sfr18 -
 __Lsfr18 0 0 ABS 0 sfr18 -
@@ -1230,7 +1250,7 @@ __Hsfr19 0 0 ABS 0 sfr19 -
 __Lsfr19 0 0 ABS 0 sfr19 -
 __Hsfr29 0 0 ABS 0 sfr29 -
 __Lsfr29 0 0 ABS 0 sfr29 -
-_LED_Enable 14F6 0 CODE 0 text54 dist/pic16f1459/production\MPLAB.X.production.obj
+_LED_Enable 14B0 0 CODE 0 text54 dist/pic16f1459/production\MPLAB.X.production.obj
 _TRISAbits 8C 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _TRISBbits 8D 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _TRISCbits 8E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1238,17 +1258,21 @@ _msCounter EA 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.o
 __size_of_LED_Enable 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _PORTBbits D 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Hstrings 0 0 ABS 0 strings -
+_T2CONbits 1C 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Lstrings 0 0 ABS 0 strings -
-_SPI_HasReceiveOverflowOccured 1410 0 CODE 0 text34 dist/pic16f1459/production\MPLAB.X.production.obj
-_scan_init 163C 0 CODE 0 text48 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_SPI_Exchange8bit 5FC 0 CODE 0 text30 dist/pic16f1459/production\MPLAB.X.production.obj
+_SPI_HasReceiveOverflowOccured 13B2 0 CODE 0 text34 dist/pic16f1459/production\MPLAB.X.production.obj
+_process_level$922 77 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+_process_level$923 78 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+_scan_init 1678 0 CODE 0 text48 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SPI_Exchange8bit 142E 0 CODE 0 text30 dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@idx_key 7C 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlEPServiceComplete EA6 0 CODE 0 text13 dist/pic16f1459/production\MPLAB.X.production.obj
-_SYSTEM_Initialize 15D6 0 CODE 0 text53 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_is_end_of_scan 14D2 0 CODE 0 text43 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlEPServiceComplete EB8 0 CODE 0 text13 dist/pic16f1459/production\MPLAB.X.production.obj
+_SYSTEM_Initialize 1590 0 CODE 0 text53 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_is_end_of_scan 148C 0 CODE 0 text43 dist/pic16f1459/production\MPLAB.X.production.obj
 APP_DeviceAudioMIDITasks@bscan 6D 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_set_clock_and_data 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlTrfSetupHandler 18F8 0 CODE 0 text6 dist/pic16f1459/production\MPLAB.X.production.obj
+SendMidiData@midi_status 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfSetupHandler 18D8 0 CODE 0 text6 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SPI_HasWriteCollisionOccured 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 USBStdGetStatusHandler@p 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 SYSTEM_Initialize@state 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1262,10 +1286,10 @@ _SYS_InterruptHigh 8 0 CODE 0 intentry dist/pic16f1459/production\MPLAB.X.produc
 __Lbank2 0 0 ABS 0 bank2 -
 __Hbank3 0 0 ABS 0 bank3 -
 __Lbank3 0 0 ABS 0 bank3 -
-___latbits 2 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s620.obj
+___latbits 2 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s1qg.obj
 __Hbank4 0 0 ABS 0 bank4 -
 __Lbank4 0 0 ABS 0 bank4 -
-_USBCtrlTrfOutHandler 1834 0 CODE 0 text4 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlTrfOutHandler 1816 0 CODE 0 text4 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank5 0 0 ABS 0 bank5 -
 __Lbank5 0 0 ABS 0 bank5 -
 __size_of_USBDeviceTasks 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1274,7 +1298,7 @@ __Hpowerup 0 0 CODE 0 powerup -
 __Lpowerup 0 0 CODE 0 powerup -
 __Hbank6 0 0 ABS 0 bank6 -
 __Lbank6 0 0 ABS 0 bank6 -
-_USBStdSetCfgHandler 1DB6 0 CODE 0 text11 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStdSetCfgHandler 1DA2 0 CODE 0 text11 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_set_timer 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank7 0 0 ABS 0 bank7 -
 USBTransferOnePacket@ep 76 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1282,70 +1306,71 @@ __Lbank7 0 0 ABS 0 bank7 -
 __Hbank8 0 0 ABS 0 bank8 -
 _device_dsc 7C6 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 __Lbank8 0 0 ABS 0 bank8 -
-_scan_task$866 62 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank9 0 0 ABS 0 bank9 -
 __Lbank9 0 0 ABS 0 bank9 -
 _USBAlternateInterface EF 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __ptext1 7F4 0 CODE 0 text1 dist/pic16f1459/production\MPLAB.X.production.obj
 _USTATcopy 5F 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext2 1F3C 0 CODE 0 text2 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext3 42E 0 CODE 0 text3 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlEPAllowStatusStage 1E78 0 CODE 0 text16 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext4 1834 0 CODE 0 text4 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext5 C74 0 CODE 0 text5 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext6 1892 0 CODE 0 text6 dist/pic16f1459/production\MPLAB.X.production.obj
-_BLEDeviceInit 1436 0 CODE 0 text50 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext7 19D6 0 CODE 0 text7 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBDeviceInit D98 0 CODE 0 text27 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext8 10 0 CODE 0 text8 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext9 1BA2 0 CODE 0 text9 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext2 534 0 CODE 0 text2 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext3 456 0 CODE 0 text3 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlEPAllowStatusStage 1E64 0 CODE 0 text16 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext4 1816 0 CODE 0 text4 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext5 C86 0 CODE 0 text5 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext6 1874 0 CODE 0 text6 dist/pic16f1459/production\MPLAB.X.production.obj
+_BLEDeviceInit 13D8 0 CODE 0 text50 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext7 19C6 0 CODE 0 text7 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBDeviceInit DAA 0 CODE 0 text27 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext8 236 0 CODE 0 text8 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext9 1B8E 0 CODE 0 text9 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hclrtext 0 0 ABS 0 clrtext -
-_USBSuspend 14D2 0 CODE 0 text19 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBSuspend 148C 0 CODE 0 text19 dist/pic16f1459/production\MPLAB.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext -
 _pBDTEntryEP0OutCurrent 56 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 SPI_Exchange8bit@data 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBStdFeatureReqHandler 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlTrfOutHandler 1892 0 CODE 0 text4 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfOutHandler 1874 0 CODE 0 text4 dist/pic16f1459/production\MPLAB.X.production.obj
 APP_DeviceAudioMIDITasks@scan_pitch 6E 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBEnableEndpoint 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 ?_SendMidiData 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-SendMidiData@timeout_ms 73 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlEPServiceComplete FAE 0 CODE 0 text13 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlEPAllowDataStage 1B06 0 CODE 0 text14 dist/pic16f1459/production\MPLAB.X.production.obj
+SendMidiData@timeout_ms 76 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlEPServiceComplete FC0 0 CODE 0 text13 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlEPAllowDataStage 1A5A 0 CODE 0 text14 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_WDTE$ON 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@current_state 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SPI_HasReceiveOverflowOccured 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBSuspend 14F6 0 CODE 0 text19 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of__initialization 17D2 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBSuspend 14B0 0 CODE 0 text19 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of__initialization 17B4 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
 memset@c 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __end_ofprocess_level@midi_shift 7F4 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlTrfInHandler 42E 0 CODE 0 text3 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBTicksSinceSuspendEnd 159 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBStdSetCfgHandler 1E78 0 CODE 0 text11 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlTrfInHandler 456 0 CODE 0 text3 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBTicksSinceSuspendEnd 15A 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBStdSetCfgHandler 1E64 0 CODE 0 text11 dist/pic16f1459/production\MPLAB.X.production.obj
+SendMidiData@header 75 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 USER_USB_CALLBACK_EVENT_HANDLER@event 60 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBStdGetStatusHandler 1C42 0 CODE 0 text9 dist/pic16f1459/production\MPLAB.X.production.obj
-_LED_Off 1522 0 CODE 0 text39 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBStdGetStatusHandler 1C2E 0 CODE 0 text9 dist/pic16f1459/production\MPLAB.X.production.obj
+_LED_Off 14DC 0 CODE 0 text39 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_memset 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 memset@n 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBWakeFromSuspend 15D6 0 CODE 0 text20 dist/pic16f1459/production\MPLAB.X.production.obj
-_get_adc 13E4 0 CODE 0 text40 dist/pic16f1459/production\MPLAB.X.production.obj
-_run_adc 1444 0 CODE 0 text42 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBWakeFromSuspend 1590 0 CODE 0 text20 dist/pic16f1459/production\MPLAB.X.production.obj
+_get_adc 138A 0 CODE 0 text40 dist/pic16f1459/production\MPLAB.X.production.obj
+_run_adc 13E6 0 CODE 0 text42 dist/pic16f1459/production\MPLAB.X.production.obj
 memset@p 75 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-SendMidiData@velocity 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+SendMidiData@velocity 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDITasks$466 69 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hidloc 0 0 IDLOC 0 idloc -
 _ep_data_in 14D 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 __Lidloc 0 0 IDLOC 0 idloc -
-_sentNoteOff 15B 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
+_sentNoteOff 15C 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 ?_process_level 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SPI_Exchange8bit 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_device_dsc 7EA 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_set_clock_and_data 163C 0 CODE 0 text45 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_BLEDeviceInit 1444 0 CODE 0 text50 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_APP_DeviceAudioMIDISOFHandler 1460 0 CODE 0 text25 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_set_clock_and_data 15F6 0 CODE 0 text45 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_BLEDeviceInit 13E6 0 CODE 0 text50 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_APP_DeviceAudioMIDISOFHandler 1402 0 CODE 0 text25 dist/pic16f1459/production\MPLAB.X.production.obj
 USBTransferOnePacket@handle 77 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 is_end_of_scan@res 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _USB_CD_Ptr 65C 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCheckStdRequest 19D6 0 CODE 0 text7 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCheckStdRequest 19C6 0 CODE 0 text7 dist/pic16f1459/production\MPLAB.X.production.obj
 _inPipes 5A 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 _USB_SD_Ptr 650 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_run_adc 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1356,27 +1381,28 @@ _UIEbits E92 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _UIRbits E90 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@idx_midi_map 602 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_main 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_scan_task$867 64 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_store_key_level 1000 0 CODE 0 text36 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBIncrement1msInternalTimers 1492 0 CODE 0 text18 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_store_key_level 1764 0 CODE 0 text36 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBIncrement1msInternalTimers 144C 0 CODE 0 text18 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_BORV$LO 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_PIN_MANAGER_Initialize 1428 0 CODE 0 text52 dist/pic16f1459/production\MPLAB.X.production.obj
-_set_clock_and_data 1608 0 CODE 0 text45 dist/pic16f1459/production\MPLAB.X.production.obj
+_PIN_MANAGER_Initialize 13CA 0 CODE 0 text52 dist/pic16f1459/production\MPLAB.X.production.obj
+_set_clock_and_data 15C2 0 CODE 0 text45 dist/pic16f1459/production\MPLAB.X.production.obj
 ?_store_key_level 7D 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _CtrlTrfData 48 0 ABS 1 - dist/pic16f1459/production\MPLAB.X.production.obj
-_USBStdGetDscHandler 50C 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStdGetDscHandler 1F28 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_scan_task 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_USER_USB_CALLBACK_EVENT_HANDLER 1966 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.production.obj
+_USER_USB_CALLBACK_EVENT_HANDLER 18D8 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDITasks$467 6B 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 _shortPacketStatus EC 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlTrfRxService D98 0 CODE 0 text5 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlTrfTxService 1DB6 0 CODE 0 text15 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfRxService DAA 0 CODE 0 text5 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfTxService 1DA2 0 CODE 0 text15 dist/pic16f1459/production\MPLAB.X.production.obj
 ?_scan_task 61 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBCtrlEPAllowStatusStage 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-clear_ram0 141C 0 CODE 0 clrtext dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBEnableEndpoint 1782 0 CODE 0 text23 dist/pic16f1459/production\MPLAB.X.production.obj
+clear_ram0 13BE 0 CODE 0 clrtext dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBEnableEndpoint 1712 0 CODE 0 text23 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 ?_set_clock_and_data 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 store_key_level@level 60 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
+_ble_timestamp E7 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SPI_ClearReceiveOverflowStatus 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
@@ -1403,15 +1429,15 @@ __Hbank31 0 0 BANK31 1 bank31 -
 __Hbank12 0 0 ABS 0 bank12 -
 __Lbank31 0 0 BANK31 1 bank31 -
 __Lbank12 0 0 ABS 0 bank12 -
-__end_of_SYSTEM_Initialize 1608 0 CODE 0 text53 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBStatusStageEnabledFlag1 E3 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SYSTEM_Initialize 15C2 0 CODE 0 text53 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStatusStageEnabledFlag1 E2 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank22 0 0 BANK22 1 bank22 -
 __Lbank22 0 0 BANK22 1 bank22 -
-__end_of_SendMidiData 1966 0 CODE 0 text29 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SendMidiData 19C6 0 CODE 0 text29 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank13 0 0 BANK13 1 bank13 -
 __Lbank13 0 0 BANK13 1 bank13 -
 USBConfigureEndpoint@EPNum 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_USBEnableEndpoint 1734 0 CODE 0 text23 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBEnableEndpoint 16C4 0 CODE 0 text23 dist/pic16f1459/production\MPLAB.X.production.obj
 __HbssBANK1 0 0 ABS 0 bssBANK1 -
 __LbssBANK1 0 0 ABS 0 bssBANK1 -
 __Hbank23 0 0 BANK23 1 bank23 -
@@ -1422,105 +1448,104 @@ __pbssBANK1 E0 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.
 __Lbank14 0 0 BANK14 1 bank14 -
 __Hstringtext 0 0 ABS 0 stringtext -
 __Lstringtext 0 0 ABS 0 stringtext -
-_process_level$855 77 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_process_level$856 78 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank24 0 0 BANK24 1 bank24 -
 __Lbank24 0 0 BANK24 1 bank24 -
-__end_of_get_adc 13E8 0 CODE 0 text40 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_get_adc 138E 0 CODE 0 text40 dist/pic16f1459/production\MPLAB.X.production.obj
 __pstringtext 600 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext10 50C 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext10 1F28 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank15 0 0 BANK15 1 bank15 -
 __Lbank15 0 0 BANK15 1 bank15 -
-_wait_timer 15C 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_set_timer 1474 0 CODE 0 text47 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext20 15A6 0 CODE 0 text20 dist/pic16f1459/production\MPLAB.X.production.obj
+_wait_timer 15D 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_set_timer 1416 0 CODE 0 text47 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext20 1560 0 CODE 0 text20 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank25 0 0 BANK25 1 bank25 -
 __Lbank25 0 0 BANK25 1 bank25 -
+_scan_task$933 62 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 USBStdFeatureReqHandler@current_ep_data 67 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-_waiting_for_timer 1474 0 CODE 0 text46 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext11 1DB6 0 CODE 0 text11 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext30 5E4 0 CODE 0 text30 dist/pic16f1459/production\MPLAB.X.production.obj
+_waiting_for_timer 142E 0 CODE 0 text46 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext11 1DA2 0 CODE 0 text11 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext30 1416 0 CODE 0 text30 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank16 0 0 BANK16 1 bank16 -
 __Lbank16 0 0 BANK16 1 bank16 -
-_USBStatusStageEnabledFlag2 E4 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext21 1966 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext40 13E4 0 CODE 0 text40 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStatusStageEnabledFlag2 E3 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext21 18D8 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext40 138A 0 CODE 0 text40 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank26 0 0 BANK26 1 bank26 -
 process_level@key_off_counter 1A4 0 BANK3 1 bssBANK3 dist/pic16f1459/production\MPLAB.X.production.obj
 __Lbank26 0 0 BANK26 1 bank26 -
 __CFG_CPUDIV$NOCLKDIV 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext12 157A 0 CODE 0 text12 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext31 5FC 0 CODE 0 text31 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext50 1436 0 CODE 0 text50 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext12 1534 0 CODE 0 text12 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext31 4 0 CODE 0 text31 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext50 13D8 0 CODE 0 text50 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank17 0 0 BANK17 1 bank17 -
 __Lbank17 0 0 BANK17 1 bank17 -
-__end_of_SPI_HasReceiveOverflowOccured 141C 0 CODE 0 text34 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SPI_HasReceiveOverflowOccured 13BE 0 CODE 0 text34 dist/pic16f1459/production\MPLAB.X.production.obj
 __HbssBANK2 0 0 ABS 0 bssBANK2 -
-__ptext22 16AE 0 CODE 0 text22 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext41 13FA 0 CODE 0 text41 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext22 FC0 0 CODE 0 text22 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext41 139C 0 CODE 0 text41 dist/pic16f1459/production\MPLAB.X.production.obj
 __LbssBANK2 0 0 ABS 0 bssBANK2 -
 __Hbank27 0 0 BANK27 1 bank27 -
 __Lbank27 0 0 BANK27 1 bank27 -
-__ptext13 EA6 0 CODE 0 text13 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext32 13E8 0 CODE 0 text32 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext51 1404 0 CODE 0 text51 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext13 EB8 0 CODE 0 text13 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext32 5F8 0 CODE 0 text32 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext51 13A6 0 CODE 0 text51 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank18 0 0 BANK18 1 bank18 -
 __pbssBANK2 120 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 __Lbank18 0 0 BANK18 1 bank18 -
 USBTransferOnePacket@len 73 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _ADCON0bits 9D 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _ADCON1bits 9E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext23 1734 0 CODE 0 text23 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext42 1444 0 CODE 0 text42 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext23 16C4 0 CODE 0 text23 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext42 13E6 0 CODE 0 text42 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank28 0 0 BANK28 1 bank28 -
 __Lbank28 0 0 BANK28 1 bank28 -
 _ADCON2bits 9F 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_APP_DeviceAudioMIDISOFHandler 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext14 1B06 0 CODE 0 text14 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext33 4 0 CODE 0 text33 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext52 1428 0 CODE 0 text52 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext14 1A5A 0 CODE 0 text14 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext33 138E 0 CODE 0 text33 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext52 13CA 0 CODE 0 text52 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank19 0 0 BANK19 1 bank19 -
 __Lbank19 0 0 BANK19 1 bank19 -
-__ptext24 17D8 0 CODE 0 text24 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext43 14B0 0 CODE 0 text43 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext24 17BA 0 CODE 0 text24 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext43 146A 0 CODE 0 text43 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank29 0 0 BANK29 1 bank29 -
 __Lbank29 0 0 BANK29 1 bank29 -
-__ptext15 1CFA 0 CODE 0 text15 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext34 1410 0 CODE 0 text34 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext53 15D6 0 CODE 0 text53 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext15 1CE6 0 CODE 0 text15 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext34 13B2 0 CODE 0 text34 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext53 1590 0 CODE 0 text53 dist/pic16f1459/production\MPLAB.X.production.obj
 USBTransferOnePacket@dir 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext25 1452 0 CODE 0 text25 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext44 13F0 0 CODE 0 text44 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext16 1E78 0 CODE 0 text16 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext35 B32 0 CODE 0 text35 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext54 14F6 0 CODE 0 text54 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_APP_LEDUpdateUSBStatus 1CFA 0 CODE 0 text26 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext25 13F4 0 CODE 0 text25 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext44 1392 0 CODE 0 text44 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext16 1E64 0 CODE 0 text16 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext35 9DE 0 CODE 0 text35 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext54 14B0 0 CODE 0 text54 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_APP_LEDUpdateUSBStatus 1CE6 0 CODE 0 text26 dist/pic16f1459/production\MPLAB.X.production.obj
 __HbssBANK3 0 0 ABS 0 bssBANK3 -
-__ptext26 1C42 0 CODE 0 text26 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext45 1608 0 CODE 0 text45 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext26 1C2E 0 CODE 0 text26 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext45 15C2 0 CODE 0 text45 dist/pic16f1459/production\MPLAB.X.production.obj
 __LbssBANK3 0 0 ABS 0 bssBANK3 -
 __size_of_USBCheckStdRequest 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext17 16EC 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext36 FAE 0 CODE 0 text36 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext17 1630 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext36 1712 0 CODE 0 text36 dist/pic16f1459/production\MPLAB.X.production.obj
 __pbssBANK3 1A4 0 BANK3 1 bssBANK3 dist/pic16f1459/production\MPLAB.X.production.obj
 _ANSELAbits 18C 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext27 D98 0 CODE 0 text27 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext46 1474 0 CODE 0 text46 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext27 DAA 0 CODE 0 text27 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext46 142E 0 CODE 0 text46 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_APP_DeviceAudioMIDIInitialize 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _ANSELCbits 18E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext18 1492 0 CODE 0 text18 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext37 9DE 0 CODE 0 text37 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext18 144C 0 CODE 0 text18 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext37 B32 0 CODE 0 text37 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_PWRTE$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext28 230 0 CODE 0 text28 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext47 1460 0 CODE 0 text47 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext28 10 0 CODE 0 text28 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext47 1402 0 CODE 0 text47 dist/pic16f1459/production\MPLAB.X.production.obj
 ?_USBTransferOnePacket 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext19 14D2 0 CODE 0 text19 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext38 154E 0 CODE 0 text38 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext29 18F8 0 CODE 0 text29 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext48 163C 0 CODE 0 text48 dist/pic16f1459/production\MPLAB.X.production.obj
-__ptext39 1522 0 CODE 0 text39 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext19 148C 0 CODE 0 text19 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext38 1508 0 CODE 0 text38 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext29 1948 0 CODE 0 text29 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext48 1678 0 CODE 0 text48 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext39 14DC 0 CODE 0 text39 dist/pic16f1459/production\MPLAB.X.production.obj
 __HbssBANK4 0 0 ABS 0 bssBANK4 -
-__ptext49 1A6A 0 CODE 0 text49 dist/pic16f1459/production\MPLAB.X.production.obj
+__ptext49 1AF2 0 CODE 0 text49 dist/pic16f1459/production\MPLAB.X.production.obj
 __LbssBANK4 0 0 ABS 0 bssBANK4 -
 _INTCONbits B 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _ep_data_out 14F 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1530,28 +1555,27 @@ __size_of_USBCtrlEPServiceComplete 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.
 __Hend_init 10 0 CODE 0 end_init -
 __size_of_APP_DeviceAudioMIDITasks 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Lend_init C 0 CODE 0 end_init -
-__end_of_USBConfigureEndpoint 1834 0 CODE 0 text24 dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDITasks$459 69 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBConfigureEndpoint 1816 0 CODE 0 text24 dist/pic16f1459/production\MPLAB.X.production.obj
 _USBActiveConfiguration EE 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __pswtext1 1000 0 CONST 0 swtext1 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlTrfRxService C74 0 CODE 0 text5 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlTrfRxService C86 0 CODE 0 text5 dist/pic16f1459/production\MPLAB.X.production.obj
 _adc_levels 220 0 BANK4 1 bssBANK4 dist/pic16f1459/production\MPLAB.X.production.obj
-_waiting_for_timer$818 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+_waiting_for_timer$885 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _pBDTEntryIn 50 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __pswtext2 1034 0 CONST 0 swtext2 dist/pic16f1459/production\MPLAB.X.production.obj
-_SPI_Initialize 1404 0 CODE 0 text51 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_is_adc_ready 1404 0 CODE 0 text41 dist/pic16f1459/production\MPLAB.X.production.obj
-_process_level 9DE 0 CODE 0 text37 dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDIInitialize 16AE 0 CODE 0 text22 dist/pic16f1459/production\MPLAB.X.production.obj
+_SPI_Initialize 13A6 0 CODE 0 text51 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_is_adc_ready 13A6 0 CODE 0 text41 dist/pic16f1459/production\MPLAB.X.production.obj
+_process_level B32 0 CODE 0 text37 dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDIInitialize FC0 0 CODE 0 text22 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_LED_On 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __pswtext3 104C 0 CONST 0 swtext3 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SendMidiData 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _USBDeferStatusStagePacket 52 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_ofprocess_level@idx_midi_map 650 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-_USBStatusStageTimeoutCounter E5 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStatusStageTimeoutCounter E4 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __pswtext4 1060 0 CONST 0 swtext4 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBDeviceInit EA6 0 CODE 0 text27 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBIncrement1msInternalTimers 14B0 0 CODE 0 text18 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBDeviceInit EB8 0 CODE 0 text27 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBIncrement1msInternalTimers 146A 0 CODE 0 text18 dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@filtered_state 7B 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 memset@p1 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __Hreset_vec 4 0 CODE 0 reset_vec -
@@ -1564,67 +1588,68 @@ __size_of_USBStdGetDscHandler 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.pro
 __end_of_USB_SD_Ptr 65C 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USER_USB_CALLBACK_EVENT_HANDLER 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _USBRxHandle 54 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-_USBTxHandle E6 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel0 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s620.obj
+_USBTxHandle E5 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s1qg.obj
 _configDescriptor1 660 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 _SSP1STAT 214 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel1 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s620.obj
-intlevel2 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s620.obj
-intlevel3 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s620.obj
+intlevel1 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s1qg.obj
+intlevel2 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s1qg.obj
+intlevel3 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s1qg.obj
 __size_of_is_adc_ready 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_USBCtrlTrfTxService 1CFA 0 CODE 0 text15 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBCtrlTrfTxService 1CE6 0 CODE 0 text15 dist/pic16f1459/production\MPLAB.X.production.obj
 USBDeviceInit@i 75 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel4 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s620.obj
+intlevel4 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s1qg.obj
 _SSP1CON1bits 215 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_LPBOR$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 USBStdFeatureReqHandler@pUEP 65 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel5 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s620.obj
-__end_of_get_data 13FA 0 CODE 0 text44 dist/pic16f1459/production\MPLAB.X.production.obj
-_SPI_HasWriteCollisionOccured 13E8 0 CODE 0 text32 dist/pic16f1459/production\MPLAB.X.production.obj
+intlevel5 0 0 CODE 0 functab C:\Users\user\AppData\Local\Temp\s1qg.obj
+_scan_task$934 64 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_get_data 139C 0 CODE 0 text44 dist/pic16f1459/production\MPLAB.X.production.obj
+_SPI_HasWriteCollisionOccured 5F8 0 CODE 0 text32 dist/pic16f1459/production\MPLAB.X.production.obj
 _ble_velocity E8 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBSuspend 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_LED_On 157A 0 CODE 0 text38 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_LED_On 1534 0 CODE 0 text38 dist/pic16f1459/production\MPLAB.X.production.obj
 store_key_level@idx_key 59 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 USBConfigureEndpoint@handle 73 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 process_level@off_flag 76 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_USBConfigureEndpoint 17D8 0 CODE 0 text24 dist/pic16f1459/production\MPLAB.X.production.obj
-start_initialization 1782 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
+_USBConfigureEndpoint 17BA 0 CODE 0 text24 dist/pic16f1459/production\MPLAB.X.production.obj
+start_initialization 1764 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_sd000 7F2 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_run_adc 1452 0 CODE 0 text42 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_run_adc 13F4 0 CODE 0 text42 dist/pic16f1459/production\MPLAB.X.production.obj
 ?_USBEnableEndpoint 74 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_APP_LEDUpdateUSBStatus 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_SPI_Initialize 1410 0 CODE 0 text51 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SPI_Initialize 13B2 0 CODE 0 text51 dist/pic16f1459/production\MPLAB.X.production.obj
 _BothEP0OutUOWNsSet 155 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 USBCtrlTrfRxService@byteToRead 75 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-_USBTransferOnePacket 1A6A 0 CODE 0 text49 dist/pic16f1459/production\MPLAB.X.production.obj
+_USBTransferOnePacket 1AF2 0 CODE 0 text49 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_USBLSCLK$48MHz 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_LED_Enable 1522 0 CODE 0 text54 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_LED_Enable 14DC 0 CODE 0 text54 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hmaintext 0 0 ABS 0 maintext -
 __Lmaintext 0 0 ABS 0 maintext -
 __CFG_IESO$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_SPI_HasWriteCollisionOccured 13F0 0 CODE 0 text32 dist/pic16f1459/production\MPLAB.X.production.obj
-__pmaintext 1674 0 CODE 0 maintext dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_SPI_HasWriteCollisionOccured 600 0 CODE 0 text32 dist/pic16f1459/production\MPLAB.X.production.obj
+__pmaintext 15F6 0 CODE 0 maintext dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_PLLEN$ENABLED 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _OPTION_REGbits 95 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCtrlEPService 2000 0 CODE 0 text2 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlEPService 5F8 0 CODE 0 text2 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_FOSC$INTOSC 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-SendMidiData@tone 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+SendMidiData@tone 73 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 APP_DeviceAudioMIDITasks@velocity 6F 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBStallHandler 1734 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBStallHandler 1678 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBDeviceTasks 9DE 0 CODE 0 text1 dist/pic16f1459/production\MPLAB.X.production.obj
-__initialization 1782 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
-_USBStdGetStatusHandler 1BA2 0 CODE 0 text9 dist/pic16f1459/production\MPLAB.X.production.obj
-__end_of_USBCheckStdRequest 1A6A 0 CODE 0 text7 dist/pic16f1459/production\MPLAB.X.production.obj
+__initialization 1764 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
+_USBStdGetStatusHandler 1B8E 0 CODE 0 text9 dist/pic16f1459/production\MPLAB.X.production.obj
+__end_of_USBCheckStdRequest 1A5A 0 CODE 0 text7 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_CP$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _USBDeviceState 53 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_LVP$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBTransferOnePacket 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 USBCtrlEPService@setup_cnt 6B 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-_SPI_ClearReceiveOverflowStatus 4 0 CODE 0 text33 dist/pic16f1459/production\MPLAB.X.production.obj
+_SPI_ClearReceiveOverflowStatus 138E 0 CODE 0 text33 dist/pic16f1459/production\MPLAB.X.production.obj
 ?_USER_USB_CALLBACK_EVENT_HANDLER 60 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 # %DABS Section
 # This section contains a table of all usuage of the assember
@@ -1653,53 +1678,54 @@ intentry 0 4 8 2FC 2 CODE
 config 0 8007 1000E 2 2 CONFIG
 cstackCOMMON 1 70 70 E 1 COMMON
 bssBANK4 1 220 220 4E 1 BANK4
-bssBANK2 1 120 120 3E 1 BANK2
+bssBANK2 1 120 120 3F 1 BANK2
 bssBANK3 1 1A4 1A4 27 1 BANK3
 bssBANK0 1 50 50 20 1 BANK0
 bssBANK1 1 E0 E0 10 1 BANK1
 stringtext 0 300 600 FA 2 STRCODE
-text1 0 3FA 7F4 406 2 CODE
-text2 0 F9E 1F3C 62 2 CODE
-text16 0 F3C 1E78 62 2 CODE
-text11 0 EDB 1DB6 61 2 CODE
-text15 0 E7D 1CFA 5E 2 CODE
-text26 0 E21 1C42 5C 2 CODE
-text9 0 DD1 1BA2 50 2 CODE
-text14 0 D83 1B06 4E 2 CODE
-text49 0 D35 1A6A 4E 2 CODE
-text7 0 CEB 19D6 4A 2 CODE
-text21 0 CB3 1966 38 2 CODE
-text29 0 C7C 18F8 37 2 CODE
-text6 0 C49 1892 33 2 CODE
-text4 0 C1A 1834 2F 2 CODE
-text24 0 BEC 17D8 2E 2 CODE
-cinit 0 BC1 1782 2B 2 CODE
-text23 0 B9A 1734 27 2 CODE
-text17 0 B76 16EC 24 2 CODE
-text22 0 B57 16AE 1F 2 CODE
-maintext 0 B3A 1674 1D 2 CODE
-text48 0 B1E 163C 1C 2 CODE
+text1 0 3FA 7F4 405 2 CODE
+text10 0 F94 1F28 6C 2 CODE
+text16 0 F32 1E64 62 2 CODE
+text11 0 ED1 1DA2 61 2 CODE
+text15 0 E73 1CE6 5E 2 CODE
+text26 0 E17 1C2E 5C 2 CODE
+text9 0 DC7 1B8E 50 2 CODE
+text49 0 D79 1AF2 4E 2 CODE
+text14 0 D2D 1A5A 4C 2 CODE
+text7 0 CE3 19C6 4A 2 CODE
+text29 0 CA4 1948 3F 2 CODE
+text21 0 C6C 18D8 38 2 CODE
+text6 0 C3A 1874 32 2 CODE
+text4 0 C0B 1816 2F 2 CODE
+text24 0 BDD 17BA 2E 2 CODE
+cinit 0 BB2 1764 2B 2 CODE
+text36 0 B89 1712 29 2 CODE
+text23 0 B62 16C4 27 2 CODE
+text48 0 B3C 1678 26 2 CODE
+text17 0 B18 1630 24 2 CODE
+maintext 0 AFB 15F6 1D 2 CODE
 swtext1 0 800 1000 44 2 CONST
-text45 0 B04 1608 1A 2 CODE
-text53 0 AEB 15D6 19 2 CODE
-text20 0 AD3 15A6 18 2 CODE
-text12 0 ABD 157A 16 2 CODE
-text38 0 AA7 154E 16 2 CODE
-text39 0 A91 1522 16 2 CODE
-text54 0 A7B 14F6 16 2 CODE
-text19 0 A69 14D2 12 2 CODE
-text43 0 A58 14B0 11 2 CODE
-text18 0 A49 1492 F 2 CODE
-text46 0 A3A 1474 F 2 CODE
-text47 0 A30 1460 A 2 CODE
-text25 0 A29 1452 7 2 CODE
-text42 0 A22 1444 7 2 CODE
-text50 0 A1B 1436 7 2 CODE
-text52 0 A14 1428 7 2 CODE
-clrtext 0 A0E 141C 6 2 CODE
-text34 0 A08 1410 6 2 CODE
-text51 0 A02 1404 6 2 CODE
-text41 0 9FD 13FA 5 2 CODE
-text44 0 9F8 13F0 5 2 CODE
-text32 0 9F4 13E8 4 2 CODE
-text40 0 9F2 13E4 2 2 CODE
+text45 0 AE1 15C2 1A 2 CODE
+text53 0 AC8 1590 19 2 CODE
+text20 0 AB0 1560 18 2 CODE
+text12 0 A9A 1534 16 2 CODE
+text38 0 A84 1508 16 2 CODE
+text39 0 A6E 14DC 16 2 CODE
+text54 0 A58 14B0 16 2 CODE
+text19 0 A46 148C 12 2 CODE
+text43 0 A35 146A 11 2 CODE
+text18 0 A26 144C F 2 CODE
+text46 0 A17 142E F 2 CODE
+text30 0 A0B 1416 C 2 CODE
+text47 0 A01 1402 A 2 CODE
+text25 0 9FA 13F4 7 2 CODE
+text42 0 9F3 13E6 7 2 CODE
+text50 0 9EC 13D8 7 2 CODE
+text52 0 9E5 13CA 7 2 CODE
+clrtext 0 9DF 13BE 6 2 CODE
+text34 0 9D9 13B2 6 2 CODE
+text51 0 9D3 13A6 6 2 CODE
+text41 0 9CE 139C 5 2 CODE
+text44 0 9C9 1392 5 2 CODE
+text33 0 9C7 138E 2 2 CODE
+text40 0 9C5 138A 2 2 CODE

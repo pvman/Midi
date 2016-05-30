@@ -7,7 +7,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef1`E2634 ]
 "200 ../src/../framework/usb/usb_device.h
 [v _USBDeviceInit `(v ~T0 @X0 0 ef ]
-"36 ../src/app_device_ble_midi.h
+"35 ../src/app_device_ble_midi.h
 [v _BLEDeviceInit `(v ~T0 @X0 0 ef ]
 "51 ../src\app_device_audio_midi.h
 [v _APP_DeviceAudioMIDITasks `(v ~T0 @X0 0 ef ]
@@ -2986,9 +2986,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;usb_device_midi.h: 47: };
 [; ;usb_device_midi.h: 48: };
 [; ;usb_device_midi.h: 49: } USB_AUDIO_MIDI_EVENT_PACKET, *P_USB_AUDIO_MIDI_EVENT_PACKET;
-[; ;app_device_ble_midi.h: 34: void SendMidiData(uint8_t tone, uint8_t velocity);
-[; ;app_device_ble_midi.h: 35: void APP_DeviceBLETask();
-[; ;app_device_ble_midi.h: 36: void BLEDeviceInit();
+[; ;app_device_ble_midi.h: 34: void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity);
+[; ;app_device_ble_midi.h: 35: void BLEDeviceInit();
 "35 ../src/main.c
 [v _main `(v ~T0 @X0 1 ef ]
 {

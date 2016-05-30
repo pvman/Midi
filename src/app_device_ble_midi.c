@@ -13,7 +13,7 @@
 #include "pin_manager.h"
 #include "spi.h" 
 
-void SendMidiData(uint8_t tone, uint8_t velocity) {
+void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity) {
 
     volatile uint8_t timeout_ms = 10;
     /* copy data */
@@ -37,33 +37,15 @@ void SendMidiData(uint8_t tone, uint8_t velocity) {
 
     if (SPI_SS_GetValue() == 0) {
         //SPI_Exchange8bitBuffer(_tx_buff, DATA_BUFF_LEN, NULL);
+        SPI_Exchange8bit(header);
+        SPI_Exchange8bit(timestamp);
+        SPI_Exchange8bit(midi_status);
         SPI_Exchange8bit(tone);
         SPI_Exchange8bit(velocity);
-        SPI_Exchange8bit(0xAA);
     }
 
 } 
 
-
-
-void APP_DeviceBLETask(){
-    
-    uint8_t tone = 36; 
-     SendMidiData(tone, 1);
-       // LedFlash();
-
-        if (tone != 0x45) {
-            tone = 0x45;
-        } else {
-            tone = 0x60;
-        }
-
-        if (++tone > 84) {
-            tone = 36;
-        }
-
-        __delay_ms(100);
-    } 
     
     
     

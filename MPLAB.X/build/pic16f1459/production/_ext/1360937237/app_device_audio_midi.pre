@@ -4427,8 +4427,7 @@ uint8_t DATA_2;
 } USB_AUDIO_MIDI_EVENT_PACKET, *P_USB_AUDIO_MIDI_EVENT_PACKET;
 
 # 34 "../src/app_device_ble_midi.h"
-void SendMidiData(uint8_t tone, uint8_t velocity);
-void APP_DeviceBLETask();
+void SendMidiData(uint8_t header, uint8_t timestamp, uint8_t midi_status, uint8_t tone, uint8_t velocity);
 void BLEDeviceInit();
 
 # 8 "../src/app_device_audio_midi.c"
@@ -4443,6 +4442,8 @@ static void* USBTxHandle;
 static void* USBRxHandle;
 
 static uint8_t pitch, ble_pitch, ble_velocity;
+static uint8_t ble_header = 0x80, ble_timestamp = 0, ble_midi_status = 0x90;
+
 static bool sentNoteOff;
 
 static  uint8_t msCounter;
@@ -4468,7 +4469,7 @@ if(msCounter != 0) msCounter--;
 void APP_DeviceAudioMIDITasks()
 {
 
-# 75
+# 77
 uint8_t scan_pitch = 0x3C, velocity = 0;
 bool bscan = 0;
 bscan = scan_task(&scan_pitch, &velocity);
@@ -4482,7 +4483,10 @@ midiData.DATA_2 = velocity;
 ble_pitch = scan_pitch;
 ble_velocity = velocity;
 
-SendMidiData(ble_pitch, ble_velocity);
+
+TMR2 = TMR2 | 0x80;
+ble_timestamp = TMR2;
+SendMidiData(ble_header, ble_timestamp, ble_midi_status, ble_pitch, ble_velocity);
 
 if( USBDeviceState == CONFIGURED_STATE || UCONbits.SUSPND)
 {
@@ -4494,7 +4498,7 @@ USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiData,4);
 }
 }
 
-# 123
+# 128
 if (msCounter == 0 && !sentNoteOff && !(USBTxHandle==0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
 
 msCounter = 100;
@@ -4511,8 +4515,9 @@ ble_velocity = 0x00;
 if(pitch == 0x49)
 pitch = 0x3C;
 
-
-SendMidiData(ble_pitch, ble_velocity);
+TMR2 = TMR2 | 0x80;
+ble_timestamp = TMR2;
+SendMidiData(ble_header, ble_timestamp, ble_midi_status, ble_pitch, ble_velocity);
 sentNoteOff = 1;
 
 if( USBDeviceState == CONFIGURED_STATE || UCONbits.SUSPND)

@@ -50,6 +50,15 @@ void scan_init() {
     ADCON1bits.ADCS = 0b110; // Fosc/64; Tad = 4us @ Fosc=16MHz; 50us before ADC data is ready
     ADCON1bits.ADPREF = 0; // ADC ref is Vcc
     ADCON2bits.TRIGSEL = 0; // no autoconversion
+    
+    //timer2 for BLE timestamp
+    T2CONbits.T2CKPS = 3; //1:64
+    T2CONbits.T2OUTPS = 0x0F; //1:16
+    PIE1bits.TMR2IE = 0; //disable the timer2 interrupt
+    PIR1bits.TMR2IF = 0; //clear timer2 overflow flag
+    T2CONbits.TMR2ON = 1; //Timer2 enable 
+    
+    
 }
 
 inline void set_timer(void) {
@@ -254,7 +263,8 @@ bool scan_task(uint8_t *note, uint8_t *velocity){
             state = (store_key_level(get_adc(), is_end_of_scan())? S_GO : S_CLOCK_RAISE);
         break;
     }    
-    
+    if (note_event.velocity > 127)
+        note_event.velocity = 127;    
     *note = note_event.pitch;
     *velocity = note_event.velocity;
     return  !! note_event.pitch;
