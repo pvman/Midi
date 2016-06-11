@@ -4435,7 +4435,7 @@ case SYSTEM_STATE_USB_START:
 OSCCON = 0xFC;
 ACTCON = 0x90;
 
-LED_Enable(0);
+LED_Enable(LED_D1);
 
 BUTTON_Enable(BUTTON_S1);
 break;

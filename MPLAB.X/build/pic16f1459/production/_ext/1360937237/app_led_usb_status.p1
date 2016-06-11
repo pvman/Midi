@@ -2958,9 +2958,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;app_led_usb_status.c: 28: {
 "28
 {
-[; ;app_led_usb_status.c: 29: LED_Off(0);
+[; ;app_led_usb_status.c: 29: LED_Off(LED_D1);
 "29
-[e ( _LED_Off (1 -> -> 0 `i `E2639 ]
+[e ( _LED_Off (1 -> . `E2639 1 `E2639 ]
 [; ;app_led_usb_status.c: 30: return;
 "30
 [e $UE 349  ]
@@ -2983,9 +2983,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;app_led_usb_status.c: 39: {
 "39
 {
-[; ;app_led_usb_status.c: 40: LED_On(0);
+[; ;app_led_usb_status.c: 40: LED_On(LED_D1);
 "40
-[e ( _LED_On (1 -> -> 0 `i `E2639 ]
+[e ( _LED_On (1 -> . `E2639 1 `E2639 ]
 "41
 }
 [; ;app_led_usb_status.c: 41: }
@@ -2997,9 +2997,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;app_led_usb_status.c: 43: {
 "43
 {
-[; ;app_led_usb_status.c: 44: LED_Off(0);
+[; ;app_led_usb_status.c: 44: LED_Off(LED_D1);
 "44
-[e ( _LED_Off (1 -> -> 0 `i `E2639 ]
+[e ( _LED_Off (1 -> . `E2639 1 `E2639 ]
 "45
 }
 [; ;app_led_usb_status.c: 45: }
@@ -3032,9 +3032,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;app_led_usb_status.c: 56: {
 "56
 {
-[; ;app_led_usb_status.c: 57: LED_On(0);
+[; ;app_led_usb_status.c: 57: LED_On(LED_D1);
 "57
-[e ( _LED_On (1 -> -> 0 `i `E2639 ]
+[e ( _LED_On (1 -> . `E2639 1 `E2639 ]
 "58
 }
 [; ;app_led_usb_status.c: 58: }
@@ -3046,9 +3046,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;app_led_usb_status.c: 60: {
 "60
 {
-[; ;app_led_usb_status.c: 61: LED_Off(0);
+[; ;app_led_usb_status.c: 61: LED_Off(LED_D1);
 "61
-[e ( _LED_Off (1 -> -> 0 `i `E2639 ]
+[e ( _LED_Off (1 -> . `E2639 1 `E2639 ]
 "62
 }
 [; ;app_led_usb_status.c: 62: }

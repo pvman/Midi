@@ -24,12 +24,12 @@
 #include <stdbool.h>
 #include <xc.h>
 
-#define LED_D1_LAT LATCbits.LATC0
+#define LED_D1_LAT LATCbits.LATC2
 #define LED_D2_LAT LATCbits.LATC1
 #define LED_D3_LAT LATCbits.LATC2
 #define LED_D4_LAT LATCbits.LATC3
 
-#define LED_D1_TRIS TRISCbits.TRISC0
+#define LED_D1_TRIS TRISCbits.TRISC2
 #define LED_D2_TRIS TRISCbits.TRISC1
 #define LED_D3_TRIS TRISCbits.TRISC2
 #define LED_D4_TRIS TRISCbits.TRISC3

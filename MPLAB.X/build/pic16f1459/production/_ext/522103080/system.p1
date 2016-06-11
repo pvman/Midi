@@ -3212,9 +3212,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;system.c: 95: ACTCON = 0x90;
 "95
 [e = _ACTCON -> -> 144 `i `uc ]
-[; ;system.c: 97: LED_Enable(0);
+[; ;system.c: 97: LED_Enable(LED_D1);
 "97
-[e ( _LED_Enable (1 -> -> 0 `i `E2611 ]
+[e ( _LED_Enable (1 -> . `E2611 1 `E2611 ]
 [; ;system.c: 99: BUTTON_Enable(BUTTON_S1);
 "99
 [e ( _BUTTON_Enable (1 -> . `E2603 1 `E2603 ]

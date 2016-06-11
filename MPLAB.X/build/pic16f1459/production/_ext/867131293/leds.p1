@@ -2613,9 +2613,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;leds.c: 63: case LED_D1:
 "63
 [e :U 326 ]
-[; ;leds.c: 64: LATCbits.LATC0 = 1;
+[; ;leds.c: 64: LATCbits.LATC2 = 1;
 "64
-[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 [; ;leds.c: 65: break;
 "65
 [e $U 324  ]
@@ -2687,9 +2687,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;leds.c: 104: case LED_D1:
 "104
 [e :U 334 ]
-[; ;leds.c: 105: LATCbits.LATC0 = 0;
+[; ;leds.c: 105: LATCbits.LATC2 = 0;
 "105
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 [; ;leds.c: 106: break;
 "106
 [e $U 332  ]
@@ -2761,9 +2761,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;leds.c: 145: case LED_D1:
 "145
 [e :U 342 ]
-[; ;leds.c: 146: LATCbits.LATC0 ^= 1;
+[; ;leds.c: 146: LATCbits.LATC2 ^= 1;
 "146
-[e =^ . . _LATCbits 0 0 -> -> 1 `i `uc ]
+[e =^ . . _LATCbits 0 2 -> -> 1 `i `uc ]
 [; ;leds.c: 147: break;
 "147
 [e $U 340  ]
@@ -2832,9 +2832,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;leds.c: 186: case LED_D1:
 "186
 [e :U 350 ]
-[; ;leds.c: 187: return ( (LATCbits.LATC0 == 1) ? 1 : 0 );
+[; ;leds.c: 187: return ( (LATCbits.LATC2 == 1) ? 1 : 0 );
 "187
-[e ) -> ? == -> . . _LATCbits 0 0 `i -> 1 `i : -> 1 `i -> 0 `i `uc ]
+[e ) -> ? == -> . . _LATCbits 0 2 `i -> 1 `i : -> 1 `i -> 0 `i `uc ]
 [e $UE 347  ]
 [; ;leds.c: 189: case LED_D2:
 "189
@@ -2903,9 +2903,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;leds.c: 224: case LED_D1:
 "224
 [e :U 358 ]
-[; ;leds.c: 225: TRISCbits.TRISC0 = 0;
+[; ;leds.c: 225: TRISCbits.TRISC2 = 0;
 "225
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 [; ;leds.c: 226: break;
 "226
 [e $U 356  ]

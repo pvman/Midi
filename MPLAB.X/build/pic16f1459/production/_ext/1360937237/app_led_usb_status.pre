@@ -4163,7 +4163,7 @@ static uint16_t ledCount = 0;
 
 if(UCONbits.SUSPND == 1)
 {
-LED_Off(0);
+LED_Off(LED_D1);
 return;
 }
 
@@ -4174,11 +4174,11 @@ case CONFIGURED_STATE:
 # 38
 if(ledCount == 1)
 {
-LED_On(0);
+LED_On(LED_D1);
 }
 else if(ledCount == 75)
 {
-LED_Off(0);
+LED_Off(LED_D1);
 }
 else if(ledCount > 150)
 {
@@ -4191,11 +4191,11 @@ default:
 # 55
 if(ledCount == 1)
 {
-LED_On(0);
+LED_On(LED_D1);
 }
 else if(ledCount == 50)
 {
-LED_Off(0);
+LED_Off(LED_D1);
 }
 else if(ledCount > 950)
 {

@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.20 build 52243 
-                                                                                               Sat Jun 11 13:23:50 2016
+                                                                                               Sat Jun 11 15:39:39 2016
 
 Microchip Technology Omniscient Code Generator (Lite mode) build 52243
      1                           	processor	16F1459
@@ -9637,8 +9637,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9399  0BFF  2C40               	goto	l2838
   9400                           
   9401                           ;app_led_usb_status.c: 28: {
-  9402                           ;app_led_usb_status.c: 29: LED_Off(0);
-  9403  0C00  3000               	movlw	0
+  9402                           ;app_led_usb_status.c: 29: LED_Off(LED_D1);
+  9403  0C00  3001               	movlw	1
   9404  0C01  3189  21A7         	fcall	_LED_Off
   9405                           
   9406                           ;app_led_usb_status.c: 30: return;
@@ -9660,8 +9660,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9422  0C09  2C0F               	goto	l2816
   9423                           
   9424                           ;app_led_usb_status.c: 39: {
-  9425                           ;app_led_usb_status.c: 40: LED_On(0);
-  9426  0C0A  3000               	movlw	0
+  9425                           ;app_led_usb_status.c: 40: LED_On(LED_D1);
+  9426  0C0A  3001               	movlw	1
   9427  0C0B  3189  21C0  318B   	fcall	_LED_On
   9428                           
   9429                           ;app_led_usb_status.c: 41: }
@@ -9677,8 +9677,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9439  0C14  2C1A               	goto	l2820
   9440                           
   9441                           ;app_led_usb_status.c: 43: {
-  9442                           ;app_led_usb_status.c: 44: LED_Off(0);
-  9443  0C15  3000               	movlw	0
+  9442                           ;app_led_usb_status.c: 44: LED_Off(LED_D1);
+  9443  0C15  3001               	movlw	1
   9444  0C16  3189  21A7  318B   	fcall	_LED_Off
   9445                           
   9446                           ;app_led_usb_status.c: 45: }
@@ -9710,8 +9710,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9472  0C24  2C2A               	goto	l2828
   9473                           
   9474                           ;app_led_usb_status.c: 56: {
-  9475                           ;app_led_usb_status.c: 57: LED_On(0);
-  9476  0C25  3000               	movlw	0
+  9475                           ;app_led_usb_status.c: 57: LED_On(LED_D1);
+  9476  0C25  3001               	movlw	1
   9477  0C26  3189  21C0  318B   	fcall	_LED_On
   9478                           
   9479                           ;app_led_usb_status.c: 58: }
@@ -9727,8 +9727,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9489  0C2F  2C35               	goto	l2832
   9490                           
   9491                           ;app_led_usb_status.c: 60: {
-  9492                           ;app_led_usb_status.c: 61: LED_Off(0);
-  9493  0C30  3000               	movlw	0
+  9492                           ;app_led_usb_status.c: 61: LED_Off(LED_D1);
+  9493  0C30  3001               	movlw	1
   9494  0C31  3189  21A7  318B   	fcall	_LED_Off
   9495                           
   9496                           ;app_led_usb_status.c: 62: }
@@ -9837,9 +9837,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9594                           ;leds.c: 63: case LED_D1:
   9595                           
   9596                           
-  9597                           ;leds.c: 64: LATCbits.LATC0 = 1;
+  9597                           ;leds.c: 64: LATCbits.LATC2 = 1;
   9598  09C2  0022               	movlb	2	; select bank2
-  9599  09C3  140E               	bsf	14,0	;volatile
+  9599  09C3  150E               	bsf	14,2	;volatile
   9600                           
   9601                           ;leds.c: 65: break;
   9602  09C4  0008               	return
@@ -9969,9 +9969,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9721                           ;leds.c: 104: case LED_D1:
   9722                           
   9723                           
-  9724                           ;leds.c: 105: LATCbits.LATC0 = 0;
+  9724                           ;leds.c: 105: LATCbits.LATC2 = 0;
   9725  09A9  0022               	movlb	2	; select bank2
-  9726  09AA  100E               	bcf	14,0	;volatile
+  9726  09AA  110E               	bcf	14,2	;volatile
   9727                           
   9728                           ;leds.c: 106: break;
   9729  09AB  0008               	return
@@ -10426,8 +10426,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10166  09F9  0027               	movlb	7	; select bank7
  10167  09FA  009B               	movwf	27	;volatile
  10168                           
- 10169                           ;system.c: 97: LED_Enable(0);
- 10170  09FB  3000               	movlw	0
+ 10169                           ;system.c: 97: LED_Enable(LED_D1);
+ 10170  09FB  3001               	movlw	1
  10171  09FC  3189  218E  3189   	fcall	_LED_Enable
  10172                           
  10173                           ;system.c: 99: BUTTON_Enable(BUTTON_S1);
@@ -10609,9 +10609,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10339                           ;leds.c: 224: case LED_D1:
  10340                           
  10341                           
- 10342                           ;leds.c: 225: TRISCbits.TRISC0 = 0;
+ 10342                           ;leds.c: 225: TRISCbits.TRISC2 = 0;
  10343  0990  0021               	movlb	1	; select bank1
- 10344  0991  100E               	bcf	14,0	;volatile
+ 10344  0991  110E               	bcf	14,2	;volatile
  10345                           
  10346                           ;leds.c: 226: break;
  10347  0992  0008               	return
@@ -11455,7 +11455,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.20 build 52243 
-Symbol Table                                                                                   Sat Jun 11 13:23:50 2016
+Symbol Table                                                                                   Sat Jun 11 15:39:39 2016
 
                               _USB_SD_Ptr 0321                                         pc 0002  
                              __CFG_CP$OFF 0000                                        l16 0A0E  
