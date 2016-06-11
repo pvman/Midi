@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v1.20\dat\en_msgs.txt -cs \
   -h+dist/pic16f1459/production\MPLAB.X.production.sym \
   --cmf=dist/pic16f1459/production\MPLAB.X.production.cmf -z -Q16F1459 \
-  -oC:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.6 \
+  -oC:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.6 \
   -Mdist/pic16f1459/production/MPLAB.X.production.map -E1 -ver=XC8 \
   -ACONST=00h-0FFhx32 -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
   -AENTRY=00h-0FFhx32 -ASTRING=00h-0FFhx32 -ACOMMON=070h-07Fh \
@@ -30,7 +30,7 @@ Linker command line:
   -ppowerup=CODE -pfunctab=CODE -ACONFIG=08007h-08008h -pconfig=CONFIG \
   -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 -DCODE=2 \
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj \
+  C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj \
   dist/pic16f1459/production\MPLAB.X.production.obj 
 
 Object code version is 3.11
@@ -40,7 +40,7 @@ Machine type is 16F1459
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
                 end_init                              B        B        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2    1000E       0
@@ -504,7 +504,7 @@ USBCtrlTrfRxService@byteToRead            cstackCOMMON 00076
 USBCtrlTrfRxService@i                     cstackCOMMON 00075
 USBCtrlTrfTxService@byteToSend            cstackCOMMON 00073
 USBDeviceInit@i                           cstackCOMMON 00076
-USBDeviceInit@i_1706                      cstackCOMMON 00075
+USBDeviceInit@i_1702                      cstackCOMMON 00075
 USBDeviceInit@p                           cstackCOMMON 00073
 USBDeviceTasks@i                          cstackBANK0  00068
 USBEnableEndpoint@ep                      cstackBANK0  00052
@@ -515,7 +515,7 @@ USBStdFeatureReqHandler@p                 cstackBANK0  0005F
 USBStdFeatureReqHandler@pUEP              cstackBANK0  0005C
 USBStdGetStatusHandler@p                  cstackCOMMON 00072
 USBStdSetCfgHandler@i                     cstackBANK0  0005D
-USBStdSetCfgHandler@i_2034                cstackBANK0  0005C
+USBStdSetCfgHandler@i_2030                cstackBANK0  0005C
 USBStdSetCfgHandler@p                     cstackBANK0  0005A
 USBTransferOnePacket@data                 cstackCOMMON 00072
 USBTransferOnePacket@dir                  cstackCOMMON 00071
@@ -539,9 +539,9 @@ _ANSELCbits                               (abs)        0018E
 _APP_DeviceAudioMIDIInitialize            text36       00ABA
 _APP_DeviceAudioMIDISOFHandler            text40       008F4
 _APP_DeviceAudioMIDITasks                 text1        0000D
-_APP_DeviceAudioMIDITasks$396             cstackBANK0  00063
-_APP_DeviceAudioMIDITasks$437             cstackBANK0  00065
-_APP_DeviceAudioMIDITasks$438             cstackBANK0  00067
+_APP_DeviceAudioMIDITasks$421             cstackBANK0  00063
+_APP_DeviceAudioMIDITasks$462             cstackBANK0  00065
+_APP_DeviceAudioMIDITasks$463             cstackBANK0  00067
 _APP_LEDUpdateUSBStatus                   text41       00BFD
 _BAUDCON                                  (abs)        0019F
 _BDT                                      (abs)        00020
@@ -1037,13 +1037,13 @@ _pBDTEntryOut                             bssBANK2     00150
 _pDst                                     bssBANK2     0015E
 _pitch                                    bssBANK1     000E6
 _process_level                            text5        004E4
-_process_level$833                        cstackBANK0  00057
-_process_level$834                        cstackBANK0  00054
+_process_level$858                        cstackBANK0  00057
+_process_level$859                        cstackBANK0  00054
 _run_adc                                  text8        008FB
 _scan_init                                text14       00A2C
 _scan_task                                text3        00667
-_scan_task$844                            cstackBANK0  0005C
-_scan_task$845                            cstackBANK0  0005E
+_scan_task$869                            cstackBANK0  0005C
+_scan_task$870                            cstackBANK0  0005E
 _sd000                                    stringtext   003F2
 _sd001                                    stringtext   00392
 _sd002                                    stringtext   003C6
@@ -1054,7 +1054,7 @@ _shortPacketStatus                        bssBANK1     000E7
 _store_key_level                          text4        00B14
 _wait_timer                               bssBANK2     00160
 _waiting_for_timer                        text12       00917
-_waiting_for_timer$796                    cstackCOMMON 00071
+_waiting_for_timer$821                    cstackCOMMON 00071
 btemp                                     (abs)        0007E
 clear_ram0                                clrtext      008EE
 end_of_initialization                     cinit        00AB7

@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+$C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 end_init CODE 0 B B 2 2
 reset_vec CODE 0 0 0 2 2
 config CONFIG 0 8007 8007 2 2
@@ -524,12 +524,12 @@ $dist/pic16f1459/production\MPLAB.X.production.obj
 "F:\WORK\Volkovets\GitHub\Midi/src/scan.c":75 8E9 text10 CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/scan.c":91 8E9 text7 CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/scan.c":92 8EE text7 CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":3998 8EE clrtext CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4000 8EF clrtext CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4001 8F0 clrtext CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4002 8F1 clrtext CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4003 8F2 clrtext CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4004 8F3 clrtext CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":3998 8EE clrtext CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4000 8EF clrtext CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4001 8F0 clrtext CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4002 8F1 clrtext CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4003 8F2 clrtext CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4004 8F3 clrtext CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":54 8F4 text40 CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":55 8FB text40 CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/scan.c":86 8FB text8 CODE
@@ -665,38 +665,38 @@ $dist/pic16f1459/production\MPLAB.X.production.obj
 "F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c":918 A7E text38 CODE
 "F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c":920 A89 text38 CODE
 "F:\WORK\Volkovets\GitHub\Midi/framework/usb/usb_device.c":921 A91 text38 CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4008 A92 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4012 A93 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4013 A94 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4014 A95 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4015 A96 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4016 A97 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4020 A98 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4021 A99 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4022 A9A cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4023 A9B cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4024 A9C cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4025 A9D cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4029 AA0 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4030 AA1 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4031 AA2 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4032 AA3 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4033 AA4 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4034 AA5 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4038 AA8 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4039 AA9 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4040 AAA cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4041 AAB cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4042 AAC cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4043 AAD cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4047 AB0 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4048 AB1 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4049 AB2 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4050 AB3 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4051 AB4 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4052 AB5 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4059 AB7 cinit CODE
-"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.":4060 AB8 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4008 A92 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4012 A93 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4013 A94 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4014 A95 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4015 A96 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4016 A97 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4020 A98 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4021 A99 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4022 A9A cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4023 A9B cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4024 A9C cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4025 A9D cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4029 AA0 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4030 AA1 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4031 AA2 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4032 AA3 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4033 AA4 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4034 AA5 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4038 AA8 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4039 AA9 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4040 AAA cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4041 AAB cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4042 AAC cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4043 AAD cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4047 AB0 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4048 AB1 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4049 AB2 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4050 AB3 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4051 AB4 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4052 AB5 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4059 AB7 cinit CODE
+"C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.":4060 AB8 cinit CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":42 ABA text36 CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":43 ABC text36 CODE
 "F:\WORK\Volkovets\GitHub\Midi/src/app_device_audio_midi.c":44 ABE text36 CODE
@@ -1044,11 +1044,10 @@ _sd000 7E4 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.
 _sd001 724 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 _sd002 78C 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 _APP_DeviceAudioMIDITasks 1A 0 CODE 0 text1 dist/pic16f1459/production\MPLAB.X.production.obj
-start 16 0 CODE 0 init C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+start 16 0 CODE 0 init C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 _midiData 1A0 0 ABS 1 - dist/pic16f1459/production\MPLAB.X.production.obj
 _APP_DeviceAudioMIDISOFHandler 11E8 0 CODE 0 text40 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_is_end_of_scan 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_scan_task$845 5E 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 LED_Enable@led 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 USBCtrlTrfTxService@byteToSend 73 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _USBDeferINDataStagePackets 155 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1058,12 +1057,13 @@ _get_data 11C8 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
 _RCSTA 19D 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _TXREG 19A 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _USBWakeFromSuspend 5C8 0 CODE 0 text34 dist/pic16f1459/production\MPLAB.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+reset_vec 0 0 CODE 0 reset_vec C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 _TXSTA 19E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBWakeFromSuspend 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 store_key_level@end_of_scan 77 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _UADDR E96 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 wtemp0 7E 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
+USBStdSetCfgHandler@i_2030 5C 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 _USTAT E8F 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 USBCtrlTrfRxService@i 75 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __Hconfig 10012 0 CONFIG 0 config -
@@ -1081,7 +1081,6 @@ _pitch E6 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBCtrlTrfInHandler 1C40 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBIncrement1msInternalTimers 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_STVREN$ON 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-USBStdSetCfgHandler@i_2034 5C 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_get_data 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Hfunctab 0 0 CODE 0 functab -
 __Lfunctab 0 0 CODE 0 functab -
@@ -1116,6 +1115,7 @@ process_level@key_on_counter 1C4 0 BANK3 1 bssBANK3 dist/pic16f1459/production\M
 ?_USBConfigureEndpoint 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _pBDTEntryEP0OutNext 7C 0 COMMON 1 bssCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _ADRESH 9C 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDITasks$462 65 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_scan_init 1492 0 CODE 0 text14 dist/pic16f1459/production\MPLAB.X.production.obj
 _OSCCON 99 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __Habs1 0 0 ABS 0 abs1 -
@@ -1147,7 +1147,7 @@ __Hsfr9 0 0 ABS 0 sfr9 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 __end_ofprocess_level@key_off_threshold 656 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 USBEnableEndpoint@options 78 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-USBDeviceInit@i_1706 75 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
+USBDeviceInit@i_1702 75 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _BUTTON_IsPressed 126A 0 CODE 0 text2 dist/pic16f1459/production\MPLAB.X.production.obj
 _USBCtrlTrfSetupHandler 1776 0 CODE 0 text20 dist/pic16f1459/production\MPLAB.X.production.obj
 USBTransferOnePacket@data 72 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1169,6 +1169,7 @@ process_level@key_states 120 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __size_of_USBStallHandler 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDITasks$463 67 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __pcstackBANK0 50 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hinit 16 0 CODE 0 init -
 __Linit 16 0 CODE 0 init -
@@ -1270,7 +1271,7 @@ _SYS_InterruptHigh 8 0 CODE 0 intentry dist/pic16f1459/production\MPLAB.X.produc
 __Lbank2 0 0 ABS 0 bank2 -
 __Hbank3 0 0 ABS 0 bank3 -
 __Lbank3 0 0 ABS 0 bank3 -
-___latbits 2 0 ABS 0 - C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+___latbits 2 0 ABS 0 - C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 __Hbank4 0 0 ABS 0 bank4 -
 __Lbank4 0 0 ABS 0 bank4 -
 process_level@key_off_threshold 654 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1316,13 +1317,13 @@ APP_DeviceAudioMIDITasks@scan_pitch 69 0 BANK0 1 cstackBANK0 dist/pic16f1459/pro
 __size_of_USBEnableEndpoint 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBCtrlEPServiceComplete 5C8 0 CODE 0 text27 dist/pic16f1459/production\MPLAB.X.production.obj
 _USBCtrlEPAllowDataStage 19E2 0 CODE 0 text28 dist/pic16f1459/production\MPLAB.X.production.obj
+_scan_task$870 5E 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 process_level@current_state 52 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBSuspend 12EC 0 CODE 0 text33 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of__initialization 156E 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
 memset@c 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 __end_ofprocess_level@midi_shift 65A 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 _USBCtrlTrfInHandler 1B62 0 CODE 0 text17 dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDITasks$437 65 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 _USBTicksSinceSuspendEnd 15B 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBStdSetCfgHandler 2000 0 CODE 0 text25 dist/pic16f1459/production\MPLAB.X.production.obj
 USER_USB_CALLBACK_EVENT_HANDLER@event 55 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1351,7 +1352,6 @@ _USBCheckStdRequest 1936 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.prod
 _inPipes E9 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 _USB_SD_Ptr 642 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_run_adc 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDITasks$438 67 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hcinit 0 0 ABS 0 cinit -
 __Lcinit 0 0 ABS 0 cinit -
 _UIEbits E92 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1376,7 +1376,6 @@ __end_of_USBCtrlTrfTxService 1D20 0 CODE 0 text29 dist/pic16f1459/production\MPL
 ?_scan_task 5B 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBCtrlEPAllowStatusStage 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 clear_ram0 11DC 0 CODE 0 clrtext dist/pic16f1459/production\MPLAB.X.production.obj
-_APP_DeviceAudioMIDITasks$396 63 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBEnableEndpoint 1524 0 CODE 0 text38 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 ?_set_clock_and_data 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1421,8 +1420,8 @@ __pbssBANK1 E0 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.
 __Lbank14 0 0 BANK14 1 bank14 -
 __Hstringtext 0 0 ABS 0 stringtext -
 __Lstringtext 0 0 ABS 0 stringtext -
-_process_level$833 57 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-_process_level$834 54 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
+_process_level$858 57 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
+_process_level$859 54 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hbank24 0 0 BANK24 1 bank24 -
 __Lbank24 0 0 BANK24 1 bank24 -
 __end_of_get_adc 11C8 0 CODE 0 text6 dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1530,9 +1529,9 @@ __Lend_init 16 0 CODE 0 end_init -
 __end_of_USBConfigureEndpoint 1776 0 CODE 0 text39 dist/pic16f1459/production\MPLAB.X.production.obj
 _USBActiveConfiguration EE 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
 __pswtext1 1034 0 CONST 0 swtext1 dist/pic16f1459/production\MPLAB.X.production.obj
+_waiting_for_timer$821 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _USBCtrlTrfRxService E24 0 CODE 0 text19 dist/pic16f1459/production\MPLAB.X.production.obj
 _adc_levels 220 0 BANK4 1 bssBANK4 dist/pic16f1459/production\MPLAB.X.production.obj
-_waiting_for_timer$796 71 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _pBDTEntryIn 6B 0 BANK0 1 bssBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __pswtext2 1000 0 CONST 0 swtext2 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_is_adc_ready 11DC 0 CODE 0 text7 dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1558,19 +1557,19 @@ __end_of_USB_SD_Ptr 64E 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.
 __size_of_USER_USB_CALLBACK_EVENT_HANDLER 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _USBRxHandle 157 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.production.obj
 _USBTxHandle E3 0 BANK1 1 bssBANK1 dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel0 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+intlevel0 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _configDescriptor1 65A 0 STRCODE 0 stringtext dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel1 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
-intlevel2 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
-intlevel3 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+intlevel1 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
+intlevel2 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
+intlevel3 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 __size_of_is_adc_ready 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 _USBCtrlTrfTxService 1C40 0 CODE 0 text29 dist/pic16f1459/production\MPLAB.X.production.obj
 USBDeviceInit@i 76 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel4 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+intlevel4 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 __CFG_LPBOR$OFF 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 USBStdFeatureReqHandler@pUEP 5C 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
-intlevel5 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s64k.obj
+intlevel5 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s6f4.obj
 __end_of_get_data 11D2 0 CODE 0 text10 dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_USBSuspend 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_LED_On 13B2 0 CODE 0 text42 dist/pic16f1459/production\MPLAB.X.production.obj
@@ -1590,7 +1589,6 @@ _BothEP0OutUOWNsSet 152 0 BANK2 1 bssBANK2 dist/pic16f1459/production\MPLAB.X.pr
 USBCtrlTrfRxService@byteToRead 76 0 COMMON 1 cstackCOMMON dist/pic16f1459/production\MPLAB.X.production.obj
 _USBTransferOnePacket F5E 0 CODE 0 text37 dist/pic16f1459/production\MPLAB.X.production.obj
 __CFG_USBLSCLK$48MHz 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
-_scan_task$844 5C 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_LED_Enable 134E 0 CODE 0 text47 dist/pic16f1459/production\MPLAB.X.production.obj
 __Hmaintext 0 0 ABS 0 maintext -
 __Lmaintext 0 0 ABS 0 maintext -
@@ -1604,7 +1602,9 @@ __CFG_FOSC$INTOSC 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 __size_of_BUTTON_IsPressed 0 0 ABS 0 - dist/pic16f1459/production\MPLAB.X.production.obj
 APP_DeviceAudioMIDITasks@velocity 6A 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBStallHandler 14DA 0 CODE 0 text31 dist/pic16f1459/production\MPLAB.X.production.obj
+_APP_DeviceAudioMIDITasks$421 63 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBDeviceTasks 9C8 0 CODE 0 text15 dist/pic16f1459/production\MPLAB.X.production.obj
+_scan_task$869 5C 0 BANK0 1 cstackBANK0 dist/pic16f1459/production\MPLAB.X.production.obj
 __initialization 1524 0 CODE 0 cinit dist/pic16f1459/production\MPLAB.X.production.obj
 _USBStdGetStatusHandler 1898 0 CODE 0 text23 dist/pic16f1459/production\MPLAB.X.production.obj
 __end_of_USBCheckStdRequest 19E2 0 CODE 0 text21 dist/pic16f1459/production\MPLAB.X.production.obj

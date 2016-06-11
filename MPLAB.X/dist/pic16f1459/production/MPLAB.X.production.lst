@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.20 build 52243 
-                                                                                               Tue May 10 15:50:12 2016
+                                                                                               Sat Jun 11 13:23:50 2016
 
 Microchip Technology Omniscient Code Generator (Lite mode) build 52243
      1                           	processor	16F1459
@@ -2145,89 +2145,89 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2139                           
   2140                           	psect	cstackCOMMON
   2141  0070                     __pcstackCOMMON:	
-  2142  0070                     ?_LED_Off:	
-  2143  0070                     ?_LED_On:	
+  2142  0070                     ?_LED_Enable:	
+  2143  0070                     ?_BUTTON_Enable:	
   2144                           ; 0 bytes @ 0x0
   2145                           
-  2146  0070                     ?_SYSTEM_Initialize:	
+  2146  0070                     ?_LED_Off:	
   2147                           ; 0 bytes @ 0x0
   2148                           
-  2149  0070                     ?_USBDeviceInit:	
+  2149  0070                     ?_LED_On:	
   2150                           ; 0 bytes @ 0x0
   2151                           
-  2152  0070                     ?_USBDeviceTasks:	
+  2152  0070                     ?_USBDeviceInit:	
   2153                           ; 0 bytes @ 0x0
   2154                           
-  2155  0070                     ?_APP_DeviceAudioMIDITasks:	
+  2155  0070                     ?_USBDeviceTasks:	
   2156                           ; 0 bytes @ 0x0
   2157                           
-  2158  0070                     ?_APP_DeviceAudioMIDISOFHandler:	
+  2158  0070                     ?_APP_DeviceAudioMIDITasks:	
   2159                           ; 0 bytes @ 0x0
   2160                           
-  2161  0070                     ?_APP_DeviceAudioMIDIInitialize:	
+  2161  0070                     ?_APP_DeviceAudioMIDISOFHandler:	
   2162                           ; 0 bytes @ 0x0
   2163                           
-  2164  0070                     ?_LED_Enable:	
+  2164  0070                     ?_APP_DeviceAudioMIDIInitialize:	
   2165                           ; 0 bytes @ 0x0
   2166                           
-  2167  0070                     ?_BUTTON_Enable:	
+  2167  0070                     ?_USBWakeFromSuspend:	
   2168                           ; 0 bytes @ 0x0
   2169                           
-  2170  0070                     ?_USBWakeFromSuspend:	
+  2170  0070                     ?_USBSuspend:	
   2171                           ; 0 bytes @ 0x0
   2172                           
-  2173  0070                     ?_USBSuspend:	
+  2173  0070                     ?_USBIncrement1msInternalTimers:	
   2174                           ; 0 bytes @ 0x0
   2175                           
-  2176  0070                     ?_USBIncrement1msInternalTimers:	
+  2176  0070                     ?_USBCtrlEPAllowStatusStage:	
   2177                           ; 0 bytes @ 0x0
   2178                           
-  2179  0070                     ?_USBCtrlEPAllowStatusStage:	
+  2179  0070                     ?_USBStallHandler:	
   2180                           ; 0 bytes @ 0x0
   2181                           
-  2182  0070                     ?_USBStallHandler:	
+  2182  0070                     ?_USBCtrlEPService:	
   2183                           ; 0 bytes @ 0x0
   2184                           
-  2185  0070                     ?_USBCtrlEPService:	
+  2185  0070                     ?_USBCtrlTrfTxService:	
   2186                           ; 0 bytes @ 0x0
   2187                           
-  2188  0070                     ?_USBCtrlTrfTxService:	
+  2188  0070                     ?_USBCtrlTrfSetupHandler:	
   2189                           ; 0 bytes @ 0x0
   2190                           
-  2191  0070                     ?_USBCtrlTrfSetupHandler:	
+  2191  0070                     ?_USBCtrlTrfOutHandler:	
   2192                           ; 0 bytes @ 0x0
   2193                           
-  2194  0070                     ?_USBCtrlTrfOutHandler:	
+  2194  0070                     ?_USBCtrlTrfInHandler:	
   2195                           ; 0 bytes @ 0x0
   2196                           
-  2197  0070                     ?_USBCtrlTrfInHandler:	
+  2197  0070                     ?_USBCheckStdRequest:	
   2198                           ; 0 bytes @ 0x0
   2199                           
-  2200  0070                     ?_USBCheckStdRequest:	
+  2200  0070                     ?_USBStdFeatureReqHandler:	
   2201                           ; 0 bytes @ 0x0
   2202                           
-  2203  0070                     ?_USBStdFeatureReqHandler:	
+  2203  0070                     ?_SYSTEM_Initialize:	
   2204                           ; 0 bytes @ 0x0
   2205                           
-  2206  0070                     ?_APP_LEDUpdateUSBStatus:	
+  2206  0070                     ?_SYS_InterruptHigh:	
   2207                           ; 0 bytes @ 0x0
   2208                           
-  2209  0070                     ?_main:	
+  2209  0070                     ??_SYS_InterruptHigh:	
   2210                           ; 0 bytes @ 0x0
   2211                           
-  2212  0070                     ?_scan_init:	
+  2212  0070                     ?_APP_LEDUpdateUSBStatus:	
   2213                           ; 0 bytes @ 0x0
   2214                           
-  2215  0070                     ?_set_timer:	
+  2215  0070                     ?_main:	
   2216                           ; 0 bytes @ 0x0
   2217                           
-  2218  0070                     ?_run_adc:	
+  2218  0070                     ?_scan_init:	
   2219                           ; 0 bytes @ 0x0
   2220                           
-  2221  0070                     ?_SYS_InterruptHigh:	
+  2221  0070                     ?_set_timer:	
   2222                           ; 0 bytes @ 0x0
   2223                           
-  2224  0070                     ??_SYS_InterruptHigh:	
+  2224  0070                     ?_run_adc:	
   2225                           ; 0 bytes @ 0x0
   2226                           
   2227  0070                     ?_USBCtrlEPAllowDataStage:	
@@ -2269,23 +2269,23 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2263                           
   2264                           ; 1 bytes @ 0x0
   2265  0070                     	ds	1
-  2266  0071                     ??_LED_Off:	
-  2267  0071                     ??_LED_On:	
+  2266  0071                     ??_LED_Enable:	
+  2267  0071                     ??_BUTTON_Enable:	
   2268                           ; 0 bytes @ 0x1
   2269                           
-  2270  0071                     ??_USBDeviceInit:	
+  2270  0071                     ??_LED_Off:	
   2271                           ; 0 bytes @ 0x1
   2272                           
-  2273  0071                     ??_APP_DeviceAudioMIDISOFHandler:	
+  2273  0071                     ??_LED_On:	
   2274                           ; 0 bytes @ 0x1
   2275                           
-  2276  0071                     ??_BUTTON_IsPressed:	
+  2276  0071                     ??_USBDeviceInit:	
   2277                           ; 0 bytes @ 0x1
   2278                           
-  2279  0071                     ??_LED_Enable:	
+  2279  0071                     ??_APP_DeviceAudioMIDISOFHandler:	
   2280                           ; 0 bytes @ 0x1
   2281                           
-  2282  0071                     ??_BUTTON_Enable:	
+  2282  0071                     ??_BUTTON_IsPressed:	
   2283                           ; 0 bytes @ 0x1
   2284                           
   2285  0071                     ??_USBIncrement1msInternalTimers:	
@@ -2342,7 +2342,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2336  0071                     ?_memset:	
   2337                           ; 1 bytes @ 0x1
   2338                           
-  2339  0071                     _waiting_for_timer$796:	
+  2339  0071                     _waiting_for_timer$821:	
   2340                           ; 1 bytes @ 0x1
   2341                           
   2342  0071                     set_clock_and_data@d:	
@@ -2375,8 +2375,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2369                           
   2370                           ; 2 bytes @ 0x1
   2371  0071                     	ds	1
-  2372  0072                     ??_SYSTEM_Initialize:	
-  2373  0072                     ??_USBConfigureEndpoint:	
+  2372  0072                     ??_USBConfigureEndpoint:	
+  2373  0072                     ??_SYSTEM_Initialize:	
   2374                           ; 0 bytes @ 0x2
   2375                           
   2376  0072                     ??_APP_LEDUpdateUSBStatus:	
@@ -2388,10 +2388,10 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2382  0072                     ?_process_level:	
   2383                           ; 0 bytes @ 0x2
   2384                           
-  2385  0072                     process_level@old_level:	
+  2385  0072                     SYSTEM_Initialize@state:	
   2386                           ; 0 bytes @ 0x2
   2387                           
-  2388  0072                     SYSTEM_Initialize@state:	
+  2388  0072                     process_level@old_level:	
   2389                           ; 1 bytes @ 0x2
   2390                           
   2391  0072                     USBStdGetStatusHandler@p:	
@@ -2442,7 +2442,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2436  0075                     ??_memset:	
   2437                           ; 0 bytes @ 0x5
   2438                           
-  2439  0075                     USBDeviceInit@i_1706:	
+  2439  0075                     USBDeviceInit@i_1702:	
   2440                           ; 0 bytes @ 0x5
   2441                           
   2442  0075                     USBCtrlTrfRxService@i:	
@@ -2550,7 +2550,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2544                           
   2545                           ; 0 bytes @ 0x3
   2546  0053                     	ds	1
-  2547  0054                     _process_level$834:	
+  2547  0054                     _process_level$859:	
   2548                           
   2549                           ; 2 bytes @ 0x4
   2550  0054                     	ds	1
@@ -2566,7 +2566,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2560                           ; 1 bytes @ 0x6
   2561  0056                     	ds	1
   2562  0057                     USER_USB_CALLBACK_EVENT_HANDLER@pdata:	
-  2563  0057                     _process_level$833:	
+  2563  0057                     _process_level$858:	
   2564                           ; 1 bytes @ 0x7
   2565                           
   2566                           
@@ -2600,8 +2600,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2594                           
   2595                           ; 1 bytes @ 0xB
   2596  005B                     	ds	1
-  2597  005C                     USBStdSetCfgHandler@i_2034:	
-  2598  005C                     _scan_task$844:	
+  2597  005C                     USBStdSetCfgHandler@i_2030:	
+  2598  005C                     _scan_task$869:	
   2599                           ; 1 bytes @ 0xC
   2600                           
   2601  005C                     USBStdFeatureReqHandler@pUEP:	
@@ -2615,7 +2615,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2609                           ; 1 bytes @ 0xD
   2610  005D                     	ds	1
   2611  005E                     USBStdFeatureReqHandler@current_ep_data:	
-  2612  005E                     _scan_task$845:	
+  2612  005E                     _scan_task$870:	
   2613                           ; 1 bytes @ 0xE
   2614                           
   2615                           
@@ -2643,12 +2643,12 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2637                           
   2638                           ; 0 bytes @ 0x12
   2639  0062                     	ds	1
-  2640  0063                     _APP_DeviceAudioMIDITasks$396:	
+  2640  0063                     _APP_DeviceAudioMIDITasks$421:	
   2641                           
   2642                           ; 2 bytes @ 0x13
   2643  0063                     	ds	2
   2644  0065                     USBCtrlEPService@setup_cnt:	
-  2645  0065                     _APP_DeviceAudioMIDITasks$437:	
+  2645  0065                     _APP_DeviceAudioMIDITasks$462:	
   2646                           ; 1 bytes @ 0x15
   2647                           
   2648                           
@@ -2658,7 +2658,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2652                           
   2653                           ; 0 bytes @ 0x16
   2654  0066                     	ds	1
-  2655  0067                     _APP_DeviceAudioMIDITasks$438:	
+  2655  0067                     _APP_DeviceAudioMIDITasks$463:	
   2656                           
   2657                           ; 2 bytes @ 0x17
   2658  0067                     	ds	1
@@ -2829,7 +2829,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2812  0015  0022               	movlb	2	; select bank2
   2813  0016  0857               	movf	_USBRxHandle^(0+256),w
   2814  0017  1903               	btfsc	3,2
-  2815  0018  2827               	goto	l3064
+  2815  0018  2827               	goto	l3080
   2816  0019  0857               	movf	_USBRxHandle^(0+256),w
   2817  001A  0086               	movwf	6
   2818  001B  0187               	clrf	7
@@ -2840,19 +2840,19 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2823  0020  00E1               	movwf	??_APP_DeviceAudioMIDITasks
   2824  0021  01E2               	clrf	??_APP_DeviceAudioMIDITasks+1
   2825  0022  0861               	movf	??_APP_DeviceAudioMIDITasks,w
-  2826  0023  00E3               	movwf	_APP_DeviceAudioMIDITasks$396
+  2826  0023  00E3               	movwf	_APP_DeviceAudioMIDITasks$421
   2827  0024  0862               	movf	??_APP_DeviceAudioMIDITasks+1,w
-  2828  0025  00E4               	movwf	_APP_DeviceAudioMIDITasks$396+1
-  2829  0026  282A               	goto	l3066
-  2830  0027                     l3064:	
+  2828  0025  00E4               	movwf	_APP_DeviceAudioMIDITasks$421+1
+  2829  0026  282A               	goto	l3082
+  2830  0027                     l3080:	
   2831  0027  0020               	movlb	0	; select bank0
-  2832  0028  01E3               	clrf	_APP_DeviceAudioMIDITasks$396
-  2833  0029  01E4               	clrf	_APP_DeviceAudioMIDITasks$396+1
-  2834  002A                     l3066:	
-  2835  002A  0864               	movf	_APP_DeviceAudioMIDITasks$396+1,w
-  2836  002B  0463               	iorwf	_APP_DeviceAudioMIDITasks$396,w
+  2832  0028  01E3               	clrf	_APP_DeviceAudioMIDITasks$421
+  2833  0029  01E4               	clrf	_APP_DeviceAudioMIDITasks$421+1
+  2834  002A                     l3082:	
+  2835  002A  0864               	movf	_APP_DeviceAudioMIDITasks$421+1,w
+  2836  002B  0463               	iorwf	_APP_DeviceAudioMIDITasks$421,w
   2837  002C  1D03               	skipz
-  2838  002D  2840               	goto	l3070
+  2838  002D  2840               	goto	l3086
   2839                           
   2840                           ;app_device_audio_midi.c: 63: {
   2841                           ;app_device_audio_midi.c: 70: USBRxHandle = USBTransferOnePacket(1,0,(uint8_t*)&Received
@@ -2873,7 +2873,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2855  003D  0862               	movf	??_APP_DeviceAudioMIDITasks+1,w
   2856  003E  0022               	movlb	2	; select bank2
   2857  003F  00D7               	movwf	_USBRxHandle^(0+256)
-  2858  0040                     l3070:	
+  2858  0040                     l3086:	
   2859                           
   2860                           ;app_device_audio_midi.c: 71: }
   2861                           ;app_device_audio_midi.c: 73: {
@@ -2894,7 +2894,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2876  004B  3186  2667  3180   	fcall	_scan_task
   2877  004E  3A00               	xorlw	0
   2878  004F  1903               	skipnz
-  2879  0050  2886               	goto	l3084
+  2879  0050  2886               	goto	l3100
   2880                           
   2881                           ;app_device_audio_midi.c: 76: midiData.Val = 0;
   2882  0051  3000               	movlw	0
@@ -2961,7 +2961,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2942  0083  0862               	movf	??_APP_DeviceAudioMIDITasks+1,w
   2943  0084  0021               	movlb	1	; select bank1
   2944  0085  00E3               	movwf	_USBTxHandle^(0+128)
-  2945  0086                     l3084:	
+  2945  0086                     l3100:	
   2946                           
   2947                           ;app_device_audio_midi.c: 83: }
   2948                           ;app_device_audio_midi.c: 84: }
@@ -2970,7 +2970,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2951  0087  3189  2135  3180   	fcall	_BUTTON_IsPressed
   2952  008A  3A00               	xorlw	0
   2953  008B  1903               	skipnz
-  2954  008C  28EB               	goto	l3108
+  2954  008C  28EB               	goto	l3124
   2955                           
   2956                           ;app_device_audio_midi.c: 88: {
   2957                           ;app_device_audio_midi.c: 92: if(msCounter == 0 && sentNoteOff && !(USBTxHandle==0?0:((v
@@ -2986,7 +2986,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2966  0095  0021               	movlb	1	; select bank1
   2967  0096  0863               	movf	_USBTxHandle^(0+128),w
   2968  0097  1903               	btfsc	3,2
-  2969  0098  28A7               	goto	l3094
+  2969  0098  28A7               	goto	l3110
   2970  0099  0863               	movf	_USBTxHandle^(0+128),w
   2971  009A  0086               	movwf	6
   2972  009B  0187               	clrf	7
@@ -2997,17 +2997,17 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   2977  00A0  00E1               	movwf	??_APP_DeviceAudioMIDITasks
   2978  00A1  01E2               	clrf	??_APP_DeviceAudioMIDITasks+1
   2979  00A2  0861               	movf	??_APP_DeviceAudioMIDITasks,w
-  2980  00A3  00E5               	movwf	_APP_DeviceAudioMIDITasks$437
+  2980  00A3  00E5               	movwf	_APP_DeviceAudioMIDITasks$462
   2981  00A4  0862               	movf	??_APP_DeviceAudioMIDITasks+1,w
-  2982  00A5  00E6               	movwf	_APP_DeviceAudioMIDITasks$437+1
-  2983  00A6  28AA               	goto	l3096
-  2984  00A7                     l3094:	
+  2982  00A5  00E6               	movwf	_APP_DeviceAudioMIDITasks$462+1
+  2983  00A6  28AA               	goto	l3112
+  2984  00A7                     l3110:	
   2985  00A7  0020               	movlb	0	; select bank0
-  2986  00A8  01E5               	clrf	_APP_DeviceAudioMIDITasks$437
-  2987  00A9  01E6               	clrf	_APP_DeviceAudioMIDITasks$437+1
-  2988  00AA                     l3096:	
-  2989  00AA  0866               	movf	_APP_DeviceAudioMIDITasks$437+1,w
-  2990  00AB  0465               	iorwf	_APP_DeviceAudioMIDITasks$437,w
+  2986  00A8  01E5               	clrf	_APP_DeviceAudioMIDITasks$462
+  2987  00A9  01E6               	clrf	_APP_DeviceAudioMIDITasks$462+1
+  2988  00AA                     l3112:	
+  2989  00AA  0866               	movf	_APP_DeviceAudioMIDITasks$462+1,w
+  2990  00AB  0465               	iorwf	_APP_DeviceAudioMIDITasks$462,w
   2991  00AC  1D03               	skipz
   2992  00AD  0008               	return
   2993                           
@@ -3092,7 +3092,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3071                           ;app_device_audio_midi.c: 105: }
   3072                           ;app_device_audio_midi.c: 106: }
   3073  00EA  0008               	return
-  3074  00EB                     l3108:	
+  3074  00EB                     l3124:	
   3075                           
   3076                           ;app_device_audio_midi.c: 107: else if (msCounter == 0 && !sentNoteOff && !(USBTxHandle=
       +                          =0?0:((volatile BDT_ENTRY*)USBTxHandle)->STAT.UOWN)) {
@@ -3107,7 +3107,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3085  00F3  0021               	movlb	1	; select bank1
   3086  00F4  0863               	movf	_USBTxHandle^(0+128),w
   3087  00F5  1903               	btfsc	3,2
-  3088  00F6  2905               	goto	l3116
+  3088  00F6  2905               	goto	l3132
   3089  00F7  0863               	movf	_USBTxHandle^(0+128),w
   3090  00F8  0086               	movwf	6
   3091  00F9  0187               	clrf	7
@@ -3118,17 +3118,17 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3096  00FE  00E1               	movwf	??_APP_DeviceAudioMIDITasks
   3097  00FF  01E2               	clrf	??_APP_DeviceAudioMIDITasks+1
   3098  0100  0861               	movf	??_APP_DeviceAudioMIDITasks,w
-  3099  0101  00E7               	movwf	_APP_DeviceAudioMIDITasks$438
+  3099  0101  00E7               	movwf	_APP_DeviceAudioMIDITasks$463
   3100  0102  0862               	movf	??_APP_DeviceAudioMIDITasks+1,w
-  3101  0103  00E8               	movwf	_APP_DeviceAudioMIDITasks$438+1
-  3102  0104  2908               	goto	l3118
-  3103  0105                     l3116:	
+  3101  0103  00E8               	movwf	_APP_DeviceAudioMIDITasks$463+1
+  3102  0104  2908               	goto	l3134
+  3103  0105                     l3132:	
   3104  0105  0020               	movlb	0	; select bank0
-  3105  0106  01E7               	clrf	_APP_DeviceAudioMIDITasks$438
-  3106  0107  01E8               	clrf	_APP_DeviceAudioMIDITasks$438+1
-  3107  0108                     l3118:	
-  3108  0108  0868               	movf	_APP_DeviceAudioMIDITasks$438+1,w
-  3109  0109  0467               	iorwf	_APP_DeviceAudioMIDITasks$438,w
+  3105  0106  01E7               	clrf	_APP_DeviceAudioMIDITasks$463
+  3106  0107  01E8               	clrf	_APP_DeviceAudioMIDITasks$463+1
+  3107  0108                     l3134:	
+  3108  0108  0868               	movf	_APP_DeviceAudioMIDITasks$463+1,w
+  3109  0109  0467               	iorwf	_APP_DeviceAudioMIDITasks$463,w
   3110  010A  1D03               	skipz
   3111  010B  0008               	return
   3112                           
@@ -3192,7 +3192,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3170  0136  0866               	movf	_pitch^(0+128),w
   3171  0137  3A49               	xorlw	73
   3172  0138  1D03               	skipz
-  3173  0139  2940               	goto	l3134
+  3173  0139  2940               	goto	l3150
   3174                           
   3175                           ;app_device_audio_midi.c: 119: pitch = 0x3C;
   3176  013A  303C               	movlw	60
@@ -3201,7 +3201,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3179  013D  0861               	movf	??_APP_DeviceAudioMIDITasks,w
   3180  013E  0021               	movlb	1	; select bank1
   3181  013F  00E6               	movwf	_pitch^(0+128)
-  3182  0140                     l3134:	
+  3182  0140                     l3150:	
   3183                           
   3184                           ;app_device_audio_midi.c: 120: USBTxHandle = USBTransferOnePacket(1,1,(uint8_t*)&midiDat
       +                          a,4);
@@ -3278,8 +3278,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3250  0935  00F1               	movwf	BUTTON_IsPressed@button
   3251                           
   3252                           ;buttons.c: 57: switch(button)
-  3253  0936  293E               	goto	l3290
-  3254  0937                     l3280:	
+  3253  0936  293E               	goto	l3306
+  3254  0937                     l3296:	
   3255                           ;buttons.c: 58: {
   3256                           ;buttons.c: 59: case BUTTON_S1:
   3257                           
@@ -3290,14 +3290,14 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3262  0939  1D8C               	btfss	12,3	;volatile
   3263  093A  3001               	movlw	1
   3264  093B  0008               	return
-  3265  093C                     l3284:	
+  3265  093C                     l3300:	
   3266                           ;buttons.c: 62: case BUTTON_NONE:
   3267                           
   3268                           
   3269                           ;buttons.c: 63: return 0;
   3270  093C  3000               	movlw	0
   3271  093D  0008               	return
-  3272  093E                     l3290:	
+  3272  093E                     l3306:	
   3273                           ;buttons.c: 64: }
   3274                           
   3275  093E  0871               	movf	BUTTON_IsPressed@button,w
@@ -3315,12 +3315,12 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3287                           ;	Chosen strategy is simple_byte
   3288  093F  3A00               	xorlw	0	; case 0
   3289  0940  1903               	skipnz
-  3290  0941  293C               	goto	l3284
+  3290  0941  293C               	goto	l3300
   3291  0942  3A01               	xorlw	1	; case 1
   3292  0943  1903               	skipnz
-  3293  0944  2937               	goto	l3280
-  3294  0945  2946               	goto	l3292
-  3295  0946                     l3292:	
+  3293  0944  2937               	goto	l3296
+  3294  0945  2946               	goto	l3308
+  3295  0946                     l3308:	
   3296                           
   3297                           ;buttons.c: 66: return 0;
   3298  0946  3000               	movlw	0
@@ -3408,20 +3408,20 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3375  0675  0022               	movlb	2	; select bank2
   3376  0676  08DD               	movf	_is_initialized^(0+256),f
   3377  0677  1D03               	skipz
-  3378  0678  2E7C               	goto	l3228
+  3378  0678  2E7C               	goto	l3244
   3379                           
   3380                           ;scan.c: 217: scan_init();
   3381  0679  318A  222C  3186   	fcall	_scan_init
-  3382  067C                     l3228:	
+  3382  067C                     l3244:	
   3383                           
   3384                           ;scan.c: 219: if (waiting_for_timer()) return 0;
   3385  067C  3189  2117  3186   	fcall	_waiting_for_timer
   3386  067F  3A00               	xorlw	0
   3387  0680  1903               	skipnz
-  3388  0681  2EEF               	goto	l3266
+  3388  0681  2EEF               	goto	l3282
   3389  0682  3000               	movlw	0
   3390  0683  0008               	return
-  3391  0684                     l3234:	
+  3391  0684                     l3250:	
   3392                           ;scan.c: 222: case(S_INIT):
   3393                           
   3394                           ;scan.c: 221: switch(state) {
@@ -3442,8 +3442,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3409  068D  3189  210C  3186   	fcall	_set_timer
   3410                           
   3411                           ;scan.c: 226: break;
-  3412  0690  2EFA               	goto	l3268
-  3413  0691                     l3240:	
+  3412  0690  2EFA               	goto	l3284
+  3413  0691                     l3256:	
   3414                           ;scan.c: 228: case(S_GO):
   3415                           
   3416                           
@@ -3464,8 +3464,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3431  069C  3189  210C  3186   	fcall	_set_timer
   3432                           
   3433                           ;scan.c: 232: break;
-  3434  069F  2EFA               	goto	l3268
-  3435  06A0                     l3244:	
+  3434  069F  2EFA               	goto	l3284
+  3435  06A0                     l3260:	
   3436                           ;scan.c: 234: case(S_CLOCK_RAISE):
   3437                           
   3438                           
@@ -3488,8 +3488,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3455  06AF  3189  210C  3186   	fcall	_set_timer
   3456                           
   3457                           ;scan.c: 238: break;
-  3458  06B2  2EFA               	goto	l3268
-  3459  06B3                     l3248:	
+  3458  06B2  2EFA               	goto	l3284
+  3459  06B3                     l3264:	
   3460                           ;scan.c: 240: case(S_CLOCK_FALL):
   3461                           
   3462                           
@@ -3512,8 +3512,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3479  06C0  3189  210C  3186   	fcall	_set_timer
   3480                           
   3481                           ;scan.c: 245: break;
-  3482  06C3  2EFA               	goto	l3268
-  3483  06C4                     l3252:	
+  3482  06C3  2EFA               	goto	l3284
+  3483  06C4                     l3268:	
   3484                           ;scan.c: 247: case(S_ADC_WAIT):
   3485                           
   3486                           
@@ -3521,19 +3521,19 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3488  06C4  3188  20E9  3186   	fcall	_is_adc_ready
   3489  06C7  3800               	iorlw	0
   3490  06C8  1D03               	skipz
-  3491  06C9  2ECC               	goto	l3256
+  3491  06C9  2ECC               	goto	l3272
   3492  06CA  3004               	movlw	4
   3493  06CB  2ECD               	goto	L1
-  3494  06CC                     l3256:	
+  3494  06CC                     l3272:	
   3495  06CC  3005               	movlw	5
   3496  06CD                     L1:	
   3497  06CD  0020               	movlb	0	; select bank0
-  3498  06CE  00DC               	movwf	_scan_task$844
+  3498  06CE  00DC               	movwf	_scan_task$869
   3499  06CF  3000               	movlw	0
-  3500  06D0  00DD               	movwf	_scan_task$844+1
-  3501  06D1  085C               	movf	_scan_task$844,w
+  3500  06D0  00DD               	movwf	_scan_task$869+1
+  3501  06D1  085C               	movf	_scan_task$869,w
   3502  06D2  2EEA               	goto	L2
-  3503  06D3                     l3258:	
+  3503  06D3                     l3274:	
   3504                           ;scan.c: 251: case(S_ADC_READ):
   3505                           
   3506                           ;scan.c: 249: break;
@@ -3549,17 +3549,17 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3515  06DC  318B  2314  3186   	fcall	_store_key_level
   3516  06DF  3800               	iorlw	0
   3517  06E0  1D03               	skipz
-  3518  06E1  2EE4               	goto	l3262
+  3518  06E1  2EE4               	goto	l3278
   3519  06E2  3002               	movlw	2
   3520  06E3  2EE5               	goto	L3
-  3521  06E4                     l3262:	
+  3521  06E4                     l3278:	
   3522  06E4  3001               	movlw	1
   3523  06E5                     L3:	
   3524  06E5  0020               	movlb	0	; select bank0
-  3525  06E6  00DE               	movwf	_scan_task$845
+  3525  06E6  00DE               	movwf	_scan_task$870
   3526  06E7  3000               	movlw	0
-  3527  06E8  00DF               	movwf	_scan_task$845+1
-  3528  06E9  085E               	movf	_scan_task$845,w
+  3527  06E8  00DF               	movwf	_scan_task$870+1
+  3528  06E9  085E               	movf	_scan_task$870,w
   3529  06EA                     L2:	
   3530  06EA  00FB               	movwf	??_scan_task
   3531  06EB  087B               	movf	??_scan_task,w
@@ -3569,8 +3569,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3535                           ;scan.c: 254: }
   3536                           
   3537                           ;scan.c: 253: break;
-  3538  06EE  2EFA               	goto	l3268
-  3539  06EF                     l3266:	
+  3538  06EE  2EFA               	goto	l3284
+  3539  06EF                     l3282:	
   3540  06EF  0022               	movlb	2	; select bank2
   3541  06F0  0862               	movf	scan_task@state^(0+256),w
   3542                           
@@ -3589,12 +3589,12 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3555  06F2  3006               	movlw	6
   3556  06F3  0204               	subwf	4,w
   3557  06F4  1803               	skipnc
-  3558  06F5  2EFA               	goto	l3268
+  3558  06F5  2EFA               	goto	l3284
   3559  06F6  3188               	movlp	high S4766
   3560  06F7  3504               	lslf	4,w
   3561  06F8  3E1A               	addlw	low S4766
   3562  06F9  0082               	movwf	2
-  3563  06FA                     l3268:	
+  3563  06FA                     l3284:	
   3564                           
   3565                           ;scan.c: 256: *note = note_event.pitch;
   3566  06FA  0022               	movlb	2	; select bank2
@@ -3630,12 +3630,12 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3596                           	psect	swtext1
   3597  081A                     __pswtext1:	
   3598  081A                     S4766:	
-  3599  081A  3186  2E84         	ljmp	l3234
-  3600  081C  3186  2E91         	ljmp	l3240
-  3601  081E  3186  2EA0         	ljmp	l3244
-  3602  0820  3186  2EB3         	ljmp	l3248
-  3603  0822  3186  2EC4         	ljmp	l3252
-  3604  0824  3186  2ED3         	ljmp	l3258
+  3599  081A  3186  2E84         	ljmp	l3250
+  3600  081C  3186  2E91         	ljmp	l3256
+  3601  081E  3186  2EA0         	ljmp	l3260
+  3602  0820  3186  2EB3         	ljmp	l3264
+  3603  0822  3186  2EC4         	ljmp	l3268
+  3604  0824  3186  2ED3         	ljmp	l3274
   3605                           
   3606                           	psect	text4
   3607  0B14                     __ptext4:	
@@ -3725,13 +3725,13 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3686  0B35  3020               	movlw	32
   3687  0B36  0268               	subwf	store_key_level@idx_key^(0+128),w
   3688  0B37  1803               	skipnc
-  3689  0B38  2B3C               	goto	l3426
+  3689  0B38  2B3C               	goto	l3442
   3690  0B39  0877               	movf	store_key_level@end_of_scan,w
   3691  0B3A  1903               	btfsc	3,2
-  3692  0B3B  2B3D               	goto	l3428
-  3693  0B3C                     l3426:	
+  3692  0B3B  2B3D               	goto	l3444
+  3693  0B3C                     l3442:	
   3694  0B3C  01E8               	clrf	store_key_level@idx_key^(0+128)
-  3695  0B3D                     l3428:	
+  3695  0B3D                     l3444:	
   3696                           
   3697                           ;scan.c: 198: return idx_key == 0;
   3698  0B3D  0868               	movf	store_key_level@idx_key^(0+128),w
@@ -3858,7 +3858,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3814  050C  0853               	movf	process_level@current_state+1,w
   3815  050D  0452               	iorwf	process_level@current_state,w
   3816  050E  1903               	skipnz
-  3817  050F  2D1B               	goto	l3376
+  3817  050F  2D1B               	goto	l3392
   3818                           
   3819                           ;scan.c: 167: key_off_counter[idx_key] = 0;
   3820  0510  085A               	movf	process_level@idx_key,w
@@ -3874,7 +3874,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3830  0518  085A               	movf	process_level@idx_key,w
   3831  0519  3EC4               	addlw	process_level@key_on_counter& (0+255)
   3832  051A  2D25               	goto	L4
-  3833  051B                     l3376:	
+  3833  051B                     l3392:	
   3834                           ;scan.c: 169: }
   3835                           
   3836                           
@@ -3941,17 +3941,17 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3897  054B  00D6               	movwf	process_level@off_flag
   3898                           
   3899                           ;scan.c: 179: filtered_state = on_flag || !on_flag && !off_flag && key_states[idx_key];
-  3900  054C  01D7               	clrf	_process_level$833
-  3901  054D  0AD7               	incf	_process_level$833,f
+  3900  054C  01D7               	clrf	_process_level$858
+  3901  054D  0AD7               	incf	_process_level$858,f
   3902  054E  08D8               	movf	process_level@on_flag,f
   3903  054F  1D03               	skipz
-  3904  0550  2D5F               	goto	l3394
+  3904  0550  2D5F               	goto	l3410
   3905  0551  08D8               	movf	process_level@on_flag,f
   3906  0552  1D03               	skipz
-  3907  0553  2D5E               	goto	l3392
+  3907  0553  2D5E               	goto	l3408
   3908  0554  08D6               	movf	process_level@off_flag,f
   3909  0555  1D03               	skipz
-  3910  0556  2D5E               	goto	l3392
+  3910  0556  2D5E               	goto	l3408
   3911  0557  085A               	movf	process_level@idx_key,w
   3912  0558  3E20               	addlw	process_level@key_states& (0+255)
   3913  0559  0086               	movwf	6
@@ -3959,10 +3959,10 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3915  055B  0087               	movwf	7
   3916  055C  0881               	movf	1,f
   3917  055D  1903               	btfsc	3,2
-  3918  055E                     l3392:	
-  3919  055E  01D7               	clrf	_process_level$833
-  3920  055F                     l3394:	
-  3921  055F  0857               	movf	_process_level$833,w
+  3918  055E                     l3408:	
+  3919  055E  01D7               	clrf	_process_level$858
+  3920  055F                     l3410:	
+  3921  055F  0857               	movf	_process_level$858,w
   3922  0560  00F4               	movwf	??_process_level
   3923  0561  0874               	movf	??_process_level,w
   3924  0562  00D9               	movwf	process_level@filtered_state
@@ -3994,7 +3994,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3950  0577                     u2572:	
   3951  0577  0674               	xorwf	??_process_level,w
   3952  0578  1903               	skipnz
-  3953  0579  2DB0               	goto	l3414
+  3953  0579  2DB0               	goto	l3430
   3954                           
   3955                           ;scan.c: 182: note_event.pitch = midi_shift + idx_midi_map[idx_key];
   3956  057A  302C               	movlw	low (process_level@midi_shift| (0+32768))
@@ -4021,11 +4021,11 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3977  058D  0020               	movlb	0	; select bank0
   3978  058E  08D9               	movf	process_level@filtered_state,f
   3979  058F  1D03               	skipz
-  3980  0590  2D94               	goto	l3404
-  3981  0591  01D4               	clrf	_process_level$834
-  3982  0592  01D5               	clrf	_process_level$834+1
-  3983  0593  2D9F               	goto	l3406
-  3984  0594                     l3404:	
+  3980  0590  2D94               	goto	l3420
+  3981  0591  01D4               	clrf	_process_level$859
+  3982  0592  01D5               	clrf	_process_level$859+1
+  3983  0593  2D9F               	goto	l3422
+  3984  0594                     l3420:	
   3985  0594  0873               	movf	process_level@new_level,w
   3986  0595  00F4               	movwf	??_process_level
   3987  0596  01F5               	clrf	??_process_level+1
@@ -4033,12 +4033,12 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   3989  0598  0DF5               	rlf	??_process_level+1,f
   3990  0599  0874               	movf	??_process_level,w
   3991  059A  3E05               	addlw	5
-  3992  059B  00D4               	movwf	_process_level$834
+  3992  059B  00D4               	movwf	_process_level$859
   3993  059C  3000               	movlw	0
   3994  059D  3D75               	addwfc	??_process_level+1,w
-  3995  059E  00D5               	movwf	_process_level$834+1
-  3996  059F                     l3406:	
-  3997  059F  0854               	movf	_process_level$834,w
+  3995  059E  00D5               	movwf	_process_level$859+1
+  3996  059F                     l3422:	
+  3997  059F  0854               	movf	_process_level$859,w
   3998  05A0  00F4               	movwf	??_process_level
   3999  05A1  0874               	movf	??_process_level,w
   4000  05A2  0022               	movlb	2	; select bank2
@@ -4048,16 +4048,16 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   4004  05A4  0020               	movlb	0	; select bank0
   4005  05A5  0859               	movf	process_level@filtered_state,w
   4006  05A6  1903               	btfsc	3,2
-  4007  05A7  2DAD               	goto	l3412
+  4007  05A7  2DAD               	goto	l3428
   4008  05A8  3001               	movlw	1
   4009  05A9  3189  21C0  3184   	fcall	_LED_On
-  4010  05AC  2DB0               	goto	l3414
-  4011  05AD                     l3412:	
+  4010  05AC  2DB0               	goto	l3430
+  4011  05AD                     l3428:	
   4012                           
   4013                           ;scan.c: 185: else LED_Off(LED_D1);
   4014  05AD  3001               	movlw	1
   4015  05AE  3189  21A7         	fcall	_LED_Off
-  4016  05B0                     l3414:	
+  4016  05B0                     l3430:	
   4017                           
   4018                           ;scan.c: 186: }
   4019                           ;scan.c: 187: key_states[idx_key] = filtered_state;
@@ -4477,16 +4477,16 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   4398                           
   4399                           ;incstack = 0
   4400                           ; Regs used in _waiting_for_timer: [wreg+status,2]
-  4401  0917  01F1               	clrf	_waiting_for_timer$796
+  4401  0917  01F1               	clrf	_waiting_for_timer$821
   4402  0918  0022               	movlb	2	; select bank2
   4403  0919  0860               	movf	_wait_timer^(0+256),w
   4404  091A  1D03               	skipz
   4405  091B  190B               	btfsc	11,2	;volatile
-  4406  091C  291F               	goto	l3334
-  4407  091D  01F1               	clrf	_waiting_for_timer$796
-  4408  091E  0AF1               	incf	_waiting_for_timer$796,f
-  4409  091F                     l3334:	
-  4410  091F  0871               	movf	_waiting_for_timer$796,w
+  4406  091C  291F               	goto	l3350
+  4407  091D  01F1               	clrf	_waiting_for_timer$821
+  4408  091E  0AF1               	incf	_waiting_for_timer$821,f
+  4409  091F                     l3350:	
+  4410  091F  0871               	movf	_waiting_for_timer$821,w
   4411  0920  00E0               	movwf	_wait_timer^(0+256)
   4412  0921  0008               	return
   4413  0922                     __end_of_waiting_for_timer:	
@@ -7364,8 +7364,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   7211  0F83  00DB               	movwf	USBStdSetCfgHandler@p+1
   7212  0F84  3099               	movlw	153
   7213  0F85  00DA               	movwf	USBStdSetCfgHandler@p
-  7214  0F86  01DC               	clrf	USBStdSetCfgHandler@i_2034
-  7215  0F87  085C               	movf	USBStdSetCfgHandler@i_2034,w
+  7214  0F86  01DC               	clrf	USBStdSetCfgHandler@i_2030
+  7215  0F87  085C               	movf	USBStdSetCfgHandler@i_2030,w
   7216  0F88  1D03               	skipz
   7217  0F89  2F9A               	goto	l4442
   7218  0F8A                     l4434:	
@@ -7381,8 +7381,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   7228  0F93  3001               	movlw	1
   7229  0F94  00FB               	movwf	??_USBStdSetCfgHandler
   7230  0F95  087B               	movf	??_USBStdSetCfgHandler,w
-  7231  0F96  07DC               	addwf	USBStdSetCfgHandler@i_2034,f
-  7232  0F97  085C               	movf	USBStdSetCfgHandler@i_2034,w
+  7231  0F96  07DC               	addwf	USBStdSetCfgHandler@i_2030,f
+  7232  0F97  085C               	movf	USBStdSetCfgHandler@i_2030,w
   7233  0F98  1903               	btfsc	3,2
   7234  0F99  2F8A               	goto	l4434
   7235  0F9A                     l4442:	
@@ -8947,7 +8947,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   8741  0B58  3A7F               	xorlw	127	; case 127
   8742  0B59  1903               	skipnz
   8743  0B5A  2B76               	goto	l4772
-  8744  0B5B  2B7B               	goto	l69
+  8744  0B5B  2B7B               	goto	l88
   8745  0B5C                     l4770:	
   8746                           
   8747                           ; Switch size 1, requested type "space"
@@ -8964,16 +8964,16 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   8758  0B5F  2B50               	goto	l4340
   8759  0B60  3A03               	xorlw	3	; case 2
   8760  0B61  1903               	skipnz
-  8761  0B62  2B7B               	goto	l69
+  8761  0B62  2B7B               	goto	l88
   8762  0B63  3A01               	xorlw	1	; case 3
   8763  0B64  1903               	skipnz
-  8764  0B65  2B7B               	goto	l69
+  8764  0B65  2B7B               	goto	l88
   8765  0B66  3A06               	xorlw	6	; case 5
   8766  0B67  1903               	skipnz
-  8767  0B68  2B7B               	goto	l69
+  8767  0B68  2B7B               	goto	l88
   8768  0B69  3A77               	xorlw	119	; case 114
   8769  0B6A  1903               	skipnz
-  8770  0B6B  2B7B               	goto	l69
+  8770  0B6B  2B7B               	goto	l88
   8771  0B6C  3A01               	xorlw	1	; case 115
   8772  0B6D  1903               	skipnz
   8773  0B6E  2B44               	goto	l4332
@@ -8983,7 +8983,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   8777  0B72  3A01               	xorlw	1	; case 117
   8778  0B73  1903               	skipnz
   8779  0B74  2B4A               	goto	l4336
-  8780  0B75  2B7B               	goto	l69
+  8780  0B75  2B7B               	goto	l88
   8781  0B76                     l4772:	
   8782                           
   8783                           ; Switch size 1, requested type "space"
@@ -8997,9 +8997,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   8791  0B76  0855               	movf	USER_USB_CALLBACK_EVENT_HANDLER@event,w
   8792  0B77  3AFF               	xorlw	255	; case 255
   8793  0B78  1903               	skipnz
-  8794  0B79  2B7B               	goto	l69
-  8795  0B7A  2B7B               	goto	l69
-  8796  0B7B                     l69:	
+  8794  0B79  2B7B               	goto	l88
+  8795  0B7A  2B7B               	goto	l88
+  8796  0B7B                     l88:	
   8797                           ;main.c: 132: return 1;
   8798                           ;	Return value of _USER_USB_CALLBACK_EVENT_HANDLER is never used
   8799                           
@@ -9165,7 +9165,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   8947                           ;usb_device.c: 1019: if(dir != 0)
   8948  07B0  0871               	movf	USBTransferOnePacket@dir,w
   8949  07B1  1903               	btfsc	3,2
-  8950  07B2  2FB8               	goto	l3194
+  8950  07B2  2FB8               	goto	l3210
   8951                           
   8952                           ;usb_device.c: 1020: {
   8953                           ;usb_device.c: 1022: handle = pBDTEntryIn[ep];
@@ -9174,7 +9174,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   8956  07B5  0086               	movwf	6
   8957  07B6  0187               	clrf	7
   8958  07B7  2FBD               	goto	L13
-  8959  07B8                     l3194:	
+  8959  07B8                     l3210:	
   8960                           ;usb_device.c: 1023: }
   8961                           
   8962                           
@@ -9196,13 +9196,13 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   8978                           ;usb_device.c: 1032: if(handle == 0)
   8979  07C1  08F8               	movf	USBTransferOnePacket@handle,f
   8980  07C2  1D03               	skipz
-  8981  07C3  2FC6               	goto	l3202
+  8981  07C3  2FC6               	goto	l3218
   8982                           
   8983                           ;usb_device.c: 1033: {
   8984                           ;usb_device.c: 1034: return 0;
   8985  07C4  3000               	movlw	0
   8986  07C5  0008               	return
-  8987  07C6                     l3202:	
+  8987  07C6                     l3218:	
   8988                           
   8989                           ;usb_device.c: 1035: }
   8990                           ;usb_device.c: 1048: handle->ADR = (((uint16_t)(data)) & 0x7FFF);
@@ -9254,7 +9254,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9036                           ;usb_device.c: 1055: if(dir != 0)
   9037  07EA  0871               	movf	USBTransferOnePacket@dir,w
   9038  07EB  1903               	btfsc	3,2
-  9039  07EC  2FF4               	goto	l3214
+  9039  07EC  2FF4               	goto	l3230
   9040                           
   9041                           ;usb_device.c: 1056: {
   9042                           ;usb_device.c: 1058: {((uint8_t_VAL*)&pBDTEntryIn[ep])->Val ^= 0x0004;};
@@ -9265,7 +9265,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9047  07F1  0086               	movwf	6
   9048  07F2  0187               	clrf	7
   9049  07F3  2FFB               	goto	L14
-  9050  07F4                     l3214:	
+  9050  07F4                     l3230:	
   9051                           ;usb_device.c: 1059: }
   9052                           
   9053                           
@@ -9342,19 +9342,19 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9119                           ;usb_device.c: 899: unsigned char* p;
   9120                           ;usb_device.c: 903: if(options & 0x04)
   9121  0A6F  1D78               	btfss	USBEnableEndpoint@options,2
-  9122  0A70  2A76               	goto	l3182
+  9122  0A70  2A76               	goto	l3198
   9123                           
   9124                           ;usb_device.c: 904: {
   9125                           ;usb_device.c: 905: USBConfigureEndpoint(ep, 0);
   9126  0A71  01F1               	clrf	?_USBConfigureEndpoint
   9127  0A72  0852               	movf	USBEnableEndpoint@ep,w
   9128  0A73  318B  237C  318A   	fcall	_USBConfigureEndpoint
-  9129  0A76                     l3182:	
+  9129  0A76                     l3198:	
   9130                           
   9131                           ;usb_device.c: 906: }
   9132                           ;usb_device.c: 907: if(options & 0x02)
   9133  0A76  1CF8               	btfss	USBEnableEndpoint@options,1
-  9134  0A77  2A7E               	goto	l3186
+  9134  0A77  2A7E               	goto	l3202
   9135                           
   9136                           ;usb_device.c: 908: {
   9137                           ;usb_device.c: 909: USBConfigureEndpoint(ep, 1);
@@ -9363,7 +9363,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9140  0A7A  0020               	movlb	0	; select bank0
   9141  0A7B  0852               	movf	USBEnableEndpoint@ep,w
   9142  0A7C  318B  237C         	fcall	_USBConfigureEndpoint
-  9143  0A7E                     l3186:	
+  9143  0A7E                     l3202:	
   9144                           
   9145                           ;usb_device.c: 910: }
   9146                           ;usb_device.c: 918: p = (unsigned char*)(&UEP0+ep);
@@ -9634,7 +9634,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9396                           ; Regs used in _APP_LEDUpdateUSBStatus: [wreg-fsr0h+status,2+status,0+pclath+cstack]
   9397  0BFD  003D               	movlb	29	; select bank29
   9398  0BFE  1C8E               	btfss	14,1	;volatile
-  9399  0BFF  2C40               	goto	l2810
+  9399  0BFF  2C40               	goto	l2838
   9400                           
   9401                           ;app_led_usb_status.c: 28: {
   9402                           ;app_led_usb_status.c: 29: LED_Off(0);
@@ -9643,7 +9643,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9405                           
   9406                           ;app_led_usb_status.c: 30: return;
   9407  0C03  0008               	return
-  9408  0C04                     l2784:	
+  9408  0C04                     l2812:	
   9409                           ;app_led_usb_status.c: 34: {
   9410                           ;app_led_usb_status.c: 35: case CONFIGURED_STATE:
   9411                           
@@ -9657,7 +9657,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9419  0C06  0660               	xorwf	APP_LEDUpdateUSBStatus@ledCount^(0+128),w
   9420  0C07  0461               	iorwf	(APP_LEDUpdateUSBStatus@ledCount+1)^(0+128),w
   9421  0C08  1D03               	skipz
-  9422  0C09  2C0F               	goto	l2788
+  9422  0C09  2C0F               	goto	l2816
   9423                           
   9424                           ;app_led_usb_status.c: 39: {
   9425                           ;app_led_usb_status.c: 40: LED_On(0);
@@ -9665,8 +9665,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9427  0C0B  3189  21C0  318B   	fcall	_LED_On
   9428                           
   9429                           ;app_led_usb_status.c: 41: }
-  9430  0C0E  2C46               	goto	l2812
-  9431  0C0F                     l2788:	
+  9430  0C0E  2C46               	goto	l2840
+  9431  0C0F                     l2816:	
   9432                           
   9433                           ;app_led_usb_status.c: 42: else if(ledCount == 75)
   9434  0C0F  304B               	movlw	75
@@ -9674,7 +9674,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9436  0C11  0660               	xorwf	APP_LEDUpdateUSBStatus@ledCount^(0+128),w
   9437  0C12  0461               	iorwf	(APP_LEDUpdateUSBStatus@ledCount+1)^(0+128),w
   9438  0C13  1D03               	skipz
-  9439  0C14  2C1A               	goto	l2792
+  9439  0C14  2C1A               	goto	l2820
   9440                           
   9441                           ;app_led_usb_status.c: 43: {
   9442                           ;app_led_usb_status.c: 44: LED_Off(0);
@@ -9682,8 +9682,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9444  0C16  3189  21A7  318B   	fcall	_LED_Off
   9445                           
   9446                           ;app_led_usb_status.c: 45: }
-  9447  0C19  2C46               	goto	l2812
-  9448  0C1A                     l2792:	
+  9447  0C19  2C46               	goto	l2840
+  9448  0C1A                     l2820:	
   9449                           
   9450                           ;app_led_usb_status.c: 46: else if(ledCount > 150)
   9451  0C1A  3000               	movlw	0
@@ -9691,7 +9691,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9453  0C1C  0261               	subwf	(APP_LEDUpdateUSBStatus@ledCount+1)^(0+128),w
   9454  0C1D  3097               	movlw	151
   9455  0C1E  2C39               	goto	L16
-  9456  0C1F                     l2796:	
+  9456  0C1F                     l2824:	
   9457                           ;app_led_usb_status.c: 52: default:
   9458                           
   9459                           ;app_led_usb_status.c: 49: }
@@ -9707,7 +9707,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9469  0C21  0660               	xorwf	APP_LEDUpdateUSBStatus@ledCount^(0+128),w
   9470  0C22  0461               	iorwf	(APP_LEDUpdateUSBStatus@ledCount+1)^(0+128),w
   9471  0C23  1D03               	skipz
-  9472  0C24  2C2A               	goto	l2800
+  9472  0C24  2C2A               	goto	l2828
   9473                           
   9474                           ;app_led_usb_status.c: 56: {
   9475                           ;app_led_usb_status.c: 57: LED_On(0);
@@ -9715,8 +9715,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9477  0C26  3189  21C0  318B   	fcall	_LED_On
   9478                           
   9479                           ;app_led_usb_status.c: 58: }
-  9480  0C29  2C46               	goto	l2812
-  9481  0C2A                     l2800:	
+  9480  0C29  2C46               	goto	l2840
+  9481  0C2A                     l2828:	
   9482                           
   9483                           ;app_led_usb_status.c: 59: else if(ledCount == 50)
   9484  0C2A  3032               	movlw	50
@@ -9724,7 +9724,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9486  0C2C  0660               	xorwf	APP_LEDUpdateUSBStatus@ledCount^(0+128),w
   9487  0C2D  0461               	iorwf	(APP_LEDUpdateUSBStatus@ledCount+1)^(0+128),w
   9488  0C2E  1D03               	skipz
-  9489  0C2F  2C35               	goto	l2804
+  9489  0C2F  2C35               	goto	l2832
   9490                           
   9491                           ;app_led_usb_status.c: 60: {
   9492                           ;app_led_usb_status.c: 61: LED_Off(0);
@@ -9732,8 +9732,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9494  0C31  3189  21A7  318B   	fcall	_LED_Off
   9495                           
   9496                           ;app_led_usb_status.c: 62: }
-  9497  0C34  2C46               	goto	l2812
-  9498  0C35                     l2804:	
+  9497  0C34  2C46               	goto	l2840
+  9498  0C35                     l2832:	
   9499                           
   9500                           ;app_led_usb_status.c: 63: else if(ledCount > 950)
   9501  0C35  3003               	movlw	3
@@ -9744,7 +9744,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9506  0C39  1903               	skipnz
   9507  0C3A  0260               	subwf	APP_LEDUpdateUSBStatus@ledCount^(0+128),w
   9508  0C3B  1C03               	skipc
-  9509  0C3C  2C46               	goto	l2812
+  9509  0C3C  2C46               	goto	l2840
   9510                           
   9511                           ;app_led_usb_status.c: 64: {
   9512                           ;app_led_usb_status.c: 65: ledCount = 0;
@@ -9755,8 +9755,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9517                           
   9518                           ;app_led_usb_status.c: 66: }
   9519                           ;app_led_usb_status.c: 67: break;
-  9520  0C3F  2C46               	goto	l2812
-  9521  0C40                     l2810:	
+  9520  0C3F  2C46               	goto	l2840
+  9521  0C40                     l2838:	
   9522  0C40  0020               	movlb	0	; select bank0
   9523  0C41  086D               	movf	_USBDeviceState,w
   9524                           
@@ -9770,9 +9770,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9532                           ;	Chosen strategy is simple_byte
   9533  0C42  3A20               	xorlw	32	; case 32
   9534  0C43  1903               	skipnz
-  9535  0C44  2C04               	goto	l2784
-  9536  0C45  2C1F               	goto	l2796
-  9537  0C46                     l2812:	
+  9535  0C44  2C04               	goto	l2812
+  9536  0C45  2C1F               	goto	l2824
+  9537  0C46                     l2840:	
   9538                           
   9539                           ;app_led_usb_status.c: 71: ledCount++;
   9540  0C46  3001               	movlw	1
@@ -9831,7 +9831,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9588  09C0  00F1               	movwf	LED_On@led
   9589                           
   9590                           ;leds.c: 61: switch(led)
-  9591  09C1  29CE               	goto	l2828
+  9591  09C1  29CE               	goto	l2856
   9592  09C2                     l364:	
   9593                           ;leds.c: 62: {
   9594                           ;leds.c: 63: case LED_D1:
@@ -9879,7 +9879,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9636                           
   9637                           ;leds.c: 77: break;
   9638  09CD  0008               	return
-  9639  09CE                     l2828:	
+  9639  09CE                     l2856:	
   9640  09CE  0871               	movf	LED_On@led,w
   9641                           
   9642                           ; Switch size 1, requested type "space"
@@ -9963,7 +9963,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9715  09A7  00F1               	movwf	LED_Off@led
   9716                           
   9717                           ;leds.c: 102: switch(led)
-  9718  09A8  29B5               	goto	l2818
+  9718  09A8  29B5               	goto	l2846
   9719  09A9                     l374:	
   9720                           ;leds.c: 103: {
   9721                           ;leds.c: 104: case LED_D1:
@@ -10011,7 +10011,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9763                           
   9764                           ;leds.c: 118: break;
   9765  09B4  0008               	return
-  9766  09B5                     l2818:	
+  9766  09B5                     l2846:	
   9767  09B5  0871               	movf	LED_Off@led,w
   9768                           
   9769                           ; Switch size 1, requested type "space"
@@ -10116,11 +10116,11 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9862  05C2  00F4               	movwf	USBDeviceInit@p+1
   9863  05C3  3099               	movlw	153
   9864  05C4  00F3               	movwf	USBDeviceInit@p
-  9865  05C5  01F5               	clrf	USBDeviceInit@i_1706
-  9866  05C6  0875               	movf	USBDeviceInit@i_1706,w
+  9865  05C5  01F5               	clrf	USBDeviceInit@i_1702
+  9866  05C6  0875               	movf	USBDeviceInit@i_1702,w
   9867  05C7  1D03               	skipz
-  9868  05C8  2DD9               	goto	l2878
-  9869  05C9                     l2870:	
+  9868  05C8  2DD9               	goto	l2894
+  9869  05C9                     l2886:	
   9870  05C9  0873               	movf	USBDeviceInit@p,w
   9871  05CA  0086               	movwf	6
   9872  05CB  0874               	movf	USBDeviceInit@p+1,w
@@ -10133,11 +10133,11 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9879  05D2  3001               	movlw	1
   9880  05D3  00F1               	movwf	??_USBDeviceInit
   9881  05D4  0871               	movf	??_USBDeviceInit,w
-  9882  05D5  07F5               	addwf	USBDeviceInit@i_1706,f
-  9883  05D6  0875               	movf	USBDeviceInit@i_1706,w
+  9882  05D5  07F5               	addwf	USBDeviceInit@i_1702,f
+  9883  05D6  0875               	movf	USBDeviceInit@i_1702,w
   9884  05D7  1903               	btfsc	3,2
-  9885  05D8  2DC9               	goto	l2870
-  9886  05D9                     l2878:	
+  9885  05D8  2DC9               	goto	l2886
+  9886  05D9                     l2894:	
   9887                           
   9888                           ;usb_device.c: 317: { UCFG = 0x10 | 0x00 | 0x04 | 0x02; UEIE = 0x9F; UIE = 0x39 | 0x40 |
       +                           0x02; };
@@ -10157,7 +10157,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9902  05E2  0276               	subwf	USBDeviceInit@i,w
   9903  05E3  1803               	btfsc	3,0
   9904  05E4  2DFE               	goto	l571
-  9905  05E5                     l2886:	
+  9905  05E5                     l2902:	
   9906                           
   9907                           ;usb_device.c: 327: {
   9908                           ;usb_device.c: 328: BDT[i].Val = 0x00;
@@ -10186,7 +10186,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9931  05FA  3008               	movlw	8
   9932  05FB  0276               	subwf	USBDeviceInit@i,w
   9933  05FC  1C03               	skipc
-  9934  05FD  2DE5               	goto	l2886
+  9934  05FD  2DE5               	goto	l2902
   9935  05FE                     l571:	
   9936                           
   9937                           ;usb_device.c: 329: }
@@ -10202,7 +10202,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9947                           
   9948                           ;usb_device.c: 341: UCONbits.PPBRST = 0;
   9949  0602  130E               	bcf	14,6	;volatile
-  9950  0603                     l2898:	
+  9950  0603                     l2914:	
   9951                           ;usb_device.c: 344: do
   9952                           
   9953                           
@@ -10228,7 +10228,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   9973                           ;usb_device.c: 351: }while(UIRbits.TRNIF == 1);
   9974  060D  003D               	movlb	29	; select bank29
   9975  060E  1990               	btfsc	16,3	;volatile
-  9976  060F  2E03               	goto	l2898
+  9976  060F  2E03               	goto	l2914
   9977                           
   9978                           ;usb_device.c: 355: USBStatusStageEnabledFlag1 = 1;
   9979  0610  3001               	movlw	1
@@ -10257,8 +10257,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10002  061D  3002               	movlw	2
  10003  061E  0276               	subwf	USBDeviceInit@i,w
  10004  061F  1803               	btfsc	3,0
- 10005  0620  2E40               	goto	l2926
- 10006  0621                     l2920:	
+ 10005  0620  2E40               	goto	l2942
+ 10006  0621                     l2936:	
  10007                           
  10008                           ;usb_device.c: 365: {
  10009                           ;usb_device.c: 366: pBDTEntryIn[i] = 0u;
@@ -10298,8 +10298,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10043  063C  3002               	movlw	2
  10044  063D  0276               	subwf	USBDeviceInit@i,w
  10045  063E  1C03               	skipc
- 10046  063F  2E21               	goto	l2920
- 10047  0640                     l2926:	
+ 10046  063F  2E21               	goto	l2936
+ 10047  0640                     l2942:	
  10048                           
  10049                           ;usb_device.c: 370: }
  10050                           ;usb_device.c: 373: pBDTEntryIn[0] = (volatile BDT_ENTRY*)&BDT[2];
@@ -10410,8 +10410,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10150  09F3  00F2               	movwf	SYSTEM_Initialize@state
  10151                           
  10152                           ;system.c: 88: switch(state)
- 10153  09F4  2A03               	goto	l2858
- 10154  09F5                     l2850:	
+ 10153  09F4  2A03               	goto	l2788
+ 10154  09F5                     l2780:	
  10155                           ;system.c: 89: {
  10156                           ;system.c: 90: case SYSTEM_STATE_USB_START:
  10157                           
@@ -10446,7 +10446,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10186                           
  10187                           ;system.c: 100: break;
  10188  0A02  0008               	return
- 10189  0A03                     l2858:	
+ 10189  0A03                     l2788:	
  10190  0A03  0872               	movf	SYSTEM_Initialize@state,w
  10191                           
  10192                           ; Switch size 1, requested type "space"
@@ -10462,15 +10462,15 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10202                           ;	Chosen strategy is simple_byte
  10203  0A04  3A00               	xorlw	0	; case 0
  10204  0A05  1903               	skipnz
- 10205  0A06  29F5               	goto	l2850
+ 10205  0A06  29F5               	goto	l2780
  10206  0A07  3A01               	xorlw	1	; case 1
  10207  0A08  1903               	skipnz
- 10208  0A09  2A0E               	goto	l290
+ 10208  0A09  2A0E               	goto	l16
  10209  0A0A  3A03               	xorlw	3	; case 2
  10210  0A0B  1903               	skipnz
- 10211  0A0C  2A0E               	goto	l290
- 10212  0A0D  2A0E               	goto	l290
- 10213  0A0E                     l290:	
+ 10211  0A0C  2A0E               	goto	l16
+ 10212  0A0D  2A0E               	goto	l16
+ 10213  0A0E                     l16:	
  10214  0A0E  0008               	return
  10215  0A0F                     __end_of_SYSTEM_Initialize:	
  10216                           
@@ -10603,7 +10603,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10333  098E  00F1               	movwf	LED_Enable@led
  10334                           
  10335                           ;leds.c: 222: switch(led)
- 10336  098F  299C               	goto	l3436
+ 10336  098F  299C               	goto	l2794
  10337  0990                     l404:	
  10338                           ;leds.c: 223: {
  10339                           ;leds.c: 224: case LED_D1:
@@ -10651,7 +10651,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
  10381                           
  10382                           ;leds.c: 238: break;
  10383  099B  0008               	return
- 10384  099C                     l3436:	
+ 10384  099C                     l2794:	
  10385  099C  0871               	movf	LED_Enable@led,w
  10386                           
  10387                           ; Switch size 1, requested type "space"
@@ -10823,31 +10823,31 @@ Pointer List with Targets:
     pBDTEntryIn	PTR volatile struct __BDT[2] size(1) Largest target is 32
 		 -> BDT(BANK0[32]), NULL(NULL[0]), 
 
-    S1171$pFunc	PTR FTN()void  size(1) Largest target is 0
+    S1167$pFunc	PTR FTN()void  size(1) Largest target is 0
 
     outPipes.pFunc	PTR FTN()void  size(1) Largest target is 0
 
-    S1161$wRam	PTR unsigned int  size(1) Largest target is 0
+    S1157$wRam	PTR unsigned int  size(1) Largest target is 0
 
     outPipes.pDst.wRam	PTR unsigned int  size(1) Largest target is 0
 
-    S1161$bRam	PTR unsigned char  size(1) Largest target is 0
+    S1157$bRam	PTR unsigned char  size(1) Largest target is 0
 
     outPipes.pDst.bRam	PTR unsigned char  size(1) Largest target is 0
 
-    S1137$wRom	PTR const unsigned int  size(1) Largest target is 0
+    S1133$wRom	PTR const unsigned int  size(1) Largest target is 0
 
     inPipes.pSrc.wRom	PTR const unsigned int  size(1) Largest target is 0
 
-    S1137$wRam	PTR unsigned int  size(1) Largest target is 0
+    S1133$wRam	PTR unsigned int  size(1) Largest target is 0
 
     inPipes.pSrc.wRam	PTR unsigned int  size(1) Largest target is 0
 
-    S1137$bRom	PTR const unsigned char  size(1) Largest target is 0
+    S1133$bRom	PTR const unsigned char  size(1) Largest target is 0
 
     inPipes.pSrc.bRom	PTR const unsigned char  size(1) Largest target is 0
 
-    S1137$bRam	PTR unsigned char  size(1) Largest target is 0
+    S1133$bRam	PTR unsigned char  size(1) Largest target is 0
 
     inPipes.pSrc.bRam	PTR unsigned char  size(1) Largest target is 0
 
@@ -11455,16 +11455,16 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.20 build 52243 
-Symbol Table                                                                                   Tue May 10 15:50:12 2016
+Symbol Table                                                                                   Sat Jun 11 13:23:50 2016
 
                               _USB_SD_Ptr 0321                                         pc 0002  
-                             __CFG_CP$OFF 0000                                        l69 0B7B  
-                             ?_LED_Enable 0070                             _USBDeviceInit 05BB  
-    USER_USB_CALLBACK_EVENT_HANDLER@event 0055      USER_USB_CALLBACK_EVENT_HANDLER@pdata 0057  
-                                     l410 09A6                                       l404 0990  
-                                     l309 090B                                       l406 0993  
-             __end_of_USBStdGetDscHandler 0F7F                                       l407 0996  
-                                     l408 0999                                       l290 0A0E  
+                             __CFG_CP$OFF 0000                                        l16 0A0E  
+                                      l88 0B7B                               ?_LED_Enable 0070  
+                           _USBDeviceInit 05BB      USER_USB_CALLBACK_EVENT_HANDLER@event 0055  
+    USER_USB_CALLBACK_EVENT_HANDLER@pdata 0057                                       l410 09A6  
+                                     l404 0990                                       l309 090B  
+                                     l406 0993               __end_of_USBStdGetDscHandler 0F7F  
+                                     l407 0996                                       l408 0999  
                                      l370 09D8                                       l380 09BF  
                                      l364 09C2                                       l374 09A9  
                                      l366 09C5                                       l367 09C8  
@@ -11492,53 +11492,54 @@ Symbol Table                                                                    
                                     S4768 0800                                      S4778 083A  
                    ??_USBCtrlTrfRxService 0073                  USBEnableEndpoint@options 0078  
                             __CFG_LVP$OFF 0000                           __end_of_LED_Off 09C0  
-                                    l3202 07C6                                      l3116 0105  
-                                    l3108 00EB                                      l3214 07F4  
-                                    l3134 0140                                      l3118 0108  
-                                    l3070 0040                                      l3240 0691  
-                                    l3064 0027                                      l4200 094F  
-                                    l3234 0684                                      l3066 002A  
-                                    l3412 05AD                                      l3404 0594  
-                                    l3252 06C4                                      l3244 06A0  
-                                    l3228 067C                                      l3084 0086  
-              USBConfigureEndpoint@handle 0077                                      l3182 0A76  
-                                    l3334 091F                                      l3406 059F  
-                                    l3414 05B0                                      l3262 06E4  
-                                    l3094 00A7                                      l2800 0C2A  
-                                    l4240 041A                                      l3256 06CC  
-                                    l3248 06B3                                      l3280 0937  
-                                    l3096 00AA                                      l2810 0C40  
-                                    l3186 0A7E                                      l3194 07B8  
-                                    l4410 0EBE                                      l3426 0B3C  
-                                    l3258 06D3                                      l3266 06EF  
-                                    l3290 093E                                      l3436 099C  
-                                    l2804 0C35                                      l2812 0C46  
+                                    l3100 0086                                      l3110 00A7  
+                                    l3112 00AA                                      l3202 0A7E  
+                                    l3210 07B8                                      l3300 093C  
+                                    l3132 0105                                      l3124 00EB  
+                                    l3230 07F4                                      l3150 0140  
+                                    l3134 0108                                      l3080 0027  
+                                    l4200 094F                                      l3218 07C6  
+                                    l3410 055F                                      l3250 0684  
+                                    l3306 093E                                      l3082 002A  
+                                    l3420 0594                                      l3260 06A0  
+                                    l3244 067C                                      l3308 0946  
+              USBConfigureEndpoint@handle 0077                                      l3350 091F  
+                                    l3422 059F                                      l3430 05B0  
+                                    l3086 0040                                      l4240 041A  
+                                    l3408 055E                                      l3272 06CC  
+                                    l3264 06B3                                      l3256 0691  
+                                    l4410 0EBE                                      l3442 0B3C  
+                                    l3274 06D3                                      l3282 06EF  
+                                    l2820 0C1A                                      l2812 0C04  
                                     l4340 0B50                                      l4332 0B44  
                                     l3604 0D18                                      l4420 0EF2  
                                     l4324 04C5                                      l4308 0491  
                                     l4260 043D                                      l4228 040A  
-                                    l3428 0B3D                                      l3268 06FA  
-                                    l3292 0946                                      l3284 093C  
+                                    l3428 05AD                                      l3444 0B3D  
+                                    l3268 06C4                                      l3284 06FA  
+                                    l2902 05E5                                      l3198 0A76  
                                     l3526 0A66                                      l4510 0CAB  
                                     l4422 0EF5                                      l4326 04D5  
-                                    l4318 04AC                                      l2920 0621  
+                                    l4318 04AC                                      l3278 06E4  
+                                    l2832 0C35                                      l2824 0C1F  
+                                    l2840 0C46                                      l2816 0C0F  
                                     l4336 0B4A                                      l4344 0B53  
                                     l3528 0A68                                      l3624 0E36  
                                     l3608 0D2C                                      l4512 0CAE  
                                     l3720 0748                                      l4416 0EE3  
                                     l4280 0464                                      l4272 0455  
-                                    l4248 0427                                      l3392 055E  
-                                    l3376 051B                                      l2850 09F5  
-                                    l2818 09B5                                      l4338 0B4D  
-                                    l4442 0F9A                                      l4434 0F8A  
-                                    l4522 0CBB                                      l4514 0CB1  
-                                    l4290 0471                                      l4266 0443  
-                                    l3394 055F                                      l2828 09CE  
-                                    l3636 0E56                                      l3644 0E6F  
-                                    l4452 0FAE                                      l3804 0F0B  
-                                    l4620 0241                                      l4524 0CBE  
-                                    l4540 0CE5                                      l4284 046A  
-                                    l2926 0640                                      l2870 05C9  
+                                    l4248 0427                                      l3392 051B  
+                                    l3296 0937                                      l2914 0603  
+                                    l4338 0B4D                                      l4442 0F9A  
+                                    l4434 0F8A                                      l4522 0CBB  
+                                    l4514 0CB1                                      l4290 0471  
+                                    l4266 0443                                      l2780 09F5  
+                                    l2828 0C2A                                      l3636 0E56  
+                                    l3644 0E6F                                      l4452 0FAE  
+                                    l3804 0F0B                                      l4620 0241  
+                                    l4524 0CBE                                      l4540 0CE5  
+                                    l4284 046A                                      l2942 0640  
+                                    l2846 09B5                                      l2838 0C40  
                                     l3574 0BA9                                      l3646 0E73  
                                     l3654 0E8C                                      l3670 0275  
                                     l3822 0F6C                                      l3814 0F48  
@@ -11546,24 +11547,23 @@ Symbol Table                                                                    
                                     l4606 020C                                      l4526 0CC1  
                                     l3734 07A7                                      l3726 0776  
                                     l3718 0730                                      l3910 0DCA  
-                                    l2792 0C1A                                      l2784 0C04  
+                                    l2936 0621                                      l2856 09CE  
                                     l4376 02F6                                      l3824 0F6F  
                                     l3816 0F4B                                      l4616 0223  
                                     l4608 0211                                      l4536 0CD9  
                                     l3728 0782                                      l3920 0DF6  
-                                    l2858 0A03                                      l4378 02FD  
+                                    l2794 099C                                      l4378 02FD  
                                     l3498 0D6D                                      l3666 0271  
                                     l4474 0FEB                                      l4458 0FC2  
                                     l3842 0C6A                                      l3930 0E1C  
-                                    l4298 0484                                      l2796 0C1F  
-                                    l2788 0C0F                                      l3828 0F72  
-                                    l3852 0C82                                      l4580 01C0  
-                                    l4572 019A                                      l4556 016C  
-                                    l3932 0E1D                                      l3924 0E06  
-                                    l2886 05E5                                      l2878 05D9  
-                                    l3678 02AD                                      l3686 02B7  
-                                    l4590 01D8                                      l4558 016E  
-                                    l4592 01DF                                      l2898 0603  
+                                    l4298 0484                                      l2788 0A03  
+                                    l3828 0F72                                      l3852 0C82  
+                                    l4580 01C0                                      l4572 019A  
+                                    l4556 016C                                      l3932 0E1D  
+                                    l3924 0E06                                      l2894 05D9  
+                                    l2886 05C9                                      l3678 02AD  
+                                    l3686 02B7                                      l4590 01D8  
+                                    l4558 016E                                      l4592 01DF  
                                     l4770 0B5C                                      l3890 0AED  
                                     l4772 0B76                                      l4596 01E8  
                                     l3798 0A14                                      l3896 0B12  
@@ -11586,7 +11586,7 @@ Symbol Table                                                                    
                                     start 000B                             __CFG_IESO$OFF 0000  
               process_level@current_state 0052                      process_level@idx_key 005A  
               __end_of_USBCheckStdRequest 0CF1                    ??_USBCtrlTrfOutHandler 0077  
-                           __CFG_MCLRE$ON 0000                       USBDeviceInit@i_1706 0075  
+                           __CFG_MCLRE$ON 0000                       USBDeviceInit@i_1702 0075  
                ??_USBStdFeatureReqHandler 005A                      process_level@on_flag 0058  
                 ??_USBStdGetStatusHandler 0071                            ?_USBDeviceInit 0070  
              process_level@key_on_counter 01C4                                     ?_main 0070  
@@ -11636,8 +11636,8 @@ Symbol Table                                                                    
                  __end_of__initialization 0AB7                        ?_SYSTEM_Initialize 0070  
                 __size_of_USBStallHandler 0024                       __size_of_USBSuspend 0018  
                           __pcstackCOMMON 0070                 __end_of_USBEnableEndpoint 0A92  
-            _APP_DeviceAudioMIDITasks$437 0065              _APP_DeviceAudioMIDITasks$438 0067  
-            _APP_DeviceAudioMIDITasks$396 0063                             __end_of_sd000 03F6  
+            _APP_DeviceAudioMIDITasks$421 0063              _APP_DeviceAudioMIDITasks$462 0065  
+            _APP_DeviceAudioMIDITasks$463 0067                             __end_of_sd000 03F6  
                            __end_of_sd001 03C6                             __end_of_sd002 03E0  
                      ??_SYSTEM_Initialize 0072                                 LED_On@led 0071  
         __size_of_USBCtrlEPAllowDataStage 0057                                _adc_levels 0220  
@@ -11682,7 +11682,7 @@ Symbol Table                                                                    
                                  __ptext8 08FB                                   __ptext9 0922  
                                  _inPipes 00E9                                   _get_adc 08E1  
              _USBDeferOUTDataStagePackets 0156                              ??_USBSuspend 007B  
-                           _scan_task$844 005C                             _scan_task$845 005E  
+                           _scan_task$870 005E                             _scan_task$869 005C  
               __end_of_set_clock_and_data 09F3                         __end_of_scan_init 0A49  
                        __end_of_scan_task 0712                                   _run_adc 08FB  
                       __end_of_USB_CD_Ptr 0329                                ??_get_data 0071  
@@ -11703,7 +11703,7 @@ Symbol Table                                                                    
                                _TRISAbits 008C                                 _TRISBbits 008D  
                                _TRISCbits 008E                        _ReceivedDataBuffer 00A0  
                   __end_of_is_end_of_scan 0935                        _BothEP0OutUOWNsSet 0152  
-               USBStdSetCfgHandler@i_2034 005C                 USBConfigureEndpoint@EPNum 0076  
+               USBStdSetCfgHandler@i_2030 005C                 USBConfigureEndpoint@EPNum 0076  
        __size_of_APP_DeviceAudioMIDITasks 014A                ?_USBCtrlEPAllowStatusStage 0070  
                ?_APP_DeviceAudioMIDITasks 0070       USER_USB_CALLBACK_EVENT_HANDLER@size 0058  
                                _USTATcopy 006F              __end_of_USBTransferOnePacket 07FF  
@@ -11727,7 +11727,7 @@ Symbol Table                                                                    
                                 ??_memset 0075    __end_ofprocess_level@key_off_threshold 032B  
           process_level@key_off_threshold 032A                    BUTTON_IsPressed@button 0071  
                   _USBActiveConfiguration 00EE            __end_of_USBStdGetStatusHandler 0C9B  
-               process_level@idx_midi_map 0301                     _waiting_for_timer$796 0071  
+               process_level@idx_midi_map 0301                     _waiting_for_timer$821 0071  
                                 ?_LED_Off 0070                               __pbssCOMMON 007C  
                            __pcstackBANK0 0050              __size_of_USBCtrlTrfInHandler 006F  
                     ?_USBStdGetDscHandler 0070                         __size_of_get_data 0005  
@@ -11757,8 +11757,8 @@ Symbol Table                                                                    
                               _ADCON2bits 009F                     ?_USBTransferOnePacket 0071  
                        _SYS_InterruptHigh 0004                              _RemoteWakeup 0153  
                         __size_of_LED_Off 0019                        ?_SYS_InterruptHigh 0070  
-                       _process_level$833 0057                         _process_level$834 0054  
-                 __end_of_USBStallHandler 0A6D                      ??_set_clock_and_data 0072  
+                 __end_of_USBStallHandler 0A6D                         _process_level$858 0057  
+                       _process_level$859 0054                      ??_set_clock_and_data 0072  
              ??_USBCtrlEPAllowStatusStage 0071               __end_of_USBStdSetCfgHandler 1000  
                               ?_scan_init 0070                                ?_scan_task 005B  
                      ??_SYS_InterruptHigh 0070                 __end_of_waiting_for_timer 0922  
